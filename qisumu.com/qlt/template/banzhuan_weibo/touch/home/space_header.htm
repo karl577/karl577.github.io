@@ -1,0 +1,83 @@
+<!--{eval $_G[cookie][extstyle] = false;}-->
+<!--{template common/header}-->
+<script type="text/javascript" src="{$_G[setting][jspath]}home.js?{VERHASH}"></script>
+
+<body id="space" onkeydown="if(event.keyCode==27) return false;">
+	<div id="append_parent"></div>
+	<div id="ajaxwaitid"></div>
+
+	<!-- header start -->
+	<div class="mobile">
+		<!--{if $_G['setting']['domain']['app']['mobile']}-->
+		{eval $nav = 'http://'.$_G['setting']['domain']['app']['mobile'];}
+		<!--{else}-->
+		{eval $nav = "forum.php";}
+		<!--{/if}-->
+		<div class="mobile-inner-header nav">
+			<div class="banzhuan-icon-back z">
+				<a href="javascript:history.back();"><img src="./template/banzhuan_weibo/touch/banzhuan/images/icon_back.png" /></a>
+			</div>
+			<h2>¸öÈËÖ÷Ò³</h2>
+			<div class="banzhuan-discuz-header-y">
+				<a href="<!--{if $_GET['mod'] == 'forumdisplay' || $_GET['mod'] == 'viewthread'}-->forum.php?mod=post&action=newthread&fid=$_G['fid']<!--{else}-->forum.php?mod=misc&action=nav<!--{/if}-->" class="iconfont icon-fatie"></a>
+			</div>		
+		</div>
+	</div>
+	
+	<script>
+		$(window).load(function() {
+			$(".mobile-inner-header-icon").click(function() {
+				$(this).toggleClass("mobile-inner-header-icon-click mobile-inner-header-icon-out");
+				$(".mobile-inner-nav").slideToggle(250);
+			});
+			$(".mobile-inner-nav a").each(function(index) {
+				$(this).css({
+					'animation-delay': (index / 10) + 's'
+				});
+			});
+		});
+	</script>
+	
+	<div class="banzhuan-top"></div>
+	<div class="banzhuan-top"></div>
+	<div class="banzhuan-h10"></div>
+	<!-- header end -->
+
+	<div id="toptb" class="cl banzhuan-userinfo banzhuan-mar">
+		<!--{if $_G['uid']}-->
+		<div class="banzhuan-padding10">
+		<!--{subtemplate home/space_userabout}-->
+		</div>
+		
+		<!--{elseif !empty($_G['cookie']['loginuser'])}-->
+		
+		<div>
+			<a id="loginuser" class="xw1">$_G['cookie']['loginuser']</a>
+			<a href="member.php?mod=logging&action=login" onclick="showWindow('login', this.href)">{lang activation}</a>
+			<a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">{lang logout}</a>
+		</div>
+		
+		<!--{elseif $_G['connectguest']}-->
+		
+		<div class="y">{lang connect_fill_profile_to_view}</div>
+		
+		<!--{else}-->
+
+		<!--{/if}-->
+	</div>
+
+	<!--{if $space['status'] == -1 && $_G['adminid'] == 1 }-->
+	<p class="ptw xw1 xi1 hm"><img src="{IMGDIR}/locked.gif" alt="Locked" class="vm" /> {lang message_banned}</p>
+	<!--{/if}-->
+
+	<!--{if !empty($_G['setting']['plugins']['jsmenu'])}-->
+	<ul class="p_pop h_pop" id="plugin_menu" style="display: none">
+		<!--{loop $_G['setting']['plugins']['jsmenu'] $module}-->
+		<!--{if !$module['adminid'] || ($module['adminid'] && $_G['adminid'] > 0 && $module['adminid'] >= $_G['adminid'])}-->
+		<li>$module[url]</li>
+		<!--{/if}-->
+		<!--{/loop}-->
+	</ul>
+	<!--{/if}-->
+
+	<!--{eval $mnid = getcurrentnav();}-->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[svipzan_dashang.plugin]]></item>
+	<item id="RevisionID"><![CDATA[69302]]></item>
+	<item id="SN"><![CDATA[2017021515S9fhBf6Fm0]]></item>
+	<item id="RevisionDateline"><![CDATA[1480557604]]></item>
+	<item id="Data">
+		<item id="/template/dashang.htm"><![CDATA[b9b8731b8d7c33b4eed253e46c3f7723]]></item>
+		<item id="/template/js/jquery.min.js"><![CDATA[ea75b2a8f1b4241a872b1cbddbaed154]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/img/wechat.jpg"><![CDATA[353c07191aafea159bffaf00275aa488]]></item>
+		<item id="/template/img/radio1.jpg"><![CDATA[18ea3c7073dc42fdd46cbf2c89a4ba81]]></item>
+		<item id="/template/img/cy-reward-title-bg.jpg"><![CDATA[5fc30a8826b1103c2a5063704e9e0d2a]]></item>
+		<item id="/template/img/code-bg.jpg"><![CDATA[9ec20943b908a38d1f214798b74c075b]]></item>
+		<item id="/template/img/wxpayimg.png"><![CDATA[5e84379f360dc063497aed16c6cd17c8]]></item>
+		<item id="/template/img/alipayimg.png"><![CDATA[f8e6f7e930de847adcf17ea0b91838c5]]></item>
+		<item id="/template/img/logos.png"><![CDATA[c6af07579ffd5328a5e98e18b5b98693]]></item>
+		<item id="/template/img/close.jpg"><![CDATA[8a959f8ed166f241a9827eeccf0687c5]]></item>
+		<item id="/template/img/radio2.jpg"><![CDATA[a760da5c68eb53d3cedd79343882da4b]]></item>
+		<item id="/template/img/alipay.jpg"><![CDATA[b9fe9636a223e93213a4c523e263f8f9]]></item>
+		<item id="/discuz_plugin_svipzan_dashang_TC_BIG5.xml"><![CDATA[158350be5050ccfeb784b396e1e9d916]]></item>
+		<item id="/dashang.inc.php"><![CDATA[5ee42dd4789215e2ea62fccaa9b6fc0f]]></item>
+		<item id="/discuz_plugin_svipzan_dashang_SC_UTF8.xml"><![CDATA[a0213fd8cf3b2019493fd572938363e1]]></item>
+		<item id="/discuz_plugin_svipzan_dashang_SC_GBK.xml"><![CDATA[a0213fd8cf3b2019493fd572938363e1]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_svipzan_dashang_TC_UTF8.xml"><![CDATA[158350be5050ccfeb784b396e1e9d916]]></item>
+	</item>
+</root>

@@ -1,0 +1,15 @@
+/*
+ Theme Name:     Koncept Child
+ Theme URI:      http://demo.krownthemes.com/koncept/
+ Description:    A basic child theme for the Koncept theme.
+ Author:         KrownThemes
+ Author URI:     http://krownthemes.com
+ Template:       koncept
+ Version:        1.0
+*/
+
+@import url("../koncept/style.css");
+
+/* --------------------------------------
+-----   Theme customization starts here   -----
+------------------------------------------*/

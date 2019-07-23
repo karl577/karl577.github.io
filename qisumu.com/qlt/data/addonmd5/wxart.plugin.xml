@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxart.plugin]]></item>
+	<item id="RevisionID"><![CDATA[65896]]></item>
+	<item id="SN"><![CDATA[2017022013mk4J40bKoJ]]></item>
+	<item id="RevisionDateline"><![CDATA[1484013619]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxart_SC_UTF8.xml"><![CDATA[af69515fc70427b2dd940e6da248bf3b]]></item>
+		<item id="/discuz_plugin_wxart_TC_UTF8.xml"><![CDATA[b7125b9dff4ac032c835e83ba18a1188]]></item>
+		<item id="/wxart.inc.php"><![CDATA[5811ad67762d7409b985a1821ae8e9b4]]></item>
+		<item id="/wxart.class.php"><![CDATA[9df8588a4204ee6ceb74c42b94542310]]></item>
+		<item id="/source/wxart.gif"><![CDATA[58d70319178643d54c4a5f7b1ccec9c1]]></item>
+		<item id="/source/wxart.css"><![CDATA[05e95bfc7d27e7772295f9942cb99610]]></item>
+		<item id="/source/wxart.js"><![CDATA[64fe30b0ae3d8ab59d650622988b6897]]></item>
+		<item id="/discuz_plugin_wxart_SC_GBK.xml"><![CDATA[18f3fcbe9fffefcfaa71c0dde896b1dc]]></item>
+		<item id="/install.php"><![CDATA[0b3ab9c28fba834babba67f28d54459a]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/discuz_plugin_wxart_TC_BIG5.xml"><![CDATA[c3a54bf8ade7fbd863b4d13ab32173fa]]></item>
+		<item id="/uninstall.php"><![CDATA[b9930f68f90e96ed01032733cfddddee]]></item>
+	</item>
+</root>

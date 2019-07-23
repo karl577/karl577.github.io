@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 凤凰社 v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-18 08:51+0800\n"
+"PO-Revision-Date: 2013-01-23 06:23:57+0000\n"
+"Last-Translator: Phoenix <117663444@qq.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:41
+#, php-format
+#@ fenikso
+msgid "Page %s"
+msgstr ""
+
+#: header.php:17
+#@ fenikso
+msgid "Jump to the front page"
+msgstr "回到首页"
+
+#: functions.php:217
+#: functions.php:219
+#@ fenikso
+msgid "Sidebar Right"
+msgstr "右边栏"
+
+#: archive.php:13
+#, php-format
+#@ fenikso
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:15
+#, php-format
+#@ fenikso
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:15
+#@ fenikso
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:17
+#, php-format
+#@ fenikso
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:17
+#@ fenikso
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:19
+#, php-format
+#@ fenikso
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+#@ fenikso
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:23
+#, php-format
+#@ fenikso
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:25
+#@ fenikso
+msgid "Archives"
+msgstr ""
+
+#: archive.php:53
+#: index.php:23
+#: search.php:26
+#@ fenikso
+msgid "Summary"
+msgstr ""
+
+#: archive.php:64
+#: image.php:86
+#: index.php:34
+#: search.php:37
+#@ fenikso
+msgid "&larr; Previous"
+msgstr ""
+
+#: archive.php:67
+#: image.php:89
+#: index.php:37
+#: search.php:40
+#@ fenikso
+msgid "Next &rarr;"
+msgstr ""
+
+#: comments.php:4
+#, php-format
+#@ default
+msgid "&ldquo; %2$s &rdquo; comment %1$s"
+msgid_plural "&ldquo; %2$s &rdquo; comments %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:22
+#@ fenikso
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:25
+#@ fenikso
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:33
+#@ default
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:45
+#@ fenikso
+msgid "Name"
+msgstr ""
+
+#: comments.php:54
+#@ fenikso
+msgid "Email"
+msgstr ""
+
+#: comments.php:63
+#@ fenikso
+msgid "Website"
+msgstr ""
+
+#: functions.php:7
+#@ fenikso
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:54
+#@ default
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:56
+#@ default
+msgid "Search"
+msgstr ""
+
+#: functions.php:185
+#@ fenikso
+msgid "&larr; Older posts"
+msgstr ""
+
+#: functions.php:186
+#@ fenikso
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: functions.php:208
+#: functions.php:210
+#@ fenikso
+msgid "Sidebar Bottom"
+msgstr ""
+
+#: functions.php:270
+#@ fenikso
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:270
+#@ fenikso
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:288
+#@ fenikso
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:297
+#@ fenikso
+msgid "Post author"
+msgstr ""
+
+#: functions.php:306
+#, php-format
+#@ fenikso
+msgid "%1$s %2$s"
+msgstr ""
+
+#: functions.php:315
+#@ fenikso
+msgid "Edit"
+msgstr ""
+
+#: functions.php:320
+#@ fenikso
+msgid "Reply"
+msgstr ""
+
+#: image.php:69
+#, php-format
+#@ fenikso
+msgid "<dl><dt>Published</dt> <dd><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></dd> <dt>Image Size</dt><dd><a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a></dd><dt>Belong</dt><dd><a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a></dd></dl>"
+msgstr ""
+
+#: search.php:5
+#, php-format
+#@ fenikso
+msgid "Search Results for: %s"
+msgstr ""
+

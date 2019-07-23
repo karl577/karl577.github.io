@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[qzom_qzomname.pack]]></item>
+	<item id="RevisionID"><![CDATA[71039]]></item>
+	<item id="SN"><![CDATA[2017021016e6RMG5E3sl]]></item>
+	<item id="RevisionDateline"><![CDATA[1484550013]]></item>
+	<item id="Data">
+		<item id="/static/image/magic/Qzomname.gif"><![CDATA[517200f75f48ff6054e7e0a2a242e271]]></item>
+		<item id="/static/image/magic/Qzomname.small.gif"><![CDATA[8e530e4d05e0255e5da0420347ca5f75]]></item>
+		<item id="/source/class/magic/magic_Qzomname.php"><![CDATA[c23c85a3791f7f7f7c09528382ad0b27]]></item>
+	</item>
+</root>

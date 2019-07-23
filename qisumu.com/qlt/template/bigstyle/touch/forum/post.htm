@@ -1,0 +1,25 @@
+<!--{template common/mwt_frame}-->
+<!--{template common/mwt_style}-->
+
+<script src="{$_G['style']['directory']}/../../data/cache/common_smilies_var.js"></script>
+
+
+<!--{if $_GET['action']=='reply'}-->
+<script>
+jQuery(document).ready(function($) {
+	// 回复帖子,还是用浮层实现,这里跳转到查看主题页面
+	var tid = "{$_GET['tid']}";
+	window.location = "forum.php?mod=viewthread&tid="+tid;
+});
+</script>
+<!--{else}-->
+<script>
+var smileyroot = '$_G[siteurl]/static/image/smiley';
+jQuery(document).ready(function($) {
+	require(["jsapp","mwt"],function(jsapp){
+		var fid = "{$_GET['fid']}";
+		jsapp.run('forum/newthread',fid);
+	});
+});
+</script>
+<!--{/if}-->

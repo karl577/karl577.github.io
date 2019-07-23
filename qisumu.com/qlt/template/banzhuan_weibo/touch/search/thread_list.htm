@@ -1,0 +1,15 @@
+<div class="threadlist bg-fff">
+	<h2 class="thread_tit"><!--{if $keyword}-->{lang search_result_keyword} <!--{if $modfid}--><!--{/if}--><!--{else}-->{lang search_result}<!--{/if}--></h2>
+	<!--{if empty($threadlist)}-->
+	<ul><li><a href="javascript:;">{lang search_nomatch}</a></li></ul>
+	<!--{else}-->
+			<ul>
+				<!--{loop $threadlist $thread}-->
+				<li>
+					<a href="forum.php?mod=viewthread&tid=$thread[realtid]&highlight=$index[keywords]" $thread[highlight]>$thread[subject]</a>
+				</li>
+				<!--{/loop}-->
+			</ul>
+	<!--{/if}-->
+	$multipage
+</div>

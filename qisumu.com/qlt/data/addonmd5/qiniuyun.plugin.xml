@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[qiniuyun.plugin]]></item>
+	<item id="RevisionID"><![CDATA[62939]]></item>
+	<item id="SN"><![CDATA[2017021802SmIvx50S0h]]></item>
+	<item id="RevisionDateline"><![CDATA[1458874802]]></item>
+	<item id="Data">
+		<item id="/extend_discuz_upload.php"><![CDATA[9918cc9fdc40aba9daba01cbea43af29]]></item>
+		<item id="/template/fast_upload.htm"><![CDATA[76aee526261e53d8397313ee1ec0a1b1]]></item>
+		<item id="/template/upload.htm"><![CDATA[161dd49530ff9538ea45fd59c3e90b3e]]></item>
+		<item id="/token.inc.php"><![CDATA[883f1666b528f438c3d3f93c5e980020]]></item>
+		<item id="/discuz_plugin_qiniuyun_TC_BIG5.xml"><![CDATA[9939261f73d142c54dac0daf07b54bf4]]></item>
+		<item id="/qiniu/auth_digest.php"><![CDATA[fe5294a1481a2da7e4737e40c0c80c66]]></item>
+		<item id="/qiniu/io.php"><![CDATA[89386d41c884b8ad96b27d81f30b8631]]></item>
+		<item id="/qiniu/rs.php"><![CDATA[1a817896251c51c054c06d770c5c3a7c]]></item>
+		<item id="/qiniu/fop.php"><![CDATA[290a7a1298a88049b6d1deb7114aa0ae]]></item>
+		<item id="/qiniu/utils.php"><![CDATA[c558e210da4c7d6b86d5325467988dae]]></item>
+		<item id="/qiniu/conf.php"><![CDATA[9a169bfd2bdc5ab48e3698b012435266]]></item>
+		<item id="/qiniu/http.php"><![CDATA[abce24ea6b9cb06e84746211f49d3200]]></item>
+		<item id="/qiniu/resumable_io.php"><![CDATA[3fb02b83d97d16507ac79825c9cccc15]]></item>
+		<item id="/qiniu/b.inc.php"><![CDATA[916eb70f8d01961b4d373ad76a1ebf4b]]></item>
+		<item id="/qiniu/pfop.php"><![CDATA[466d0c13f9902e0efef7b3e677887af3]]></item>
+		<item id="/qiniu/rsf.php"><![CDATA[facf8da8815ce2cbdeba0098e168a9ca]]></item>
+		<item id="/qiniu/rs_utils.php"><![CDATA[6f599832ca3fded2c694bc42d01ac3e5]]></item>
+		<item id="/discuz_plugin_qiniuyun_TC_UTF8.xml"><![CDATA[13f27ec2bb11b885d9ab207a6fe1d288]]></item>
+		<item id="/discuz_plugin_qiniuyun_SC_GBK.xml"><![CDATA[fbfd38bee10be0192c3168805be910a7]]></item>
+		<item id="/extend_fourm_upload.php"><![CDATA[0a4214754a68ec25206acc90c42d9054]]></item>
+		<item id="/qiniuyun_mobile.class.php"><![CDATA[df721bea09c1a5dc5113e2c56f91f361]]></item>
+		<item id="/upload.inc.php"><![CDATA[e27034849ce737f7772acdcf88697656]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/qiniuyun.class.php"><![CDATA[f90f2d82eea1e0a1606be9d11c50c880]]></item>
+		<item id="/discuz_plugin_qiniuyun_SC_UTF8.xml"><![CDATA[48cf477136c40b97f3ad9abb6beac69a]]></item>
+	</item>
+</root>

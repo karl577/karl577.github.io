@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[strong_ios7_mobile.plugin]]></item>
+	<item id="RevisionID"><![CDATA[44563]]></item>
+	<item id="SN"><![CDATA[20170217187e9yrNyOl9]]></item>
+	<item id="RevisionDateline"><![CDATA[1430197202]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_strong_ios7_mobile_SC_UTF8.xml"><![CDATA[aa7b17b7112563ae633a2cb4c065d30d]]></item>
+		<item id="/discuz_plugin_strong_ios7_mobile_SC_GBK.xml"><![CDATA[c90cb15012630e2a56410e50170ce1a0]]></item>
+		<item id="/discuz_plugin_strong_ios7_mobile_TC_UTF8.xml"><![CDATA[ca14c6afa86c2e8b07181ef7d8dfd4a6]]></item>
+		<item id="/discuz_plugin_strong_ios7_mobile_TC_BIG5.xml"><![CDATA[a50c0f25833b0fb5b8a9a5c379bc958a]]></item>
+		<item id="/strong_g_set.php"><![CDATA[6e1ea4e9f0d49ec557a8382d39a638d8]]></item>
+	</item>
+</root>

@@ -1,0 +1,29 @@
+<!--{block return}-->
+<!--{if $dis_3}-->
+<style>
+<!--
+#dis_3 li span{float:left;bottom: 4px;color: #fff;background: #F26C4F;display: inline-block;width: 14px;height: 14px;line-height: 14px;font-size: 12px;text-align:center;border-top: 1px solid #e65c5c;border-left: 1px solid #e65c5c;margin-right:5px;}
+-->
+</style>
+<div class="bm bmw">
+<div class="bm_h cl">
+<h2>{$this->name}</h2>
+</div>
+<div class="bm_c cl">
+<div class="cl">
+	<ul class="xl xl2 cl" id="dis_3">
+	<!--{eval $index=0;}-->
+	<!--{loop $dis_3 $k $thread}-->
+	<!--{eval $thread['subject']=dhtmlspecialchars($thread['subject']);}-->
+	<!--{eval $thread['highlight']=$this->doHighlight($thread['highlight']);}-->
+	<!--{eval $index++;}-->
+		<li>
+			<a href="forum.php?mod=viewthread&tid=$thread['tid']" {$thread['highlight']} target="_blank">{$thread['subject']}</a><span>{$index}</span>
+		</li>
+	<!--{/loop}-->
+</ul>
+</div>
+</div>
+</div>
+<!--{/if}-->
+<!--{/block}-->

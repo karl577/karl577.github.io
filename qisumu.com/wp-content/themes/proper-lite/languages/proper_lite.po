@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: proper lite\n"
+"POT-Creation-Date: 2015-12-07 19:46-0500\n"
+"PO-Revision-Date: 2015-12-07 19:46-0500\n"
+"Last-Translator: \n"
+"Language-Team: modernthemes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/mike/Desktop/proper_lite\n"
+
+#: /Users/mike/Desktop/proper_lite/comments.php:38
+#: /Users/mike/Desktop/proper_lite/comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/comments.php:39
+#: /Users/mike/Desktop/proper_lite/comments.php:60
+msgid "Newer Comments"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/customizer.php:80
+msgid ""
+"Need some more Proper? If you want to see what additional features <a href="
+"\"http://modernthemes.net/premium-wordpress-themes/proper/\" target=\"_blank"
+"\">Proper Premium</a> has, check them all out right <a href=\"http://"
+"modernthemes.net/premium-wordpress-themes/proper/\" target=\"_blank\">here</"
+"a>."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:50
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/inc/template-tags.php:68
+msgid "Edit"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:399
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: /Users/mike/Desktop/proper_lite/panel/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""

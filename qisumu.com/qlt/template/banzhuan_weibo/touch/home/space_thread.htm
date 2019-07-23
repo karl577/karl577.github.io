@@ -1,0 +1,82 @@
+<!--{template common/header}-->
+
+<!-- header start -->
+<header class="header">
+    <div class="nav">
+       <div class="banzhuan-icon-back z"><a href="javascript:history.back();"><img src="./template/banzhuan_weibo/touch/banzhuan/images/icon_back.png" /></a></div>
+	   <div class="name z"><span>列表</span></div>
+   </div>
+</header>
+<!-- header end -->
+<div class="banzhuan-top"></div>
+
+<!-- main threadlist start -->
+<div class="threadlist">
+	<ul class="bg-fff">
+	<!--{if $list}-->
+		<!--{loop $list $thread}-->
+			<li>
+			<!--{if $viewtype == 'reply' || $viewtype == 'postcomment'}-->
+			<a href="forum.php?mod=redirect&goto=findpost&ptid=$thread[tid]&pid=$thread[pid]">$thread[subject]
+			<div class="banzhuan-item-info">
+					<!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+						<span class="icon_top banner-tuijian">置顶</span>
+					<!--{elseif $thread['digest'] > 0}-->
+						<span class="icon_top banner-tuijian">精华</span>
+					<!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+						<span class="icon_tu banner-tuijian">图片</span>
+					<!--{/if}-->
+					<span class="by">查看：{$thread[views]}</span>
+					<span class="by">回复：{$thread[replies]}</span>
+			</div>
+			</a>
+			<!--{else}-->
+			<a href="forum.php?mod=viewthread&tid=$thread[tid]" {if $thread['displayorder'] == -1}class="grey"{/if}>$thread[subject]
+			<div class="banzhuan-item-info">
+					<!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+						<span class="icon_top banner-tuijian">置顶</span>
+					<!--{elseif $thread['digest'] > 0}-->
+						<span class="icon_top banner-tuijian">精华</span>
+					<!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+						<span class="icon_tu banner-tuijian">图片</span>
+					<!--{/if}-->
+					<span class="by">查看：{$thread[views]}</span>
+					<span class="by">回复：{$thread[replies]}</span>
+			</div>
+			</a>
+			<!--{/if}-->
+			
+			</li>
+		<!--{/loop}-->
+	<!--{else}-->
+		<li>{lang no_related_posts}</li>
+	<!--{/if}-->
+	</ul>
+	$multi
+</div>
+<!-- main threadlist end -->
+<!--{eval $nofooter = true;}-->
+
+
+<!--{hook/global_footer_mobile}-->
+<!--{eval $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);$clienturl = ''}-->
+<!--{if strpos($useragent, 'iphone') !== false || strpos($useragent, 'ios') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=ios' : 'http://www.discuz.net/mobile.php?platform=ios';}-->
+<!--{elseif strpos($useragent, 'android') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=android' : 'http://www.discuz.net/mobile.php?platform=android';}-->
+<!--{elseif strpos($useragent, 'windows phone') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=windowsphone' : 'http://www.discuz.net/mobile.php?platform=windowsphone';}-->
+<!--{/if}-->
+
+<div id="mask" style="display:none;"></div>
+<!--{if !$nofooter}-->
+<!--{/if}-->
+
+</body>
+</html>
+<!--{eval updatesession();}-->
+<!--{if defined('IN_MOBILE')}-->
+	<!--{eval output();}-->
+<!--{else}-->
+	<!--{eval output_preview();}-->
+<!--{/if}-->

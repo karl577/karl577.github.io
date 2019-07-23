@@ -1,0 +1,51 @@
+<!--{template common/header}-->
+<!--{eval require TPLDIR."/php/tag.php";}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a><em>&raquo;</em>{lang tag}
+	</div>
+</div>
+<!--{if $type != 'countitem'}-->
+<div id="ct" class="wp cl">
+	<div class="mn">
+        <div class="tag mb15">
+            <form method="post" action="misc.php?mod=tag" class="tag_search">
+                <input type="text" name="name" class="px vm" size="30" />&nbsp;
+                <button type="submit" class="pn vm"><em>{lang search}</em></button>
+            </form>
+            <div class="taglist mtm mbm cl">
+                <!--{if $tagarray}-->
+                	<ul>
+                    <!--{loop $tagarray $tag}-->
+                        <li><a href="misc.php?mod=tag&id=$tag[tagid]" title="$tag[tagname]" target="_blank">$tag[tagname]</a></li>
+                    <!--{/loop}-->
+                    </ul>
+                <!--{else}-->
+                    <p class="emp">{lang no_tag}</p>
+                <!--{/if}-->
+            </div>
+        </div>
+	</div>
+    <div class="sd">
+    	<div class="wic_hottag mb15">
+        	<div class="wic_stit cl">
+            	<h2>$tmplang['hot_tag']</h2>
+            </div>
+        	<!--{if $hottag}--> 	
+            <div class="wic_hottagc">
+            	<ul>
+                <!--{eval $i=1; }-->
+                <!--{loop $hottag $taglist}-->		
+                    <li><a href="misc.php?mod=tag&id=$taglist[tagid]" title="$taglist[tagname]" target="_blank" class="tag$i">$taglist[tagname]</a></li>
+                    <!--{eval $i++;}-->
+                <!--{/loop}-->
+                </ul>
+            </div>
+            <!--{/if}-->
+        </div>
+    </div>
+</div>
+<!--{else}-->
+$num
+<!--{/if}-->
+<!--{template common/footer}-->

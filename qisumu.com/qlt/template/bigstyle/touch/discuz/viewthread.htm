@@ -1,0 +1,17 @@
+<!--{template common/mwt_frame}-->
+<!--{template common/mwt_style}-->
+<script src="{$_G['style']['directory']}/../../data/cache/common_smilies_var.js"></script>
+<script>
+var smileyroot = '$_G[siteurl]/static/image/smiley';
+jQuery(document).ready(function($) {
+	require(["jsapp","mwt"],function(jsapp){
+		var tid = "{$_GET['tid']}";
+		jsapp.run("forum/viewthread",tid);
+	});
+});
+</script>
+
+<!--{loop $postlist $post}-->
+<div id="oripaper-del" style="display:none;">{$post[message]}</div>
+<!--{eval break;}-->
+<!--{/loop}-->

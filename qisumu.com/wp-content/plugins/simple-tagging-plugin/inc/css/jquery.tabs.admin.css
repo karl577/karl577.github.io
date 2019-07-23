@@ -1,0 +1,15 @@
+#containertags { padding:0; margin:0; position : relative; }
+#containertags ul { padding : 0; margin : 0; list-style : none; }
+#containertags ul.tag_menu { position : static !important; display : block; width : 60px !important; padding : 10px; background : #14568a !important; float : left; }
+#containertags ul.tag_menu li { padding : 0; margin : 0; width : 20px; height : 20px; text-align : center; display : inline; float : left; }
+#containertags ul.tag_menu li a { border:0; width : 20px; height : 20px; display : block; color : #fff; font-size : 10px; text-decoration : none; }
+#containertags div { padding-left : 10px; float : left; width : 150px; }
+#containertags ul.tag_list { display : block; height : 250px; overflow : auto; }
+#containertags ul.tag_list li, #tags ul.tag_list li a { color : #e2e2e2; }
+#containertags ul.tag_list li a:hover { color : #999 !important; }
+
+.tab { margin : 10px; }
+.tabs-hide { display: none; }
+.tabs-selected { font-color : #fff; background : #222; }
+
+#containertags h2 { background:none; font-size: 16px; font-weight: 700; margin: 10px 0; padding:0; padding-bottom: 5px; border-bottom: 1px solid #CCC; }

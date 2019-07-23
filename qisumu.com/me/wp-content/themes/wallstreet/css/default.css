@@ -1,0 +1,248 @@
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus { background: #66d1b9; }
+.homepage_mycarousel { background: #2a2c33;	box-shadow: 0 7px 10px -10px #000; }
+.homepage_mycarousel .overlay {background: rgba(0,0,0,0.45);}
+.slide-text-bg1 h2 { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+.slide-text-bg2 h1 {
+   border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);    
+}
+.slide-text-bg3 p { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);}
+.flex_btn {  text-shadow: 0 0px 1px rgba(0, 0, 0, 0.4); }
+ 
+ 
+ .service-area {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+ }
+ 
+.service-area:hover {
+	background: #00c2a9;
+    border: 1px solid #00c2a9;
+}
+
+.service-btn a { border: 1px solid #F5F5F5; }
+
+.service-area:hover .service-btn a {
+	background-color: #32343c;
+	border: 1px solid #32343c;
+}
+
+.other-service-area i { background-color: transparent; }
+.other-service-area1 i { border: 2px solid #FFFFFF; background-color: #2A2C33;}
+.other-service-area p { color: #c4c4c4; }
+.portfolio-section { background-color: #373941; }
+.home-portfolio-showcase .home-portfolio-showcase-detail h4 { border-bottom: 1px solid #ffffff; }
+.portfolio-btn a { background-color: #32343c; }
+.proejct-btn a { background-color: rgba(0, 0, 0, 0); border: 2px solid #FFFFFF; text-shadow: 0 1px 1px #18191b; }
+.proejct-btn a:hover { text-shadow: 0 1px 1px #4a4c56; }
+.home-blog-area { background-color: #3c3f49; }
+.home-blog-area:hover {background-color: #464954;}
+.home-blog-area .home-blog-info h2 { color: #f5f5f5; }
+.home-blog-area .home-blog-info h2 > a { color: #f5f5f5; }
+
+.home-blog-post-detail { border-bottom: 1px dotted #7B7F8C; }
+ 
+ /*Footer Widgte Section-----------------------------------------------------------------------------------------*/
+.footer_section { background-color: #373941; }
+.footer-social-area { box-shadow: 0 7px 2px -6px #2A2C33; }
+.footer-social-icons { border-bottom: 1px solid #575963; }
+.footer-social-icons li { background-color: rgba(0, 0, 0, 0); border: 0 solid #FFFFFF; }
+
+.footer-blog-post:hover .post-date { background-color: #ffffff; }
+.footer-widget-tags a { background-color: transparent; border: 1px solid #8d919f; }
+.footer-widget-tags a:hover { background-color: #8d919f; border: 1px solid #8d919f; }
+.footer-copyright { border-top: 1px solid #575963; }
+.footer_widget_column > .tagcloud a { background-color: transparent; border: 1px solid #8d919f; }
+.footer_widget_column > .tagcloud a:hover { background-color: #8d919f; }
+
+/*Page Header Css---------------------------------------------------------------------------------------------*/
+.page-header-title h1 { text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); }
+.page-breadcrumbs { background-color: rgba(0, 0, 0, 0.6); }
+.breadcrumbs { background-color: transparent; }
+
+
+
+/*Blog Section Css---------------------------------------------------------------------------------------------*/
+.blog-section-left { background-color: #3c3f49; }
+.blog-section-right { background-color: #3c3f49; }
+.blog-section-full{ background-color: #3c3f49; }
+.blog-detail-section { background-color: #3c3f49; }
+.blog-post-date { background-color: #FFFFFF; }
+.blog-post-date span.comment { color: #2a2c33; }
+.blog-post-title-wrapper h2, .blog-post-title-wrapper-full h2 { color: #f5f5f5; }
+.blog-post-title-wrapper h2 a, .blog-post-title-wrapper-full h2 a { color: #f5f5f5; }
+.blog-post-title-wrapper > table, .blog-post-title-wrapper-full  > table { background-color: transparent; border: 1px solid #ffffff; }
+
+a.blog-btn { border: 1px solid transparent; }
+.blog-pagination a, .page-links a { background-color: #3c3f49; }
+.page-links a { background-color: #2a2c33; } 
+
+/*Sidebar Section Css---------------------------------------------------------------------------------*/
+
+/* Edit by Harish For Sidebar Section*/
+.sidebar-section { background-color: #3c3f49; }
+
+.sidebar-widget > .tagcloud a{ background-color: #565963; }
+
+.search-widget input { border: 1px solid #E0E4E6; color: #939B9F; }
+.search-widget a { background-color: #FA7073; box-shadow: 0 3px 0 0 #CC6567; }
+.search_widget_input{ border: 1px solid #E0E4E6; background-color: #FFFFFF; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+
+.search_widget_input:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(250, 112, 115, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(250, 112, 115, .6);
+}
+.sidebar-widget div#calendar_wrap table#wp-calendar ,.footer_widget_column div#calendar_wrap table#wp-calendar, .sidebar-widget div#calendar_wrap table > thead > tr > th,.footer_widget_column div#calendar_wrap table > thead > tr > th, .sidebar-widget div#calendar_wrap table > tfoot > tr > td ,.footer_widget_column div#calendar_wrap table > tfoot > tr > td, .sidebar-widget div#calendar_wrap table > tbody > tr > td ,.footer_widget_column div#calendar_wrap table > tbody > tr > td, .sidebar-tweet-area .media-body { border: 1px solid #7b7f8c; }
+
+.post-media-sidebar, .sidebar-widget > ul > li, .post-content li, .blog-post-detail { border-bottom: 1px dotted #7b7f8c; }
+
+a.readmore{ color: #fa7073; }
+
+/*Sidebar*/
+.sidebar-widget-tags a { background-color: #565963; }
+/*Blog Detail Section Css-----------------------------------------------------------------------------*/
+.blog-blockquote blockquote { background-color: transparent; }
+
+.blog-post-title-wrapper > blockquote, .blog-post-title-wrapper-full > blockquote { background-color: #3c3f49; }
+
+.blog-author { background-color: #3c3f49; }
+.blog-author img { border: 2px solid #ffffff; }
+.blog-author-social li { border: 1px solid #5a5c66; }
+
+.comment-section { background-color: #3c3f49; }
+.comment-title { border-bottom: 1px solid #7b7f8c; }
+
+.comment-img { border: 2px solid #b3b8c6; }
+.comment-detail { border-bottom: 1px dotted #7b7f8c; }
+.reply a { border: 1px solid #8a8c9a; }
+.comment-form-section { background-color: #3c3f49; }
+
+.blog-form-control {background-color: transparent; border: 1px solid #7b7f8c; }
+.blog-form-control-textarea { background-color: transparent; border: 1px solid #7b7f8c; }
+
+.table { background: white; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+
+.comment-detail  > table { background-color: transparent; border: 1px solid #ffffff; }
+.dropdown-menu > li > a {border-bottom: 1px solid rgba(0,194,169, 0.5);}
+
+/**** 404 page ******/
+
+.blog-post-date span.date a, .slide-text-bg1 h2, .slide-text-bg2 h1, .slide-text-bg3 p, .flex_btn, .section_heading_title h1, .service-btn a, .home-portfolio-showcase .home-portfolio-showcase-detail h4 , .other-service-area i, .other-service-area h2, .other-service-area1, .portfolio-btn a, .home-portfolio-showcase .home-portfolio-showcase-detail p, .portfolio-btn a, .footer-widget-tags a, a.blog-btn, .blog-pagination a, .page-links a, .home-blog-btn a , .footer-social-icons li > a > i , .footer_section p, .post-date span.date, .footer-copyright p, .footer_widget_column > .tagcloud a , .footer_widget_column > .tagcloud a:hover, .page-header-title h1, .breadcrumbs > li a, .sidebar-widget > div.textwidget, .footer_widget_column > div.textwidget, .blog-pagination a:hover, .blog-pagination a.active, .page-links a:hover, .page-links a.active, .sidebar-widget-tags a:hover, .tagcloud a:hover, .search_btn, .search-widget a , .sidebar-widget ul.sidebar-tab.sidebar-widget-tab > li > a:hover, .sidebar-widget > ul > li > a, .sidebar-widget > ul > li > ul > li > a, .sidebar-widget > ul > li > ul > li > ul > li > a, .sidebar-widget > ul > li > a:before, .footer_widget_column > ul > li > a:before, .sidebar-widget-title h2, .search_err_heading, .wallstreet_searching, .search_heading, .sidebar-tweet-area i, .sidebar-tweet-area span, .sidebar-widget-tab > .active a, .post-media-sidebar h3 a, .post-media-sidebar p, .sidebar-comment-box span > small, .post-content li > i , .sidebar-widget-tags a:hover, .blog-author h6, .blog-author-social li > a, .comment-title h3, .comment-title h3 > i, .reply a  .comment-detail-title, .comment-form-section > .comment-respond > form#commentform > p, .comment-form-section > .comment-respond > h3.comment-reply-title, #blogdetail_btn, .blogdetail-btn a, .error_404, .post-password-form input[type="submit"], .wallstreet_page_heading, .comment_box h1, .comment_box h2, .comment_box h3, .comment_box h4, .comment_box h5, .comment_box h6, .footer_widget_title, .footer_widget_column a, .menu-long-menu-container a, .blog-tags a:hover, .blog-post-title > .blog-post-title-wrapper > h1,
+.blog-post-title > .blog-post-title-wrapper > h2,
+.blog-post-title > .blog-post-title-wrapper > h3,
+.blog-post-title > .blog-post-title-wrapper > h4,
+.blog-post-title > .blog-post-title-wrapper > h5,
+.blog-post-title > .blog-post-title-wrapper > h6
+{ color: #ffffff; }
+
+.home-blog-description p, .home-blog-post-detail, .service-area p, .section_heading_title p, 
+.home-blog-post-detail > .date, .home-blog-post-detail > .comment, .home-blog-post-detail > .comment > a, .home-blog-post-detail > .comment > a > i, 
+.blog-post-detail a > i , .blog-tags i, .blog-tags a, .blog-post-detail a, .blog-post-detail, .blog-post-title-wrapper p, .blog-post-title-wrapper-full p, .footer_widget_column > ul > li, .footer_widget_column > ul > li > a,
+.footer_widget_column > ul > li > ul > li > a,
+.footer_widget_column > ul > li > ul > li > ul > li > a, .sidebar-widget ul.sidebar-tab.sidebar-widget-tab > li, .sidebar-widget > ul > li, .sidebar-widget-tags a, .sidebar-comment-box span, .sidebar-widget-tab li a, .sidebar-tweet-area p, 
+.post-content li, .post-content li a, 
+.blog-blockquote blockquote > span, .blog-post-title-wrapper blockquote > p > small, .blog-post-title-wrapper-full blockquote > p > small, 
+.blog-author p, .comment-detail p, .blog-form-control-textarea, 
+.blog-form-control-textarea, .image-para-content, .blog-post-title-wrapper > dl > dt, .blog-post-title-wrapper-full > dl > dt, .blog-post-title-wrapper > dl > dd, .blog-post-title-wrapper-full > dl > dd, .blog-post-title-wrapper > ul, .blog-post-title-wrapper > ul > li, .blog-post-title-wrapper-full > ul, .blog-post-title-wrapper-full > ul > li, .blog-post-title-wrapper > ul > li > ul > li, .blog-post-title-wrapper-full > ul > li > ul > li, .blog-post-title-wrapper > ul > li > ul > li > ul > li, .blog-post-title-wrapper-full > ul > li > ul > li > ul > li, .blog-post-title-wrapper > ol, .blog-post-title-wrapper > ol > li, .blog-post-title-wrapper-full > ol, .blog-post-title-wrapper-full > ol > li, .blog-post-title-wrapper > ol > li > ol > li, .blog-post-title-wrapper-full > ol > li > ol > li, .blog-post-title-wrapper > ol > li > ol > li > ol > li, .blog-post-title-wrapper-full > ol > li > ol > li > ol > li , .blog-post-title-wrapper > ol > li, .blog-post-title-wrapper-full > ol > li, .blog-post-title-wrapper > ol > li > ul > li, .blog-post-title-wrapper-full > ol > li > ul > li, .blog-post-title-wrapper  > ol > li > ul > li > ol > li, .blog-post-title-wrapper-full  > ol > li > ul > li > ol > li , .blog-post-title-wrapper address, .blog-post-title-wrapper-full address, .attachment-post-thumbnail, .page-links, .comment-detail > ol, .comment-detail > ol > li, .comment-detail > ol > li > ol > li, .comment-detail > ol > li > ol > li > ol > li, .comment-detail address, .comment-detail > ul, .comment-detail > ul > li, .comment-detail > ul > li > ul > li, .comment-detail > ul > li > ul > li > ul > li, .sidebar-widget > .tagcloud a, .service-area h2 > a
+{ color: #e5e5e5; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #e5e5e5; }
+
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.comment-date a, .blog-post-date span.comment > i, .home-blog-area:hover .home-blog-info h2 > a, a.url, .head-contact-social li:hover i, .service-effect:hover .other-service-area1 i, 
+.tweet-icon i, .tweet-area p > a, .footer-blog-post:hover .post-date span.date, .footer-blog-post:hover .post-date span.month, 
+.footer-copyright p a, 
+.page-header-title h1 a,.breadcrumbs > li >.active, .page-breadcrumbs, .blog-post-title-wrapper h2 a:hover, .blog-post-title-wrapper-full h2 a:hover, .blog-post-title-wrapper > table > tbody > tr > th > a, .blog-post-title-wrapper-full > table > tbody > tr > th > a, .blog-post-title-wrapper > table > tbody > tr > th > a:hover, .blog-post-title-wrapper-full > table > tbody > tr > th > a:hover, td > a, td > a:hover, 
+.footer_widget_column > ul > li > a:hover,
+.footer_widget_column > ul > li > ul > li > a:hover,
+.footer_widget_column > ul > li > ul > li > ul > li > a:hover, .sidebar-widget > ul > li > a:hover,
+.sidebar-widget > ul > li > ul > li > a:hover,
+.sidebar-widget > ul > li > ul > li > ul > li > a:hover, 
+.sidebar-widget div#calendar_wrap table > caption,.footer_widget_column div#calendar_wrap table > caption, #calendar_wrap a, .sidebar-tweet-area p > a, .post-content li:hover a, 
+.blog-blockquote blockquote > small, 
+.comment-form-section > .comment-respond > h3.comment-reply-title a, .comment-form-section > .comment-respond > h3.comment-reply-title > small > a, .comment-form-section > .comment-respond > form#commentform > p.logged-in-as > a, .comment-awaiting-moderation, .image-para-title, 
+.blog-post-title-wrapper > dl > dt a,
+.blog-post-title-wrapper-full > dl > dt a,
+.blog-post-title-wrapper > dl > dd a,
+.blog-post-title-wrapper-full > dl > dd a, 
+.blog-post-title-wrapper > ul,
+.blog-post-title-wrapper > ul > li a,
+.blog-post-title-wrapper-full > ul,
+.blog-post-title-wrapper-full > ul > li a,
+.blog-post-title-wrapper > ul > li > ul > li a,
+.blog-post-title-wrapper-full > ul > li > ul > li a,
+.blog-post-title-wrapper > ul > li > ul > li > ul > li a,
+.blog-post-title-wrapper-full > ul > li > ul > li > ul > li a, 
+.blog-post-title-wrapper > ol,
+.blog-post-title-wrapper > ol > li a,
+.blog-post-title-wrapper-full > ol,
+.blog-post-title-wrapper-full > ol > li a,
+.blog-post-title-wrapper > ol > li > ol > li a,
+.blog-post-title-wrapper-full > ol > li > ol > li a,
+.blog-post-title-wrapper > ol > li > ol > li > ol > li a,
+.blog-post-title-wrapper-full > ol > li > ol > li > ol > li a , 
+.blog-post-title-wrapper h1,
+.blog-post-title-wrapper-full h1,
+.blog-post-title-wrapper h2,
+.blog-post-title-wrapper-full h2,
+.blog-post-title-wrapper h3,
+.blog-post-title-wrapper-full h3,
+.blog-post-title-wrapper h4,
+.blog-post-title-wrapper-full h4,
+.blog-post-title-wrapper h5,
+.blog-post-title-wrapper-full h5,
+.blog-post-title-wrapper h6,
+.blog-post-title-wrapper-full h6, .blog-post-title-wrapper p a, .blog-post-title-wrapper-full p a, .post_message, .comment-detail > table > tbody > tr > th > a:hover, .comment-detail > table > tbody > tr > td > a, .comment-detail p a, .comment-detail > dl > dt a, .comment-detail > dl > dd a , .comment-detail > dl > dt a,
+.comment-detail > dl > dd a, .comment-detail > ul,
+.comment-detail > ul > li a,
+.comment-detail > ul,
+.comment-detail > ul > li a,
+.comment-detail > ul > li > ul > li a,
+.comment-detail > ul > li > ul > li > ul > li a, .comment-detail > ol,
+.comment-detail > ol > li a,
+.comment-detail > ol > li > ol > li a,
+.comment-detail > ol > li > ol > li > ol > li a, #comment-nav-below > .nav-previous a, #comment-nav-below > .nav-next a, .tiled-gallery .tiled-gallery-item img, .tiled-gallery .tiled-gallery-item img:hover, #gallery-2 img {color:#00c2a9;}
+
+
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .open > a, 
+.navbar .navbar-nav > .open > a:hover, 
+.navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, 
+.navbar .navbar-nav > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .blog-pagination a:hover, .blog-pagination a.active, .page-links a:hover, .page-links a.active, .flex_btn, .pagetitle-separator-border, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .tweet-btn a:hover, .post-date, .blog-post-date span.date a, .sidebar-widget-tags a:hover, .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tags a:hover, .blog-author-social li:hover, .blogdetail-btn a , #blogdetail_btn , .wallstreet_page_heading, .post-password-form input[type="submit"], a.blog-btn { background-color: #00c2a9; }
+
+.header-top-area, .sidebar-widget-tab > .active a, .pagetitle-separator-box {
+	background: none repeat scroll 0 0 #00c2a9;
+}
+
+.flex_btn, .service-box1 img, .other-service-area i, .other-service-area:hover i, .proejct-btn a:hover {border: 2px solid #00c2a9;}
+
+.blog-author-social li:hover, .tweet-btn a:hover { border: 1px solid #00c2a9;}
+
+.blog-blockquote blockquote, .blog-post-title-wrapper > blockquote, .blog-post-title-wrapper-full > blockquote{ border-left: 3px solid #00c2a9; }
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover { color:#00c2a9; }	
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { background-color: transparent !important; color: #00c2a9 !important;  }
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, 
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, 
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+	background-color: transparent;
+	color: #00c2a9 !important;
+}
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, 
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, 
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus { color:#00c2a9; }
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover { color:#00c2a9; }	
+}

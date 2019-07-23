@@ -1,0 +1,1275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Bank\n"
+"POT-Creation-Date: 2017-02-16 15:23+0530\n"
+"PO-Revision-Date: 2017-02-16 15:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: contact-bank.php:100 contact-bank.php:117 contact-bank.php:134
+msgid "Contact Bank"
+msgstr "Contact Bank"
+
+#: contact-bank.php:101 contact-bank.php:118 contact-bank.php:135
+#: contact-bank.php:968 contact-bank.php:1045 contact-bank.php:1122
+#: views/header.php:132 views/header.php:146 views/header.php:160
+msgid "Dashboard"
+msgstr "Tablou de bord"
+
+#: contact-bank.php:103 contact-bank.php:120 contact-bank.php:137
+#: contact-bank.php:974 contact-bank.php:1051 contact-bank.php:1128
+#: views/automatic-plugin-update.php:28 views/automatic-plugin-update.php:32
+msgid "Plugin Updates"
+msgstr "Actualizări plugin"
+
+#: contact-bank.php:104 contact-bank.php:121 contact-bank.php:138
+#: contact-bank.php:980 contact-bank.php:1057 contact-bank.php:1134
+#: views/header.php:133 views/header.php:147 views/header.php:161
+msgid "Short-Codes"
+msgstr "Scurt-Codes"
+
+#: contact-bank.php:105 contact-bank.php:122 contact-bank.php:139
+#: contact-bank.php:986 contact-bank.php:1063 contact-bank.php:1140
+#: views/contact_frontend_data.php:30 views/dashboard.php:121
+#: views/header.php:134 views/header.php:148 views/header.php:162
+msgid "Form Entries"
+msgstr "Formular  Intrările"
+
+#: contact-bank.php:106 contact-bank.php:123 contact-bank.php:140
+#: contact-bank.php:992 contact-bank.php:1069 contact-bank.php:1146
+#: views/contact_email_settings.php:29 views/dashboard.php:116
+#: views/header.php:135 views/header.php:149 views/header.php:163
+msgid "Email Settings"
+msgstr "Setări de email"
+
+#: contact-bank.php:107 contact-bank.php:124 contact-bank.php:141
+#: contact-bank.php:998 contact-bank.php:1075 contact-bank.php:1152
+#: views/contact_bank_layout_settings.php:29 views/dashboard.php:111
+#: views/header.php:136 views/header.php:150 views/header.php:164
+msgid "Global Settings"
+msgstr "Setări Globale"
+
+#: contact-bank.php:108 contact-bank.php:125 contact-bank.php:142
+#: contact-bank.php:1004 contact-bank.php:1081 contact-bank.php:1158
+#: views/contact-feedback.php:34
+msgid "Feature Requests"
+msgstr "Cereri de caracteristici"
+
+#: contact-bank.php:109 contact-bank.php:126 contact-bank.php:143
+#: contact-bank.php:1010 contact-bank.php:1088
+#: views/contact-bank-system-report.php:31
+msgid "System Status"
+msgstr "Stare Sistem"
+
+#: contact-bank.php:110 contact-bank.php:127 contact-bank.php:144
+#: contact-bank.php:1016 contact-bank.php:1094 contact-bank.php:1164
+#: views/header.php:102 views/header.php:137 views/header.php:151
+#: views/header.php:165
+msgid "Recommendations"
+msgstr "Recomandari"
+
+#: contact-bank.php:111 contact-bank.php:128 contact-bank.php:145
+#: contact-bank.php:1023 contact-bank.php:1101 contact-bank.php:1171
+#: views/header.php:138 views/header.php:152 views/header.php:166
+#: views/purchase_pro_version.php:33
+msgid "Premium Editions"
+msgstr "Edițiile la primă"
+
+#: contact-bank.php:112 contact-bank.php:129 contact-bank.php:146
+#: contact-bank.php:1030 contact-bank.php:1108 contact-bank.php:1178
+#: views/header.php:107 views/header.php:139 views/header.php:153
+#: views/header.php:167
+msgid "Our Other Services"
+msgstr "Noastre Alte servicii"
+
+#: contact-bank.php:1191
+msgid "Add Contact Bank Form"
+msgstr "Adauga Contact Formular"
+
+#: contact-bank.php:1207
+msgid "Insert Contact Bank Form"
+msgstr "Introduceți Formular de contact"
+
+#: contact-bank.php:1209
+msgid "Select a form below to add it to your post or page."
+msgstr "Selectați un formular de mai jos pentru a adauga la posta sau pagina ta."
+
+#: contact-bank.php:1214
+msgid "Form Name"
+msgstr "Formular-Numele"
+
+#: contact-bank.php:1216
+msgid "Select a Form"
+msgstr "Selectați un formular"
+
+#: contact-bank.php:1233
+msgid "Show Form Title"
+msgstr "Arată Formular Titlu"
+
+#: contact-bank.php:1237
+msgid "Show Form Description"
+msgstr "Arată Formularul Descriere"
+
+#: contact-bank.php:1242
+msgid "Insert Form"
+msgstr "Inserați - Formular"
+
+#: contact-bank.php:1245
+msgid "Cancel"
+msgstr "Anula"
+
+#: contact-bank.php:1258
+msgid "Please choose a Form to insert into Shortcode"
+msgstr "Vă rugăm să alegeți un formular pentru a introduce în Codul Scurt"
+
+#: contact-bank.php:1294
+msgid "View Contact Bank Documentation"
+msgstr "Documentație Vizualiza Contact Bank"
+
+#: contact-bank.php:1294
+msgid "Docs"
+msgstr "Docs"
+
+#: contact-bank.php:1295
+msgid "View Contact Bank Premium Editions"
+msgstr "Vizualiza Edițiile Contact Bank la primă"
+
+#: contact-bank.php:1295
+msgid "Go for Premium!"
+msgstr "Du pentru Premium!"
+
+#: contact-bank.php:1384
+msgid "Contact Bank Widget"
+msgstr ""
+
+#: contact-bank.php:1385
+msgid "Build Complex, Powerful Contact Forms in Just Seconds."
+msgstr ""
+
+#: contact-bank.php:1400
+msgid "Select Form :"
+msgstr "Selectați Formularul:"
+
+#: contact-bank.php:1402 views/contact_bank_layout_settings.php:45
+#: views/contact_bank_layout_settings.php:55
+#: views/contact_email_settings.php:36 views/contact_email_settings.php:52
+#: views/contact_frontend_data.php:45 views/contact_frontend_data.php:55
+msgid "Select Form"
+msgstr "Selectați Formular"
+
+#: frontend_views/contact_bank_forms.php:344
+#: views/contact_bank_form_preview.php:392 views/contact_controls_files.php:96
+msgid "Select Option"
+msgstr "Selectați Opțiune"
+
+#: includes/cb_checkbox.php:56
+msgid "Check Boxes"
+msgstr "Cutii Verifica"
+
+#: includes/cb_checkbox.php:60 includes/cb_dropdown.php:60
+#: includes/cb_email.php:60 includes/cb_multiple.php:60 includes/cb_text.php:60
+#: includes/cb_textarea.php:59
+msgid "Label"
+msgstr "Casa de discuri"
+
+#: includes/cb_checkbox.php:62 includes/cb_checkbox.php:164
+#: includes/cb_dropdown.php:62 includes/cb_dropdown.php:165
+#: includes/cb_email.php:63 includes/cb_email.php:153
+#: includes/cb_multiple.php:64 includes/cb_multiple.php:184
+#: includes/cb_text.php:63 includes/cb_text.php:152 includes/cb_textarea.php:61
+#: includes/cb_textarea.php:149 views/contact_controls_files.php:37
+#: views/contact_controls_files.php:55 views/contact_controls_files.php:92
+#: views/contact_controls_files.php:109 views/contact_controls_files.php:127
+msgid "Untitled"
+msgstr "Nenumit"
+
+#: includes/cb_checkbox.php:66 includes/cb_checkbox.php:76
+#: includes/cb_checkbox.php:89 includes/cb_checkbox.php:103
+#: includes/cb_dropdown.php:66 includes/cb_dropdown.php:76
+#: includes/cb_dropdown.php:89 includes/cb_dropdown.php:103
+#: includes/cb_email.php:77 includes/cb_email.php:88 includes/cb_email.php:103
+#: includes/cb_email.php:119 includes/cb_multiple.php:69
+#: includes/cb_multiple.php:80 includes/cb_multiple.php:95
+#: includes/cb_multiple.php:111 includes/cb_text.php:76 includes/cb_text.php:87
+#: includes/cb_text.php:102 includes/cb_text.php:118
+#: includes/cb_textarea.php:75 includes/cb_textarea.php:86
+#: includes/cb_textarea.php:101 includes/cb_textarea.php:117
+msgid "Required"
+msgstr "necesară"
+
+#: includes/cb_checkbox.php:80 includes/cb_checkbox.php:93
+#: includes/cb_checkbox.php:107 includes/cb_dropdown.php:80
+#: includes/cb_dropdown.php:93 includes/cb_dropdown.php:107
+#: includes/cb_email.php:93 includes/cb_email.php:108 includes/cb_email.php:124
+#: includes/cb_multiple.php:85 includes/cb_multiple.php:100
+#: includes/cb_multiple.php:116 includes/cb_text.php:92
+#: includes/cb_text.php:107 includes/cb_text.php:123
+#: includes/cb_textarea.php:91 includes/cb_textarea.php:106
+#: includes/cb_textarea.php:122
+msgid "Not Required"
+msgstr "nu obligatoriu "
+
+#: includes/cb_checkbox.php:115 includes/cb_dropdown.php:115
+#: includes/cb_email.php:132 includes/cb_multiple.php:124
+#: includes/cb_text.php:131
+msgid "Tooltip Text"
+msgstr "Balon de ajutor Textul"
+
+#: includes/cb_checkbox.php:117 includes/cb_dropdown.php:117
+#: includes/cb_email.php:135 includes/cb_multiple.php:128
+#: includes/cb_text.php:134 includes/cb_textarea.php:132
+#: views/contact_frontend_data.php:176 views/dashboard.php:212
+#: views/includes_common_after.php:448 views/includes_common_after.php:451
+#: views/includes_common_after.php:454 views/includes_common_after.php:457
+#: views/includes_common_after.php:460 views/includes_common_after.php:463
+#: views/includes_common_after.php:466 views/includes_common_after.php:469
+#: views/includes_common_after.php:472
+msgid "This Feature is only available in Premium Editions!"
+msgstr "Această caracteristică este disponibilă numai în edițiile Premium!"
+
+#: includes/cb_checkbox.php:121 includes/cb_dropdown.php:121
+#: includes/cb_multiple.php:133
+msgid "Options"
+msgstr "Opțiuni"
+
+#: includes/cb_checkbox.php:123
+msgid "Enter Options"
+msgstr " Opțiuni Introduceți"
+
+#: includes/cb_checkbox.php:124 includes/cb_dropdown.php:124
+#: includes/cb_multiple.php:139
+msgid "Add"
+msgstr "Adauga"
+
+#: includes/cb_checkbox.php:155 includes/cb_dropdown.php:156
+#: includes/cb_multiple.php:173
+msgid "Delete"
+msgstr "Sterge"
+
+#: includes/cb_checkbox.php:162 includes/cb_dropdown.php:163
+#: includes/cb_email.php:150 includes/cb_multiple.php:180
+#: includes/cb_text.php:149 includes/cb_textarea.php:147
+msgid "Admin Label"
+msgstr "admin Vizualizati Etichetei"
+
+#: includes/cb_checkbox.php:164 includes/cb_dropdown.php:165
+#: includes/cb_email.php:154 includes/cb_multiple.php:183
+#: includes/cb_text.php:151 includes/cb_textarea.php:150
+msgid "Enter Admin Label"
+msgstr "Introduceți Admin Etichetei "
+
+#: includes/cb_checkbox.php:168 includes/cb_dropdown.php:169
+#: includes/cb_email.php:159 includes/cb_multiple.php:188
+#: includes/cb_text.php:157 includes/cb_textarea.php:154
+msgid "Do not show in the email"
+msgstr "Facă nu se arată în în cel e-mail"
+
+#: includes/cb_checkbox.php:199 includes/cb_dropdown.php:200
+#: includes/cb_email.php:193 includes/cb_multiple.php:222
+#: includes/cb_text.php:217 includes/cb_textarea.php:209
+msgid "Save Settings"
+msgstr "Salvați Setările"
+
+#: includes/cb_checkbox.php:293 includes/cb_dropdown.php:286
+#: includes/cb_multiple.php:317
+msgid "Please Fill an Option."
+msgstr "Rugăm să Umpleți o opțiune."
+
+#: includes/cb_dropdown.php:56 views/contact_view.php:454
+msgid "Select Box"
+msgstr "Selectați trezorul"
+
+#: includes/cb_dropdown.php:62 includes/cb_email.php:64
+#: includes/cb_multiple.php:65 includes/cb_text.php:64
+msgid "Enter Label"
+msgstr "Introduceți Casa de discuri"
+
+#: includes/cb_dropdown.php:123 includes/cb_multiple.php:136
+msgid "Enter Option"
+msgstr "Opțiunea Introduceți "
+
+#: includes/cb_email.php:56 views/contact_view.php:451
+msgid "Email Address"
+msgstr "o adresă Email"
+
+#: includes/cb_email.php:69 includes/cb_text.php:68 includes/cb_textarea.php:67
+msgid "Description"
+msgstr " descrierii"
+
+#: includes/cb_email.php:72 includes/cb_text.php:71
+msgid "Enter Description"
+msgstr "Descrierea Introduceți"
+
+#: includes/cb_email.php:141 includes/cb_text.php:140
+#: includes/cb_textarea.php:139
+msgid "Place Holder"
+msgstr "Locul Deținătorul"
+
+#: includes/cb_email.php:144 includes/cb_text.php:143
+#: includes/cb_textarea.php:141
+msgid "Enter Place Holder"
+msgstr "Introduceți Locul Deținătorul"
+
+#: includes/cb_multiple.php:56 views/contact_view.php:462
+msgid "Radio Buttons"
+msgstr "de radio Butoanelor"
+
+#: includes/cb_text.php:56 views/contact_view.php:443
+msgid "Single Line Text"
+msgstr "Linia unică Textul"
+
+#: includes/cb_text.php:188 includes/cb_textarea.php:185
+msgid "Add a filter"
+msgstr "Adăugați un filtru"
+
+#: includes/cb_text.php:192 includes/cb_textarea.php:188
+msgid "Alpha"
+msgstr "Alfa"
+
+#: includes/cb_text.php:196 includes/cb_textarea.php:191
+msgid "Alpha Numeric"
+msgstr "alfa numerică"
+
+#: includes/cb_text.php:200 includes/cb_textarea.php:194
+msgid "Digits"
+msgstr "Număr de cifre"
+
+#: includes/cb_text.php:204 includes/cb_textarea.php:197
+msgid "Strip Tags"
+msgstr "Dezizolați Etichete"
+
+#: includes/cb_text.php:208 includes/cb_textarea.php:200
+msgid "Trim"
+msgstr "tunde"
+
+#: includes/cb_text.php:210 includes/cb_textarea.php:202
+#: views/contact_bank_layout_settings.php:83
+#: views/contact_bank_layout_settings.php:271
+#: views/contact_bank_layout_settings.php:481
+#: views/contact_bank_layout_settings.php:674
+#: views/contact_bank_layout_settings.php:802 views/contact_view.php:472
+msgid " (Available in Premium Editions)"
+msgstr "(Disponibilă în edițiile Premium)"
+
+#: includes/cb_textarea.php:55 views/contact_view.php:446
+msgid "Paragraph Text"
+msgstr "paragraf Textul"
+
+#: includes/cb_textarea.php:62
+msgid "Enter label"
+msgstr " etichetei Introduceți"
+
+#: includes/cb_textarea.php:69
+msgid "Enter  Description"
+msgstr " descriere Introduceti"
+
+#: includes/cb_textarea.php:130
+msgid "Tooltip text"
+msgstr "Balon de ajutor de text"
+
+#: lib/contact_bank_email-class.php:48 lib/contact_bank_email-class.php:58
+#: lib/contact_bank_email-class.php:68
+msgid "Edit Email Settings"
+msgstr "Setări Editeaza e-mail"
+
+#: lib/contact_bank_email-class.php:51 lib/contact_bank_email-class.php:61
+#: lib/contact_bank_email-class.php:71
+msgid "Delete Email Settings"
+msgstr "Șterge Setări e-mail"
+
+#: lib/contact_frontend_data_class.php:113
+msgid "Delete Form Entry"
+msgstr "Ștergeți Formular, intrarea"
+
+#: views/add_contact_email.php:68 views/contact_email_settings.php:87
+msgid "Email Confirmation"
+msgstr "E-mail de confirmare"
+
+#: views/add_contact_email.php:71
+msgid "Back to Email Settings"
+msgstr "Înapoi la Setări e-mail"
+
+#: views/add_contact_email.php:72 views/add_contact_email.php:413
+#: views/contact_bank_layout_settings.php:35
+#: views/contact_bank_layout_settings.php:520
+#: views/contact_bank_layout_settings.php:932
+msgid "Save"
+msgstr "Salvați"
+
+#: views/add_contact_email.php:76
+msgid "Email Settings Saved. Kindly wait for the redirect."
+msgstr "Setări e-mail salvate. Vă rugăm să așteptați pentru redirecționare."
+
+#: views/add_contact_email.php:83 views/add_contact_email.php:140
+#: views/contact_controls_files.php:73
+msgid "Email"
+msgstr "de Email"
+
+#: views/add_contact_email.php:87 views/contact-feedback.php:52
+#: views/contact_view.php:479
+msgid "Name"
+msgstr "Numele"
+
+#: views/add_contact_email.php:91
+msgid "Enter Name"
+msgstr "numele Introduceți "
+
+#: views/add_contact_email.php:97
+msgid "Send To"
+msgstr "Trimite Pentru a"
+
+#: views/add_contact_email.php:106 views/add_contact_email.php:117
+#: views/add_contact_email.php:129 views/add_contact_email.php:249
+msgid "Enter Email"
+msgstr "să introduceți e-mail"
+
+#: views/add_contact_email.php:108 views/add_contact_email.php:119
+#: views/add_contact_email.php:131
+msgid "Select a Field"
+msgstr "Selectați un câmp"
+
+#: views/add_contact_email.php:144
+msgid "Enter Email "
+msgstr "Introduceți e-mail"
+
+#: views/add_contact_email.php:148
+msgid "Send To Field"
+msgstr " trimite Pentru a câmp"
+
+#: views/add_contact_email.php:152
+msgid "Enter Field "
+msgstr "Introduceți- câmp"
+
+#: views/add_contact_email.php:154 views/add_contact_email.php:187
+#: views/add_contact_email.php:220 views/add_contact_email.php:251
+#: views/add_contact_email.php:282 views/add_contact_email.php:313
+#: views/add_contact_email.php:346
+msgid "Select a field"
+msgstr "Selectați un câmp"
+
+#: views/add_contact_email.php:181
+msgid "From Name"
+msgstr "Numele Dintr"
+
+#: views/add_contact_email.php:185
+msgid "Enter from name "
+msgstr "Introduceți Dintr nume"
+
+#: views/add_contact_email.php:214
+msgid "From Email"
+msgstr "Dintr e-mail"
+
+#: views/add_contact_email.php:218
+msgid "Enter from email"
+msgstr "Introduceți Dintr e-mail"
+
+#: views/add_contact_email.php:247
+msgid "Reply To"
+msgstr "Răspuns Pentru a"
+
+#: views/add_contact_email.php:278
+msgid "CC"
+msgstr "CC"
+
+#: views/add_contact_email.php:280
+msgid "Enter CC Email "
+msgstr "Introduceți CC E-mail"
+
+#: views/add_contact_email.php:309
+msgid "BCC"
+msgstr "BCC"
+
+#: views/add_contact_email.php:311
+msgid "Enter Bcc Email"
+msgstr "Să introduceți Bcc e-mail"
+
+#: views/add_contact_email.php:340
+msgid "Subject"
+msgstr "Sub rezerva"
+
+#: views/add_contact_email.php:344
+msgid "Enter Subject"
+msgstr "Introduceți Sub rezerva"
+
+#: views/add_contact_email.php:373
+msgid "Message"
+msgstr "Mesajul"
+
+#: views/add_contact_email.php:384
+msgid "Insert a Field into Your Form Message"
+msgstr "Introduceți un câmp în ta formular-mesajul"
+
+#: views/automatic-plugin-update.php:35
+msgid "Enable"
+msgstr "Activați"
+
+#: views/automatic-plugin-update.php:36
+msgid "Disable"
+msgstr "Dezactivați"
+
+#: views/contact-bank-system-report.php:34
+msgid "Get System Report"
+msgstr "Ia Raport Sistem"
+
+#: views/contact-bank-system-report.php:38
+msgid "Close System Report"
+msgstr "A trage Sistem Report "
+
+#: views/contact-feedback.php:37 views/contact_bank_form_preview.php:294
+#: views/contact_bank_layout_settings.php:32
+#: views/contact_email_settings.php:32 views/contact_frontend_data.php:33
+#: views/contact_view.php:255 views/purchase_pro_version.php:37
+#: views/recommended-plugins.php:89
+msgid "Back to Dashboard"
+msgstr "Înapoi la tabloul de bord"
+
+#: views/contact-feedback.php:41
+msgid "Email has been sent successfully."
+msgstr "Email-ul dvs. a fost trimis cu succes"
+
+#: views/contact-feedback.php:48 views/contact-feedback.php:64
+msgid "Feature Requests / Suggestions"
+msgstr "Cereri de facilitati / sugestii"
+
+#: views/contact-feedback.php:54
+msgid "Enter your Name"
+msgstr "Introduceți numele dumneavoastră"
+
+#: views/contact-feedback.php:58
+msgid "Email Id"
+msgstr "E-mail Id"
+
+#: views/contact-feedback.php:60
+msgid "Enter your Email Address"
+msgstr "Introdu ta de E-mail adresa"
+
+#: views/contact-feedback.php:66
+msgid "Enter your Feature Requests / Suggestions"
+msgstr "Introduceți-vă cereri de facilitati / sugestii"
+
+#: views/contact-feedback.php:71
+msgid "Send"
+msgstr "Trimite"
+
+#: views/contact_bank_form_preview.php:291 views/dashboard.php:126
+msgid "Form Preview"
+msgstr "Formular-Previzualizare"
+
+#: views/contact_bank_layout_settings.php:33
+msgid "Restore Global Settings"
+msgstr "Restaurare-Setări Globale"
+
+#: views/contact_bank_layout_settings.php:39
+msgid "Form Settings Saved. Kindly wait for the redirect."
+msgstr "Salvate Formularul Setări . Va rugam sa asteptati pentru redirecționare. "
+
+#: views/contact_bank_layout_settings.php:82
+msgid "Label Settings"
+msgstr "Setări de de etichete"
+
+#: views/contact_bank_layout_settings.php:94
+#: views/contact_bank_layout_settings.php:281
+#: views/contact_bank_layout_settings.php:491
+#: views/contact_bank_layout_settings.php:684
+#: views/contact_bank_layout_settings.php:812
+msgid "Font Family :"
+msgstr "Familială fonturi:"
+
+#: views/contact_bank_layout_settings.php:119
+msgid "Font Color :"
+msgstr "Culoarea fontului:"
+
+#: views/contact_bank_layout_settings.php:130
+#: views/contact_bank_layout_settings.php:317
+msgid "Font Style :"
+msgstr "Stil fonturi:"
+
+#: views/contact_bank_layout_settings.php:144
+#: views/contact_bank_layout_settings.php:331
+#: views/contact_bank_layout_settings.php:540
+#: views/contact_bank_layout_settings.php:709
+#: views/contact_bank_layout_settings.php:837
+msgid "Font Size (px) :"
+msgstr "Dimensiunea fontului (px):"
+
+#: views/contact_bank_layout_settings.php:175
+#: views/contact_bank_layout_settings.php:432
+#: views/contact_bank_layout_settings.php:645
+#: views/contact_bank_layout_settings.php:773
+#: views/contact_bank_layout_settings.php:901
+msgid "Text Align :"
+msgstr "textului -Alinierea :"
+
+#: views/contact_bank_layout_settings.php:188
+msgid "Label Position :"
+msgstr "Etichetă Poziție:"
+
+#: views/contact_bank_layout_settings.php:202
+msgid "Field Desc Font Size :"
+msgstr "câmp Descriere Dimensiune font:"
+
+#: views/contact_bank_layout_settings.php:233
+msgid "Field Description Align :"
+msgstr "Câmp Descriere Aliniere:"
+
+#: views/contact_bank_layout_settings.php:247
+msgid "Hide Labels :"
+msgstr "Mai afișa etichetelor:"
+
+#: views/contact_bank_layout_settings.php:255
+#: views/contact_bank_layout_settings.php:445
+#: views/contact_bank_layout_settings.php:658
+#: views/contact_bank_layout_settings.php:786
+#: views/contact_bank_layout_settings.php:914
+msgid "Text Direction :"
+msgstr "Direcție Text:"
+
+#: views/contact_bank_layout_settings.php:271
+msgid "Input Field Settings"
+msgstr "De intrare Setări de câmp"
+
+#: views/contact_bank_layout_settings.php:306
+#: views/contact_bank_layout_settings.php:603
+#: views/contact_bank_layout_settings.php:762
+#: views/contact_bank_layout_settings.php:890
+msgid "Text Color :"
+msgstr "Textul Culoare :"
+
+#: views/contact_bank_layout_settings.php:362
+#: views/contact_bank_layout_settings.php:635
+msgid "Border Radius (px) :"
+msgstr "Raza de frontieră (px):"
+
+#: views/contact_bank_layout_settings.php:372
+#: views/contact_bank_layout_settings.php:614
+#: views/contact_bank_layout_settings.php:751
+#: views/contact_bank_layout_settings.php:879
+msgid "Border Color :"
+msgstr "Culoare chenar:"
+
+#: views/contact_bank_layout_settings.php:383
+#: views/contact_bank_layout_settings.php:625
+msgid "Border Size (px) :"
+msgstr "Dimensiune de Frontieră (px):"
+
+#: views/contact_bank_layout_settings.php:393
+msgid "Border Style :"
+msgstr "Stil de frontieră:"
+
+#: views/contact_bank_layout_settings.php:408
+#: views/contact_bank_layout_settings.php:581
+#: views/contact_bank_layout_settings.php:740
+#: views/contact_bank_layout_settings.php:868
+msgid "Background Color :"
+msgstr "Culoare fundal:"
+
+#: views/contact_bank_layout_settings.php:419
+msgid "Radio Buttons :"
+msgstr "Butoane radio:"
+
+#: views/contact_bank_layout_settings.php:424
+msgid "Multiple Rows"
+msgstr "multipla rânduri"
+
+#: views/contact_bank_layout_settings.php:426
+msgid "Single Row"
+msgstr "unică rând"
+
+#: views/contact_bank_layout_settings.php:459
+msgid "Input Size :"
+msgstr "Intrare-Dimensiune:"
+
+#: views/contact_bank_layout_settings.php:481
+msgid "Submit Button Settings"
+msgstr "înainta buton Setări de"
+
+#: views/contact_bank_layout_settings.php:516
+msgid "Text:"
+msgstr "Textul:"
+
+#: views/contact_bank_layout_settings.php:526
+msgid "Style :"
+msgstr "stil:"
+
+#: views/contact_bank_layout_settings.php:571
+msgid "Button Width (px) :"
+msgstr "Buton Latime (px):"
+
+#: views/contact_bank_layout_settings.php:592
+msgid "Hover Background Color:"
+msgstr "Tinand cursorul mouse Culoare fundal:"
+
+#: views/contact_bank_layout_settings.php:674
+msgid "Success Message Settings"
+msgstr "succesului Mesajul Setări de"
+
+#: views/contact_bank_layout_settings.php:802
+msgid "Error Message Settings"
+msgstr " mesaj de eroare  Setări de"
+
+#: views/contact_bank_layout_settings.php:947
+msgid "These Features are only available in Premium Editions!"
+msgstr "Această caracteristică este disponibilă numai în edițiile Premium!"
+
+#: views/contact_controls_files.php:42 views/contact_controls_files.php:60
+#: views/contact_controls_files.php:79 views/contact_controls_files.php:99
+#: views/contact_controls_files.php:116 views/contact_controls_files.php:134
+msgid "Settings"
+msgstr "Setări"
+
+#: views/contact_documentation.php:26
+msgid "Documentation - Contact Bank"
+msgstr "Documentația - Contact Bank"
+
+#: views/contact_email_settings.php:77
+msgid "Add New"
+msgstr "Adauga nou"
+
+#: views/contact_email_settings.php:161
+msgid "Are you sure, you want to delete this Email Setting?"
+msgstr "Sigur, doriți să ștergeți această setare de e-mail?"
+
+#: views/contact_email_settings.php:182 views/contact_frontend_data.php:138
+msgid "Please select the Form first."
+msgstr "Vă rugăm să selectați formularul primul."
+
+#: views/contact_frontend_data.php:34
+msgid "Export to Excel"
+msgstr "Export în Excel"
+
+#: views/contact_frontend_data.php:40 views/dashboard.php:61
+#: views/dashboard.php:68
+msgid "Form"
+msgstr "Formular"
+
+#: views/contact_view.php:252 views/dashboard.php:47
+msgid "Add New Form"
+msgstr "Adăugați Formular nou"
+
+#: views/contact_view.php:258 views/contact_view.php:521
+msgid "Save Form"
+msgstr "Salvați-Formular"
+
+#: views/contact_view.php:263
+msgid "Form Submitted. Kindly wait for the redirect."
+msgstr "Formular depus. Va rugam sa asteptati pentru redirecționare."
+
+#: views/contact_view.php:272
+msgid "Form Settings"
+msgstr "Formularul -Setări de"
+
+#: views/contact_view.php:276
+msgid "Form Name :"
+msgstr "Formular Nume:"
+
+#: views/contact_view.php:282
+msgid "Enter Form Name"
+msgstr "Introduceți Formular Nume:"
+
+#: views/contact_view.php:286
+msgid "Form Description :"
+msgstr "Formular Descriere:"
+
+#: views/contact_view.php:288
+msgid "Enter Form Description"
+msgstr "Introduceți formular Descriere:"
+
+#: views/contact_view.php:292
+msgid "Blank Field Message:"
+msgstr "Goale Domeniul Mesajul:"
+
+#: views/contact_view.php:298
+msgid "Required field must not be blank"
+msgstr "Câmpul obligatoriu nu trebuie să fie gol"
+
+#: views/contact_view.php:300
+msgid "Enter Blank Field Message"
+msgstr "Introduceți Goale Domeniul Mesajul "
+
+#: views/contact_view.php:304
+msgid "Incorrect Email Message:"
+msgstr "Incorecte Email Mesaj:"
+
+#: views/contact_view.php:310
+msgid "Please enter a valid email address"
+msgstr "Va rugam sa introduceti o adresa de email valida"
+
+#: views/contact_view.php:312
+msgid "Enter Incorrect Email Message"
+msgstr "Să introduceți incorectă E-mail Mesajul"
+
+#: views/contact_view.php:316
+msgid "Success Message :"
+msgstr "Succesul Mesaj:"
+
+#: views/contact_view.php:320
+msgid "Enter Success Message"
+msgstr "Introduceți Succesul Mesaj"
+
+#: views/contact_view.php:324
+msgid "Redirect :"
+msgstr "redirecționare:"
+
+#: views/contact_view.php:336 views/contact_view.php:347
+#: views/contact_view.php:359
+msgid "Page"
+msgstr "pagină"
+
+#: views/contact_view.php:339 views/contact_view.php:350
+#: views/contact_view.php:362
+msgid "URL"
+msgstr "URL"
+
+#: views/contact_view.php:369
+msgid "Page :"
+msgstr "Pagina:"
+
+#: views/contact_view.php:412
+msgid "URL :"
+msgstr "URL :"
+
+#: views/contact_view.php:419
+msgid "Enter Redirect URL"
+msgstr "Introduceți De redirecționare URL:"
+
+#: views/contact_view.php:426
+msgid "Form Layout Preview"
+msgstr "Formă Dispunerea Previzualizare"
+
+#: views/contact_view.php:437
+msgid "Standard Fields"
+msgstr "Câmpurile forfetare de"
+
+#: views/contact_view.php:440 views/contact_view.php:476
+msgid "Click on a field to use into your form."
+msgstr "Faceți clic pe un câmp de a utiliza în formularul dumneavoastră."
+
+#: views/contact_view.php:459
+msgid "Checkboxes"
+msgstr "Casete de selectare"
+
+#: views/contact_view.php:471
+msgid "Advanced Fields"
+msgstr "Câmpurile  Avansate"
+
+#: views/contact_view.php:482
+msgid "Website / URL"
+msgstr "Site-ul web / URL"
+
+#: views/contact_view.php:487
+msgid "Phone"
+msgstr "telefon"
+
+#: views/contact_view.php:490
+msgid "Address"
+msgstr "adresa"
+
+#: views/contact_view.php:495
+msgid "Number"
+msgstr "număr"
+
+#: views/contact_view.php:498
+msgid "File Upload"
+msgstr "fisierului Încarcă"
+
+#: views/contact_view.php:503
+msgid "Date"
+msgstr "data"
+
+#: views/contact_view.php:506
+msgid "Time"
+msgstr "timp"
+
+#: views/contact_view.php:511
+msgid "Password"
+msgstr "utilizator Parola"
+
+#: views/dashboard.php:35
+msgid "Contact Bank Short-Codes"
+msgstr "Contact Bank Scurt-Codes"
+
+#: views/dashboard.php:52
+msgid "Delete All Forms"
+msgstr "Ștergerea Tuturor Formelor"
+
+#: views/dashboard.php:53
+msgid "Restore Factory Settings"
+msgstr "Restabili Setările Din Fabrică"
+
+#: views/dashboard.php:69
+msgid "Shortcode"
+msgstr "codul scurt"
+
+#: views/dashboard.php:70
+msgid "Total Controls"
+msgstr "în total Controlul"
+
+#: views/dashboard.php:106
+msgid "Edit Form"
+msgstr "Formular Editare"
+
+#: views/dashboard.php:131
+msgid "Delete Form"
+msgstr "Sterge Formularul"
+
+#: views/dashboard.php:187
+msgid "Are you sure, you want to delete this Form?"
+msgstr "Sigur, doriți să ștergeți acest formular?"
+
+#: views/dashboard.php:200
+msgid "Are you sure, you want to delete all Forms?"
+msgstr "Sigur, doriți să ștergeți tuturor formelor?"
+
+#: views/header.php:39
+msgid "Get Started"
+msgstr "VĂ ÎNCEPEȚI"
+
+#: views/header.php:42
+msgid "Watch Contact Video!"
+msgstr "Uita-te la Contact video!"
+
+#: views/header.php:46
+msgid "read documentation here"
+msgstr "citeste documentare aici"
+
+#: views/header.php:51
+msgid "Go Premium"
+msgstr "Mergi Premium"
+
+#: views/header.php:55
+msgid "Feature"
+msgstr "caracteristici"
+
+#: views/header.php:60
+msgid "Online Demos"
+msgstr "Demo online"
+
+#: views/header.php:65
+msgid "Pricing Plans"
+msgstr "Planuri tarifare"
+
+#: views/header.php:72
+msgid "Knowledge Base"
+msgstr "Baza de cunoștințe"
+
+#: views/header.php:77
+msgid "Support Forum"
+msgstr "Sprijin Forum"
+
+#: views/header.php:82
+msgid "FAQ's"
+msgstr "Intrebari frecvente"
+
+#: views/header.php:87
+msgid "Renew Premium Support"
+msgstr "Reînnoiți Suport Premium"
+
+#: views/header.php:93
+msgid "More Actions"
+msgstr "Mai multe acțiuni"
+
+#: views/header.php:97
+msgid "Plugin Customization"
+msgstr "particularizare Plugin"
+
+#: views/purchase_pro_version.php:42
+msgid "WP Contact Bank is an one time Investment. Its Worth it!"
+msgstr "WP Contact Banca este o investiție o singură dată. Se merită!"
+
+#: views/recommended-plugins.php:67
+#, php-format
+msgid "%s rating"
+msgstr ""
+
+#: views/recommended-plugins.php:134
+msgid "More Details"
+msgstr ""
+
+#: views/recommended-plugins.php:145
+msgid "Install Now"
+msgstr ""
+
+#: views/recommended-plugins.php:152
+msgid "Update Now"
+msgstr ""
+
+#: views/recommended-plugins.php:268
+msgid "Last Updated:"
+msgstr ""
+
+#: views/recommended-plugins.php:279
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr ""
+
+#: views/recommended-plugins.php:283
+msgid "Incompatible with your version of WordPress"
+msgstr ""
+
+#: views/recommended-plugins.php:287
+msgid "Compatible with your version of WordPress"
+msgstr ""
+
+#: views/shortcode.php:30
+msgid "How to setup Short-Codes for Contact Bank into your WordPress Page/Post?"
+msgstr "Cum să setare Scurt-Codes de Contact Bank în WordPress pagină / post?"
+
+#~ msgid "Contact Bank Pricing"
+#~ msgstr "Stabilirea pretului Contact Bank"
+
+#~ msgid "Need Support Help?"
+#~ msgstr "Aveti nevoie de Asistenta Ajutor?"
+
+#~ msgid "Lets get in touch!"
+#~ msgstr "Vă permite intra în contact!"
+
+#~ msgid "Order Now!"
+#~ msgstr "Ordinul acum!"
+
+#~ msgid "Email has beens send successfully."
+#~ msgstr "E-mail a fost trimite cu succes."
+
+#~ msgid "This Feature is only available in Paid Premium Edition!"
+#~ msgstr "Acest caracteristici este disponibilă doar în plătit Premium Edition!"
+
+#~ msgid " (Available in Premium Edition)"
+#~ msgstr "(Disponibil în Premium Edition)"
+
+#~ msgid "blank_field_message"
+#~ msgstr "gol câmp mesaj"
+
+#~ msgid "incorrect_email_message"
+#~ msgstr "Incorectă Email Mesaj"
+
+#~ msgid "Submit"
+#~ msgstr "Trimite"
+
+#~ msgid "Contact Form Demo"
+#~ msgstr "Formular de contact Demo"
+
+#~ msgid "Your message was sent successfully. Thanks."
+#~ msgstr "Mesajul dvs. a fost trimis cu succes. Mulțumiri."
+
+#~ msgid "Your Name"
+#~ msgstr "Numele Dumneavoastră"
+
+#~ msgid "Your Email"
+#~ msgstr "E-mailul dvs."
+
+#~ msgid "Your Message"
+#~ msgstr "Mesajul Dvs"
+
+#~ msgid "Admin Notification"
+#~ msgstr "Admin Notificarea"
+
+#~ msgid "Site Administration"
+#~ msgstr "Administrare Site"
+
+#~ msgid "New Contact recieved from Website"
+#~ msgstr "New Contactați primit de la site-ul"
+
+#~ msgid "Client Notification"
+#~ msgstr "de Client Notificarea"
+
+#~ msgid "Thanks for visiting our website"
+#~ msgstr "Multumesc pentru vizita site-ul nostru"
+
+#~ msgid "Default"
+#~ msgstr "Implicită"
+
+#~ msgid " (Premium Features available in Paid Edition)"
+#~ msgstr "(Optiuni Premium disponibile în prima plătit)"
+
+#~ msgid "Premium Pricing Plan ?"
+#~ msgstr "Planul Stabilirea pretului Premium?"
+
+#~ msgid "Detailed Features"
+#~ msgstr "Caracteristici detaliate"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roluri și capabilități"
+
+#~ msgid "Licensing"
+#~ msgstr "licențiere"
+
+#~ msgid "Day"
+#~ msgstr "zilei"
+
+#~ msgid "Select Month"
+#~ msgstr "Selectați Luna"
+
+#~ msgid "January"
+#~ msgstr "ianuarie"
+
+#~ msgid "February"
+#~ msgstr "februarie"
+
+#~ msgid "March"
+#~ msgstr "martie"
+
+#~ msgid "April"
+#~ msgstr "aprilie"
+
+#~ msgid "May"
+#~ msgstr "mai"
+
+#~ msgid "June"
+#~ msgstr "iunie"
+
+#~ msgid "July"
+#~ msgstr "iulie"
+
+#~ msgid "August"
+#~ msgstr "august"
+
+#~ msgid "September"
+#~ msgstr "septembrie"
+
+#~ msgid "October"
+#~ msgstr "octombrie"
+
+#~ msgid "November"
+#~ msgstr "noiembrie"
+
+#~ msgid "December"
+#~ msgstr "decembrie"
+
+#~ msgid "Year"
+#~ msgstr "Anul"
+
+#~ msgid "Hour"
+#~ msgstr "Oră"
+
+#~ msgid "Minute"
+#~ msgstr "minut"
+
+#~ msgid "Enter Tooltip Text"
+#~ msgstr "Introduceți Balon de ajutor Textul"
+
+#~ msgid "Enter Tooltip"
+#~ msgstr "Introduceți Balon de ajutor"
+
+#~ msgid "Start Year"
+#~ msgstr "Anul Începeți"
+
+#~ msgid "Enter Start Year"
+#~ msgstr "Introduceți Incepe Anul"
+
+#~ msgid "End Year"
+#~ msgstr "Sfârșit An"
+
+#~ msgid "Enter End Year "
+#~ msgstr "Introduceți Sfârșit an"
+
+#~ msgid "Default Value"
+#~ msgstr "Mod implicit valorii "
+
+#~ msgid "Month"
+#~ msgstr "lună"
+
+#~ msgid "Date Format"
+#~ msgstr "Datei - Formatului"
+
+#~ msgid "Allow Multiple Uploads"
+#~ msgstr "Permiteți  Încărcări multipla"
+
+#~ msgid "Allowed File Extensions"
+#~ msgstr "de companie permise Fisier Extensii"
+
+#~ msgid "Enter File Extensions"
+#~ msgstr "Introduceți Fisier Extensii"
+
+#~ msgid "The file extensions must be separated with comma(',')"
+#~ msgstr "Extensiile de fișiere trebuie să fie separate cu virgula (',')"
+
+#~ msgid "Allowed File Size"
+#~ msgstr "de companie permise  Fisierului Marime"
+
+#~ msgid "File Size must be in Mb"
+#~ msgstr "Dimensiune fișier trebuie să fie în în Mb"
+
+#~ msgid "Hour Format"
+#~ msgstr "oră formatul"
+
+#~ msgid "Minute Format"
+#~ msgstr "formatul Minut"
+
+#~ msgid "Roles and Capabilities Saved. Kindly wait for the redirect."
+#~ msgstr "Roluri și Capabilități salvate. Va rugam sa asteptati pentru redirecționare."
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegii Pentru Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Deplin - controlul"
+
+#~ msgid "Read"
+#~ msgstr "Citiți"
+
+#~ msgid "Write"
+#~ msgstr "Scrie"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegii-Pentru-Editorului"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privilegii-Pentru de Autor"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Privilegii - Pentru Bun Colaborator"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegii - Pentru Abonat"
+
+#~ msgid "Global Settings Saved. Kindly wait for the redirect."
+#~ msgstr "Setări globale salvate. Va rugam sa asteptati pentru redirecționare."
+
+#~ msgid "Are you sure, you want to Restore Global Settings?"
+#~ msgstr "Esti sigur, doriți să restaurați Globale Setări?"
+
+#~ msgid "Check Plugin - Contact Bank"
+#~ msgstr "Verifica Plugin - Contact Bank"
+
+#~ msgid "Captcha"
+#~ msgstr "Captcha"
+
+#~ msgid "Are you sure, you want to delete this Form Entry ?"
+#~ msgstr "Sigur, doriți să ștergeți acest formular- intrare?"
+
+#~ msgid "Attention! A new version of Contact Bank is available for download."
+#~ msgstr "Atenție! O nouă versiune a lua Bank este disponibil pentru descărcare."
+
+#~ msgid "Click"
+#~ msgstr "clic"
+
+#~ msgid "here"
+#~ msgstr "aici"
+
+#~ msgid "to upgrade your version of Contact Bank."
+#~ msgstr "pentru actualiza versiunea dvs. de Contact Bank."
+
+#~ msgid "Dashboard - Contact Bank"
+#~ msgstr "Tabloul de bord - contact banca"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Ești sigur că vrei Să Restabiliți Setările Din Fabrică?"
+
+#~ msgid "Only One File Uploader can be used on a Form."
+#~ msgstr "numai singur fișier uploader poate fi utilizat pe un Formular."
+
+#~ msgid "Only One Captcha can be used on a Form."
+#~ msgstr "Only One Captcha poate fi folosit pe un formular."
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "De succes! Setări avea au fost actualizate."
+
+#~ msgid "Roles & Capabilites"
+#~ msgstr "Roluri și capabilități"

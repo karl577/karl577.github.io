@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[xiaomy_getwxarticle.plugin]]></item>
+	<item id="RevisionID"><![CDATA[70651]]></item>
+	<item id="SN"><![CDATA[2017021023NwPTdxppx5]]></item>
+	<item id="RevisionDateline"><![CDATA[1483264813]]></item>
+	<item id="Data">
+		<item id="/template/getwxarticle.htm"><![CDATA[2f4d4c386ff4afa2dfd97e0e90d17f29]]></item>
+		<item id="/getwxarticle.inc.php"><![CDATA[e443f164a5f67f01cb99b6bad3e9fe2f]]></item>
+		<item id="/moreapp.inc.php"><![CDATA[2f74d85c546a5ddf6af87bf907813cfa]]></item>
+		<item id="/discuz_plugin_xiaomy_getwxarticle_TC_UTF8.xml"><![CDATA[7ac936177003b5896facda1fb5f1afb1]]></item>
+		<item id="/js/xiaomy.js"><![CDATA[424f65e8459a732f9dcf5dd53b84a2be]]></item>
+		<item id="/discuz_plugin_xiaomy_getwxarticle_TC_BIG5.xml"><![CDATA[ab0aea8b6c0fa91d713652700853b990]]></item>
+		<item id="/discuz_plugin_xiaomy_getwxarticle_SC_GBK.xml"><![CDATA[2ac6c9fb7bcadfcbaebba4c6eb2740c0]]></item>
+		<item id="/css/ajax_loader.gif"><![CDATA[aadf13a830af9d293e350b6c5297fdce]]></item>
+		<item id="/css/wechaticon.png"><![CDATA[1ff0a09531c79b4fda67a1cb72471d06]]></item>
+		<item id="/css/xiaomy.css"><![CDATA[60181bde8566e0d3d5544707b483765d]]></item>
+		<item id="/discuz_plugin_xiaomy_getwxarticle_SC_UTF8.xml"><![CDATA[45dad354d26d7a27760e2299a3bf2793]]></item>
+		<item id="/getwxarticle.class.php"><![CDATA[70421dec364eeab79d0cea80bee613e6]]></item>
+	</item>
+</root>

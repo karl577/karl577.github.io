@@ -1,0 +1,39 @@
+<!--{template common/header}-->
+<!-- header start -->
+<div class="header noheight">
+    <div id="hd" class="nobg cl">
+    	<div class="hdc">
+            <a href="home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1" class="hd_left hbg1 iconfont icon-account"></a>
+            <div class="logo"><a title="$_G[setting][bbname]" href="$nav"><img src="./template/bbc_360/mb360/images/logo.png" /></a></div>
+            <a href="home.php?mod=space&do=pm" class="hd_right hbg2 iconfont icon-iconfontzhaomingdianzi"></a>
+        </div>
+	</div>
+</div>
+<!-- header end -->
+<section class="diybox">
+</section>
+<!-- main threadlist start -->
+<div class="tabbox">
+    <div class="hd1">
+        <ul>
+            <li class="{if $currentview['newthread']}on{/if}"><a href="forum.php?mod=guide&view=newthread">{lang guide_newthread}</a></li>
+            <li class="{if $currentview['hot']}on{/if}"><a href="forum.php?mod=guide&view=hot">{lang guide_hot}</a></li>
+            <li class="{if $currentview['digest']}on{/if}"><a href="forum.php?mod=guide&view=digest">{lang guide_digest}</a></li>
+            <li class="{if $currentview['new']}on{/if}"><a href="forum.php?mod=guide&view=new">{lang guide_new}</a></li>
+        </ul>
+    </div>
+<!-- main threadlist start -->
+    <div class="bd">
+        <div class="threadlist">
+            <!--{loop $data $key $list}-->
+                <!--{subtemplate forum/guide_list_row}-->
+            <!--{/loop}-->
+        </div>
+        <!-- main threadlist end -->
+        $multipage
+    </div>
+</div>
+<!-- main threadlist end -->
+<script src="./template/bbc_360/mb360/js/topnv.js" charset="{CHARSET}"></script>
+
+<!--{template common/footer}-->

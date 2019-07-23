@@ -1,0 +1,78 @@
+/*Common*/
+.hide { display: none;}
+
+.fixed {
+		height: 100%;
+		overflow: hidden;
+		}
+
+.theme-options-page h2 span { 
+		padding-left: 20px; 
+		font-size: 16px; 
+		text-transform: uppercase; 
+		color: #999999; }
+
+.theme-options-page { margin-bottom: 20px; }
+
+.theme-options-page textarea { width: 98%;}
+
+.theme-options-page .description { 
+		color: #999999;
+}
+
+.theme-options-page .description span {
+	background: #E5E5E5;
+	color: #222222;
+}
+
+.theme-options-page .unit,
+.theme-options-page .checkbox-description {
+		padding-left: 5px;
+}
+
+.theme-options-page input, 
+.theme-options-page textarea,
+.theme-options-page select {
+	font-family: Arial,Helvetica,sans-serif,'Lucida Grande'; 
+	}
+
+.theme-options-page select {
+	width: 300px;
+	}
+
+.theme-options-page .colorSelector {
+	float: left;
+	width: 36px;
+	margin-right: 10px;
+	}
+
+.theme-options-page input.color-text {
+	text-transform: uppercase;
+	margin-top: 8px;
+	margin-right: 10px;
+	}
+
+.theme-box {
+	background: #F5F5F5;
+	border: 1px solid #DFDFDF;
+	padding: 10px 15px;
+	}
+
+.theme-options-table {
+	margin: 10px 0 20px;
+	}
+
+.theme-options-table th { 
+	padding-left: 0; 
+	padding-right: 30px; 
+	width: 190px;
+	}
+
+.theme-options-subtitle h3 {
+	font-size: 16px;
+	font-weight: 100;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #DFDFDF;
+	color: #2680AA;
+	}

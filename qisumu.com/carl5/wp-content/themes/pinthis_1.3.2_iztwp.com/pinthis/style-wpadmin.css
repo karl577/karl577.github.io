@@ -1,0 +1,18 @@
+/*
+
+Theme Name: PinThis
+Description: Used to style WP Admin.
+
+*/
+
+
+/*====================================*\
+	GENERAL
+\*====================================*/
+
+/*	post format - quote */
+#pinthis_quote_settings_box,
+#pinthis_audio_settings_box, 
+#pinthis_video_settings_box {
+	display: none;	
+}

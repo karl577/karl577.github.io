@@ -1,0 +1,42 @@
+<!--{template common/header}-->
+<div class="f_c">
+    <h3 class="flb">
+        <em id="return_$_GET['handlekey']">{lang wechat:wechat_bind}</em>
+        <span>
+            <a href="javascript:;" class="flbc" onclick="hideWindow('$_GET[handlekey]')" title="{lang close}">{lang close}</a>
+        </span>
+    </h3>
+    <form id="confirmform" method="post" autocomplete="off" action="plugin.php?id=tiger_wechatlogin&mod=bind&infloat=yes&confirmsubmit=yes" onsubmit="ajaxpost('confirmform', 'return_{$_GET[handlekey]}', 'return_{$_GET[handlekey]}', 'onerror'); return false;">
+        <div class="c cl">
+            <input type="hidden" name="handlekey" value="$_GET['handlekey']" />
+            <input type="hidden" name="formhash" value="{FORMHASH}" />
+            <p>{lang wechat:wechat_bind_comfirm_prompt}</p>
+            <div class="rfm mtn">
+                <table>
+                    <tr>
+                        <th><label for="passwordconfirm">{lang login_password}:</label></th>
+                        <td><input type="password" id="passwordconfirm" name="passwordconfirm" size="30" class="px p_fre" tabindex="1" /></td>
+                        <td class="tipcol"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="rfm mbw bw0">
+                <table width="100%">
+                    <tr>
+                        <th>&nbsp;</th>
+                        <td>
+                            <button class="pn pnc" type="submit" name="confirmsubmit" value="true" tabindex="1"><strong>{lang submit}</strong></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    function succeedhandle_bind(url, message, param) {
+        hideWindow('bind');
+        window.location.href = url;
+    }
+</script>
+<!--{template common/footer}-->

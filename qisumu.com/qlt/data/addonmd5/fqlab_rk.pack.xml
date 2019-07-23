@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[fqlab_rk.pack]]></item>
+	<item id="RevisionID"><![CDATA[66180]]></item>
+	<item id="SN"><![CDATA[201702101616BUp16p7v]]></item>
+	<item id="RevisionDateline"><![CDATA[1467208801]]></item>
+	<item id="Data">
+		<item id="/wechat/wechat.api.php"><![CDATA[977f219fc367b6144b607f43bd53c752]]></item>
+		<item id="/wechat/wechat.class.php"><![CDATA[d73b9fcb646141ddd485635a3cd95a33]]></item>
+	</item>
+</root>

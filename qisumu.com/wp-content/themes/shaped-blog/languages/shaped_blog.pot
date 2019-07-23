@@ -1,0 +1,408 @@
+# Translation of 
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shaped Blog\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <shapedtheme@gmail.com>\n"
+"POT-Creation-Date: 2015-10-09 21:38+0600\n"
+"PO-Revision-Date: 2015-10-10 01:52+0600\n"
+"Last-Translator: FULL NAME <shapedtheme@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1;  plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:10
+msgid "404"
+msgstr ""
+
+#: ../404.php:12
+msgid "Page Not Found!"
+msgstr ""
+
+#: ../404.php:15
+msgid "Go Back to Home"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:10
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:535
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:11
+msgid "Add your custom CSS which will overwrite the theme CSS"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:15
+msgid "Footer Settings"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:19
+msgid "Social Media Settings"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:20
+msgid "Enter your social media usernames. Icons will not show if left blank."
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:24
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:225
+msgid "Home Layout"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:231
+msgid "Full Posts"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:232
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:233
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:244
+msgid "Blog Pagination or Navigation"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:250
+msgid "Pagination"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:251
+msgid "Navigation"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:262
+msgid "Disable Preloader"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:277
+msgid "Upload Logo"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:293
+msgid "Disable Top Social Icons"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:306
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:319
+msgid "Twitter"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:332
+msgid "Google Plus"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:345
+msgid "Youtube"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:358
+msgid "Skype"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:371
+msgid "Pinterest"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:384
+msgid "Flickr"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:397
+msgid "Linkedin"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:410
+msgid "Vimeo"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:423
+msgid "Instagram"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:436
+msgid "Dribbble"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:449
+msgid "Tumblr"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:467
+msgid "Disable Back to top"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:480
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:497
+msgid "Theme Color"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:509
+msgid "Anchor Color"
+msgstr ""
+
+#: ../admin/functions/customizer/shaped_blog_customizer_settings.php:521
+msgid "Anchor Hover Color"
+msgstr ""
+
+#: ../comments.php:10
+msgid "No Comment"
+msgstr ""
+
+#: ../comments.php:10
+msgid "One Comments"
+msgstr ""
+
+#: ../comments.php:10
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:47
+msgid "Name *"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Email *"
+msgstr ""
+
+#: ../comments.php:49
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:58
+msgid "Write your comment..."
+msgstr ""
+
+#: ../content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:23
+msgid "Pages:"
+msgstr ""
+
+#: ../content-single.php:30
+msgid "<b>Tags:</b> "
+msgstr ""
+
+#: ../content.php:26
+msgid "<span class=\"btn-readmore\">Continue Reading</span>"
+msgstr ""
+
+#: ../functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:82
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:84
+msgid "Appears in the blog sidebar."
+msgstr ""
+
+#: ../functions.php:92
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../functions.php:94
+msgid "Appears in the Page sidebar."
+msgstr ""
+
+#: ../functions.php:150
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:175
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:182
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:184
+msgid "Reply"
+msgstr ""
+
+#: ../header.php:31
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../includes/extras.php:56
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../includes/template-tags.php:19
+msgid "Newer posts <i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../includes/template-tags.php:29
+msgid "<i class=\"fa fa-angle-left\"></i> Older posts"
+msgstr ""
+
+#: ../includes/template-tags.php:84
+msgid "By "
+msgstr ""
+
+#: ../includes/template-tags.php:97
+msgid ", "
+msgstr ""
+
+#: ../includes/template-tags.php:155
+#, php-format
+msgid "Browse Category: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:157
+#, php-format
+msgid "Browse Tag: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:159
+#, php-format
+msgid "Browse Author: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:161
+#, php-format
+msgid "Browse Year: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:161
+msgid "Y"
+msgstr ""
+
+#: ../includes/template-tags.php:163
+#, php-format
+msgid "Browse Month: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:163
+msgid "F Y"
+msgstr ""
+
+#: ../includes/template-tags.php:165
+#, php-format
+msgid "Browse Day: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:165
+msgid "F j, Y"
+msgstr ""
+
+#: ../includes/template-tags.php:168
+msgid "Asides"
+msgstr ""
+
+#: ../includes/template-tags.php:170
+msgid "Galleries"
+msgstr ""
+
+#: ../includes/template-tags.php:172
+msgid "Images"
+msgstr ""
+
+#: ../includes/template-tags.php:174
+msgid "Videos"
+msgstr ""
+
+#: ../includes/template-tags.php:176
+msgid "Quotes"
+msgstr ""
+
+#: ../includes/template-tags.php:178
+msgid "Links"
+msgstr ""
+
+#: ../includes/template-tags.php:180
+msgid "Statuses"
+msgstr ""
+
+#: ../includes/template-tags.php:182
+msgid "Audio"
+msgstr ""
+
+#: ../includes/template-tags.php:184
+msgid "Chats"
+msgstr ""
+
+#: ../includes/template-tags.php:187
+#, php-format
+msgid "Browse Archives: %s"
+msgstr ""
+
+#: ../includes/template-tags.php:191
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../includes/template-tags.php:193
+msgid "Archives"
+msgstr ""
+
+#: ../includes/wp_bootstrap_navwalker.php:198
+msgid "Add a menu"
+msgstr ""
+
+#: ../search.php:6
+#, php-format
+msgid "Search Results: %s"
+msgstr ""

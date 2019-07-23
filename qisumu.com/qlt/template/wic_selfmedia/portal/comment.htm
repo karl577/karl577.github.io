@@ -1,0 +1,78 @@
+<!--{template common/header}-->
+
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="$_G[setting][navs][1][filename]">$_G[setting][navs][1][navname]</a> <em>&rsaquo;</em>
+		{lang comment_view}
+	</div>
+</div>
+
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+	<div class="mn">
+		<div class="wic_list_comment bm vw">
+			<div class="h hm">
+				<h1 class="ph"><a href="$url">$csubject[title]</a></h1>
+				<p class="cl"><span class="comment_count z">{lang comment} (<em class="xi2">$csubject[commentnum]</em>)</span><!--{if $csubject['allowcomment'] == 1}--><a href="javascript:;" onclick="location.href=location.href.replace(/(\#.*)/, '')+'#message';$('message').focus();return false;" class="comment_btn y">{lang post_comment}</a><!--{/if}--></p>
+			</div>
+			<div>
+			<!--{loop $commentlist $comment}-->
+				<!--{template portal/comment_li}-->
+			<!--{/loop}-->
+			<!--{if $pricount}-->
+				<p class="mbn mtn y">{lang hide_portal_comment}</p>
+			<!--{/if}-->
+            <!--{if $multi}-->
+			<div class="pgs cl mtm mbm">$multi</div>
+            <!--{/if}-->
+			<!--{if $csubject['allowcomment'] == 1}-->
+				<form id="cform" name="cform" action="portal.php?mod=portalcp&ac=comment" method="post" autocomplete="off">
+					<div class="tedt-head">
+                        <!--{if $_G['uid']}-->
+                            <!--{avatar($_G[uid],small)}-->
+                        <!--{else}-->
+                            <a href="member.php?mod=logging&action=login" onclick="showWindow('login', this.href)" class="tedt-head-login">{lang login}</a>
+                        <!--{/if}-->
+                    </div>
+                    <div class="tedt">
+                        <div class="tedt-border-l"></div>
+                        <div class="area">
+                            <div class="tedt-border-t">
+                                <div class="tedt-border-t-l"></div>
+                                <div class="tedt-border-t-r"></div>
+                            </div>
+                            <div class="tedt-area">
+                                <textarea name="message" rows="3" class="pt" id="message" onkeydown="ctrlEnter(event, 'commentsubmit_btn');"></textarea>
+                            </div>
+                        </div>
+                        <div class="tedt-border-r"></div>
+                    </div>
+					<!--{if $secqaacheck || $seccodecheck}-->
+						<!--{block sectpl}--><sec> <span id="sec<hash>" onclick="showMenu(this.id);"><sec></span><div id="sec<hash>_menu" class="p_pop p_opt" style="display:none"><sec></div><!--{/block}-->
+						<div class="mtm"><!--{subtemplate common/seccheck}--></div>
+					<!--{/if}-->
+
+					<!--{if $idtype == 'topicid' }-->
+						<input type="hidden" name="topicid" value="$id">
+					<!--{else}-->
+						<input type="hidden" name="aid" value="$id">
+					<!--{/if}-->
+					<input type="hidden" name="formhash" value="{FORMHASH}">
+					<p class="ptn"><button type="submit" name="commentsubmit" value="true" class="pn"><strong>{lang comment}</strong></button></p>
+				</form>
+			<!--{/if}-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->

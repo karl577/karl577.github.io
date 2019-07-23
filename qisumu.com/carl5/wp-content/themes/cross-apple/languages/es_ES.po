@@ -1,0 +1,1997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cross Apple\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-15 14:08+0800\n"
+"PO-Revision-Date: 2011-12-15 14:09+0800\n"
+"Last-Translator: hawktheme <hawktheme@gmail.com>\n"
+"Language-Team: HawkTheme.COM <hawktheme@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: AMERICAN SAMOA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\web\\wpmu\\wp-content\\themes\\cross-apple\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+#: demo-blog-1.php:110
+#: demo-blog-2.php:108
+#: demo-home-1.php:71
+#: demo-home-2.php:69
+#: demo-home-3.php:129
+#: demo-product-1.php:76
+#: demo-product-2.php:76
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "Sorry, but the page you are looking for does not exist. You can try to go to the Homepage and find your way."
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:34
+msgid "Comments"
+msgstr ""
+
+#: demo-blog-1.php:73
+#: demo-blog-2.php:87
+msgid "Written by "
+msgstr ""
+
+#: demo-blog-1.php:74
+#: demo-blog-2.php:88
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: demo-blog-1.php:75
+#: demo-blog-2.php:89
+msgid "No Comment"
+msgstr ""
+
+#: demo-blog-1.php:75
+#: demo-blog-2.php:89
+msgid "1Comment"
+msgstr ""
+
+#: demo-blog-1.php:75
+#: demo-blog-2.php:89
+msgid "%Comments"
+msgstr ""
+
+#: demo-blog-1.php:75
+#: demo-blog-2.php:89
+msgid "Comment Off"
+msgstr ""
+
+#: demo-blog-1.php:77
+#: demo-blog-2.php:91
+msgid "Edit"
+msgstr ""
+
+#: demo-blog-1.php:111
+#: demo-blog-2.php:109
+#: demo-home-1.php:72
+#: demo-home-2.php:70
+#: demo-home-3.php:130
+#: demo-product-1.php:77
+#: demo-product-2.php:77
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: demo-portfolio-grid-2.php:81
+#: demo-portfolio-grid-3.php:81
+#: demo-portfolio-grid-4.php:81
+#: demo-portfolio-list.php:71
+#: demo-portfolio-quick-sand-grid-2.php:64
+#: demo-portfolio-quick-sand-grid-3.php:64
+#: demo-portfolio-quick-sand-grid-4.php:64
+msgid "All"
+msgstr ""
+
+#: footer.php:28
+msgid " Powered by <a href=\"http://wordpress.org/\"><strong>WordPress.</strong></a> "
+msgstr ""
+
+#: page.php:26
+#: single-portfolio.php:43
+#: single-product.php:63
+#: single.php:55
+#: template-fullwidth.php:26
+msgid "Pages:"
+msgstr ""
+
+#: search.php:28
+msgid "Read More"
+msgstr ""
+
+#: single-portfolio.php:18
+msgid "<span class=\"nav-previous\">Previous Portfolio Item</span>"
+msgstr ""
+
+#: single-portfolio.php:19
+msgid "<span class=\"nav-next\">Next Portfolio Item</span>"
+msgstr ""
+
+#: single-portfolio.php:61
+#: single.php:63
+msgid "Related Posts"
+msgstr ""
+
+#: single-product.php:18
+msgid "<span class=\"nav-previous\">Previous Product Item</span>"
+msgstr ""
+
+#: single-product.php:19
+msgid "<span class=\"nav-next\">Next Product Item</span>"
+msgstr ""
+
+#: single-product.php:53
+msgid "Buy Now"
+msgstr ""
+
+#: single-product.php:69
+msgid "You might like"
+msgstr ""
+
+#: single.php:23
+msgid "<span class=\"nav-previous\">Previous Post Item</span>"
+msgstr ""
+
+#: single.php:24
+msgid "<span class=\"nav-next\">Next Post Item</span>"
+msgstr ""
+
+#: single.php:57
+msgid "<span>Tagged:</span> "
+msgstr ""
+
+#: template-archives.php:34
+msgid "The 20 latest posts"
+msgstr ""
+
+#: template-archives.php:51
+msgid "Available Pages"
+msgstr ""
+
+#: template-archives.php:58
+msgid "Archives by Subject:"
+msgstr ""
+
+#: template-archives.php:74
+msgid "Archives by Month"
+msgstr ""
+
+#: template-contact.php:36
+msgid "I don't talk to strangers."
+msgstr ""
+
+#: template-contact.php:38
+msgid "Name"
+msgstr ""
+
+#: template-contact.php:44
+msgid "You don't want me to answer?"
+msgstr ""
+
+#: template-contact.php:46
+msgid "Email"
+msgstr ""
+
+#: template-contact.php:52
+msgid "What is the purpose of the contact?"
+msgstr ""
+
+#: template-contact.php:54
+msgid "Subject"
+msgstr ""
+
+#: template-contact.php:60
+msgid "Forgot why you came here?"
+msgstr ""
+
+#: template-contact.php:65
+msgid "Thank you. The mailman is on his way."
+msgstr ""
+
+#: template-contact.php:66
+msgid "Sorry, don't know what happened. Try later."
+msgstr ""
+
+#: template-portfolio-side.php:31
+msgid "<h5>Hey! Please add the portfolio category shortcode:</h5><h6>Enter the slug name of portfolio categories, separate categories with commas. If you want to display all the category, just let it blank.</h6>[portfolio_category_list title=\"You Title\" category_slug_name=\"category slug name\" show_posts=\"8\" lightbox=\"no\" fade=\"yes\"]Your description text.[/portfolio_category_list]"
+msgstr ""
+
+#: wraps/wrap_functions.php:20
+msgid "Top Navigation"
+msgstr ""
+
+#: wraps/wrap_functions.php:21
+msgid "Bottom Navigation"
+msgstr ""
+
+#: wraps/wrap_functions.php:97
+#, php-format
+msgid "Search results for %s"
+msgstr ""
+
+#: wraps/wrap_functions.php:99
+#: wraps/wrap_functions.php:111
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: wraps/wrap_functions.php:147
+msgid "<span class=\"reply\">Reply</span>"
+msgstr ""
+
+#: wraps/wrap_functions.php:153
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: wraps/wrap_functions.php:159
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wraps/wrap_functions.php:166
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wraps/wrap_functions.php:188
+msgid "Leave a Reply"
+msgstr ""
+
+#: wraps/wrap_functions.php:189
+msgid "Cancel reply"
+msgstr ""
+
+#: wraps/wrap_pagination.php:79
+msgid "Previous"
+msgstr ""
+
+#: wraps/wrap_pagination.php:81
+msgid "Next"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:9
+msgid "Page Settings"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:21
+msgid "Custom Top Banner"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:23
+msgid "If you want to display a custom image on the top of page, you can upload an image here."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:27
+msgid "Banner Image"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:28
+#: wraps/meta_boxes/meta_box_portfolio.php:28
+msgid "To upload an image click on \"Upload Image\" button. Or you can enter an image url."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:36
+msgid "Banner Form Top"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:37
+msgid "Set the margin from top for the banner."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:46
+#: wraps/meta_boxes/meta_box_portfolio.php:36
+msgid "SEO Settings"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:48
+#: wraps/meta_boxes/meta_box_portfolio.php:38
+msgid "You can make links from this post/page followable by search engines, and custom the title, add meta keywords and meta description."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:52
+#: wraps/meta_boxes/meta_box_portfolio.php:42
+msgid "SEO - Set follow"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:53
+#: wraps/meta_boxes/meta_box_portfolio.php:43
+msgid "Make links from this post/page followable by search engines."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:60
+#: wraps/meta_boxes/meta_box_portfolio.php:50
+msgid "SEO - Noindex"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:61
+#: wraps/meta_boxes/meta_box_portfolio.php:51
+msgid "Set the Page/Post to not be indexed by a search engines."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:68
+#: wraps/meta_boxes/meta_box_portfolio.php:58
+msgid "SEO - Title Tags"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:69
+#: wraps/meta_boxes/meta_box_portfolio.php:59
+msgid "Enter in the title as you would like to be displayed. Ex:<title>Your title ends up here</title>"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:77
+#: wraps/meta_boxes/meta_box_portfolio.php:67
+msgid "SEO - Keywords"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:78
+#: wraps/meta_boxes/meta_box_portfolio.php:68
+msgid "Enter a comma-separated list of keywords you would like to associate with this page. Ex:<meta name=\"keywords\" content=\"keyword1, keyword2, keyword3\" />"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:86
+#: wraps/meta_boxes/meta_box_portfolio.php:76
+msgid "SEO - Description"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_page.php:87
+#: wraps/meta_boxes/meta_box_portfolio.php:77
+msgid "Enter a comma-separated list of description you would like to associate with this page. Ex:<meta name=\"description\" content=\"This is your seo description of your site.\" />"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_portfolio.php:9
+msgid "Portfolio Settings"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_portfolio.php:21
+msgid "Custom Feature Image"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_portfolio.php:23
+msgid "If you want to display a custom image in the lists, you can upload an image here."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_portfolio.php:27
+msgid "Feature Image"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_post.php:9
+msgid "Post Settings"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:9
+msgid "Product Settings"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:21
+msgid "Product Details"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:23
+msgid "Set the product details here, you can set the price and external link url."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:27
+msgid "Original Price"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:28
+msgid "If you do not want to display this, just leave it blank."
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:36
+msgid "Discount Price"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:44
+msgid "External Link"
+msgstr ""
+
+#: wraps/meta_boxes/meta_box_product.php:45
+msgid "Enter a url for you custom link, Ex: http://www.jinui.com. If you do not want to use this, just leave it blank."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:6
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:14
+msgid "Column Type"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:15
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:40
+msgid "Column Content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:41
+msgid "Add the column content."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:45
+msgid "Add Column"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:56
+msgid "Button URL"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:57
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:61
+msgid "Button's Style"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:62
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:78
+msgid "Open Type"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:79
+msgid "Select the open type: in blank or self."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:88
+msgid "Button's Text"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:89
+msgid "Add the button's text"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:93
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:101
+msgid "Insert Tabbed Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:109
+msgid "Tab Title"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:110
+msgid "Add the title for this tab"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:116
+msgid "Tab Content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:117
+msgid "Add the tab content."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:121
+msgid "Add Tab"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:131
+msgid "Toggle Content Title"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:132
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:138
+msgid "Toggle Content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:139
+msgid "Add the toggle content."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:144
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:153
+#: wraps/shortcodes/tinymce/config.php:227
+msgid "Style"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:154
+msgid "Select the style for list."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:171
+#: wraps/shortcodes/tinymce/config.php:263
+msgid "List Content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:172
+#: wraps/shortcodes/tinymce/config.php:264
+msgid "Add the list content with ul, li."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:178
+msgid "Insert Icon List Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:187
+#: wraps/shortcodes/tinymce/config.php:397
+#: wraps/shortcodes/tinymce/config.php:495
+msgid "Title"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:188
+msgid "Add the title for boxes"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:193
+msgid "Icon"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:194
+msgid "Select icons for the box."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:211
+#: wraps/shortcodes/tinymce/config.php:290
+#: wraps/shortcodes/tinymce/config.php:403
+msgid "Content"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:212
+msgid "Add the content for boxes."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:218
+msgid "Insert Icon Box Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:228
+msgid "Select the style for message box."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:238
+msgid "Display Icon"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:239
+msgid "Disable or enable the icon."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:247
+msgid "Hide Link"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:248
+msgid "You can click the hide link to disable message box."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:256
+#: wraps/shortcodes/tinymce/config.php:305
+msgid "Width"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:257
+msgid "Set the width for message box. The unit is px."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:268
+msgid "Insert Message Box Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:277
+msgid "Text Color"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:278
+msgid "Set the text color."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:283
+msgid "Background Color"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:284
+msgid "Set the background color."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:291
+#: wraps/shortcodes/tinymce/config.php:404
+msgid "Add the content for highlight text."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:295
+msgid "Insert Highlight Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:306
+msgid "Set the width for the image."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:311
+msgid "Height"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:312
+msgid "Set the height for the image."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:317
+#: wraps/shortcodes/tinymce/config.php:391
+#: wraps/theme_options/pages/theme_footer.php:56
+#: wraps/theme_options/pages/theme_header.php:37
+msgid "Image"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:318
+msgid "Enter your image file url here."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:323
+msgid "Alt"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:324
+msgid "Image description or alternate text."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:329
+msgid "Url"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:330
+msgid "URL for the image link."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:335
+msgid "Align"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:336
+msgid "Set the align for the image."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:345
+msgid "Border"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:346
+msgid "Set the border for the image."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:354
+#: wraps/shortcodes/tinymce/config.php:467
+#: wraps/shortcodes/tinymce/config.php:519
+#: wraps/shortcodes/tinymce/config.php:559
+msgid "Lightbox"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:355
+#: wraps/shortcodes/tinymce/config.php:468
+#: wraps/shortcodes/tinymce/config.php:520
+#: wraps/shortcodes/tinymce/config.php:560
+msgid "Open link to image in a lightbox."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:363
+#: wraps/shortcodes/tinymce/config.php:476
+#: wraps/shortcodes/tinymce/config.php:528
+msgid "Fade"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:364
+#: wraps/shortcodes/tinymce/config.php:477
+#: wraps/shortcodes/tinymce/config.php:529
+msgid "Show the image with fade effect."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:373
+msgid "Insert Style Image Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:382
+msgid "Avatar"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:383
+msgid "Display the avatar for the testimonials."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:392
+msgid "Enter your avatar image file url here. The image size is 64px*64px."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:398
+msgid "Add the title for testimonials."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:410
+msgid "Add the name for testimonials."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:415
+#: wraps/shortcodes/tinymce/config.php:501
+msgid "Description"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:416
+msgid "Add the description for testimonials."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:422
+msgid "Insert Testimonials Content Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:431
+#: wraps/shortcodes/tinymce/config.php:507
+#: wraps/shortcodes/tinymce/config.php:547
+msgid "Category Slug"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:432
+#: wraps/shortcodes/tinymce/config.php:508
+msgid "Enter the slug name of portfolio categories here. Separate categories with commas."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:437
+#: wraps/shortcodes/tinymce/config.php:513
+#: wraps/shortcodes/tinymce/config.php:553
+msgid "Show Posts"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:438
+#: wraps/shortcodes/tinymce/config.php:514
+#: wraps/shortcodes/tinymce/config.php:554
+msgid "Enter the posts number that you want to display."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:443
+msgid "Show Title"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:444
+msgid "Enable the title for lists."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:452
+msgid "Show Description"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:453
+msgid "Enable the description for lists."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:461
+msgid "Description Length"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:462
+msgid "Enter the number for the desc length."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:486
+msgid "Insert a portfolio slider list Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:496
+msgid "Enter the title for this list."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:502
+msgid "Enter the description for this list."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:538
+msgid "Insert a portfolio category list Shortcode"
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:548
+msgid "Enter the slug name of blog categories here. Separate categories with commas. If you want to display all, just leave it blank."
+msgstr ""
+
+#: wraps/shortcodes/tinymce/config.php:569
+msgid "Insert a latest news list Shortcode"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:11
+msgid "Blog Section"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:18
+msgid "Assign page for blog"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:19
+msgid "This will be used for get all the blog url and the banner url."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:22
+#: wraps/theme_options/pages/theme_portfolio.php:58
+msgid "Choose page.."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:28
+#: wraps/theme_options/pages/theme_portfolio.php:18
+msgid "List Styles"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:29
+#: wraps/theme_options/pages/theme_portfolio.php:19
+msgid "Select a list style for your posts, it will change the display for the posts."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:33
+msgid "List style one"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:34
+msgid "List style two"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:40
+#: wraps/theme_options/pages/theme_portfolio.php:64
+msgid "Lightbox For Image"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:41
+#: wraps/theme_options/pages/theme_portfolio.php:65
+msgid "Show the list image of posts with lightbox?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:48
+msgid "Enable Time"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:49
+msgid "Display the lists with time?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:56
+msgid "Enable Comment"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:57
+msgid "Display the lists with comment?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:64
+msgid "Enable Author"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:65
+msgid "Display the lists with Author?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:72
+msgid "Enable Category"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:73
+msgid "Display the lists with category?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:80
+msgid "Excerpt Length"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:81
+msgid "This number refers to the number of words to show."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:90
+#: wraps/theme_options/pages/theme_portfolio.php:80
+msgid "\"Read more\" Link"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_blog.php:91
+#: wraps/theme_options/pages/theme_portfolio.php:81
+msgid "Enter the text for the post's 'Read more' link, if you don't want to display this, just leave it blank."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:83
+msgid "Font Settings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:88
+msgid "Font Family"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:95
+msgid "General"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:96
+msgid "Choose a font family for the general font settings."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:104
+#: wraps/theme_options/pages/theme_font.php:140
+#: wraps/theme_options/pages/theme_header.php:68
+msgid "Menu"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:105
+msgid "Choose a font family for the nav menu font settings."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:113
+msgid "Headings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:114
+msgid "Choose a font family for the headings font settings."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:122
+msgid "Headings Font Weight"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:123
+msgid "Set the font weight for headings."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:133
+msgid "Font Size"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:148
+msgid "Sub Menu"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:157
+msgid "H1"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:165
+msgid "H2"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:173
+msgid "H3"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:181
+msgid "H4"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:189
+msgid "H5"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_font.php:197
+msgid "H6"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:11
+msgid "Footer Settings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:18
+msgid "Enable Foot Widgets"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:19
+msgid "If this option is yes, you'll globally enable the footer widgets area."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:23
+msgid "Yes"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:24
+msgid "No"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:30
+msgid "Copyright Message"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:31
+msgid "Copyright message displayed in the footer."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:39
+msgid "WordPress credits link"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:40
+msgid "Show \"Powered by WordPress\" in footer? "
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:49
+#: wraps/theme_options/pages/theme_header.php:30
+msgid "Logo"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:57
+#: wraps/theme_options/pages/theme_header.php:38
+msgid "To upload an image click on \"Upload Image\" button. Once the image is uploaded it will give you various options."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:62
+#: wraps/theme_options/pages/theme_header.php:43
+msgid "Upload Logo"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:67
+#: wraps/theme_options/pages/theme_header.php:48
+#: wraps/theme_options/pages/theme_header.php:75
+msgid "Position from the top"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:76
+#: wraps/theme_options/pages/theme_header.php:57
+msgid "Position from the left"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_footer.php:85
+msgid "Position from the right"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:11
+msgid "General Options"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:19
+msgid "Feedburner"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:20
+msgid "Enter your feedburner url, if you do not want to display this, just leave it blank."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:28
+msgid "Contact Email"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:29
+msgid "Enter your email for the contact form."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:37
+msgid "Custom Favicon"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:38
+msgid "To upload an image click on \"Upload favicon\" button. Once the image is as custom favicon."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:43
+msgid "Upload Favicon"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:48
+msgid "Pagination"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:49
+msgid "If you want to use wp-pagenavi plug-in, you should install it."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:53
+msgid "Page-Navi"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:54
+msgid "Prev-Next"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:55
+msgid "WP-Pagenavi"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:61
+msgid "Google Analytics Code"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_general.php:62
+msgid "Paste your <a href=\"http://www.google.com/analytics/\" target=\"_blank\">analytics code</a> here, it will get applied to each page."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_header.php:11
+msgid "Header Settings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_header.php:18
+msgid "Header Height"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_header.php:19
+msgid "Enter the number for the header, you can set the header height here."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_header.php:84
+msgid "Depth"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_header.php:85
+msgid "Set it to \"0\", the menu level will be unlimited."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:11
+msgid "Portfolio Section"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:23
+msgid "1 Column with pagination."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:24
+msgid "2 Column with pagination."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:25
+msgid "3 Column with pagination."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:26
+msgid "4 Column with pagination."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:27
+msgid "2 Column with quick sand."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:28
+msgid "3 Column with quick sand."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:29
+msgid "4 Column with quick sand."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:35
+msgid "Show item"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:36
+msgid "Set the item per page to show."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:45
+msgid "Single items slug"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:46
+msgid "Enter a page slug that should be used for your portfolio single items.<br /> For example if you enter <span>\"portfolio-item\"</span> the link to the item will be <span>http://yourweb.com/portfolio-item/post-name</span>. <br />Dont use characters that are not allowed in urls and make sure that this slug is not used anywere else on your site <span>(for example as a category or a page)</span>."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:54
+msgid "Assign page for portfolio"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:55
+msgid "This will be used for get all the portfolio url and the banner url."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:72
+msgid "Enable Excerpt"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_portfolio.php:73
+msgid "Display the lists with excerpt?"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:11
+msgid "Product Section"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:23
+msgid "Grid layout with no sidebar."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:24
+msgid "List layout with left sidebar."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:25
+msgid "List layout with right sidebar."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:42
+msgid "Enter a page slug that should be used for your product single items.<br /> For example if you enter <span>\"product-item\"</span> the link to the item will be <span>http://yourweb.com/product-item/post-name</span>. <br />Dont use characters that are not allowed in urls and make sure that this slug is not used anywere else on your site <span>(for example as a category or a page)</span>."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:50
+msgid "Assign page for product"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:51
+msgid "This will be used for get all the product url and the banner url."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:85
+msgid "Currency"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_product.php:86
+msgid "This controls what currency prices."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:12
+msgid "Slider Settings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:19
+msgid "Enable Slider"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:20
+msgid "If this option is yes, you'll globally enable the home slider."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:31
+msgid "Shortcode"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:32
+msgid "Enter the slider shortcode, it will display a slider in the home page.<br /><span>[slider_accordion autoplay=\"true\" speed=\"800\" delay=\"3000\"]</span><br /><span>[slider_cycle effect=\"turnDown\" speed=\"800\" delay=\"3000\" \"easing\"=\"easeOutBounce\"]</span><br /><span>[slider_nivo effect=\"fade\" speed=\"800\" delay=\"3000\"]</span><br /><span>[slider_slides_js effect=\"fade\" speed=\"800\" delay=\"3000\"]</span>"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:42
+msgid "Slider Section 1"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:65
+#: wraps/theme_options/pages/theme_slider.php:117
+#: wraps/theme_options/pages/theme_slider.php:169
+#: wraps/theme_options/pages/theme_slider.php:222
+#: wraps/theme_options/pages/theme_slider.php:275
+msgid "Link"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:66
+#: wraps/theme_options/pages/theme_slider.php:118
+#: wraps/theme_options/pages/theme_slider.php:170
+#: wraps/theme_options/pages/theme_slider.php:223
+#: wraps/theme_options/pages/theme_slider.php:276
+msgid "Enter the url that you want to link. If you do not use link, just leave it blank. Ex: http://www.jinui.com"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:83
+#: wraps/theme_options/pages/theme_slider.php:135
+#: wraps/theme_options/pages/theme_slider.php:187
+#: wraps/theme_options/pages/theme_slider.php:240
+#: wraps/theme_options/pages/theme_slider.php:293
+#: wraps/types/type_portfolio.php:80
+#: wraps/types/type_product.php:80
+msgid "Thumbnail"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:84
+#: wraps/theme_options/pages/theme_slider.php:136
+#: wraps/theme_options/pages/theme_slider.php:188
+#: wraps/theme_options/pages/theme_slider.php:241
+#: wraps/theme_options/pages/theme_slider.php:294
+msgid "When you use nivo slider, you need to upload a image as thumbnail, the size is: 54px*40px."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:94
+msgid "Slider Section 2"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:146
+msgid "Slider Section 3"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:199
+msgid "Slider Section 4"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_slider.php:252
+msgid "Slider Section 5"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:19
+msgid "Style Settings"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:26
+msgid "Styles"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:27
+msgid "Choose a style for the default style."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:36
+#: wraps/theme_options/pages/theme_style.php:45
+#: wraps/theme_options/pages/theme_style.php:54
+msgid "If you want to custom the colors, you can select the color with colorpicker. If not, you can leave it blank."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:44
+msgid "Link Color"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:53
+msgid "Hover Color"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:62
+msgid "Pattern"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:63
+msgid "Select a pattern background for body."
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:67
+msgid "Disable Pattern"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:68
+msgid "Bg 1"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:69
+msgid "Bg 2"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:70
+msgid "Bg 3"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:71
+msgid "Bg 4"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:72
+msgid "Bg 5"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:73
+msgid "Bg 6"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:74
+msgid "Bg 7"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:75
+msgid "Bg 8"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:76
+msgid "Bg 9"
+msgstr ""
+
+#: wraps/theme_options/pages/theme_style.php:77
+msgid "Bg 10"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:35
+msgid "Portfolios"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:36
+msgid "Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:37
+#: wraps/types/type_product.php:37
+msgid "Add New"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:38
+msgid "Add New Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:39
+msgid "Edit Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:40
+msgid "New Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:41
+msgid "View Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:42
+msgid "Search Portfolio"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:43
+msgid "No portfolio found"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:44
+msgid "No portfolio found in Trash"
+msgstr ""
+
+#: wraps/types/type_portfolio.php:82
+#: wraps/types/type_product.php:82
+msgid "Categories"
+msgstr ""
+
+#: wraps/types/type_product.php:35
+msgid "Products"
+msgstr ""
+
+#: wraps/types/type_product.php:36
+msgid "Product"
+msgstr ""
+
+#: wraps/types/type_product.php:38
+msgid "Add New Product"
+msgstr ""
+
+#: wraps/types/type_product.php:39
+msgid "Edit Product"
+msgstr ""
+
+#: wraps/types/type_product.php:40
+msgid "New Product"
+msgstr ""
+
+#: wraps/types/type_product.php:41
+msgid "View Product"
+msgstr ""
+
+#: wraps/types/type_product.php:42
+msgid "Search Product"
+msgstr ""
+
+#: wraps/types/type_product.php:43
+msgid "No product found"
+msgstr ""
+
+#: wraps/types/type_product.php:44
+msgid "No product found in Trash"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:13
+msgid "&raquo; Ads 125*125"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:14
+msgid "This widget will display a advertise section."
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:45
+#: wraps/widgets/widget_ads.php:52
+#: wraps/widgets/widget_ads.php:70
+#: wraps/widgets/widget_ads.php:88
+#: wraps/widgets/widget_ads.php:106
+#: wraps/widgets/widget_comments.php:33
+#: wraps/widgets/widget_flickr.php:35
+#: wraps/widgets/widget_post.php:37
+#: wraps/widgets/widget_search.php:29
+#: wraps/widgets/widget_social.php:49
+#: wraps/widgets/widget_tweets.php:41
+msgid "Title:"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:49
+msgid "Ads One"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:57
+#: wraps/widgets/widget_ads.php:75
+#: wraps/widgets/widget_ads.php:93
+#: wraps/widgets/widget_ads.php:111
+msgid "Image Url:"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:62
+#: wraps/widgets/widget_ads.php:80
+#: wraps/widgets/widget_ads.php:98
+#: wraps/widgets/widget_ads.php:116
+msgid "Link:"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:67
+msgid "Ads Two"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:85
+msgid "Ads Three"
+msgstr ""
+
+#: wraps/widgets/widget_ads.php:103
+msgid "Ads Four"
+msgstr ""
+
+#: wraps/widgets/widget_comments.php:13
+msgid "&raquo; Comments"
+msgstr ""
+
+#: wraps/widgets/widget_comments.php:14
+msgid "This is a comments list."
+msgstr ""
+
+#: wraps/widgets/widget_comments.php:38
+#: wraps/widgets/widget_flickr.php:48
+#: wraps/widgets/widget_post.php:42
+#: wraps/widgets/widget_tweets.php:51
+msgid "Showposts:"
+msgstr ""
+
+#: wraps/widgets/widget_comments.php:48
+msgid "Display with avatar."
+msgstr ""
+
+#: wraps/widgets/widget_comments.php:101
+msgid "Post: "
+msgstr ""
+
+#: wraps/widgets/widget_config.php:44
+msgid "Page Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:46
+msgid "This is the sidebar that gets shown on your page posts."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:55
+msgid "Blog Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:57
+msgid "This is the sidebar that gets shown on your blog posts."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:66
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:68
+msgid "This is the sidebar that gets shown on your portfolio posts."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:77
+msgid "Product Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:79
+msgid "This is the sidebar that gets shown on your product posts."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:88
+msgid "Archives Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:90
+msgid "This is the sidebar that gets shown on your archives page."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:99
+msgid "Contact Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:101
+msgid "This is the sidebar that gets shown on your contact page."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:110
+msgid "Search Sidebar"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:112
+msgid "This is the sidebar that gets shown on your search posts."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:121
+msgid "Footer Widget #1"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:123
+#: wraps/widgets/widget_config.php:134
+#: wraps/widgets/widget_config.php:145
+msgid "This is the widget that gets shown on your footer widget area."
+msgstr ""
+
+#: wraps/widgets/widget_config.php:132
+msgid "Footer Widget #2"
+msgstr ""
+
+#: wraps/widgets/widget_config.php:143
+msgid "Footer Widget #3"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:13
+msgid "&raquo; Flickr"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:14
+msgid "This widget will display a flickr section. "
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:23
+msgid "Flickr"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:40
+#: wraps/widgets/widget_tweets.php:46
+msgid "Account:"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:43
+msgid "Get your flickr account."
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:53
+#: wraps/widgets/widget_post.php:47
+msgid "Orderby:"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:55
+msgid "Latest"
+msgstr ""
+
+#: wraps/widgets/widget_flickr.php:56
+msgid "Random"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:13
+msgid "&raquo; Posts"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:14
+msgid "This is a posts list widget."
+msgstr ""
+
+#: wraps/widgets/widget_post.php:23
+msgid "Posts"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:49
+msgid "Date"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:50
+msgid "Comment Count"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:51
+msgid "Rand"
+msgstr ""
+
+#: wraps/widgets/widget_post.php:61
+msgid "Display with thumbnail."
+msgstr ""
+
+#: wraps/widgets/widget_post.php:68
+msgid "Display the thumbnail with lightbox."
+msgstr ""
+
+#: wraps/widgets/widget_search.php:13
+msgid "&raquo; Search"
+msgstr ""
+
+#: wraps/widgets/widget_search.php:14
+msgid "This widget will display a search section."
+msgstr ""
+
+#: wraps/widgets/widget_search.php:23
+msgid "Search"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:13
+msgid "&raquo; Social Media"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:14
+msgid "This is a social media list."
+msgstr ""
+
+#: wraps/widgets/widget_social.php:23
+msgid "Social Media"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:54
+msgid "Feed Rss:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:59
+msgid "Twitter:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:64
+msgid "Youtube:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:69
+msgid "Linkedin:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:74
+msgid "Facebook:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:79
+msgid "Digg:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:84
+msgid "Flickr:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:89
+msgid "Delicious:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:94
+msgid "Stumble:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:99
+msgid "Myspace:"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:146
+msgid "rss"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:150
+msgid "twitter"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:154
+msgid "youtube"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:158
+msgid "linkedin"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:162
+msgid "facebook"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:166
+msgid "digg"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:170
+msgid "flickr"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:174
+msgid "delicious"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:178
+msgid "stumble"
+msgstr ""
+
+#: wraps/widgets/widget_social.php:182
+msgid "myspace"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:13
+msgid "&raquo; Tweets"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:14
+msgid "This widget will display a tweets section."
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:23
+msgid "Twitter"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:56
+msgid "Refresh:"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:66
+msgid "Convert URLs to links"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:73
+msgid "Convert @users to links"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:80
+msgid "Show the date/time"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:137
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:139
+msgid "F j, Y"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:142
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: wraps/widgets/widget_tweets.php:142
+msgid "h:i A F j, Y"
+msgstr ""
+
+#~ msgid "RSS 2.0 - all posts"
+#~ msgstr "RSS 2.0 - всі публікації"
+
+#~ msgid "RSS 2.0 - all comments"
+#~ msgstr "RSS 2.0 - всі коментарі"
+
+#~ msgid "Welcome to 404 error page!"
+#~ msgstr "Ласкаво просимо до 404-ї сторінки!"
+
+#~ msgid ""
+#~ "Welcome to this customized error page. You've reached this page because "
+#~ "you've clicked on a link that does not exist. This is probably our "
+#~ "fault... but instead of showing you the basic '404 Error' page that is "
+#~ "confusing and doesn't really explain anything, we've created this page to "
+#~ "explain what went wrong."
+#~ msgstr ""
+#~ "Вітаємо Вас!<br />Невідомо як Ви сюди потрапили, але такої сторінки, яка "
+#~ "вам потрібна або таку як Ви набрали в адресному рядку нажаль не існує."
+#~ "<p><b>Є такі варіанти виходу із ситуації:</b><br />1) Перейти на головну "
+#~ "сторінку.<br />2) Перевірити адресу, яку Ви ввели.<br />3) Скористатися "
+#~ "пошуком.</p>"
+
+#~ msgid ""
+#~ "You can either (a) click on the 'back' button in your browser and try to "
+#~ "navigate through our site in a different direction, or (b) click on the "
+#~ "following link to go to homepage."
+#~ msgstr " "
+
+#~ msgid "Back to homepage &raquo;"
+#~ msgstr "Повернутися на головну &raquo;"
+
+#~ msgid "Keyword: &#8216;%1$s&#8217;"
+#~ msgstr "Ключові слова: &#8216;%1$s&#8217;"
+
+#~ msgid "Archive for the &#8216;%1$s&#8217; Category"
+#~ msgstr "Архів для категорії &#8216;%1$s&#8217;"
+
+#~ msgid "Posts Tagged &#8216;%1$s&#8217;"
+#~ msgstr "Публікації із теґом &#8216;%1$s&#8217;"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Вибачте, не знайдено нічого."
+
+#~ msgid "Trackbacks"
+#~ msgstr "Трекбеки"
+
+#~ msgid "Trackback"
+#~ msgstr "Трекбек"
+
+#~ msgid "H:i"
+#~ msgstr "H:i"
+
+#~ msgid "No trackbacks yet."
+#~ msgstr "Немає ще трекбеків."
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr "Вам потрібно <a href=\"%s\">увійти</a>, для коментування"
+
+#~ msgid "Logged in as"
+#~ msgstr "Ви уійшли як"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Вийти"
+
+#~ msgid "Logout &raquo;"
+#~ msgstr "Вийти &raquo;"
+
+#~ msgid "Welcome back <strong>%s</strong>."
+#~ msgstr "Повернутися назад <strong>%s</strong>."
+
+#~ msgid "Change &raquo;"
+#~ msgstr "Змінити &raquo;"
+
+#~ msgid "(required)"
+#~ msgstr "(Обов'язково)"
+
+#~ msgid "E-Mail (will not be published)"
+#~ msgstr "E-Mail (не публікується)"
+
+#~ msgid "Website"
+#~ msgstr "Блоґ(сайт)"
+
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Підписатися на коментарі"
+
+#~ msgid ""
+#~ "Theme by <a href=\"%1$s\">NeoEase</a>. Valid <a href=\"%2$s\">XHTML 1.1</"
+#~ "a> and <a href=\"%3$s\">CSS 3</a>."
+#~ msgstr ""
+#~ "Тема від <a href=\"%1$s\">NeoEase</a>. Правильний <a href=\"%2$s\">XHTML "
+#~ "1.1</a> та <a href=\"%3$s\">CSS 3</a>."
+
+#~ msgid "Using google custom search engine."
+#~ msgstr "За допомогою системи користувацького пошуку Google."
+
+#~ msgid "CX:"
+#~ msgstr "CX:"
+
+#~ msgid ""
+#~ "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of "
+#~ "<a href=\"%1$s\">Google Custom Search Engine</a>, and type the "
+#~ "<code>value</code> here.<br/>For example: "
+#~ "<code>014782006753236413342:1ltfrybsbz4</code>"
+#~ msgstr ""
+#~ "Знайдіть <code>name=\"cx\"</code> у <strong>Search box code</strong> of "
+#~ "<a href=\"%1$s\">Google Custom Search Engine</a>, and type the "
+#~ "<code>value</code> here.<br/>Для прикладу: "
+#~ "<code>014782006753236413342:1ltfrybsbz4</code>"
+
+#~ msgid "Show pages as menu."
+#~ msgstr "Показати сторінки в меню"
+
+#~ msgid "Show categories as menu."
+#~ msgstr "Показати категорії в меню"
+
+#~ msgid "HTML enabled"
+#~ msgstr "HTML дозволено"
+
+#~ msgid "Who can see?"
+#~ msgstr "Хто бачитиме?"
+
+#~ msgid "Registered Users"
+#~ msgstr "Зареєстовані користувачі"
+
+#~ msgid "Visitors"
+#~ msgstr "Відвідувачі"
+
+#~ msgid "Show categories on posts."
+#~ msgstr "Показувати категорію в публікаціях"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Save Changes"
+#~ msgstr "Зберегти зміни"
+
+#~ msgid "Quote"
+#~ msgstr "Цитата"
+
+#~ msgid "Subscribe to this blog..."
+#~ msgstr "Підписатися на цей блоґ"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Youdao"
+#~ msgstr "Youdao"
+
+#~ msgid "Xian Guo"
+#~ msgstr "Xian Guo"
+
+#~ msgid "Zhua Xia"
+#~ msgstr "Zhua Xia"
+
+#~ msgid "My Yahoo!"
+#~ msgstr "My Yahoo!"
+
+#~ msgid "newsgator"
+#~ msgstr "newsgator"
+
+#~ msgid "iNezha"
+#~ msgstr "iNezha"
+
+#~ msgid "Subscribe to this blog via email..."
+#~ msgstr "RSS2Email"

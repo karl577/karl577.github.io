@@ -1,0 +1,23 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video{display:block}
+
+ul, li, ol{list-style:none; background:transparent}
+
+h1, h2, h3, h4, h5, h6{font-weight:400; clear:both}
+
+a, a:hover{text-decoration:none}
+
+html body div.clear, html body span.clear{background:none; border:0; clear:both; display:block; float:none; font-size:0; overflow:hidden; visibility:hidden; width:0; height:0; margin:0; padding:0}
+
+blockquote{quotes:none}
+
+blockquote:before, blockquote:after, q:before, q:after{content:none}
+
+table{border-collapse:collapse; border-spacing:0}
+
+input[type="submit"]:focus, input[type="button"]:focus{outline:none}
+
+:focus{outline:0}
+
+a img, input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner{border:0}

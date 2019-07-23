@@ -1,0 +1,107 @@
+/**
+ * Search area
+ */
+.search-area {
+	display: none;
+	padding: 40px 0;
+	background-color: #333;
+
+	.field {
+		width: 100%;
+		padding: 10px 0;
+		color: #fff;
+		border: 0;
+		border-bottom: 1px solid #999;
+		border-radius: 0;
+		background-color: transparent;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+/**
+ * Header
+ */
+.site-header {
+	position: relative;
+	padding: 240px 0;
+}
+
+.site-branding {
+	position: absolute;
+	z-index: 1;
+	top: 70px;
+	right: 0;
+	left: 0;
+	text-align: center;
+
+	.site-title {
+		text-transform: uppercase;
+		a {
+			padding: 5px 25px;
+			color: $color-3;
+			border: 3px double $color-3;
+			&:hover {
+				border-color: $color-1;
+			}
+		}
+	}
+
+	.has-custom-header &,
+	.has-featured-image & {
+		.site-title {
+			a {
+				color: #fff;
+				border: 3px double #fff;
+				&:hover {
+					border-color: $color-1;
+				}
+			}
+		}
+	}
+
+	.site-description {
+		font-family: $body-font-family;
+		font-size: 18px;
+		font-style: italic;
+		color: #fff;
+	}
+}
+
+/**
+ * Page header
+ */
+.page-title {
+	font-size: 30px;
+}
+
+.page-header {
+	@extend %clearfix;
+	margin-bottom: 27px;
+	border-bottom: 1px dotted darken($border-color, 5%);
+
+	.author & {
+		.page-title {
+			overflow: hidden;
+			margin-top: 0;
+		}
+		p {
+			overflow: hidden;
+		}
+	}
+
+	.page-title {
+		margin-top: 0;
+	}
+
+	p {
+		color: #999;
+	}
+
+	.avatar {
+		float: left;
+		margin-right: 27px;
+		border-radius: 50%;
+	}
+}

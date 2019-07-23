@@ -1,0 +1,106 @@
+/* =========================================
+   Common
+   ======================================== */
+body { font-size: 12px; line-height: 1.6em;  color: #666666;}
+body, input, textarea { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+a { color: #454545; }
+a:hover { color: #222222; }
+
+nav, h1, h2, h3, h4, h5, h6, blockquote, .post-meta, .post-price, .comment-meta { font-family:'VegurRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+p, ul, ol, dl, pre, blockquote, code { margin: 5px 0 15px; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #333333; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 15px; }
+h4, h5, h6 { margin-bottom: 10px; }
+h1, h2, h3, h4 { letter-spacing: -0.5px; }
+h1 { font-size: 24px; line-height: 30px; }
+h2 { font-size: 22px; line-height: 26px;}
+h3 { font-size: 20px; line-height: 24px;}
+h4 { font-size: 18px; line-height: 24px;}
+h5 { font-size: 16px; line-height: 20px;}
+h6 { font-size: 14px; line-height: 18px;}
+
+ul li ul, ol li ol, ul li ol, ol li ul { margin: 10px 0; padding: 0 0 0 40px; }
+ul, ol, ul ul, ol ol, ul ol, ol ul { list-style-position: inside;}
+ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+ol ol { list-style-type: upper-alpha; }
+ol ol ol { list-style-type: lower-roman; }
+ol ol ol ol { list-style-type: lower-alpha; }
+ul li, ol li { padding: 3px 0; }
+
+blockquote { 
+	font-size: 16px; 
+	font-style: italic;  
+	padding-left: 50px; 
+	background: url(../images/quotes.png) no-repeat 0 0;
+}
+
+pre { 
+	line-height: 21px;
+	padding: 21px 20px 20px; 
+	border: 1px solid #D8D8D8;
+	background: url(../images/pres.png); 
+}
+
+code { 
+	display: block; 
+	padding: 15px 20px; 
+	border: 1px solid #E5E5E5; 
+	background: #F3F3F3; 
+}
+
+dl dt { font-weight: bold; }
+dl dd { margin: 0 0 20px 20px; }
+
+table { 
+	width: 100%;
+	border-collapse: collapse; 
+	text-align: left; 
+	border-left: 1px solid #CDCDCD;
+	border-top: 1px solid #E2E2E2;
+	border-right: 1px solid #CDCDCD;
+}
+th, thead td { text-align: left;  height: 36px; line-height: 36px; padding: 0 15px;  background: url(../images/table-title.png) repeat-x; font-weight: bold; color: #333333;}
+tfoot td { border-bottom: 1px solid #C6C6C6; }
+
+input[type="text"] {  }
+input[type="submit"] {  }
+textarea {  }
+
+abbr:hover { cursor: help; }
+
+.alignleft { float: left; text-align: left; margin-right: 20px; }
+.alignright { float: right; text-align: right; margin-left: 20px; }
+.aligncenter { margin: 0 auto; display: block; }
+
+
+/* =========================================
+   WordPress Default CSS
+   ======================================== */
+.wp-caption { background: #FFFFFFF; border: 1px solid #F0F0F0; max-width: 96%;  padding: 8px 3px 10px; text-align: center; }
+.wp-caption.alignnone { margin: 5px 20px 20px 0; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0; }
+.wp-caption.alignright { margin: 5px 0 20px 20px; }
+.wp-caption img { border: none; height: auto; margin:0; max-width: 98.5%; padding:0; width: auto;}
+.wp-caption .wp-caption-text { font-size:11px; line-height:25px;  margin:0; padding:5px 10px 0; }
+.sticky, .gallery-caption, .bypostauthor { }
+.gallery .gallery-item { float: left; margin: 0 8px 8px 0;}
+
+
+/* =========================================
+   Format CSS
+   ======================================== */
+nav ul, nav ol, .blog-lists, .portfolio-lists, .portfolio-grid, .product-lists, .product-grid, .search-lists, .related-posts ul, .widget ul, .sc-tabs-wrap .tabs, .sc-iconlist ul, .commentlist, .commentlist li ul, .lite-accordion-slider ol, .sc-portfolio-slider-list ul, .sc-portfolio-category-list ul { list-style: none; margin: 0; padding: 0; list-style-position: outside;}
+nav ul li, nav ol li, .blog-lists li, .portfolio-lists li, .portfolio-grid li, .product-lists li, .search-lists li, .widget li, .sc-tabs-wrap .tabs li, .sc-iconlist li, .commentlist li, .commentlist li ul li, .related-posts li, .lite-accordion-slider li, .sc-portfolio-slider-list li, .sc-portfolio-category-list li { margin: 0; padding: 0; }
+.blog-lists h2, .portfolio-lists h2, .portfolio-grid h2, .product-lists h2, .product-grid h2, .search-lists h2, .widget h3, #comments-title, #reply-title, .related-posts h2, .related-posts h3, .sc-portfolio-slider-list h3, .sc-portfolio-category-list h3  { letter-spacing: 0.2px; margin: 0;}
+.blog-lists .post-meta, .blog-lists .post-excerpt, .blog-lists .post-more, 
+.portfolio-lists .post-meta, .portfolio-lists .post-excerpt, .portfolio-lists .post-more,
+.portfolio-grid .post-meta, .portfolio-grid .post-excerpt, .portfolio-grid .post-more,
+.product-lists .post-meta, .product-lists .post-excerpt, .product-lists .post-more, .product-lists .post-price,
+.product-grid .post-meta, .product-grid .post-excerpt, .product-grid .post-more, .product-grid .post-price,
+.search-lists .post-meta, .search-lists .post-excerpt, .search-lists .post-more,
+.widget .post-meta,
+#respond p, .sc-portfolio-slider-list p, .sc-portfolio-category-list p { margin: 0; }

@@ -1,0 +1,103 @@
+/*
+Theme Name: SG Circus
+Template: sg-window
+Author: Cats_456
+Author URI: http://wpblogs.ru/themes/
+Theme URI: http://wpblogs.ru/themes/blog/theme/sg-circus/
+Description: SG Circus is a responsive theme with bright colors. It has a number of layouts you can choose from: right column, left column, two columns, full width. 4 blog layouts, 3 color schemes (light, dark, blue) and 10 custom widgets. Supports popular plugins: Jetpack and WooCommerce. Can be used for a blog, portfolio or e-commerce. Child theme of SG Window. You can see the demo at http://wpblogs.info/demo/sgcircus/, documentation at http://wpblogs.ru/themes/how-to-video-sg-window-theme/.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, dark, gray, black, blue, left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, fluid-layout, responsive-layout, custom-background, custom-header, flexible-header, full-width-template, custom-menu, featured-images, sticky-post, translation-ready, photoblogging, custom-colors, editor-style, theme-options, threaded-comments
+Text Domain: sgcircus
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* sidebars */
+
+.image-wrapper img {
+	width: 1680px;
+}
+
+.blog .default .content-container, 
+.archive .default .content-container {
+	margin-bottom: 40px;
+}
+
+#page .entry-meta a {
+	color: green;
+}
+
+.site .comments-area,
+.content,
+.nothing-found,
+.content-container,
+.entry-summary{
+	border-radius: 0;
+}
+
+.column .widgettitle,
+.column .widget-title {
+	-moz-box-shadow: 0 0 10px 5px #fff, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+	-webkit-box-shadow: 0 0 10px 5px #fff, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+	box-shadow: 0 0 10px 5px #fff, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+	margin-bottom: 40px;
+}
+
+
+#page  .widget.sgwindow_items_portfolio .element .entry-title,
+#page  .widget.sgwindow_items_portfolio .element .entrytitle,
+#page  .widget.sgwindow_items_category  .element .entry-title,
+#page  .widget.sgwindow_items_category .element .entrytitle {
+    background: transparent;
+}
+
+.default .entry-thumbnail img {
+	margin: 0;
+}
+
+/* Navigation */
+#page .nav-link a  {
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  box-shadow: none;
+  transition: all .218s ease 0s;
+}
+
+#page .nav-link a:hover {
+	color: rgb(24,24,24);
+	border: 1px solid rgb(198,198,198);
+	background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#page .previous-image:active,
+#page .next-image:active,
+#page .nav-link .nav-previous:active,
+#page .nav-previous-one:active,
+#page .nav-link .nav-next:active {
+	color: rgb(24,24,24);
+	border: 1px solid rgb(198,198,198);
+	background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#page .sidebar-footer .widget.sgwindow_page .entry-title {
+	color: #666;
+}
+
+#page .sidebar-footer .widget.sgwindow_page {
+	background: transparent;
+}
+
+#page .jetpack-widget-nav li:before {
+	content: '';
+}

@@ -1,0 +1,644 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProtoPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 21:30+0530\n"
+"PO-Revision-Date: Wed May 20 2015 09:34:51 GMT+0200\n"
+"Last-Translator: wordpressadmin <juergen.gartlehner@gmail.com>\n"
+"Language-Team: Rohit Tripathi <rohit@rohitink.com>\n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Uups! Diese Seite kann nicht gefunden werden."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Es scheint als konnte hier nichts gefunden werden. Vielleicht solltest du "
+"einen der Links unten oder eine Suche probieren?\n"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Meist benutzte Kategorien"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Versuche in den monatlichen Archiven zu schauen. %1$s"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Kommentar auf &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Kommentare auf &ldquo;%2$s&rdquo;"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bereit deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$\">Starte "
+"hier</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Tut mir leid, mit diesen Suchkriterien haben wir nichts gefunden. Bitte "
+"versuche es noch einmal mit anderen Kriterien."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint als können wir nicht finden was du suchst. Vielleicht könnte eine "
+"Suche helfen. "
+
+#: content-page.php:18 content-single.php:20 content.php:29
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-page.php:25 inc/template-tags.php:122 inc/template-tags.php:262
+#: inc/template-tags.php:298
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content.php:22
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: featured-content2.php:25 framework/layouts/content-grid.php:22
+#: framework/layouts/content-grid_2_column.php:22
+#: framework/layouts/content-grid_3_column.php:22
+msgid "Read More"
+msgstr "Mehr\n"
+
+#: footer.php:17
+#, php-format
+msgid "Theme Designed by %1$s."
+msgstr "Design erstellt von %1$s.\n"
+
+#: framework/theme-functions.php:75
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Wähle aus &mdash;"
+
+#: framework/widgets/recent-posts.php:13
+msgid "ProtoPress Recent Posts with Thumbnails"
+msgstr "ProtoPress neueste Beiträge mit Thumbnails"
+
+#: framework/widgets/recent-posts.php:14
+msgid "Display your recent posts, with a Thumbnail."
+msgstr "Zeige deine letzten Beiträge mit Thumbnail. "
+
+#: framework/widgets/recent-posts.php:23
+msgid "Latest Posts"
+msgstr "Neueste Beiträge"
+
+#: framework/widgets/recent-posts.php:84
+msgid "Latest Articles"
+msgstr "Neueste Artikel"
+
+#: framework/widgets/recent-posts.php:90
+msgid "5"
+msgstr "5"
+
+#: framework/widgets/recent-posts.php:94
+msgid "Title:"
+msgstr "Titel:"
+
+#: framework/widgets/recent-posts.php:97
+msgid "No. of Posts:"
+msgstr "Anzahl an Beiträgen:\n"
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: functions.php:55
+msgid "Top Menu"
+msgstr "Top Menü"
+
+#: functions.php:93
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:103
+msgid "Footer 1"
+msgstr "Fußzeile 1"
+
+#: functions.php:112
+msgid "Footer 2"
+msgstr "Fußzeile 2"
+
+#: functions.php:121
+msgid "Footer 3"
+msgstr "Fußzeile 3"
+
+#: functions.php:130
+msgid "Footer 4"
+msgstr "Fußzeile 4"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Zum Inhalt überspringen"
+
+#: inc/customizer.php:21
+msgid "Title, Tagline & Logo"
+msgstr "Titel, Kurzbeschreibung & Logo"
+
+#: inc/customizer.php:82
+msgid "Site Title Color"
+msgstr "Setze Titelfarbe"
+
+#: inc/customizer.php:97
+msgid "Site Tagline Color"
+msgstr "Setze Kurzbeschreibungsfarbe"
+
+#: inc/customizer.php:112
+msgid "Disable Description of Menu Items"
+msgstr "Beschreibung der Menüeinträge deaktivieren"
+
+#: inc/customizer.php:125
+msgid "Disable Highlighting of Current Active Item on the Menu."
+msgstr "Highlighting des gerade aktiven Menüs deaktivieren"
+
+#: inc/customizer.php:147
+msgid "Header Image Arrangement"
+msgstr "Header Bild Anordnung"
+
+#: inc/customizer.php:152
+msgid "Contain"
+msgstr "Beinhalten\n"
+
+#: inc/customizer.php:153
+msgid "Cover Completely"
+msgstr "Cover komplett\n"
+
+#: inc/customizer.php:172
+msgid "Header Image Alignment"
+msgstr "Header Bild Ausrichtung"
+
+#: inc/customizer.php:177
+msgid "Center"
+msgstr "Zentrieren"
+
+#: inc/customizer.php:178
+msgid "Left"
+msgstr "Links"
+
+#: inc/customizer.php:179
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/customizer.php:191
+msgid "Repeat Header Image"
+msgstr "Wiederhole Header Bild"
+
+#: inc/customizer.php:208
+msgid "Hide Title and Tagline."
+msgstr "Verstecke Titel und Kurzbeschreibung."
+
+#: inc/customizer.php:222
+msgid "Display Site Title and Tagline Below the Logo."
+msgstr "Zeige Seitentitel und Kurzbeschreibung unter dem Logo."
+
+#: inc/customizer.php:242
+msgid "Center Align."
+msgstr "Zentrierte Ausrichtung.\n"
+
+#: inc/customizer.php:276
+msgid "Enable Slider."
+msgstr "Aktiviere Slider."
+
+#: inc/customizer.php:294
+msgid "No. of Slides(Min:0, Max: 10)"
+msgstr "Anzahl von Slides(0-10)\n"
+
+#: inc/customizer.php:297
+msgid "Save the Settings, and Reload this page to Configure the Slides."
+msgstr "Änderungen speichern und die Seite neu laden zum Konfigurieren der Slides. \n"
+
+#: inc/customizer.php:346
+msgid "Slide Title"
+msgstr "Slide Titel"
+
+#: inc/customizer.php:360
+msgid "Slide Description"
+msgstr "Slide Beschreibung"
+
+#: inc/customizer.php:376
+msgid "Custom Call to Action Button Text(Optional)"
+msgstr "Benutzerdefinierter Call to Action Button Text(Optional)"
+
+#: inc/customizer.php:390
+msgid "Target URL"
+msgstr "Ziel URL"
+
+#: inc/customizer.php:432
+msgid "Enable Square Boxes & Posts Slider."
+msgstr "Aktiviere Rechteck-Boxen & Beitrags-Slider"
+
+#: inc/customizer.php:447
+msgid "Title for the Boxes"
+msgstr "Titel der Boxen. "
+
+#: inc/customizer.php:475
+msgid "Posts Slider"
+msgstr "Beitrags Slider"
+
+#: inc/customizer.php:491
+msgid "Title for the Slider"
+msgstr "Titel für den Slider"
+
+#: inc/customizer.php:528
+msgid "No. of Posts(Min:3, Max: 10)"
+msgstr "Anzahl Beiträge(3-10)"
+
+#: inc/customizer.php:551
+msgid "Category For Slider."
+msgstr "Kategorie für den Slider"
+
+#: inc/customizer.php:565
+msgid "Image Grid"
+msgstr "Bild Raster"
+
+#: inc/customizer.php:579
+msgid "Enable Grid."
+msgstr "Aktiviere Raster"
+
+#: inc/customizer.php:594
+msgid "Title for the Grid"
+msgstr "Titel des Rasters"
+
+#: inc/customizer.php:613
+msgid "Category For Image Grid"
+msgstr "Kategore für Bild-Raster"
+
+#: inc/customizer.php:628
+msgid "Max No. of Posts in the Grid. Enter 0 to Disable the Grid."
+msgstr "Max. Anzahl von Beiträgen im Raster. Gib 0 ein zum Deaktivieren des Rasters. "
+
+#: inc/customizer.php:641
+msgid "Design & Layout"
+msgstr "Design & Layout"
+
+#: inc/customizer.php:647
+msgid "Blog Layout"
+msgstr "Blog Layout"
+
+#: inc/customizer.php:668
+msgid "Select Layout"
+msgstr "Layout auswählen\n"
+
+#: inc/customizer.php:673
+msgid "Basic Blog Layout"
+msgstr "Basis Blog Layout"
+
+#: inc/customizer.php:674
+msgid "Grid - 2 Column"
+msgstr "Raster - 2 Spalten"
+
+#: inc/customizer.php:675
+msgid "Grid - 3 Column"
+msgstr "Raster - 3 Spalten"
+
+#: inc/customizer.php:683
+msgid "Sidebar Layout"
+msgstr "Sidebar Layout"
+
+#: inc/customizer.php:697
+msgid "Disable Sidebar Everywhere."
+msgstr "Deaktiviere Sidebar überall."
+
+#: inc/customizer.php:712
+msgid "Disable Sidebar on Home/Blog."
+msgstr "Deaktiviere Sidebar auf Home/Blog."
+
+#: inc/customizer.php:728
+msgid "Disable Sidebar on Front Page."
+msgstr "Deaktiviere Sidebar auf der Front Page. "
+
+#: inc/customizer.php:747
+msgid "Sidebar Width"
+msgstr "Sidebar Breite"
+
+#: inc/customizer.php:748
+msgid "Min: 25%, Default: 33%, Max: 40%"
+msgstr "Min: 25%, Standard: 33%, Max: 40%"
+
+#: inc/customizer.php:786
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: inc/customizer.php:787
+msgid "Enter your Custom CSS to Modify design."
+msgstr "Gib dein Benutzerdefiniertes CSS hierein um das Design zu modifizieren. "
+
+#: inc/customizer.php:819
+msgid "Custom Footer Text"
+msgstr "Benutzerdefinierter Fußzeilen-Text."
+
+#: inc/customizer.php:820
+msgid "Enter your Own Copyright Text."
+msgstr "Gib deinen eigenen Copyright Text ein. "
+
+#: inc/customizer.php:846
+msgid "Google Web Fonts"
+msgstr "Google Web Fonts"
+
+#: inc/customizer.php:871
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer.php:887
+msgid "Body"
+msgstr "Body"
+
+#: inc/customizer.php:897
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: inc/customizer.php:902
+msgid "-"
+msgstr "-"
+
+#: inc/customizer.php:903
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:904
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:905
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:906
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:907
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: inc/customizer.php:908
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer.php:909
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:910
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:911
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:926 inc/customizer.php:939
+msgid "Icon "
+msgstr "Icon"
+
+#: inc/customizer.php:939
+msgid " Url"
+msgstr "Url"
+
+#: inc/extras.php:64
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Beitrag Navigation"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Beitrag Navigation"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Beintrag erstellt am %s"
+
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:106
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Beitrag erstellt in "
+
+#: inc/template-tags.php:112
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Getagged %1$s"
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr "Schreib einen Kommentar"
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: inc/template-tags.php:139
+#, php-format
+msgid "Category: %s"
+msgstr "Kategorie: %s"
+
+#: inc/template-tags.php:141
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: inc/template-tags.php:145
+#, php-format
+msgid "Year: %s"
+msgstr "Jahr: %s\n"
+
+#: inc/template-tags.php:145
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "J"
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: inc/template-tags.php:147
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F J"
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:149
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, J"
+
+#: inc/template-tags.php:151
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Randbemerkung"
+
+#: inc/template-tags.php:153
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallerien"
+
+#: inc/template-tags.php:155
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/template-tags.php:157
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitate"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chat"
+
+#: inc/template-tags.php:169
+#, php-format
+msgid "Archives: %s"
+msgstr "Archive: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:173
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:175
+msgid "Archives"
+msgstr "Archive"
+
+#: inc/template-tags.php:262
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:277
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:283
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freigabe. "
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"

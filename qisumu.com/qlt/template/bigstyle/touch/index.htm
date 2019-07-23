@@ -1,0 +1,60 @@
+<!--{template common/mwt_frame}-->
+<style>
+.tl-fname {font-size:11px;color:#666;background:#eee;padding:0 7px;border-radius:300px;float:left;}
+.tl-avatar {border-radius:300px;width:30px;height:30px;vertical-align:top}
+.tl-author {margin:0 8px;display:inline-block;font-size:12px;color:#333;}
+.tl-time   {float:left;font-size:11px;color:#999;}
+.tl-img {max-width:80px;max-height:60px;}
+</style>
+{eval
+$limit=15;
+$listarr = array();
+$sql = 'SELECT a.tid,a.author,a.authorid,a.subject,a.dateline,a.views,a.replies,b.attachment,c.name as forum_name '.
+       'FROM '.DB::table('forum_thread').' AS a LEFT JOIN '.DB::table('forum_threadimage').' AS b ON a.tid=b.tid '.
+       'LEFT JOIN '.DB::table('forum_forum').' AS c ON a.fid=c.fid '.
+       'WHERE a.closed=0 AND a.displayorder>=0';
+//1. 新帖
+$listarr[] = DB::fetch_all($sql.' ORDER BY dateline DESC LIMIT 0,'.$limit);
+//2. 热贴
+$listarr[] = DB::fetch_all($sql.' AND heats>0 ORDER BY heats DESC, dateline DESC LIMIT 0,'.$limit);
+//3. 精华
+$listarr[] = DB::fetch_all($sql.' AND digest>0 ORDER BY dateline DESC, digest DESC LIMIT 0,'.$limit);
+}
+{loop $listarr $k $list}
+<div id="thread_div_{$k}" style="display:none;margin:0;" class="weui_cells">
+{loop $list $m} 
+<div class="weui_cell" style="display:block;">
+  <div>
+    <img src="{avatar($m[authorid],'middle',true)}" class="tl-avatar">
+    <span class="tl-author">{$m[author]}<br><span class="tl-time"><!--{eval echo date('Y-m-d H:i',$m['dateline']);}--></span></span>
+  </div>
+  <div class="weui_cell_bd weui_cell_primary" onclick="require('common/location').viewthread('{$m[tid]}');">
+     <!--{if $m[attachment]!=''}-->
+     <table class="tablay"><tr>
+       <td valign="top">{$m['subject']}</td>
+       <td width="80" align="center">
+         <img src="{$_G['setting']['attachurl']}forum/{$m['attachment']}" class="tl-img">
+       </td>
+     </tr></table>
+     <!--{else}-->
+     {$m['subject']}
+     <!--{/if}-->
+  </div>
+  <div class="weui_cell_ft" style="font-size:13px;text-align:right;margin-top:2px;">
+    <span class="tl-fname">{$m['forum_name']}</span>
+    <i class="icon icon-comment"></i> {$m[replies]}&nbsp;&nbsp;&nbsp;<i class="icon icon-preview"></i> {$m[views]}
+  </div>
+</div>
+{/loop}
+</div>
+{/loop}
+
+<script>
+jQuery(document).ready(function($) {
+	require(["jsapp","mwt"],function(jsapp){
+		//jsapp.run('index/page');
+		jsapp.run('index/page2');
+	});
+});
+</script>
+<!--{template common/footer}-->

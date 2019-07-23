@@ -1,0 +1,178 @@
+/*  
+
+Theme Name: EDC
+
+Theme URI: http://www.mao01.com/
+
+Description: 瀑布流图片主题
+
+Version: 1.0
+
+Author: 猫猫
+
+Author URI: http://www.mao01.com/
+
+
+*/
+* { margin:0; padding:0;}
+body {font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial;font-size: 14px; color:#444; position:relative;  }
+ul,li { list-style:none;}
+.alignleft { float:left;}
+.alignright { float:right;}
+.aligncenter { margin-left:auto; margin-right:auto;display: block; }
+.c { clear:both; width:100%; height:0; overflow:hidden;}
+.p-t10 { padding-top:10px;}
+.p-t30 { padding-top:30px;}
+.p-b20 { padding-bottom:20px;}
+.w250 {width: 250px; float: left;}
+.w750 {width: 750px; float: left; }
+.w990 {width: 990px;margin:0 auto; }
+.w1000 {width: 1000px;margin:0 auto; }
+a {color:#333;text-decoration:none;}
+a:hover { color:#333;text-decoration: underline;}
+img { border:0;}
+input:focus{outline:none}
+.cbg {background: #EF4372; }
+.pr {position: relative;}
+
+/* header */
+#header {background: #EF4372;filter:alpha(opacity=95);	-moz-opacity:0.95;-khtml-opacity: 0.95;opacity: 0.95;width: 100%;height: 80px;position: fixed;top: 0;_position: absolute;_bottom: auto;
+_top: expression(eval(document.documentElement.scrollTop));z-index: 9999;}
+#header .w990 {padding: 10px 0 0;position: relative;}
+#logo {font-size: 33px; position: absolute; left: 0; top:22px;}
+
+/* nav */
+#nav {margin:0 0 10px;height: 30px; line-height: 30px; position: absolute; top:30px; right: 187px;}
+#nav li {float: left; margin: 0 0 0 10px; display: inline; position: relative; z-index: 999;}
+#nav li a {display: block;height: 23px;line-height: 23px;border-radius: 30px;padding: 0 10px;font-size: 16px;color: white;font-family: "GothamRnd","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial;font-weight: bold;background: transparent;-webkit-transition: background-color .25s linear;-moz-transition: background-color .25s linear;transition: background-color .25s linear;}
+#nav li a:hover {background-color: white;color: #EF4372;text-decoration: none;}
+#nav li.current-menu-item a,#nav li.current_page_item a,#nav li.current-post-ancestor a,#nav li.current-menu-parent a,#nav li.current-post-parent a {background-color: white;color: #EF4372;text-decoration: none;}
+
+#header p {position: absolute; right: 0; top:32px;}
+#header p a {margin-left: 25px;width: 28px;}
+.icon {display: inline-block;position: relative;height: 10px;font-size: 0;line-height: 0;}
+.icon i {position: absolute;left: 0;bottom: 0;overflow: hidden;line-height: 200px;}
+#header p i {bottom: -10px;}
+.icon-rss i {width: 28px;height: 28px;background-image: url(img/style.png);background-position: -76px 0;}
+#header a.icon-rss:hover i {background-image: url(img/style.png);background-position: -76px -87px;}
+.icon-t i {width: 28px;height: 28px;background-image: url(img/style.png);background-position: -76px -29px;}
+#header a.icon-t:hover i {background-image: url(img/style.png);background-position: -76px -116px;}
+.icon-weibo i {width: 28px;height: 28px;background-image: url(img/style.png);background-position: -76px -58px;}
+#header a.icon-weibo:hover i {background-image: url(img/style.png);background-position: -76px -145px;}
+
+/* search */
+#search { position: absolute; right: 0; top:15px; width: 300px;}
+#searchform {padding: 0 37px 0 0; position: relative;}
+#searchinput {height: 28px; line-height: 28px;border: 1px solid #ccc; width: 100%;color: #888; padding-left: 10px;}
+#searchinput:focus {background: #f9f9f9; color: #1F75CC;}
+#searchbtn {border: none; color: #fff; height: 30px; line-height: 30px; padding:  0 5px; position: absolute; right: 0; top:0; cursor: pointer;}
+#searchbtn:hover {color: #000;}
+
+/* main */
+#main {padding-top: 100px;}
+#container {overflow: hidden;}
+.post {border: 1px solid #f6f6f6; float: left; display: inline; margin: 0 10px 20px;position: relative; overflow: hidden;background: #F6F6F6;width: 228px;}
+.post.sticky { width: 728px; }
+.post img {width:228px; }
+.post.sticky img {width:728px; }
+
+/* footer */
+#footer {padding: 20px 0 30px; font-size: 12px;}
+#footer .w990 {position: relative; border-top:1px solid #f0f0f0; padding-top: 10px; text-align: center; line-height: 30px; }
+
+/* sidebar */
+.nav_right_side {margin-bottom: 40px;padding-bottom: 40px;border-bottom: 1px #F0F0F0 solid;}
+.hrbox {margin-bottom: 40px;border-bottom: 1px #F0F0F0 solid;padding-bottom: 40px;}
+.hrbox h4 {font-size: 18px; font-weight: 700; color: #333; position: relative; line-height:20px; padding-bottom: 40px;}
+.hrbox a { color: #fff;}
+.hrbox a:hover { text-decoration: underline;}
+.hrbox h4 a {position:absolute; right:0; font-size: 12px; }
+.hrbox li {line-height: 25px; /* background: url(img/Magic-Wand.gif) no-repeat 0 8px; padding-left: 15px; */margin-bottom: 5px; font-size: 12px;}
+
+/* arc */
+#arcls {padding:0 0 0 20px; margin-bottom: 10px;line-height: 25px; padding-top: 95px;}
+#arcls li li {font-size: 12px;}
+#arcls li a {color: #333;}
+
+.piax {color: #999;padding: 10px;}
+.piax h2 {font-size: 20px;font-weight: 400; margin-bottom: 5px;}
+.piax h2 a{color: #999;}
+.piax h2 a:hover {text-decoration: underline;}
+.pac {padding-top: 5px; font-size: 12px;color: #c7c7c7;}
+.pac a {color: #c7c7c7;}
+.pac a:hover { text-decoration: underline;}
+
+.post .piax.hvv {color: #fff;padding: 10px; background:#EF4372; }
+.post .piax.hvv h2 a{color: #fff;}
+.post .piax.hvv .pac {color: #fff;}
+.post .piax.hvv .pac a {color: #fff;}
+
+#arcrs {position: relative;}
+.arcbox {width: 390px;float: left;display: inline; margin:0 5px 10px; color: #999;}
+.arcbox .img {width: 388px;height: 262px;overflow: hidden;border: 1px solid #f6f6f6;}
+.arcbox .img a {display: block;width: 388px;height: 262px; overflow: hidden; text-indent: -999px;}
+.arcbox .piax {border: 1px solid #f6f6f6; background: #f6f6f6;}
+.arcbox .piax .exc {width: 368px; height: 21px; overflow: hidden;}
+.arcbox .piax.hvv {color: #fff;padding: 10px; background:#ed594a; }
+.arcbox .piax.hvv h2 a{color: #fff;}
+.arcbox .piax.hvv .pac a {color: #fff;}
+
+#pager { text-align:center; padding: 10px 0 20px;font-size: 18px;}
+#pager a {margin: 0 5px; padding: 0 5px;}
+#pager a.current,#pager a:hover {text-decoration: none;border-bottom: 2px solid #EF4372; }
+
+
+/* single */
+#content {}
+#entry {margin-bottom: 40px;padding:0 10px 40px; border-bottom: 1px solid #f0f0f0;}
+#entry h1 {font-size: 28px; margin-bottom: 5px;font-weight: 400;}
+.postinfo {font-size: 12px;font-weight: normal;color: #999; margin-bottom: 30px;}
+.postinfo a {color: #999;}
+#postarea {overflow: hidden; margin-bottom: 10px;}
+#postarea img {width: expression(this.width > 730 ? 730: true); max-width: 730px;}
+
+/* comment */
+#comment {padding: 10px;}
+#comments,#respond h3 {font-size: 20px; font-weight: 400; }
+#respond h3 {margin-bottom: 40px;}
+.commentlist {padding-bottom: 20px;}
+.commentlist li {background: none;padding-left:0; margin: 0; padding:10px 0; position: relative; border-bottom: 1px dashed #e3e3e3;}
+/* .commentlist li.even {background: #f9f9f9;} */
+.commenthead {height: 32px;}
+.commentmetadata {color: #888;}
+.avatar {position:absolute; left: 0px; top:10px; width: 32px; height: 32px; border: 1px solid #ccc;z-index: 10; }
+span.fn { position: absolute; top:10px; left: 42px;}
+.commentbody {padding-top: 10px;}
+#commentform p.ng { margin-bottom: 5px; line-height: 25px;}
+#commentform p.ng input {margin-right: 10px; height: 23px; border: 1px solid #e3e3e3; width: 150px;}
+#commentform p.ng input:focus {background: #f9f9f9; color: #EF4372; border: 1px solid #EF4372;}
+#commentform p.ng span {color: #f00;}
+#commentarea {border:1px solid #e3e3e3; margin-bottom: 10px;}
+#commentarea {width: 728px;}
+#submit { border:none; padding: 8px 20px; color: #fff; cursor: pointer;}
+
+/* gotop */
+.fixednav {
+position: fixed;
+top: 0;
+_position: absolute;
+_bottom: auto;
+_top: expression(eval(document.documentElement.scrollTop));
+z-index: 9999;
+}
+.link-back2top {position: fixed;right: 0;top: 80%;width: 120px;height: 60px;z-index: 3;}
+.link-back2top a {display: block;overflow: hidden;font-size: 0;line-height: 0;background: url(img/bg_top.png) 25px center #D6D6D6 no-repeat;width: 60px;height: 60px;border-radius: 60px;-webkit-transition: background-color .4s linear;-moz-transition: background-color .4s linear;transition: background-color .4s linear;}
+.link-back2top a:hover {background-color: #EF4372;-webkit-transition: background-color .4s linear;-moz-transition: background-color .4s linear;transition: background-color .4s linear;}
+
+.option {position: fixed;top: 228px;left: 50%;width: 980px;margin-left: -490px;z-index: 10;}
+.list-option {position: absolute;right: -55px;top: 0;width: 35px;}
+.list-option a.list-option-link {display: block;margin-bottom: 10px;font-size: 0;line-height: 100px;overflow: hidden;width: 35px;height: 35px;position: relative;}
+.icon-back i {width: 34px;height: 34px;background-image: url(img/style.png);background-position: -41px 0;}
+.list-option a.icon-back:hover i {background-image: url(img/style.png);background-position: -41px -105px;}
+.icon-share i {width: 34px;height: 34px;background-image: url(img/style.png);background-position: -41px -35px;}
+.icon-share.hvv i, .list-option a.icon-share:hover i,.list-option a.icon-share-hover i {background-image: url(img/style.png);background-position: -41px -140px;}
+ 
+
+.list-share {position: absolute;right: 30px;top: 46px;height: 29px;padding: 5px 5px 0;background: #EF4372;border-radius: 5px 0 0 5px;}
+.list-share li {float: right;border-right: 1px #F3528B solid;height: 24px;line-height: 24px;padding-right: 10px;margin-left: 10px;color: white;font-weight: bold;font-size: 14px;}
+.list-share li a {font-size: 14px;color: white;font-weight: bold;}

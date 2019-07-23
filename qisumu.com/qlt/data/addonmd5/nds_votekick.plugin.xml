@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[nds_votekick.plugin]]></item>
+	<item id="RevisionID"><![CDATA[82]]></item>
+	<item id="SN"><![CDATA[2017021016NFPFXoPSmN]]></item>
+	<item id="RevisionDateline"><![CDATA[1423533601]]></item>
+	<item id="Data">
+		<item id="/template/votekickwindow.htm"><![CDATA[3ebc9b71ccf1fa5c48140b600d19d724]]></item>
+		<item id="/template/votekick.htm"><![CDATA[195d8a9c806f254831ec7b85dfad1ebe]]></item>
+		<item id="/template/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/discuz_plugin_nds_votekick_SC_UTF8.xml"><![CDATA[58c009cfa2567bbf4dfc8fffff412354]]></item>
+		<item id="/nds_votekickcp.inc.php"><![CDATA[15e19a5bd5dcdf423c79fdefee6d77f5]]></item>
+		<item id="/table/table_plugin_nds_votekick.php"><![CDATA[e5114b7682f30721b5a579119b8233e3]]></item>
+		<item id="/table/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/table/table_forum_forumfield_nds.php"><![CDATA[4a1764a519d6a8650aa25b142c568df9]]></item>
+		<item id="/table/table_common_member_field_forum_nds.php"><![CDATA[276a2944678f44492a6d90d54cbaf505]]></item>
+		<item id="/table/table_common_member_nds.php"><![CDATA[d454a4379d2efdf011903134f642cc86]]></item>
+		<item id="/nds_votekick.class.php"><![CDATA[f6f2ac03f2e82dfc4a6e2ba79c7cafbb]]></item>
+		<item id="/upgrade.php"><![CDATA[76e8ac46ca16d8baa028e127c59a7cb9]]></item>
+		<item id="/discuz_plugin_nds_votekick_TC_BIG5.xml"><![CDATA[8c875e718e46d0dd720e583c6de436cf]]></item>
+		<item id="/install.php"><![CDATA[13de24d69cdf9b529280baa7443956de]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/discuz_plugin_nds_votekick_TC_UTF8.xml"><![CDATA[33e70fdf199d16fa2811aff572a4bd5c]]></item>
+		<item id="/uninstall.php"><![CDATA[597c35b1b5032b776853401c7d26feb5]]></item>
+		<item id="/discuz_plugin_nds_votekick_SC_GBK.xml"><![CDATA[e6e11a0950c0cb0637f531ba28799ff1]]></item>
+	</item>
+</root>

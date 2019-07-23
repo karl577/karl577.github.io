@@ -1,0 +1,1272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Bank\n"
+"POT-Creation-Date: 2017-02-16 15:05+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;gettext\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: contact-bank.php:100 contact-bank.php:117 contact-bank.php:134
+msgid "Contact Bank"
+msgstr "Kontaktbank"
+
+#: contact-bank.php:101 contact-bank.php:118 contact-bank.php:135
+#: contact-bank.php:968 contact-bank.php:1045 contact-bank.php:1122
+#: views/header.php:132 views/header.php:146 views/header.php:160
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: contact-bank.php:103 contact-bank.php:120 contact-bank.php:137
+#: contact-bank.php:974 contact-bank.php:1051 contact-bank.php:1128
+#: views/automatic-plugin-update.php:28 views/automatic-plugin-update.php:32
+msgid "Plugin Updates"
+msgstr "Plugin'en opdateringer"
+
+#: contact-bank.php:104 contact-bank.php:121 contact-bank.php:138
+#: contact-bank.php:980 contact-bank.php:1057 contact-bank.php:1134
+#: views/header.php:133 views/header.php:147 views/header.php:161
+msgid "Short-Codes"
+msgstr "Korte-Koder"
+
+#: contact-bank.php:105 contact-bank.php:122 contact-bank.php:139
+#: contact-bank.php:986 contact-bank.php:1063 contact-bank.php:1140
+#: views/contact_frontend_data.php:30 views/dashboard.php:121
+#: views/header.php:134 views/header.php:148 views/header.php:162
+msgid "Form Entries"
+msgstr "Formularposter"
+
+#: contact-bank.php:106 contact-bank.php:123 contact-bank.php:140
+#: contact-bank.php:992 contact-bank.php:1069 contact-bank.php:1146
+#: views/contact_email_settings.php:29 views/dashboard.php:116
+#: views/header.php:135 views/header.php:149 views/header.php:163
+msgid "Email Settings"
+msgstr "E-mail indstillinger"
+
+#: contact-bank.php:107 contact-bank.php:124 contact-bank.php:141
+#: contact-bank.php:998 contact-bank.php:1075 contact-bank.php:1152
+#: views/contact_bank_layout_settings.php:29 views/dashboard.php:111
+#: views/header.php:136 views/header.php:150 views/header.php:164
+msgid "Global Settings"
+msgstr "Globale indstillinger"
+
+#: contact-bank.php:108 contact-bank.php:125 contact-bank.php:142
+#: contact-bank.php:1004 contact-bank.php:1081 contact-bank.php:1158
+#: views/contact-feedback.php:34
+msgid "Feature Requests"
+msgstr "funktionen Anmodninger"
+
+#: contact-bank.php:109 contact-bank.php:126 contact-bank.php:143
+#: contact-bank.php:1010 contact-bank.php:1088
+#: views/contact-bank-system-report.php:31
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: contact-bank.php:110 contact-bank.php:127 contact-bank.php:144
+#: contact-bank.php:1016 contact-bank.php:1094 contact-bank.php:1164
+#: views/header.php:102 views/header.php:137 views/header.php:151
+#: views/header.php:165
+msgid "Recommendations"
+msgstr "Anbefalinger"
+
+#: contact-bank.php:111 contact-bank.php:128 contact-bank.php:145
+#: contact-bank.php:1023 contact-bank.php:1101 contact-bank.php:1171
+#: views/header.php:138 views/header.php:152 views/header.php:166
+#: views/purchase_pro_version.php:33
+msgid "Premium Editions"
+msgstr "Præmie udgivelser"
+
+#: contact-bank.php:112 contact-bank.php:129 contact-bank.php:146
+#: contact-bank.php:1030 contact-bank.php:1108 contact-bank.php:1178
+#: views/header.php:107 views/header.php:139 views/header.php:153
+#: views/header.php:167
+msgid "Our Other Services"
+msgstr "Vores andre Tjenester"
+
+#: contact-bank.php:1191
+msgid "Add Contact Bank Form"
+msgstr "Tilføj Kontaktbank formular"
+
+#: contact-bank.php:1207
+msgid "Insert Contact Bank Form"
+msgstr "Indsæt Kontaktbank formular"
+
+#: contact-bank.php:1209
+msgid "Select a form below to add it to your post or page."
+msgstr "Vælg en formular herunder til indsætning i dit indlæg eller side"
+
+#: contact-bank.php:1214
+msgid "Form Name"
+msgstr "Formular navn"
+
+#: contact-bank.php:1216
+msgid "Select a Form"
+msgstr "Vælg en formular"
+
+#: contact-bank.php:1233
+msgid "Show Form Title"
+msgstr "Vis formularens titel"
+
+#: contact-bank.php:1237
+msgid "Show Form Description"
+msgstr "Vis Form Beskrivelse"
+
+#: contact-bank.php:1242
+msgid "Insert Form"
+msgstr "Indsæt formular"
+
+#: contact-bank.php:1245
+msgid "Cancel"
+msgstr "Annuller"
+
+#: contact-bank.php:1258
+msgid "Please choose a Form to insert into Shortcode"
+msgstr "Vælg venligst den formular, der skal indsættes i Shortcode"
+
+#: contact-bank.php:1294
+msgid "View Contact Bank Documentation"
+msgstr "Udsigt Contact Bank Dokumentation"
+
+#: contact-bank.php:1294
+msgid "Docs"
+msgstr "dok"
+
+#: contact-bank.php:1295
+msgid "View Contact Bank Premium Editions"
+msgstr "Udsigt Contact Bank - Præmie udgivelser"
+
+#: contact-bank.php:1295
+msgid "Go for Premium!"
+msgstr "Gå efter præmie!"
+
+#: contact-bank.php:1384
+msgid "Contact Bank Widget"
+msgstr ""
+
+#: contact-bank.php:1385
+msgid "Build Complex, Powerful Contact Forms in Just Seconds."
+msgstr ""
+
+#: contact-bank.php:1400
+msgid "Select Form :"
+msgstr "Vælg formular:"
+
+#: contact-bank.php:1402 views/contact_bank_layout_settings.php:45
+#: views/contact_bank_layout_settings.php:55
+#: views/contact_email_settings.php:36 views/contact_email_settings.php:52
+#: views/contact_frontend_data.php:45 views/contact_frontend_data.php:55
+msgid "Select Form"
+msgstr "Vælg formular"
+
+#: frontend_views/contact_bank_forms.php:344
+#: views/contact_bank_form_preview.php:392 views/contact_controls_files.php:96
+msgid "Select Option"
+msgstr "Vælg en mulighed"
+
+#: includes/cb_checkbox.php:56
+msgid "Check Boxes"
+msgstr "Marker afkrydsningsfelter"
+
+#: includes/cb_checkbox.php:60 includes/cb_dropdown.php:60
+#: includes/cb_email.php:60 includes/cb_multiple.php:60 includes/cb_text.php:60
+#: includes/cb_textarea.php:59
+msgid "Label"
+msgstr "Etiket"
+
+#: includes/cb_checkbox.php:62 includes/cb_checkbox.php:164
+#: includes/cb_dropdown.php:62 includes/cb_dropdown.php:165
+#: includes/cb_email.php:63 includes/cb_email.php:153
+#: includes/cb_multiple.php:64 includes/cb_multiple.php:184
+#: includes/cb_text.php:63 includes/cb_text.php:152 includes/cb_textarea.php:61
+#: includes/cb_textarea.php:149 views/contact_controls_files.php:37
+#: views/contact_controls_files.php:55 views/contact_controls_files.php:92
+#: views/contact_controls_files.php:109 views/contact_controls_files.php:127
+msgid "Untitled"
+msgstr "Unavngivet"
+
+#: includes/cb_checkbox.php:66 includes/cb_checkbox.php:76
+#: includes/cb_checkbox.php:89 includes/cb_checkbox.php:103
+#: includes/cb_dropdown.php:66 includes/cb_dropdown.php:76
+#: includes/cb_dropdown.php:89 includes/cb_dropdown.php:103
+#: includes/cb_email.php:77 includes/cb_email.php:88 includes/cb_email.php:103
+#: includes/cb_email.php:119 includes/cb_multiple.php:69
+#: includes/cb_multiple.php:80 includes/cb_multiple.php:95
+#: includes/cb_multiple.php:111 includes/cb_text.php:76 includes/cb_text.php:87
+#: includes/cb_text.php:102 includes/cb_text.php:118
+#: includes/cb_textarea.php:75 includes/cb_textarea.php:86
+#: includes/cb_textarea.php:101 includes/cb_textarea.php:117
+msgid "Required"
+msgstr "Påkrævet"
+
+#: includes/cb_checkbox.php:80 includes/cb_checkbox.php:93
+#: includes/cb_checkbox.php:107 includes/cb_dropdown.php:80
+#: includes/cb_dropdown.php:93 includes/cb_dropdown.php:107
+#: includes/cb_email.php:93 includes/cb_email.php:108 includes/cb_email.php:124
+#: includes/cb_multiple.php:85 includes/cb_multiple.php:100
+#: includes/cb_multiple.php:116 includes/cb_text.php:92
+#: includes/cb_text.php:107 includes/cb_text.php:123
+#: includes/cb_textarea.php:91 includes/cb_textarea.php:106
+#: includes/cb_textarea.php:122
+msgid "Not Required"
+msgstr "Ikke påkrævet"
+
+#: includes/cb_checkbox.php:115 includes/cb_dropdown.php:115
+#: includes/cb_email.php:132 includes/cb_multiple.php:124
+#: includes/cb_text.php:131
+msgid "Tooltip Text"
+msgstr "Værktøjstip"
+
+#: includes/cb_checkbox.php:117 includes/cb_dropdown.php:117
+#: includes/cb_email.php:135 includes/cb_multiple.php:128
+#: includes/cb_text.php:134 includes/cb_textarea.php:132
+#: views/contact_frontend_data.php:176 views/dashboard.php:212
+#: views/includes_common_after.php:448 views/includes_common_after.php:451
+#: views/includes_common_after.php:454 views/includes_common_after.php:457
+#: views/includes_common_after.php:460 views/includes_common_after.php:463
+#: views/includes_common_after.php:466 views/includes_common_after.php:469
+#: views/includes_common_after.php:472
+msgid "This Feature is only available in Premium Editions!"
+msgstr "Denne funktion er kun tilgængelig i Betalt præmie udgave!"
+
+#: includes/cb_checkbox.php:121 includes/cb_dropdown.php:121
+#: includes/cb_multiple.php:133
+msgid "Options"
+msgstr "Muligheder"
+
+#: includes/cb_checkbox.php:123
+msgid "Enter Options"
+msgstr "Skriv muligheder"
+
+#: includes/cb_checkbox.php:124 includes/cb_dropdown.php:124
+#: includes/cb_multiple.php:139
+msgid "Add"
+msgstr "Tilføj"
+
+#: includes/cb_checkbox.php:155 includes/cb_dropdown.php:156
+#: includes/cb_multiple.php:173
+msgid "Delete"
+msgstr "Slet"
+
+#: includes/cb_checkbox.php:162 includes/cb_dropdown.php:163
+#: includes/cb_email.php:150 includes/cb_multiple.php:180
+#: includes/cb_text.php:149 includes/cb_textarea.php:147
+msgid "Admin Label"
+msgstr "Administratoretiket"
+
+#: includes/cb_checkbox.php:164 includes/cb_dropdown.php:165
+#: includes/cb_email.php:154 includes/cb_multiple.php:183
+#: includes/cb_text.php:151 includes/cb_textarea.php:150
+msgid "Enter Admin Label"
+msgstr "Indtast administratoretiket"
+
+#: includes/cb_checkbox.php:168 includes/cb_dropdown.php:169
+#: includes/cb_email.php:159 includes/cb_multiple.php:188
+#: includes/cb_text.php:157 includes/cb_textarea.php:154
+msgid "Do not show in the email"
+msgstr "Vis ikke i emailen"
+
+#: includes/cb_checkbox.php:199 includes/cb_dropdown.php:200
+#: includes/cb_email.php:193 includes/cb_multiple.php:222
+#: includes/cb_text.php:217 includes/cb_textarea.php:209
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: includes/cb_checkbox.php:293 includes/cb_dropdown.php:286
+#: includes/cb_multiple.php:317
+msgid "Please Fill an Option."
+msgstr "Udfyld venligst en mulighed."
+
+#: includes/cb_dropdown.php:56 views/contact_view.php:454
+msgid "Select Box"
+msgstr "Vælg boks"
+
+#: includes/cb_dropdown.php:62 includes/cb_email.php:64
+#: includes/cb_multiple.php:65 includes/cb_text.php:64
+msgid "Enter Label"
+msgstr "Skriv etiket"
+
+#: includes/cb_dropdown.php:123 includes/cb_multiple.php:136
+msgid "Enter Option"
+msgstr "Skriv boks"
+
+#: includes/cb_email.php:56 views/contact_view.php:451
+msgid "Email Address"
+msgstr "Emailadresse"
+
+#: includes/cb_email.php:69 includes/cb_text.php:68 includes/cb_textarea.php:67
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/cb_email.php:72 includes/cb_text.php:71
+msgid "Enter Description"
+msgstr "Skriv en beskrivelse"
+
+#: includes/cb_email.php:141 includes/cb_text.php:140
+#: includes/cb_textarea.php:139
+msgid "Place Holder"
+msgstr "Pladsholder"
+
+#: includes/cb_email.php:144 includes/cb_text.php:143
+#: includes/cb_textarea.php:141
+msgid "Enter Place Holder"
+msgstr "Indtast pladsholder"
+
+#: includes/cb_multiple.php:56 views/contact_view.php:462
+msgid "Radio Buttons"
+msgstr "Radioknapper"
+
+#: includes/cb_text.php:56 views/contact_view.php:443
+msgid "Single Line Text"
+msgstr "Tekstfelt - enkeltlinie"
+
+#: includes/cb_text.php:188 includes/cb_textarea.php:185
+msgid "Add a filter"
+msgstr "Tilføj et filter"
+
+#: includes/cb_text.php:192 includes/cb_textarea.php:188
+msgid "Alpha"
+msgstr "Alfa"
+
+#: includes/cb_text.php:196 includes/cb_textarea.php:191
+msgid "Alpha Numeric"
+msgstr "Alfanumerisk"
+
+#: includes/cb_text.php:200 includes/cb_textarea.php:194
+msgid "Digits"
+msgstr "Tal"
+
+#: includes/cb_text.php:204 includes/cb_textarea.php:197
+msgid "Strip Tags"
+msgstr "strimler Tags på"
+
+#: includes/cb_text.php:208 includes/cb_textarea.php:200
+msgid "Trim"
+msgstr "Trim"
+
+#: includes/cb_text.php:210 includes/cb_textarea.php:202
+#: views/contact_bank_layout_settings.php:83
+#: views/contact_bank_layout_settings.php:271
+#: views/contact_bank_layout_settings.php:481
+#: views/contact_bank_layout_settings.php:674
+#: views/contact_bank_layout_settings.php:802 views/contact_view.php:472
+msgid " (Available in Premium Editions)"
+msgstr "Denne funktion er kun tilgængelig i Betalt præmie udgave!"
+
+#: includes/cb_textarea.php:55 views/contact_view.php:446
+msgid "Paragraph Text"
+msgstr "Tekstfelt - afsnit"
+
+#: includes/cb_textarea.php:62
+msgid "Enter label"
+msgstr "Indtast etiket"
+
+#: includes/cb_textarea.php:69
+msgid "Enter  Description"
+msgstr "Indtast beskrivelse"
+
+#: includes/cb_textarea.php:130
+msgid "Tooltip text"
+msgstr "Værktøjstip tekst"
+
+#: lib/contact_bank_email-class.php:48 lib/contact_bank_email-class.php:58
+#: lib/contact_bank_email-class.php:68
+msgid "Edit Email Settings"
+msgstr "Rediger e-mail indstillinger"
+
+#: lib/contact_bank_email-class.php:51 lib/contact_bank_email-class.php:61
+#: lib/contact_bank_email-class.php:71
+msgid "Delete Email Settings"
+msgstr "Slet e-mail indstillinger"
+
+#: lib/contact_frontend_data_class.php:113
+msgid "Delete Form Entry"
+msgstr "Slet formular indtastning"
+
+#: views/add_contact_email.php:68 views/contact_email_settings.php:87
+msgid "Email Confirmation"
+msgstr "E-mail bekræftelse"
+
+#: views/add_contact_email.php:71
+msgid "Back to Email Settings"
+msgstr "Tilbage til e-mail indstillinger"
+
+#: views/add_contact_email.php:72 views/add_contact_email.php:413
+#: views/contact_bank_layout_settings.php:35
+#: views/contact_bank_layout_settings.php:520
+#: views/contact_bank_layout_settings.php:932
+msgid "Save"
+msgstr "Gem"
+
+#: views/add_contact_email.php:76
+msgid "Email Settings Saved. Kindly wait for the redirect."
+msgstr "E-mail indstillinger gemt. Vent venligst på omdirigering."
+
+#: views/add_contact_email.php:83 views/add_contact_email.php:140
+#: views/contact_controls_files.php:73
+msgid "Email"
+msgstr "E-mail"
+
+#: views/add_contact_email.php:87 views/contact-feedback.php:52
+#: views/contact_view.php:479
+msgid "Name"
+msgstr "Navn"
+
+#: views/add_contact_email.php:91
+msgid "Enter Name"
+msgstr "Skriv navn"
+
+#: views/add_contact_email.php:97
+msgid "Send To"
+msgstr "Send til"
+
+#: views/add_contact_email.php:106 views/add_contact_email.php:117
+#: views/add_contact_email.php:129 views/add_contact_email.php:249
+msgid "Enter Email"
+msgstr "Skriv e-mail"
+
+#: views/add_contact_email.php:108 views/add_contact_email.php:119
+#: views/add_contact_email.php:131
+msgid "Select a Field"
+msgstr "Vælg et felt"
+
+#: views/add_contact_email.php:144
+msgid "Enter Email "
+msgstr "Skriv e-mail_"
+
+#: views/add_contact_email.php:148
+msgid "Send To Field"
+msgstr "Send til felt"
+
+#: views/add_contact_email.php:152
+msgid "Enter Field "
+msgstr "Indtast felt_"
+
+#: views/add_contact_email.php:154 views/add_contact_email.php:187
+#: views/add_contact_email.php:220 views/add_contact_email.php:251
+#: views/add_contact_email.php:282 views/add_contact_email.php:313
+#: views/add_contact_email.php:346
+msgid "Select a field"
+msgstr "Vælg et felt"
+
+#: views/add_contact_email.php:181
+msgid "From Name"
+msgstr "Fra navn"
+
+#: views/add_contact_email.php:185
+msgid "Enter from name "
+msgstr "Indtast fra navn_"
+
+#: views/add_contact_email.php:214
+msgid "From Email"
+msgstr "Fra e-mail"
+
+#: views/add_contact_email.php:218
+msgid "Enter from email"
+msgstr "Indtast fra e-mail"
+
+#: views/add_contact_email.php:247
+msgid "Reply To"
+msgstr "Svar til"
+
+#: views/add_contact_email.php:278
+msgid "CC"
+msgstr "CC"
+
+#: views/add_contact_email.php:280
+msgid "Enter CC Email "
+msgstr "Skriv CC e-mail_"
+
+#: views/add_contact_email.php:309
+msgid "BCC"
+msgstr "BCC"
+
+#: views/add_contact_email.php:311
+msgid "Enter Bcc Email"
+msgstr "Skriv Bcc e-mail"
+
+#: views/add_contact_email.php:340
+msgid "Subject"
+msgstr "Emne"
+
+#: views/add_contact_email.php:344
+msgid "Enter Subject"
+msgstr "Skriv emne"
+
+#: views/add_contact_email.php:373
+msgid "Message"
+msgstr "Besked"
+
+#: views/add_contact_email.php:384
+msgid "Insert a Field into Your Form Message"
+msgstr "Indsæt et felt i din meddelelsesform"
+
+#: views/automatic-plugin-update.php:35
+msgid "Enable"
+msgstr "Aktiver"
+
+#: views/automatic-plugin-update.php:36
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: views/contact-bank-system-report.php:34
+msgid "Get System Report"
+msgstr "Hent systemrapport"
+
+#: views/contact-bank-system-report.php:38
+msgid "Close System Report"
+msgstr "Luk systemrapport"
+
+#: views/contact-feedback.php:37 views/contact_bank_form_preview.php:294
+#: views/contact_bank_layout_settings.php:32
+#: views/contact_email_settings.php:32 views/contact_frontend_data.php:33
+#: views/contact_view.php:255 views/purchase_pro_version.php:37
+#: views/recommended-plugins.php:89
+msgid "Back to Dashboard"
+msgstr "Tilbage til dashboard"
+
+#: views/contact-feedback.php:41
+msgid "Email has been sent successfully."
+msgstr "Email er blevet sendt med succes."
+
+#: views/contact-feedback.php:48 views/contact-feedback.php:64
+msgid "Feature Requests / Suggestions"
+msgstr "Funktionen Anmodninger / Forslag"
+
+#: views/contact-feedback.php:54
+msgid "Enter your Name"
+msgstr "Indtast dit navn"
+
+#: views/contact-feedback.php:58
+msgid "Email Id"
+msgstr "Email-id"
+
+#: views/contact-feedback.php:60
+msgid "Enter your Email Address"
+msgstr "Indtast din email adresse."
+
+#: views/contact-feedback.php:66
+msgid "Enter your Feature Requests / Suggestions"
+msgstr "Indtast funktionen anmodninger / Forslag"
+
+#: views/contact-feedback.php:71
+msgid "Send"
+msgstr "Sende"
+
+#: views/contact_bank_form_preview.php:291 views/dashboard.php:126
+msgid "Form Preview"
+msgstr "Forhåndsvisning af formular"
+
+#: views/contact_bank_layout_settings.php:33
+msgid "Restore Global Settings"
+msgstr "Genskab globale indstillinger"
+
+#: views/contact_bank_layout_settings.php:39
+msgid "Form Settings Saved. Kindly wait for the redirect."
+msgstr "Formularen Indstillinger Gemt. Venligst vente på omdirigeringen."
+
+#: views/contact_bank_layout_settings.php:82
+msgid "Label Settings"
+msgstr "Etiket indstillinger"
+
+#: views/contact_bank_layout_settings.php:94
+#: views/contact_bank_layout_settings.php:281
+#: views/contact_bank_layout_settings.php:491
+#: views/contact_bank_layout_settings.php:684
+#: views/contact_bank_layout_settings.php:812
+msgid "Font Family :"
+msgstr "Font familie:"
+
+#: views/contact_bank_layout_settings.php:119
+msgid "Font Color :"
+msgstr "Font farve:"
+
+#: views/contact_bank_layout_settings.php:130
+#: views/contact_bank_layout_settings.php:317
+msgid "Font Style :"
+msgstr "Typografi:"
+
+#: views/contact_bank_layout_settings.php:144
+#: views/contact_bank_layout_settings.php:331
+#: views/contact_bank_layout_settings.php:540
+#: views/contact_bank_layout_settings.php:709
+#: views/contact_bank_layout_settings.php:837
+msgid "Font Size (px) :"
+msgstr "Font størrelse (px):"
+
+#: views/contact_bank_layout_settings.php:175
+#: views/contact_bank_layout_settings.php:432
+#: views/contact_bank_layout_settings.php:645
+#: views/contact_bank_layout_settings.php:773
+#: views/contact_bank_layout_settings.php:901
+msgid "Text Align :"
+msgstr "Tekstjustering:"
+
+#: views/contact_bank_layout_settings.php:188
+msgid "Label Position :"
+msgstr "Etiket position:"
+
+#: views/contact_bank_layout_settings.php:202
+msgid "Field Desc Font Size :"
+msgstr "Feltbeskrivelse skrift størrelse:"
+
+#: views/contact_bank_layout_settings.php:233
+msgid "Field Description Align :"
+msgstr "Feltbeskrivelse justering :"
+
+#: views/contact_bank_layout_settings.php:247
+msgid "Hide Labels :"
+msgstr "Skjul etiketter:"
+
+#: views/contact_bank_layout_settings.php:255
+#: views/contact_bank_layout_settings.php:445
+#: views/contact_bank_layout_settings.php:658
+#: views/contact_bank_layout_settings.php:786
+#: views/contact_bank_layout_settings.php:914
+msgid "Text Direction :"
+msgstr "Tekstretning:"
+
+#: views/contact_bank_layout_settings.php:271
+msgid "Input Field Settings"
+msgstr "Indstillinger for indtastningsfelt"
+
+#: views/contact_bank_layout_settings.php:306
+#: views/contact_bank_layout_settings.php:603
+#: views/contact_bank_layout_settings.php:762
+#: views/contact_bank_layout_settings.php:890
+msgid "Text Color :"
+msgstr "Tekstfarve:"
+
+#: views/contact_bank_layout_settings.php:362
+#: views/contact_bank_layout_settings.php:635
+msgid "Border Radius (px) :"
+msgstr "Ramme radius (px):"
+
+#: views/contact_bank_layout_settings.php:372
+#: views/contact_bank_layout_settings.php:614
+#: views/contact_bank_layout_settings.php:751
+#: views/contact_bank_layout_settings.php:879
+msgid "Border Color :"
+msgstr "Rammefarve:"
+
+#: views/contact_bank_layout_settings.php:383
+#: views/contact_bank_layout_settings.php:625
+msgid "Border Size (px) :"
+msgstr "Rammestørrelse (px):"
+
+#: views/contact_bank_layout_settings.php:393
+msgid "Border Style :"
+msgstr "Rammetypografi:"
+
+#: views/contact_bank_layout_settings.php:408
+#: views/contact_bank_layout_settings.php:581
+#: views/contact_bank_layout_settings.php:740
+#: views/contact_bank_layout_settings.php:868
+msgid "Background Color :"
+msgstr "Baggrundsfarve:"
+
+#: views/contact_bank_layout_settings.php:419
+msgid "Radio Buttons :"
+msgstr "Radioknapper:"
+
+#: views/contact_bank_layout_settings.php:424
+msgid "Multiple Rows"
+msgstr "Flere rækker"
+
+#: views/contact_bank_layout_settings.php:426
+msgid "Single Row"
+msgstr "Enkeltrække"
+
+#: views/contact_bank_layout_settings.php:459
+msgid "Input Size :"
+msgstr "Input størrelse:"
+
+#: views/contact_bank_layout_settings.php:481
+msgid "Submit Button Settings"
+msgstr "Indstillinger for Send knap"
+
+#: views/contact_bank_layout_settings.php:516
+msgid "Text:"
+msgstr "Tekst:"
+
+#: views/contact_bank_layout_settings.php:526
+msgid "Style :"
+msgstr "Typografi:"
+
+#: views/contact_bank_layout_settings.php:571
+msgid "Button Width (px) :"
+msgstr "Knapbredde (px):"
+
+#: views/contact_bank_layout_settings.php:592
+msgid "Hover Background Color:"
+msgstr "Hover baggrundsfarve:"
+
+#: views/contact_bank_layout_settings.php:674
+msgid "Success Message Settings"
+msgstr "Succesbesked indstillinger"
+
+#: views/contact_bank_layout_settings.php:802
+msgid "Error Message Settings"
+msgstr "Fejlbesked indstillinger"
+
+#: views/contact_bank_layout_settings.php:947
+msgid "These Features are only available in Premium Editions!"
+msgstr "Disse funktioner er kun tilgængelige i Premium Edition!"
+
+#: views/contact_controls_files.php:42 views/contact_controls_files.php:60
+#: views/contact_controls_files.php:79 views/contact_controls_files.php:99
+#: views/contact_controls_files.php:116 views/contact_controls_files.php:134
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: views/contact_documentation.php:26
+msgid "Documentation - Contact Bank"
+msgstr "Dokumentation - Kontaktbank"
+
+#: views/contact_email_settings.php:77
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: views/contact_email_settings.php:161
+msgid "Are you sure, you want to delete this Email Setting?"
+msgstr "Er du sikker på, at du vil slette denne e-mail indstilling?"
+
+#: views/contact_email_settings.php:182 views/contact_frontend_data.php:138
+msgid "Please select the Form first."
+msgstr "Vælg venligst formular først"
+
+#: views/contact_frontend_data.php:34
+msgid "Export to Excel"
+msgstr "Eksportere til Excel"
+
+#: views/contact_frontend_data.php:40 views/dashboard.php:61
+#: views/dashboard.php:68
+msgid "Form"
+msgstr "Formular"
+
+#: views/contact_view.php:252 views/dashboard.php:47
+msgid "Add New Form"
+msgstr "Tilføj ny formular"
+
+#: views/contact_view.php:258 views/contact_view.php:521
+msgid "Save Form"
+msgstr "Gem formular"
+
+#: views/contact_view.php:263
+msgid "Form Submitted. Kindly wait for the redirect."
+msgstr "Formular indsendt. Vent venligst på omdirigering."
+
+#: views/contact_view.php:272
+msgid "Form Settings"
+msgstr "Formularindstillinger"
+
+#: views/contact_view.php:276
+msgid "Form Name :"
+msgstr "Formularnavn:"
+
+#: views/contact_view.php:282
+msgid "Enter Form Name"
+msgstr "Skriv formularnavn"
+
+#: views/contact_view.php:286
+msgid "Form Description :"
+msgstr "Formularbeskrivelse"
+
+#: views/contact_view.php:288
+msgid "Enter Form Description"
+msgstr "Skriv formularbeskrivelse"
+
+#: views/contact_view.php:292
+msgid "Blank Field Message:"
+msgstr "Besked ved tomt felt:"
+
+#: views/contact_view.php:298
+msgid "Required field must not be blank"
+msgstr "Påkrævet felt må ikke være tomt"
+
+#: views/contact_view.php:300
+msgid "Enter Blank Field Message"
+msgstr "Skriv besked for tomt felt"
+
+#: views/contact_view.php:304
+msgid "Incorrect Email Message:"
+msgstr "Fejlagtig e-mail besked"
+
+#: views/contact_view.php:310
+msgid "Please enter a valid email address"
+msgstr "Indtast en gyldig e-mailadresse"
+
+#: views/contact_view.php:312
+msgid "Enter Incorrect Email Message"
+msgstr "Indtast en ugyldig e-mail besked"
+
+#: views/contact_view.php:316
+msgid "Success Message :"
+msgstr "Succesbesked:"
+
+#: views/contact_view.php:320
+msgid "Enter Success Message"
+msgstr "Indtast succesbesked"
+
+#: views/contact_view.php:324
+msgid "Redirect :"
+msgstr "Omdiriger:"
+
+#: views/contact_view.php:336 views/contact_view.php:347
+#: views/contact_view.php:359
+msgid "Page"
+msgstr "Side"
+
+#: views/contact_view.php:339 views/contact_view.php:350
+#: views/contact_view.php:362
+msgid "URL"
+msgstr "URL"
+
+#: views/contact_view.php:369
+msgid "Page :"
+msgstr "Side:"
+
+#: views/contact_view.php:412
+msgid "URL :"
+msgstr "URL:"
+
+#: views/contact_view.php:419
+msgid "Enter Redirect URL"
+msgstr "Indtast omdirigerings URL"
+
+#: views/contact_view.php:426
+msgid "Form Layout Preview"
+msgstr "Forhåndsvisning af formular layout"
+
+#: views/contact_view.php:437
+msgid "Standard Fields"
+msgstr "Standardfelter"
+
+#: views/contact_view.php:440 views/contact_view.php:476
+msgid "Click on a field to use into your form."
+msgstr "Klik på et felt for at bruge det i din formular"
+
+#: views/contact_view.php:459
+msgid "Checkboxes"
+msgstr "Afkrydsningsfelter"
+
+#: views/contact_view.php:471
+msgid "Advanced Fields"
+msgstr "Avanceret felter"
+
+#: views/contact_view.php:482
+msgid "Website / URL"
+msgstr "Hjemmeside / URL"
+
+#: views/contact_view.php:487
+msgid "Phone"
+msgstr "Telefon"
+
+#: views/contact_view.php:490
+msgid "Address"
+msgstr "Adresse"
+
+#: views/contact_view.php:495
+msgid "Number"
+msgstr "Nummer"
+
+#: views/contact_view.php:498
+msgid "File Upload"
+msgstr "Fil upload"
+
+#: views/contact_view.php:503
+msgid "Date"
+msgstr "Dato"
+
+#: views/contact_view.php:506
+msgid "Time"
+msgstr "Tid"
+
+#: views/contact_view.php:511
+msgid "Password"
+msgstr "Kodeord"
+
+#: views/dashboard.php:35
+msgid "Contact Bank Short-Codes"
+msgstr "Contact Bank KorteKoder"
+
+#: views/dashboard.php:52
+msgid "Delete All Forms"
+msgstr "Slet alle formularer"
+
+#: views/dashboard.php:53
+msgid "Restore Factory Settings"
+msgstr "Genskab fabriksindstillinger"
+
+#: views/dashboard.php:69
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: views/dashboard.php:70
+msgid "Total Controls"
+msgstr "Antal felter i formularen"
+
+#: views/dashboard.php:106
+msgid "Edit Form"
+msgstr "Rediger formular"
+
+#: views/dashboard.php:131
+msgid "Delete Form"
+msgstr "Slet formular"
+
+#: views/dashboard.php:187
+msgid "Are you sure, you want to delete this Form?"
+msgstr "Er du sikker på, at du vil slette denne formular?"
+
+#: views/dashboard.php:200
+msgid "Are you sure, you want to delete all Forms?"
+msgstr "Er du sikker på, at du vil slette alle formularer?"
+
+#: views/header.php:39
+msgid "Get Started"
+msgstr "Få godt i gang"
+
+#: views/header.php:42
+msgid "Watch Contact Video!"
+msgstr "Hold øje Contact for videoen!"
+
+#: views/header.php:46
+msgid "read documentation here"
+msgstr "Læs dokumentationen her"
+
+#: views/header.php:51
+msgid "Go Premium"
+msgstr "Gå præmie"
+
+#: views/header.php:55
+msgid "Feature"
+msgstr "Kronik"
+
+#: views/header.php:60
+msgid "Online Demos"
+msgstr "på besøg Demoer"
+
+#: views/header.php:65
+msgid "Pricing Plans"
+msgstr "Contact Bank Priser På"
+
+#: views/header.php:72
+msgid "Knowledge Base"
+msgstr "Viden Basen"
+
+#: views/header.php:77
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: views/header.php:82
+msgid "FAQ's"
+msgstr "Hyppigt stillede spørgsmål"
+
+#: views/header.php:87
+msgid "Renew Premium Support"
+msgstr "Forny Premium Support"
+
+#: views/header.php:93
+msgid "More Actions"
+msgstr "på Flere handlinger"
+
+#: views/header.php:97
+msgid "Plugin Customization"
+msgstr "Plugin'en Brugerdefinering"
+
+#: views/purchase_pro_version.php:42
+msgid "WP Contact Bank is an one time Investment. Its Worth it!"
+msgstr "WP Kontakt Bank er en én gang investering. Det er det værd!"
+
+#: views/recommended-plugins.php:67
+#, php-format
+msgid "%s rating"
+msgstr ""
+
+#: views/recommended-plugins.php:134
+msgid "More Details"
+msgstr ""
+
+#: views/recommended-plugins.php:145
+msgid "Install Now"
+msgstr ""
+
+#: views/recommended-plugins.php:152
+msgid "Update Now"
+msgstr ""
+
+#: views/recommended-plugins.php:268
+msgid "Last Updated:"
+msgstr ""
+
+#: views/recommended-plugins.php:279
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr ""
+
+#: views/recommended-plugins.php:283
+msgid "Incompatible with your version of WordPress"
+msgstr ""
+
+#: views/recommended-plugins.php:287
+msgid "Compatible with your version of WordPress"
+msgstr ""
+
+#: views/shortcode.php:30
+msgid "How to setup Short-Codes for Contact Bank into your WordPress Page/Post?"
+msgstr "Sådan setup Korte-koder til Contact Bank ind i din WordPress side kan/stolpe?"
+
+#~ msgid "Contact Bank Pricing"
+#~ msgstr "Contact Bank Priser På"
+
+#~ msgid "Need Support Help?"
+#~ msgstr "Brug for Support og hjælp?"
+
+#~ msgid "Lets get in touch!"
+#~ msgstr "Lad os komme i kontakt!"
+
+#~ msgid "Order Now!"
+#~ msgstr "Kendelse nu!"
+
+#~ msgid "Email has beens send successfully."
+#~ msgstr "Email er sendt med succes."
+
+#~ msgid "This Feature is only available in Paid Premium Edition!"
+#~ msgstr "Denne funktion er kun tilgængelig i Betalt præmie udgave!"
+
+#~ msgid " (Available in Premium Edition)"
+#~ msgstr "(Fås i præmie udgaven)"
+
+#~ msgid "blank_field_message"
+#~ msgstr "Blanktegn Feltet Besked"
+
+#~ msgid "incorrect_email_message"
+#~ msgstr "Fejlagtig e-mail besked"
+
+#~ msgid "Submit"
+#~ msgstr "Indsend"
+
+#~ msgid "Contact Form Demo"
+#~ msgstr "Kontaktformular Demoen"
+
+#~ msgid "Your message was sent successfully. Thanks."
+#~ msgstr "Din besked blev sendt med succes. Tak."
+
+#~ msgid "Your Name"
+#~ msgstr "Dit navn"
+
+#~ msgid "Your Email"
+#~ msgstr "Din email"
+
+#~ msgid "Your Message"
+#~ msgstr "Din Besked"
+
+#~ msgid "Admin Notification"
+#~ msgstr "Admin Underretning"
+
+#~ msgid "Site Administration"
+#~ msgstr "site administrationen"
+
+#~ msgid "New Contact recieved from Website"
+#~ msgstr "Ny kontaktperson modtaget fra hjemmesiden"
+
+#~ msgid "Client Notification"
+#~ msgstr "Kunden Underretning"
+
+#~ msgid "Thanks for visiting our website"
+#~ msgstr "Tak for besøget på vores hjemmeside"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid " (Premium Features available in Paid Edition)"
+#~ msgstr "(præmie funktioner tilgængelig i Betalt udgaven)"
+
+#~ msgid "Premium Pricing Plan ?"
+#~ msgstr "Præmie Priser På planen?"
+
+#~ msgid "Detailed Features"
+#~ msgstr "Detaljeret funktioner"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roller & færdigheder"
+
+#~ msgid "Licensing"
+#~ msgstr "Licenser"
+
+#~ msgid "Day"
+#~ msgstr "Dag"
+
+#~ msgid "Select Month"
+#~ msgstr "Vælg måned"
+
+#~ msgid "January"
+#~ msgstr "januar"
+
+#~ msgid "February"
+#~ msgstr "februar"
+
+#~ msgid "March"
+#~ msgstr "marts"
+
+#~ msgid "April"
+#~ msgstr "april"
+
+#~ msgid "May"
+#~ msgstr "maj"
+
+#~ msgid "June"
+#~ msgstr "juni"
+
+#~ msgid "July"
+#~ msgstr "juli"
+
+#~ msgid "August"
+#~ msgstr "august"
+
+#~ msgid "September"
+#~ msgstr "september"
+
+#~ msgid "October"
+#~ msgstr "oktober"
+
+#~ msgid "November"
+#~ msgstr "november"
+
+#~ msgid "December"
+#~ msgstr "december"
+
+#~ msgid "Year"
+#~ msgstr "År"
+
+#~ msgid "Hour"
+#~ msgstr "Time"
+
+#~ msgid "Minute"
+#~ msgstr "Minut"
+
+#~ msgid "Enter Tooltip Text"
+#~ msgstr "Skriv tekst til værktøjstip"
+
+#~ msgid "Enter Tooltip"
+#~ msgstr "Skriv værktøjstip"
+
+#~ msgid "Start Year"
+#~ msgstr "Start år"
+
+#~ msgid "Enter Start Year"
+#~ msgstr "Skriv start år"
+
+#~ msgid "End Year"
+#~ msgstr "Slut år"
+
+#~ msgid "Enter End Year "
+#~ msgstr "Skriv slut år"
+
+#~ msgid "Default Value"
+#~ msgstr "Standard værdi"
+
+#~ msgid "Month"
+#~ msgstr "Måned"
+
+#~ msgid "Date Format"
+#~ msgstr "Datoformat"
+
+#~ msgid "Allow Multiple Uploads"
+#~ msgstr "Tillad flere uploads"
+
+#~ msgid "Allowed File Extensions"
+#~ msgstr "Tilladte filtypenavne"
+
+#~ msgid "Enter File Extensions"
+#~ msgstr "Skriv filtyper"
+
+#~ msgid "The file extensions must be separated with comma(',')"
+#~ msgstr "Filtyperne skal være adskilt med komma (',')"
+
+#~ msgid "Allowed File Size"
+#~ msgstr "Tilladt filstørrelse"
+
+#~ msgid "File Size must be in Mb"
+#~ msgstr "Filstørrelse skal angives i Mb"
+
+#~ msgid "Hour Format"
+#~ msgstr "Timeformat"
+
+#~ msgid "Minute Format"
+#~ msgstr "Minutformat"
+
+#~ msgid "Roles and Capabilities Saved. Kindly wait for the redirect."
+#~ msgstr "Roller & færdigheder gemt. Vent venligst på omdirigering."
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Rettigheder for administrator"
+
+#~ msgid "Full Control"
+#~ msgstr "Fuld kontrol"
+
+#~ msgid "Read"
+#~ msgstr "Læs"
+
+#~ msgid "Write"
+#~ msgstr "Skriv"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Rettigheder for redaktør"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Rettigheder for forfatter"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Rettigheder for bidragsyder"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Rettigheder for abonnent"
+
+#~ msgid "Global Settings Saved. Kindly wait for the redirect."
+#~ msgstr "Globale indstillinger gemt. Vent venligst på omdirigering."
+
+#~ msgid "Are you sure, you want to Restore Global Settings?"
+#~ msgstr "Er du sikker på, at du vil genskabe globale indstillinger ?"
+
+#~ msgid "Check Plugin - Contact Bank"
+#~ msgstr "Kontroller plugin - Kontaktbank"
+
+#~ msgid "Captcha"
+#~ msgstr "Captcha Ønsker"
+
+#~ msgid "Are you sure, you want to delete this Form Entry ?"
+#~ msgstr "Er du sikker på, at du vil slette denne indtastning?"
+
+#~ msgid "Attention! A new version of Contact Bank is available for download."
+#~ msgstr "OBS! En ny version af Kontakt Bank er tilgængelig for download."
+
+#~ msgid "Click"
+#~ msgstr "Klik"
+
+#~ msgid "here"
+#~ msgstr "her"
+
+#~ msgid "to upgrade your version of Contact Bank."
+#~ msgstr "for at opgradere din version af Kontaktbank"
+
+#~ msgid "Dashboard - Contact Bank"
+#~ msgstr "Dashboard - Kontaktbank"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Er du sikker på, at du vil genskab fabriksindstillinger?"
+
+#~ msgid "Only One File Uploader can be used on a Form."
+#~ msgstr "Kun én fil uploader kan bruges på en formular."
+
+#~ msgid "Only One Captcha can be used on a Form."
+#~ msgstr "Only One Captcha Ønsker kan bruges på en formular."
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Succes! Indstillinger er opdaterede."

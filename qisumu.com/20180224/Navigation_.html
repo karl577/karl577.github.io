@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="http://qisumu.com/images/favicon.ico" type="image/x-icon">
+<meta name="renderer" content="webkit">
+<meta name="description" content="UEDDEN，UED公社设计导航，设计博客，致力于设计干货分享，分享设计相关，平面设计，艺术相关，绘画，网页设计，代码前端，用户体验等等">
+<meta name="keywords" content="前端导航,设计导航,视觉导航,网页设计,web前端">
+<script src="Navigation_files/hm.js"></script><script src="./Navigation_files/jquery.js" language="javascript"></script>
+<link rel="stylesheet" href="./Navigation_files/flat-ui.css">
+<link rel="stylesheet" href="./Navigation_files/style.css">
+<title>奇书目导航</title>
+<style>
+body { background: #f2f2f2; }
+* { padding: 0; margin: 0; }
+html, body { width: 100%; }
+.content { width: 100%; min-width:395px; position: relative; height: auto; overflow: hidden; z-index: 10; }
+.wrap { max-width: 1000px; width: 100%; position: relative; height: auto; clear: both; overflow: hidden; background: #f2f2f2; padding: 0; margin: 20px auto }
+.header { width: 100%; min-width: 360px; height: 100px; margin: 0 auto; padding-top: 30px; text-align: center; position: relative }
+/*搜索*/
+.my_search { width: 100%; height: 80px; margin: 0 auto; padding-top:20px; }
+.my_search form { max-width: 400px; width:95%; height: 40px; display: block; border: 1px solid #fff; background: #fff; margin:0 auto; padding: 0; }
+.my_search form .words { width: 80%; height: 40px; float: left; display: block; border: none; background: none; font-family: Arial, "微软雅黑"; font-size: 16px; color: #27ae60; font-weight: bold; line-height: 40px; padding: 0; text-indent:10px; }
+.my_search form .butten { border: none; width: 20%; height: 40px; float: right; cursor: pointer; line-height: 38px; text-align: center; font-size: 18px; background: none; font-family: Arial, "Microsoft YaHei"; color: #27ae60; }
+/**/
+.wrap .my_topbar { height: 50px; text-align: left; text-indent: 20px; line-height: 50px; font-size: 20px; border-bottom: 1px dotted #cf6563; margin: 0 auto 10px; width: 980px; color: #cf6563; }
+.wrap .my_topbar span { color: #fa9f67; font-size: 12px; margin-right: 10px; }
+.wrap .my_list { display: block; width: 100%; height: auto; margin: 0 auto; }
+.wrap .my_list li { border-radius:5px 15px 20px 25px; display: block; background: #fff; width: 156px; padding: 9px; float: left; height: 80px; overflow: hidden; line-height: 20px; text-align: left; margin: 10px; border: 1px solid #fa9f67; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.wrap .my_list li a { display: block; width: 100%; height: 100%; float: left; color: #333; font-size: 16px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.wrap .my_list li a span { color: #cf6563; line-height: 30px; }
+.wrap .my_list li a i { font-size: 12px; font-style: normal; color: #999; }
+/*页内跳转*/
+#dy_nav { position: fixed; z-index: 1000000; width: 35px; height: 100%; text-align: center; line-height: 35px; right: 0; background: #cf6563; }
+#dy_nav li .fui-cross { display: none; }
+#dy_nav.dy_nav { width: 145px; }
+#dy_nav.dy_nav li .fui-list-columned { display: none; }
+#dy_nav.dy_nav li .fui-cross { display: block; }
+#dy_nav.dy_nav li .dy_mask { visibility: visible; }
+#dy_nav ul { width: 100%; height: auto; display: block; float: right; padding: 0; margin: 0; list-style: none; }
+#dy_nav ul li { width: 100%; height: 35px; border-bottom: 1px solid #bc5456; display: block; float: left; padding: 0; margin: 0; position: relative; overflow: visible; }
+#dy_nav ul li:last-child { border: none; }
+#dy_nav ul li a { width: 100%; height: 35px; display: block; float: right; padding: 0; margin: 0; text-decoration: none; color: #fff; position: relative; overflow: hidden; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; background: #cf6563; }
+#dy_nav ul li:hover a { width: 145px; background: #fa9f67; }
+#dy_nav ul li .dy_mask { width: 110px; height: 35px; float: left; text-align: center; font-size: 12px; position: absolute; z-index: 10; left: 0; visibility: hidden }
+#dy_nav ul li:hover .dy_mask { visibility: visible }
+#dy_nav ul li a span { float: right; display: block; width: 35px; height: 30px; position: relative; z-index: 50; }
+.fooder { font-size: 12px; background: #cf6563; text-align: center; height: auto; color: #fff; line-height: 30px; width: 100%; padding: 50px 0 30px; }
+.fooder a { color: #fff; font-weight: bold; padding: 0 5px; }
+</style>
+
+
+
+<!-- qisumu.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?cd8191d648355b940efdb3f1ba7fb3a0";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?d938cff84c1bdba99a42bf41231be256";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+/** reset styling **/
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+style.firebugResetStyles {
+    display: none !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before, .firebugResetStyles:after {
+    content: "" !important;
+}
+/**actual styling to be modified by firebug theme**/
+.firebugCanvas {
+    display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft, .firebugLayoutLineRight {
+    width: 1px !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop, .firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px !important;
+    border-top: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px !important;
+    border-left: 1px solid #999999 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBoxParent {
+    border-top: 0 none !important;
+    border-right: 1px dashed #E00 !important;
+    border-bottom: 1px dashed #E00 !important;
+    border-left: 0 none !important;
+    position: fixed !important;
+    width: auto !important;
+}
+
+.firebugRuler{
+    position: absolute !important;
+}
+
+.firebugRulerH {
+    top: -15px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 14px !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%13%88%00%00%00%0E%08%02%00%00%00L%25a%0A%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%04%F8IDATx%DA%EC%DD%D1n%E2%3A%00E%D1%80%F8%FF%EF%E2%AF2%95%D0D4%0E%C1%14%B0%8Fa-%E9%3E%CC%9C%87n%B9%81%A6W0%1C%A6i%9A%E7y%0As8%1CT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AATE9%FE%FCw%3E%9F%AF%2B%2F%BA%97%FDT%1D~K(%5C%9D%D5%EA%1B%5C%86%B5%A9%BDU%B5y%80%ED%AB*%03%FAV9%AB%E1%CEj%E7%82%EF%FB%18%BC%AEJ8%AB%FA'%D2%BEU9%D7U%ECc0%E1%A2r%5DynwVi%CFW%7F%BB%17%7Dy%EACU%CD%0E%F0%FA%3BX%FEbV%FEM%9B%2B%AD%BE%AA%E5%95v%AB%AA%E3E5%DCu%15rV9%07%B5%7F%B5w%FCm%BA%BE%AA%FBY%3D%14%F0%EE%C7%60%0EU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5JU%88%D3%F5%1F%AE%DF%3B%1B%F2%3E%DAUCNa%F92%D02%AC%7Dm%F9%3A%D4%F2%8B6%AE*%BF%5C%C2Ym~9g5%D0Y%95%17%7C%C8c%B0%7C%18%26%9CU%CD%13i%F7%AA%90%B3Z%7D%95%B4%C7%60%E6E%B5%BC%05%B4%FBY%95U%9E%DB%FD%1C%FC%E0%9F%83%7F%BE%17%7DkjMU%E3%03%AC%7CWj%DF%83%9An%BCG%AE%F1%95%96yQ%0Dq%5Dy%00%3Et%B5'%FC6%5DS%95pV%95%01%81%FF'%07%00%00%00%00%00%00%00%00%00%F8x%C7%F0%BE%9COp%5D%C9%7C%AD%E7%E6%EBV%FB%1E%E0(%07%E5%AC%C6%3A%ABi%9C%8F%C6%0E9%AB%C0'%D2%8E%9F%F99%D0E%B5%99%14%F5%0D%CD%7F%24%C6%DEH%B8%E9rV%DFs%DB%D0%F7%00k%FE%1D%84%84%83J%B8%E3%BA%FB%EF%20%84%1C%D7%AD%B0%8E%D7U%C8Y%05%1E%D4t%EF%AD%95Q%BF8w%BF%E9%0A%BF%EB%03%00%00%00%00%00%00%00%00%00%B8vJ%8E%BB%F5%B1u%8Cx%80%E1o%5E%CA9%AB%CB%CB%8E%03%DF%1D%B7T%25%9C%D5(%EFJM8%AB%CC'%D2%B2*%A4s%E7c6%FB%3E%FA%A2%1E%80~%0E%3E%DA%10x%5D%95Uig%15u%15%ED%7C%14%B6%87%A1%3B%FCo8%A8%D8o%D3%ADO%01%EDx%83%1A~%1B%9FpP%A3%DC%C6'%9C%95gK%00%00%00%00%00%00%00%00%00%20%D9%C9%11%D0%C0%40%AF%3F%EE%EE%92%94%D6%16X%B5%BCMH%15%2F%BF%D4%A7%C87%F1%8E%F2%81%AE%AAvzr%DA2%ABV%17%7C%E63%83%E7I%DC%C6%0Bs%1B%EF6%1E%00%00%00%00%00%00%00%00%00%80cr%9CW%FF%7F%C6%01%0E%F1%CE%A5%84%B3%CA%BC%E0%CB%AA%84%CE%F9%BF)%EC%13%08WU%AE%AB%B1%AE%2BO%EC%8E%CBYe%FE%8CN%ABr%5Dy%60~%CFA%0D%F4%AE%D4%BE%C75%CA%EDVB%EA(%B7%F1%09g%E5%D9%12%00%00%00%00%00%00%00%00%00H%F6%EB%13S%E7y%5E%5E%FB%98%F0%22%D1%B2'%A7%F0%92%B1%BC%24z3%AC%7Dm%60%D5%92%B4%7CEUO%5E%F0%AA*%3BU%B9%AE%3E%A0j%94%07%A0%C7%A0%AB%FD%B5%3F%A0%F7%03T%3Dy%D7%F7%D6%D4%C0%AAU%D2%E6%DFt%3F%A8%CC%AA%F2%86%B9%D7%F5%1F%18%E6%01%F8%CC%D5%9E%F0%F3z%88%AA%90%EF%20%00%00%00%00%00%00%00%00%00%C0%A6%D3%EA%CFi%AFb%2C%7BB%0A%2B%C3%1A%D7%06V%D5%07%A8r%5D%3D%D9%A6%CAu%F5%25%CF%A2%99%97zNX%60%95%AB%5DUZ%D5%FBR%03%AB%1C%D4k%9F%3F%BB%5C%FF%81a%AE%AB'%7F%F3%EA%FE%F3z%94%AA%D8%DF%5B%01%00%00%00%00%00%00%00%00%00%8E%FB%F3%F2%B1%1B%8DWU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*UiU%C7%BBe%E7%F3%B9%CB%AAJ%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5*%AAj%FD%C6%D4%5Eo%90%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5%86%AF%1B%9F%98%DA%EBm%BBV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%AD%D6%E4%F58%01%00%00%00%00%00%00%00%00%00%00%00%00%00%40%85%7F%02%0C%008%C2%D0H%16j%8FX%00%00%00%00IEND%AEB%60%82") repeat-x !important;
+    border-top: 1px solid #BBBBBB !important;
+    border-right: 1px dashed #BBBBBB !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.firebugRulerV {
+    top: 0 !important;
+    left: -15px !important;
+    width: 14px !important;
+    height: 100% !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%0E%00%00%13%88%08%02%00%00%00%0E%F5%CB%10%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%06~IDATx%DA%EC%DD%D1v%A20%14%40Qt%F1%FF%FF%E4%97%D9%07%3BT%19%92%DC%40(%90%EEy%9A5%CB%B6%E8%F6%9Ac%A4%CC0%84%FF%DC%9E%CF%E7%E3%F1%88%DE4%F8%5D%C7%9F%2F%BA%DD%5E%7FI%7D%F18%DDn%BA%C5%FB%DF%97%BFk%F2%10%FF%FD%B4%F2M%A7%FB%FD%FD%B3%22%07p%8F%3F%AE%E3%F4S%8A%8F%40%EEq%9D%BE8D%F0%0EY%A1Uq%B7%EA%1F%81%88V%E8X%3F%B4%CEy%B7h%D1%A2E%EBohU%FC%D9%AF2fO%8BBeD%BE%F7X%0C%97%A4%D6b7%2Ck%A5%12%E3%9B%60v%B7r%C7%1AI%8C%BD%2B%23r%00c0%B2v%9B%AD%CA%26%0C%1Ek%05A%FD%93%D0%2B%A1u%8B%16-%95q%5Ce%DCSO%8E%E4M%23%8B%F7%C2%FE%40%BB%BD%8C%FC%8A%B5V%EBu%40%F9%3B%A72%FA%AE%8C%D4%01%CC%B5%DA%13%9CB%AB%E2I%18%24%B0n%A9%0CZ*Ce%9C%A22%8E%D8NJ%1E%EB%FF%8F%AE%CAP%19*%C3%BAEKe%AC%D1%AAX%8C*%DEH%8F%C5W%A1e%AD%D4%B7%5C%5B%19%C5%DB%0D%EF%9F%19%1D%7B%5E%86%BD%0C%95%A12%AC%5B*%83%96%CAP%19%F62T%86%CAP%19*%83%96%CA%B8Xe%BC%FE)T%19%A1%17xg%7F%DA%CBP%19*%C3%BA%A52T%86%CAP%19%F62T%86%CA%B0n%A9%0CZ%1DV%C6%3D%F3%FCH%DE%B4%B8~%7F%5CZc%F1%D6%1F%AF%84%F9%0F6%E6%EBVt9%0E~%BEr%AF%23%B0%97%A12T%86%CAP%19%B4T%86%CA%B8Re%D8%CBP%19*%C3%BA%A52huX%19%AE%CA%E5%BC%0C%7B%19*CeX%B7h%A9%0C%95%E1%BC%0C%7B%19*CeX%B7T%06%AD%CB%5E%95%2B%BF.%8F%C5%97%D5%E4%7B%EE%82%D6%FB%CF-%9C%FD%B9%CF%3By%7B%19%F62T%86%CA%B0n%D1R%19*%A3%D3%CA%B0%97%A12T%86uKe%D0%EA%B02*%3F1%99%5DB%2B%A4%B5%F8%3A%7C%BA%2B%8Co%7D%5C%EDe%A8%0C%95a%DDR%19%B4T%C66%82fA%B2%ED%DA%9FC%FC%17GZ%06%C9%E1%B3%E5%2C%1A%9FoiB%EB%96%CA%A0%D5qe4%7B%7D%FD%85%F7%5B%ED_%E0s%07%F0k%951%ECr%0D%B5C%D7-g%D1%A8%0C%EB%96%CA%A0%A52T%C6)*%C3%5E%86%CAP%19%D6-%95A%EB*%95q%F8%BB%E3%F9%AB%F6%E21%ACZ%B7%22%B7%9B%3F%02%85%CB%A2%5B%B7%BA%5E%B7%9C%97%E1%BC%0C%EB%16-%95%A12z%AC%0C%BFc%A22T%86uKe%D0%EA%B02V%DD%AD%8A%2B%8CWhe%5E%AF%CF%F5%3B%26%CE%CBh%5C%19%CE%CB%B0%F3%A4%095%A1%CAP%19*Ce%A8%0C%3BO*Ce%A8%0C%95%A12%3A%AD%8C%0A%82%7B%F0v%1F%2FD%A9%5B%9F%EE%EA%26%AF%03%CA%DF9%7B%19*Ce%A8%0C%95%A12T%86%CA%B8Ze%D8%CBP%19*Ce%A8%0C%95%D1ae%EC%F7%89I%E1%B4%D7M%D7P%8BjU%5C%BB%3E%F2%20%D8%CBP%19*Ce%A8%0C%95%A12T%C6%D5*%C3%5E%86%CAP%19*Ce%B4O%07%7B%F0W%7Bw%1C%7C%1A%8C%B3%3B%D1%EE%AA%5C%D6-%EBV%83%80%5E%D0%CA%10%5CU%2BD%E07YU%86%CAP%19*%E3%9A%95%91%D9%A0%C8%AD%5B%EDv%9E%82%FFKOee%E4%8FUe%A8%0C%95%A12T%C6%1F%A9%8C%C8%3D%5B%A5%15%FD%14%22r%E7B%9F%17l%F8%BF%ED%EAf%2B%7F%CF%ECe%D8%CBP%19*Ce%A8%0C%95%E1%93~%7B%19%F62T%86%CAP%19*Ce%A8%0C%E7%13%DA%CBP%19*Ce%A8%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4%AE%A4%F5%25%C0%00%DE%BF%5C'%0F%DA%B8q%00%00%00%00IEND%AEB%60%82") repeat-y !important;
+    border-left: 1px solid #BBBBBB !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px dashed #BBBBBB !important;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
+</style></head>
+
+<body>
+<div style="display: block;" id="dy_nav" class="dy_nav">
+  <ul>
+    <li class="dy_menu" id="dy_menu"><a style="float:left;background:#a9454a; width:100%;"> <span class="fui-list-columned"></span><span class="fui-cross"></span></a></li>
+    <li class="dy_home"><a class="dy_tbr" href="index.php" target="_blank">
+      <div class="dy_mask">奇书首页</div>
+      <span class="fui-home"></span></a></li>
+    <li><a href="#idea">
+      <div class="dy_mask">创意·灵感</div>
+      <span class="fui-star"></span></a></li>
+    <li><a href="#photos">
+      <div class="dy_mask">图片·摄影</div>
+      <span class="fui-image"></span></a></li>
+    <li><a href="#blog">
+      <div class="dy_mask">博文·综合</div>
+      <span class="fui-document"></span></a></li>
+    <li><a href="#uxued">
+      <div class="dy_mask">UX·UED</div>
+      <span class="fui-heart"></span></a></li>
+    <li><a href="#web">
+      <div class="dy_mask">代码·前端</div>
+      <span class="fui-windows"></span></a></li>
+    <li><a href="#interface">
+      <div class="dy_mask">UI·界面</div>
+      <span class="fui-loop"></span></a></li>
+    <li><a href="#painting">
+      <div class="dy_mask">绘画·插画</div>
+      <span class="fui-path"></span></a></li>
+    <li><a href="#download">
+      <div class="dy_mask">资源·字体</div>
+      <span class="fui-bookmark"></span></a></li>
+    <li><a href="#color">
+      <div class="dy_mask">配色·工具</div>
+      <span class="fui-yelp"></span></a></li>
+    <li><a href="#api">
+      <div class="dy_mask">接口·API</div>
+      <span class="fui-github"></span></a></li>
+    <li><a href="#tools">
+      <div class="dy_mask">前端·库</div>
+      <span class="fui-clip"></span></a></li>
+    <li><a href="#" style="background:#a9454a; ">
+      <div class="dy_mask">返回顶部</div>
+      <span class="fui-triangle-up"></span></a></li>
+  </ul>
+</div>
+<script>
+    $("#dy_menu").click(function(){
+        $("#dy_nav").toggleClass("dy_nav");
+    });
+</script>
+<div class="header" style="overflow:hidden;"> <a href="index.php" ><img src="Navigation_files/dylogo.png" alt="" width="200"></a></div>
+<div class="content">
+  
+  <div class="wrap">
+    <div class="my_topbar" id="idea"> 灵感·酷站 | <span>IDEA</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://huaban.com/" target="_blank"><span>花瓣</span><br>
+        <i>寻找设计灵感</i></a></li>
+      <li><a href="http://www.58tu.com/" target="_blank"><span>58图</span><br>
+        <i>电商实战经营记录</i></a></li>
+      <li><a href="http://reeoo.com/" target="_blank"><span>REEOO</span><br>
+        <i>网页设计灵感导航</i></a></li>
+      <li><a href="http://mania.jungle.co.kr/ucc/bestsite/list_tn.asp" target="_blank"><span>韩国设计森林</span><br>
+        <i>韩国设计门户的酷站栏目，相关推荐功能很棒</i></a></li>
+      <li><a href="https://www.behance.net/" target="_blank"><span>behance</span><br>
+        <i>behance</i></a></li>
+      <li><a href="http://chuangyiren.cn/" target="_blank"><span>创意人</span><br>
+        <i>创意人</i></a></li>
+      <li><a href="http://www.awwwards.com//" target="_blank"><span>Awwwards</span><br>
+        <i>精挑细选世界各地的最佳网站！并对其打分颁奖</i></a></li>
+      <li><a href="https://dribbble.com/" target="_blank"><span>dribbble</span><br>
+        <i>dribbble</i></a></li>
+      <li><a href="http://www.calltoidea.com/" target="_blank"><span>网页灵感</span><br>
+        <i>网页灵感</i></a></li>
+      <li><a href="http://woofeng.cn/" target="_blank"><span>黄蜂网</span><br>
+        <i>个收罗优秀网页、手机界面、UI界面设计灵感地</i></a></li>
+      <li><a href="https://onepagelove.com/" target="_blank"><span>单页爱好者</span><br>
+        <i>单页迷你站点宝库，采集全球顶尖创意的单页酷站</i></a></li>
+      <li><a href="http://www.onepagemania.com/" target="_blank"><span>单页狂热者</span><br>
+        <i>2015最流行的网页趋势！不可不知的迷你站点大全</i></a></li>
+      <li><a href="http://365awesomedesigners.com/" target="_blank"><span>365优秀设计</span><br>
+        <i>365优秀设计</i></a></li>
+      <li><a href="http://cargocollective.com/" target="_blank"><span>Cargocollective</span><br>
+        <i>国外优秀创意人的社区、并提供免费个人主页服务</i></a></li>
+      <li><a href="http://freebiesbug.com/" target="_blank"><span>Freebiesbug</span><br>
+        <i>免费web资源下载</i></a></li>
+      <li><a href="https://www.pinterest.com/" target="_blank"><span>Pinterest</span><br>
+        <i>灵感网站瀑流展示的鼻祖</i></a></li>
+      <li><a href="http://theinspirationgrid.com/" target="_blank"><span>灵感网络</span><br>
+        <i>推荐！聚合来自世界各地的创意人才，每天汲取灵感</i></a></li>
+      <li><a href="http://www.inspirationde.com/" target="_blank"><span>Inspirationde</span><br>
+        <i>这是一个令人兴奋的灵感网站，外链惊喜得让人尖叫</i></a></li>
+      <li><a href="http://90sheji.com/" target="_blank"><span>90设计</span><br>
+        <i>电商设计灵感</i></a></li>
+      <li><a href="http://muuuuu.org/" target="_blank"><span>日本网页设计</span><br>
+        <i>日本网页设计网站集合</i></a></li>
+      <li><a href="http://bm.straightline.jp/" target="_blank"><span>日本酷站</span><br>
+        <i>近6000个！av大合集也没这么全，必备酷站</i></a></li>
+      <li><a href="http://uedetail.com/" target="_blank"><span>UEdetail</span><br>
+        <i>UEdetail</i></a></li>
+      <li><a href="http://cwd.68design.net/" target="_blank"><span>加油站</span><br>
+        <i>加油站</i></a></li>
+      <li><a href="http://www.iguoguo.net/" target="_blank"><span>爱果果酷站</span><br>
+        <i>酷站欣赏</i></a></li>
+      <li><a href="http://www.materialup.com/" target="_blank"><span>MaterialUp</span><br>
+        <i> 每日 Material Design 设计案例.</i></a></li>
+      <li><a href="http://fltdsgn.com/" target="_blank"><span>FLTDSGN</span><br>
+        <i> 每日更新的最炫酷的扁平化的Web和APP UI设计.</i></a></li>
+      <li><a href="http://www.siteinspire.com/" target="_blank"><span>Site Inspire</span><br>
+        <i> 帮你获取灵感的网页设计案例.</i></a></li>
+      <li><a href="http://www.gomoodboard.com/" target="_blank"><span>Moodboard</span><br>
+        <i> 在这里创建Moodboard，并轻松分享.</i></a></li>
+      <li><a href="http://www.crayon.co/" target="_blank"><span>Crayon</span><br>
+        <i> 最全面的营销设计收藏.</i></a></li>
+      <li><a href="http://land-book.com/" target="_blank"><span>Land-Book</span><br>
+        <i> 产品着陆页图库.</i></a></li>
+      <li><a href="http://ocean.ink/" target="_blank"><span>Ocean</span><br>
+        <i> 设计师共享反馈信息的优质社区.</i></a></li>
+      <li><a href="http://www.pttrns.com/" target="_blank"><span>Pttrns</span><br>
+        <i> 移动端界面设计模板.</i></a></li>
+      <li><a href="http://www.thestarterkit.info/" target="_blank"><span>The Starter Kit</span><br>
+        <i> 为开发者和设计师所准备的设计.</i></a></li>
+      <li><a href="http://onepagelove.com/" target="_blank"><span>One Page Love</span><br>
+        <i> 单页设计案例.</i></a></li>
+      <li><a href="http://www.uiparade.com/" target="_blank"><span>UI Parade</span><br>
+        <i> 设计案例与UI设计工具.</i></a></li>
+      <li><a href="https://www.thebestdesigns.com/" target="_blank"><span>The Best Designs</span><br>
+        <i> 最佳网页设计.</i></a></li>
+      <li><a href="http://agiledesigners.com/" target="_blank"><span>Agile Designers</span><br>
+        <i> 为设计师和开发者准备的最佳资源.</i></a></li>
+      <li><a href="https://niice.co/" target="_blank"><span>Niice</span><br>
+        <i> 有腔调的搜索引擎.</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="photos">图片·摄影 | <span>PHOTOS</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a title="高清图库" href="https://500px.com/" target="_blank"><span>500PX</span><br>
+        <i>高清图库</i></a></li>
+      <li><a href="https://stocksnap.io/" target="_blank"><span>stocksnap</span><br>
+        <i>免费高清图库</i></a></li>
+      <li><a title="免费高清图库" href="http://www.pexels.com/" target="_blank"><span>pexels</span><br>
+        <i>免费高清图库</i></a></li>
+      <li><a href="https://interfacelift.com/wallpaper/downloads/date/any/" target="_blank"><span>interfacelift</span><br>
+        <i>有3000+免费壁纸下载</i></a></li>
+      <li><a href="http://cn.freeimages.com/" target="_blank"><span>中文图库</span><br>
+        <i>免费高清图库，注册可用</i></a></li>
+      <li><a href="http://snapographic.com/" target="_blank"><span>snapographic</span><br>
+        <i>免费个人及商用的图片分享站</i></a></li>
+      <li><a href="http://finda.photo/" target="_blank"><span>finda</span><br>
+        <i>免费高清图库</i></a></li>
+      <li><a href="http://www.bing.com/gallery/" target="_blank"><span>Bing Gallery</span><br>
+        <i>必应电脑桌面壁纸</i></a></li>
+      <li><a href="http://alpha.wallhaven.cc/" target="_blank"><span>WallBase</span><br>
+        <i>国际知名图库</i></a></li>
+      <li><a href="https://picjumbo.com/" target="_blank"><span>Picjumbo</span><br>
+        <i>Picjumbo图库</i></a></li>
+      <li><a href="http://www.1001freedownloads.com/" target="_blank"><span>免费图下载</span><br>
+        <i>免费图下载</i></a></li>
+      <li><a href="http://www.textureking.com/" target="_blank"><span>纹理王</span><br>
+        <i>免费的高分辨率顶尖纹理，可以商用</i></a></li>
+      <li><a href="http://www.gratisography.com/" target="_blank"><span>Gratisography</span><br>
+        <i>免费高分辨率真图片，可个人及商用</i></a></li>
+      <li><a href="http://magdeleine.co/browse/" target="_blank"><span>免费图库</span><br>
+        <i>免费图下载</i></a></li>
+      <li><a href="http://www.cgtextures.com/" target="_blank"><span>纹理资源</span><br>
+        <i>免费纹理资源下载</i></a></li>
+      <li><a href="http://www.quanjing.com/" target="_blank"><span>全景网</span><br>
+        <i>中国最大的图片共享网站</i></a></li>
+      <li><a href="http://www.dili360.com/" target="_blank"><span>中国国家地理</span><br>
+        <i>中国国家地理</i></a></li>
+      <li><a href="http://www.fengniao.com/" target="_blank"><span>蜂鸟摄影</span><br>
+        <i>摄影爱好者分享摄影技巧和作品的中国影像门户</i></a></li>
+      <li><a href="https://unsplash.com/" target="_blank"><span>Unsplash</span><br>
+        <i>高品质图片素材，可免费用在任何地方</i></a></li>
+      <li><a href="http://www.imagesource.com/" target="_blank"><span>Imagesource</span><br>
+        <i>在线照片库，免版税</i></a></li>
+      <li><a href="http://www.masterfile.com/" target="_blank"><span>MasterFile</span><br>
+        <i>全球优质创意图片 免版税(体验不错)</i></a></li>
+      <li><a href="http://www.poboo.com/" target="_blank"><span>好摄之徒</span><br>
+        <i>美图每日分享, 最新国内外摄影作品, 摄影大师震撼创意视觉</i></a></li>
+      <li><a href="http://www.123rf.com.cn/" target="_blank"><span>123RF</span><br>
+        <i>全球排名前三的免版税创意素材资料库</i></a></li>
+      <li><a href="http://foter.com/" target="_blank"><span>foter</span><br>
+        <i>超过2亿张免费图片</i></a></li>
+      <li><a href="http://www.designerspics.com/" target="_blank"><span>DesignersPics</span><br>
+        <i>设计师图片素材</i></a></li>
+      <li><a href="https://www.pexels.com/" target="_blank"><span>Pexels</span><br>
+        <i>免费图片</i></a></li>
+      <li><a href="http://nos.twnsnd.co/" target="_blank"><span>怀旧图片</span><br>
+        <i>怀旧图片分享</i></a></li>
+      <li><a href="https://pixabay.com/" target="_blank"><span>Pixabay</span><br>
+        <i>中文免费图库</i></a></li>
+      <li><a href="http://pngimg.com/" target="_blank"><span>Pngimg</span><br>
+        <i>png图库</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="blog"> 博文·综合 | <span>BLOG</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://www.webdesignerdepot.com/" target="_blank"><span>WEB补给站</span><br>
+        <i>WEB设计者补给站</i></a></li>
+      <li><a href="http://pixelclouds.com/" target="_blank"><span>像素云</span><br>
+        <i>像素云</i></a></li>
+      <li><a href="http://since1984.cn/" target="_blank"><span>1984设计</span><br>
+        <i>1984设计</i></a></li>
+      <li><a href="http://365awesomedesigners.com/" target="_blank"><span>365优秀设计</span><br>
+        <i>365优秀设计</i></a></li>
+      <li><a href="http://cargocollective.com/" target="_blank"><span>Cargocollective</span><br>
+        <i>国外优秀创意人的社区、并提供免费个人主页服务</i></a></li>
+      <li><a href="http://www.zcool.com.cn/" target="_blank"><span>站酷</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.smashingmagazine.com/" target="_blank"><span>S.Magazine</span><br>
+        <i>国外最著名的设计博客，许多高大上的设计文章</i></a></li>
+      <li><a href="http://www.uehtml.com/" target="_blank"><span>UEhtml</span><br>
+        <i>优艺客旗下的设计师交流平台</i></a></li>
+      <li><a href="http://www.uisdc.com/" target="_blank"><span>优设</span><br>
+        <i>优秀网页设计</i></a></li>
+      <li><a href="http://www.zhisheji.com/" target="_blank"><span>致设计</span><br>
+        <i>电商设计师交流平台</i></a></li>
+      <li><a href="http://www.topys.cn/" target="_blank"><span>TOPYS</span><br>
+        <i>TOPYS广告文案社区</i></a></li>
+      <li><a href="http://www.redocn.com/" target="_blank"><span>红动中国</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://newwebpick.com/" target="_blank"><span>创意潮流杂志</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.niudana.com/" target="_blank"><span>牛大拿</span><br>
+        <i>牛大拿导航</i></a></li>
+      <li><a href="http://uedfans.cn/" target="_blank"><span>UEDfans</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.hiiishare.com/" target="_blank"><span>Hiiishare</span><br>
+        <i>站在巨人肩膀学设计</i></a></li>
+      <li><a href="http://www.sj63.com//" target="_blank"><span>设计路上</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.tuquu.com/" target="_blank"><span>图趣网</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.blueidea.com/" target="_blank"><span>蓝色理想</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.zhihu.com/" target="_blank"><span>知乎</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.damndigital.com/" target="_blank"><span>互动中国</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.missyuan.com/" target="_blank"><span>思源论坛</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://shijue.me/home" target="_blank"><span>视觉中国</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.tuyiyi.com/" target="_blank"><span>图翼网</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.huakewang.com/" target="_blank"><span>画客网</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://blog.enqoo.com/" target="_blank"><span>应酷设计</span><br>
+        <i>点击查看</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="uxued"> UX·UED | <span>User Experience</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://www.aliued.com/" target="_blank"><span>阿里国际UED</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.520ued.com/" target="_blank"><span>520UED</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uedfans.cn/" target="_blank"><span>UEDfans</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://cued.xunlei.com/" target="_blank"><span>迅雷CUED</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://udc.weibo.com/" target="_blank"><span>微博UDC</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://ued.taobao.org/blog/" target="_blank"><span>淘宝UED</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://mux.alimama.com/" target="_blank"><span>阿里妈妈MUX</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://isux.tencent.com/" target="_blank"><span>腾讯isux</span><br>
+        <i>腾讯isux用户体验博客</i></a></li>
+      <li><a href="http://tgideas.qq.com//" target="_blank"><span>腾讯tgideas</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://cdc.tencent.com/" target="_blank"><span>腾讯CDC</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://mxd.tencent.com/" target="_blank"><span>腾讯MXD</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://jdc.jd.com/" target="_blank"><span>京东JDC</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://vc.changyou.com/" target="_blank"><span>搜狐视觉设计</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uedc.163.com/" target="_blank"><span>网易UEDC</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uxc.360.cn/" target="_blank"><span>360UXC</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://ued.ctrip.com/blog/" target="_blank"><span>携程UED</span><br>
+        <i>携程设计委员会</i></a></li>
+      <li><a href="http://ued.baidu.com/" target="_blank"><span>百度UED</span><br>
+        <i>百度搜索用户体验中心</i></a></li>
+      <li><a href="http://uxc.360.cn/" target="_blank"><span>360UXC</span><br>
+        <i>点击查看</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="web"> 代码·前端 | <span>FED<!--Web Font-End Developer--></span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://www.w3school.com.cn/" target="_blank"><span>W3C</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://bbs.csdn.net/forums/WebDevelop/" target="_blank"><span>CSDN</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.csswinner.com/" target="_blank"><span>csswinner</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://segmentfault.com/" target="_blank"><span>开发者社区</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://bbs.blueidea.com/forum.php" target="_blank"><span>蓝色理想</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.imooc.com/" target="_blank"><span>慕课网</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://cssdeck.com/" target="_blank"><span>CSSdeck</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://codepen.io/" target="_blank"><span>代码笔</span><br>
+        <i>代码笔，高手的乐园</i></a></li>
+      <li><a href="http://www.alloyteam.com/" target="_blank"><span>alloyteam</span><br>
+        <i>腾讯alloyteam团队</i></a></li>
+      <li><a href="http://www.yyyweb.com/" target="_blank"><span>前端里</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.oschina.net/" target="_blank"><span>开源中国</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.awwwards.com/" target="_blank"><span>CSS评奖</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.ui3g.com/" target="_blank"><span>优设记</span><br>
+        <i>jquery插件下载-高质量网页素材</i></a></li>
+      <li><a href="http://www.csswang.com/" target="_blank"><span>CSSwang</span><br>
+        <i>html/css/js/前端开发/前端资源</i></a></li>
+      <li><a href="http://www.wufangbo.com/" target="_blank"><span>武方博</span><br>
+        <i>前端开发/前端资源</i></a></li>
+      <li><a href="http://tympanus.net/codrops/" target="_blank"><span>Codrops</span><br>
+        <i>分享、教程前端研发最新网络趋势</i></a></li>
+      <li><a href="http://www.cssmania.com/" target="_blank"><span>CSS狂热者</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.html5cn.org/" target="_blank"><span>Html5中国</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.daqianduan.com/" target="_blank"><span>大前端</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.aa25.cn/" target="_blank"><span>标准之路</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://code.tutsplus.com/" target="_blank"><span>TUTS+</span><br>
+        <i>视觉网站/代码、设计</i></a></li>
+      <li><a href="http://www.jq-school.com/" target="_blank"><span>JQ学校</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://tutorialzine.com/" target="_blank"><span>TRLzine</span><br>
+        <i>了解网络开发和设计的尖端技术</i></a></li>
+      <li><a href="http://www.wpdaxue.com/" target="_blank"><span>WP大学</span><br>
+        <i>wordpress大学</i></a></li>
+      <li><a href="http://runjs.cn/" target="_blank"><span>RUNjs</span><br>
+        <i>在线js交流</i></a></li>
+      <li><a href="http://html-js.com/" target="_blank"><span>前端乱炖</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.17sucai.com/" target="_blank"><span>17素材网</span><br>
+        <i>前端素材比较齐全的网站</i></a></li>
+      <li><a href="http://xiaoho.com/" target="_blank"><span>小黑博客</span><br>
+        <i>前端路人,前端博客</i></a></li>
+      <li><a href="http://c7sky.com/" target="_blank"><span>小影志</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://efe.baidu.com/" target="_blank"><span>百度EFE</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://fex.baidu.com/" target="_blank"><span>百度前端</span><br>
+        <i>点击查看</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="interface"> UI·界面 | <span>User Interface</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="https://icomoon.io/app/#/select" target="_blank"><span>Icomoon图标字</span><br>
+        <i>Icomoon 图标字体生成器</i></a></li>
+      <li><a href="http://fontawesome.io/" target="_blank"><span>Font Awesome</span><br>
+        <i>很全的图片字体库，相比阿里妈妈图片库，还要全！</i></a></li>
+      <li><a href="http://logopond.com/" target="_blank"><span>LogoPond</span><br>
+        <i>Logo，高端LOGO集萃，设计前必须来池子里泡一泡</i></a></li>
+      <li><a href="http://www.iconfont.cn/" target="_blank"><span>阿里图标库</span><br>
+        <i>阿里图标库</i></a></li>
+      <li><a href="https://icomoon.io/app/#/select" target="_blank"><span>矢量图标库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.easyicon.net/" target="_blank"><span>中文图标搜</span><br>
+        <i>中文图标搜</i></a></li>
+      <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><span>图标字体</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.ui.cn/" target="_blank"><span>UI中国</span><br>
+        <i>专业界面交互平台</i></a></li>
+      <li><a href="http://www.bootcss.com/p/flat-ui/" target="_blank"><span>FlatUI</span><br>
+        <i>FlatUI</i></a></li>
+      <li><a href="http://www.iconarchive.com/" target="_blank"><span>图标档案库</span><br>
+        <i>超过416000个免费图标，可按类别检索下载喜欢的图标</i></a></li>
+      <li><a href="http://ui4app.com/" target="_blank"><span>UI4app</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.gameui.cn/" target="_blank"><span>GameUI</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.mobileui.cn/" target="_blank"><span>莫贝网</span><br>
+        <i>移动界面设计网站</i></a></li>
+      <li><a href="http://www.uimaker.com/" target="_blank"><span>UImaker</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://findicons.com/" target="_blank"><span>发现ICON</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.boxui.com/" target="_blank"><span>盒子UI</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://loveui.cn/" target="_blank"><span>LOVEUI</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.freebiesgallery.com/" target="_blank"><span>免费UI资源</span><br>
+        <i>WEB, APP UI等PSD素材</i></a></li>
+      <li><a href="http://ui-cloud.com/" target="_blank"><span>UI云</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://ui-patterns.com/" target="_blank"><span>UI截图</span><br>
+        <i>为资深用户界面设计师寻提供灵感和参考的宝库</i></a></li>
+      <li> <a href="http://www.iconfinder.com/" target="_blank"><span>Iconfinder</span><br>
+        <i>提供超过150.000个免费图标搜索下载，部分收费</i></a></li>
+      <li> <a href="http://thenounproject.com/" target="_blank"><span>N.Project</span><br>
+        <i>强烈推荐！支持中文，一个用图标诠释世界的网站</i></a></li>
+      <li> <a href="http://www.easyicon.net/" target="_blank"><span>easyicon</span><br>
+        <i>中文图标搜索引擎！可批量下载PNG、ICO、ICNS等格式图标</i></a></li>
+      <li> <a href="http://iconicon.net/" target="_blank"><span>Icon Icon</span><br>
+        <i>来自纽约的设计师，擅长画图标，有着十多年的设计经验</i></a></li>
+      <li> <a href="http://iconfactory.com/" target="_blank"><span>图标工厂</span><br>
+        <i>聚集世界各国的图标设计领袖，提供上万枚免费图标下载</i></a></li>
+      <li> <a href="http://www.iconshock.com/" target="_blank"><span>Iconshock</span><br>
+        <i>网站图标都非常精致，有各种高质量的应用程序图标</i></a></li>
+      <li> <a href="http://iconka.com/" target="_blank"><span>Iconka</span><br>
+        <i>俄罗斯图标工作室，专业生产独一无二的网络图标和插图</i></a></li>
+      <li> <a href="http://iosicongallery.com/" target="_blank"><span>IOS Icon</span><br>
+        <i>iOS图标设计画廊</i></a></li>
+      <li> <a href="http://ux.etao.com/fonts" target="_blank"><span>一淘图标字库</span><br>
+        <i>一淘用户体验团队的图标字体库，可以打包批量下载</i></a></li>
+      <li> <a href="http://pc.de/icons/" target="_blank"><span>PC.DE</span><br>
+        <i>为Win和Mac精心准备的琳琅满目的免费图标</i></a></li>
+      <li> <a href="http://www.favicon.cc/" target="_blank"><span>favicon生成</span><br>
+        <i>一个在线制作favicon图标的酷站</i></a></li>
+      <li> <a href="http://icomoon.io/app/" target="_blank"><span>IcoMoon</span><br>
+        <i>强悍的WEB字体图标制造器，能生成icon图或字体</i></a></li>
+      <li> <a href="http://iconmonstr.com/" target="_blank"><span>Iconmonstr</span><br>
+        <i>超赞！难以想象的居然会有这么棒的免费图标</i></a></li>
+      <li> <a href="http://icontoucan.com/" target="_blank"><span>图标巨嘴鸟</span><br>
+        <i>icon都很精致，喜欢的icon可拖拽到右边的盒子打包下载</i></a></li>
+      <li> <a href="http://www.iconsweets2.com/" target="_blank"><span>iconSweets 2</span><br>
+        <i>1000 +图标</i></a></li>
+      <li> <a href="http://www.iconsdb.com/" target="_blank"><span>Icons DB</span><br>
+        <i>超过3200个免费图标，能按类别浏览定制下载图标</i></a></li>
+      <li> <a href="http://dryicons.com/free-icons/" target="_blank"><span>Dry Icons</span><br>
+        <i>推荐！提供精度很高的图标、包含了一些不错的矢量icon</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="painting"> 绘画·插画 | <span>Painting</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://www.pixiv.net/" target="_blank"><span>P站！</span><br>
+        <i>大名鼎鼎的日本高清同人画、插画作品分享站</i></a></li>
+      <li><a href="http://www.ibuka.cn/" target="_blank"><span>布卡漫画</span><br>
+        <i>最受欢迎的手机看漫画应用！可直接应用里搜索</i></a></li>
+      <li><a href="http://sakiroo.com/" target="_blank"><span>SAKIROO</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.illustrationserved.com/" target="_blank"><span>插画驿站</span><br>
+        <i>韩国插画设计网，人设为主</i></a></li>
+      <li><a href="http://coolvibe.com/" target="_blank"><span>Cool Vibe</span><br>
+        <i>超酷！展示高清插画壁纸以及动漫、梦幻图片的地方</i></a></li>
+      <li><a href="http://www.pidjin.net/" target="_blank"><span>Fr and Pi</span><br>
+        <i>世界上最有趣的网络漫画</i></a></li>
+      <li><a href="http://www.creativeuncut.com/" target="_blank"><span>CT Uncut</span><br>
+        <i>推荐！游戏角色原型设计网</i></a></li>
+      <li><a href="http://drawr.net/" target="_blank"><span>Drawr</span><br>
+        <i>漫画菜鸟必备！可以观看别人的绘画过程</i></a></li>
+      <li><a href="http://www.illustrationmundo.com/" target="_blank"><span>插画世界</span><br>
+        <i>一个聚集世界各地优秀插画家及作品的网站</i></a></li>
+      <li><a href="http://diterlizzi.com/home/" target="_blank"><span>插画家托尼</span><br>
+        <i>强力推荐：著名插画家托尼的个人网站</i></a></li>
+      <li><a href="http://www.illustrationweb.com/styles" target="_blank"><span>插画家经纪人</span><br>
+        <i>一个历史悠久的提供可靠插画家及插画资源的平台</i></a></li>
+      <li><a href="http://www.cartoonstock.com/" target="_blank"><span>CT.Stock</span><br>
+        <i>漫画搜索引擎，超过30万幅幽默、政治、卡通漫画</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="download"> 资源·字体 | <span>DOWNLOAD</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://cn.365psd.com/" target="_blank"><span>365psd</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.58pic.com/" target="_blank"><span>千图网</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.brusheezy.com/" target="_blank"><span>笔刷纹理</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.putaojiayuan.com/" target="_blank"><span>葡萄家园</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://cn.clipart.me/" target="_blank"><span>国外矢量</span><br>
+        <i>免费矢量和PSD图片</i></a></li>
+      <li><a href="http://sc.chinaz.com/" target="_blank"><span>站长素材</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.lanrentuku.com/" target="_blank"><span>懒人图库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.yi2.net/" target="_blank"><span>依儿素材</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.qiuziti.com/" target="_blank"><span>求字体</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.1001freefonts.com/" target="_blank"><span>免费字体</span><br>
+        <i>超过25900个高质量的字体下载，从古典到时尚</i></a></li>
+      <li><a href="http://www.youziku.com/" target="_blank"><span>有字库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://www.ziticq.com/" target="_blank"><span>字体传奇</span><br>
+        <i>字体品牌设计师交流网</i></a></li>
+      <li><a href="http://ziti.admin5.com/" target="_blank"><span>A5字体</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://zh.fonts2u.com/" target="_blank"><span>fonts2u</span><br>
+        <i>免费为Windows和Mac系统提供下载免费的字体</i></a></li>
+      <li><a href="http://www.ziticq.com/" target="_blank"><span>字体传奇</span><br>
+        <i>字体品牌设计师交流网，字体相关的教程、讲座等</i></a></li>
+      <li><a href="http://www.showfont.net/" target="_blank"><span>Showfont</span><br>
+        <i>直观的英文字体下载网站</i></a></li>
+      <li><a href="http://www.ddfont.com/" target="_blank"><span>Ddfont</span><br>
+        <i>直观的英文字体下载网站</i></a></li>
+      <li><a href="http://www.dafont.com/" target="_blank"><span>Dafont</span><br>
+        <i>直观的英文字体下载网站</i></a></li>
+      <li><a href="http://www.fontsquirrel.com/" target="_blank"><span>Fontsquirrel</span><br>
+        <i>直观的英文字体下载网站</i></a></li>
+      <li><a href="http://freebbble.com/" target="_blank"><span>Freebbble</span><br>
+        <i> 网站搜集了来自 Dribbble 的免费素材.</i></a></li>
+      <li><a href="https://dribbble.com/search?q=freebie" target="_blank"><span>Dribbble</span><br>
+        <i> 在 Dribbble 中搜索 “freebie” 能找到许多免费的好东西.</i></a></li>
+      <li><a href="http://graphicburger.com/" target="_blank"><span>Graphic Burger</span><br>
+        <i> 这里的每一个设计资源都足够精致.</i></a></li>
+      <li><a href="http://pixelbuddha.net/" target="_blank"><span>Pixel Buddha</span><br>
+        <i> 为专业人士准备的设计素材，有免费的好资源，也有收费的进阶版.</i></a></li>
+      <li><a href="http://www.premiumpixels.com/" target="_blank"><span>Premium Pixels</span><br>
+        <i> 为创意工作者准备的素材.</i></a></li>
+      <li><a href="http://freebiesbug.com/" target="_blank"><span>Freebiesbug</span><br>
+        <i> 最新最热的PSD等设计素材，为设计师而生.</i></a></li>
+      <li><a href="http://dbfreebies.co/" target="_blank"><span>Dbf</span><br>
+        <i> 这里有来自Dribbble和Behance的免费资源.</i></a></li>
+      <li><a href="https://marvelapp.com/resources/" target="_blank"><span>Marvel</span><br>
+        <i> 来自著名设计师的免费素材.</i></a></li>
+      <li><a href="http://uispace.net/" target="_blank"><span>UI Space</span><br>
+        <i> 来自那些炫酷的创意工作者的高品质设计资源.</i></a></li>
+      <li><a href="http://www.pixeden.com/free-design-web-resources" target="_blank"><span>Free Section of Pixeden</span><br>
+        <i> 大量免费设计资源.</i></a></li>
+      <li><a href="https://creativemarket.com/free-goods" target="_blank"><span>Free Section of Creative Market</span><br>
+        <i> 每周一一波免费设计资源.</i></a></li>
+      <li><a href="http://www.teehanlax.com/tools/iphone/" target="_blank"><span>Teehan+Lax</span><br>
+        <i> DiOS 8 GUI PSD (iPhone 6).</i></a></li>
+      <li><a href="http://www.teehanlax.com/tools/ipad/" target="_blank"><span>Teehan+Lax</span><br>
+        <i> iPad GUI PSD.</i></a></li>
+      <li><a href="http://www.freepik.com/" target="_blank"><span>Freepik</span><br>
+        <i> 给每个人的免费平面设计资源.</i></a></li>
+      <li><a href="http://www.techandall.com/" target="_blank"><span>Tech&amp;All</span><br>
+        <i> PSD，技术新闻，免费资源，都在这里.</i></a></li>
+      <li><a href="http://www.invisionapp.com/tethr" target="_blank"><span>Tethr</span><br>
+        <i> 最漂亮的iOS UI设计工具.</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="color"> 配色·工具 | <span>COLOR</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://paletton.com/" target="_blank"><span>paletton</span><br>
+        <i>一个用来协同制作配色方案的工具</i></a></li>
+      <li><a href="http://webcolourdata.com/" target="_blank"><span>网页颜色获取</span><br>
+        <i>网页颜色获取</i></a></li>
+      <li><a href="http://www.58pic.com/peise/" target="_blank"><span>千图配色</span><br>
+        <i>千图网旗下系列配色工具</i></a></li>
+      <li><a href="https://color.adobe.com/" target="_blank"><span>Adobe color</span><br>
+        <i>Adobe color 设计师都懂</i></a></li>
+      <li><a href="http://www.colorhunter.com/" target="_blank"><span>Color Hunter</span><br>
+        <i>实用！上传图片创建配色方案</i></a></li>
+      <li><a href="http://colrd.com/" target="_blank"><span>ColRD</span><br>
+        <i>可创建及共享配色方案的灵感网站</i></a></li>
+      <li><a href="http://uedden.com/cms/color.htm/" target="_blank"><span>网页配色</span><br>
+        <i>网页配色</i></a></li>
+      <li><a href="http://color.uisdc.com/" target="_blank"><span>中国色彩</span><br>
+        <i>中国统色彩命名，点击色彩可直接吸取色值</i></a></li>
+      <li><a href="http://www.materialpalette.com/" target="_blank"><span>Material Palette</span><br>
+        <i> 帮你生成并导出Material Design配色模板.</i></a></li>
+      <li><a href="http://www.flatuicolorpicker.com/" target="_blank"><span>New Flat UI Color Picker</span><br>
+        <i> 最好的扁平化UI设计配色方案.</i></a></li>
+      <li><a href="http://flatuicolors.com/" target="_blank"><span>Flat UI Colors</span><br>
+        <i> 漂亮的扁平化配色.</i></a></li>
+      <li><a href="http://coolors.co/" target="_blank"><span>Coolors</span><br>
+        <i> 超级快的配色方案生成工具.</i></a></li>
+      <li><a href="http://bjango.com/mac/skalacolor/" target="_blank"><span>Skala Color</span><br>
+        <i> 为设计师和开发者而生的优质取色工具.</i></a></li>
+      <li><a href="http://couleursapp.com/" target="_blank"><span>Couleurs</span><br>
+        <i> 帮你抓取和调整屏幕上色彩的简单工具.</i></a></li>
+      <li><a href="http://www.materialui.co/colors" target="_blank"><span>Material UI Colors</span><br>
+        <i> 为Web、Android和iOS而生的 Material ui 配色模板.</i></a></li>
+      <li><a href="http://colorfulgradients.tumblr.com/" target="_blank"><span>Colorful Gradients</span><br>
+        <i> 计算机自动生成的色阶.</i></a></li>
+      <li><a href="http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/" target="_blank"><span>Adaptive Backgrounds</span><br>
+        <i> 从图像中提取主色.</i></a></li>
+      <li><a href="http://brandcolors.net/" target="_blank"><span>Brand Colors</span><br>
+        <i> 知名品牌的配色方案.</i></a></li>
+      <li><a href="http://paletton.com/" target="_blank"><span>Paletton</span><br>
+        <i> 配色方案设计.</i></a></li>
+      <li><a href="http://www.0to255.com/" target="_blank"><span>0 to 255</span><br>
+        <i> 帮助网页设计师找到某一色彩的同色系配色的工具.</i></a></li>
+      <li><a href="http://www.colourlovers.com/" target="_blank"><span>Colour Lovers</span><br>
+        <i> 创建、分享配色和配色方案.</i></a></li>
+      <li><a href="http://bootflat.github.io/color-picker.html" target="_blank"><span>Bootflat</span><br>
+        <i> 来自扁平化设计的完美配色方案.</i></a></li>
+      <li><a href="http://hex.colorrrs.com/" target="_blank"><span>Hex Colorrrs</span><br>
+        <i> Hex 转 RGB 转换器.</i></a></li>
+      <li><a href="http://getuicolors.com/" target="_blank"><span>Get UI Colors</span><br>
+        <i> 炫酷的UI配色.</i></a></li>
+      <li><a href="https://www.coleure.com/" target="_blank"><span>Coleure</span><br>
+        <i> 智能取色工具。</i></a></li>
+      <li><a href="http://colllor.com/" target="_blank"><span>Colllor</span><br>
+        <i> 配色方案生成工具.</i></a></li>
+      <li><a href="https://chrome.google.com/webstore/detail/palette-for-chrome/oolpphfmdmjbojolagcbgdemojhcnlod" target="_blank"><span>Palette for Chrome</span><br>
+        <i> 从任意图片生成配色方案的工具.</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="api"> 接口·API | <span>API</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://www.apihome.cn/" target="_blank"><span>API之家</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://apistore.baidu.com/" target="_blank"><span>百度api</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://open.taobao.com/doc/detail.htm?&amp;id=102084" target="_blank"><span>淘宝API</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://jshop2013.jd.com/help/index.html" target="_blank"><span>京东API</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://open.yhd.com/opendoc.do?categoryId=123" target="_blank"><span>一号店API</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://open.dangdang.com/" target="_blank"><span>当当API</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://open.weibo.com/widget/weibotopic.php" target="_blank"><span>新浪API</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://tool.oschina.net/" target="_blank"><span>在线API</span><br>
+        <i>在线工具API</i></a></li>
+      <li><a href="http://uedden.com/cms/emmet/" target="_blank"><span>Emmet插件</span><br>
+        <i>Emmet插件API</i></a></li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="my_topbar" id="tools"> 前端·库 | <span>tools</span></div>
+    <ul style="width: 980px;" class="my_list">
+      <li><a href="http://cdn.code.baidu.com/" target="_blank"><span>百度公共库</span><br>
+        <i>百度静态资源加速</i></a></li>
+      <li><a href="http://libs.useso.com/" target="_blank"><span>360前端库</span><br>
+        <i>360网站卫士常用前端公共库CDN服务</i></a></li>
+      <li><a href="http://www.jq22.com/" target="_blank"><span>jQ插件库</span><br>
+        <i>jQ插件库</i></a></li>
+      <li><a href="http://code.ciaoca.com/" target="_blank"><span>前端开发库</span><br>
+        <i>小叉试验场，前端开发库</i></a></li>
+      <li><a href="http://uedden.com/?page_id=773" target="_blank"><span>H+J格式化</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uedden.com/?page_id=734" target="_blank"><span>CSS格式化</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://caniuse.com/" target="_blank"><span>兼容测试</span><br>
+        <i>浏览器CSS3/HTML5等新技术兼容测试查询</i></a></li>
+      <li><a href="http://h5bp.github.io/Effeckt.css/" target="_blank"><span>EF动效库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uedden.com/cms/magic_animations.html" target="_blank"><span>MA动效库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://uedden.com/cms/css3tools/" target="_blank"><span>CSS3Tools</span><br>
+        <i>css3Tools</i></a></li>
+      <li><a href="http://uedden.com/cms/css3maker/" target="_blank"><span>CSS3Maker</span><br>
+        <i>css3在线生成器</i></a></li>
+      <li><a href="http://daneden.github.io/animate.css/" target="_blank"><span>AN动效库</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://tool.lu/" target="_blank"><span>在线工具</span><br>
+        <i>点击查看</i></a></li>
+      <li><a href="http://amazeui.org/" target="_blank"><span>妹子UI框架</span><br>
+        <i>中国首个开源 HTML5 跨屏前端框架</i></a></li>
+      <li><a href="http://www.swiper.com.cn/" target="_blank"><span>Swiper</span><br>
+        <i>开源、免费、强大的移动端触摸滑动插件</i></a></li>
+      <li><a href="http://cnratchet.com/" target="_blank"><span>Ratchet</span><br>
+        <i>使用HTML‚ CSS‚ 与Javascript组件快速开发手机应用</i></a></li>
+      <li><a href="http://uedden.com/cms/loaders/" target="_blank"><span>Loaders</span><br>
+        <i>愉快并且注重性能的css loading 动效</i></a></li>
+      <li><a href="http://gmu.baidu.com/" target="_blank"><span>GMU框架</span><br>
+        <i>百度前端框架，基于nodejs和grunt。</i></a></li>
+      <li><a href="http://fis.baidu.com/" target="_blank"><span>FIS3框架</span><br>
+        <i>FIS3 , 为你定制的前端工程构建工具</i></a></li>
+      <li><a href="http://slidesjs.com/" target="_blank"><span>SlidesJs</span><br>
+        <i>slidesjs</i></a></li>
+      <li><a href="http://nej.netease.com/" target="_blank"><span>NEJ前端框架</span><br>
+        <i>简洁，美观，真正的跨平台web前端开发框架</i></a></li>
+      <li><a href="http://www.htmldrive.net/" target="_blank"><span>Htmldrive</span><br>
+        <i>HTML驱动是老外的一个Html综合站点，老外产品你值得学习。</i></a></li>
+      <li><a href="http://browserhacks.com/" target="_blank"><span>C&amp;J Hack 大全</span><br>
+        <i>CSS &amp; JS Hack 大全，老外整理的</i></a></li>
+      <li><a href="http://www.jq22.com/" target="_blank"><span>JQ插件库</span><br>
+        <i>jquery插件库，中国人写的，里面东西是免费下载的，自己感觉还不错！</i></a></li>
+      <li><a href="http://www.bootcss.com/" target="_blank"><span>Bootstrap</span><br>
+        <i>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</i></a></li>
+      <li><a href="http://jgestures.codeplex.com/" target="_blank"><span>jGestures</span><br>
+        <i>jquery手势插件</i></a></li>
+      <li><a href="http://phonegap.com/" target="_blank"><span>PhoneGap</span><br>
+        <i>让开发人员使用传统Web开发技术来开发本地应用</i></a></li>
+      <li><a href="http://www.appcan.cn/" target="_blank"><span>Appcan</span><br>
+        <i>一站式移动开发，有自己的IDE</i></a></li>
+      <li><a href="http://dev.dcloud.net.cn/mui/" target="_blank"><span>MUI</span><br>
+        <i>最接近原生APP体验的高性能前端框架</i></a></li>
+      <li><a href="http://zeptojs.com/" target="_blank"><span>zeptojs</span><br>
+        <i>zeptojs手机网站开发</i></a></li>
+      <li><a href="http://app-framework-software.intel.com/" target="_blank"><span>App Fmwork</span><br>
+        <i>App Framework，一款不错的手机开发框架</i></a></li>
+      <li><a href="http://api.jquerymobile.com/" target="_blank"><span>JQmobile</span><br>
+        <i>jquerymobile是一款很强大的手机网站开发插件</i></a></li>
+    </ul>
+  </div>
+</div>
+<script>
+    $(document).ready(function() {
+        var mleth = $(".wrap").width();
+        var a01 = parseInt(mleth / 196);
+        var wih = a01 * 196;
+        $(".wrap").children("ul").css("width", wih);
+        var bdl=$("body").width();
+        if (bdl < 1300 && bdl > 640) {
+            $("#dy_nav").css("display", "block");
+            $("#dy_nav").removeClass("dy_nav");
+        } else if (bdl > 1300) {
+            $("#dy_nav").css("display", "block");
+            $("#dy_nav").addClass("dy_nav");
+        } else {
+            $("#dy_nav").css("display", "none");
+        }
+    });
+    $(window).resize(function() {
+        var mleth = $(".wrap").width();
+        var a01 = parseInt(mleth / 196);
+        var wih = a01 * 196;
+        $(".wrap").children("ul").css("width", wih);
+        var bdl=$("body").width();
+         if (bdl < 1300 && bdl > 640) {
+            $("#dy_nav").css("display", "block");
+            $("#dy_nav").removeClass("dy_nav");
+        } else if (bdl > 1300) {
+            $("#dy_nav").css("display", "block");
+            $("#dy_nav").addClass("dy_nav");
+        } else {
+            $("#dy_nav").css("display", "none");
+        }
+
+    });
+</script>
+<div class="fooder">Copyright © 2016 奇书目个人收集网站 | <a href="http://qisumu.com/"><strong> 蒙ICP备16003498号 | 联系邮箱：wuhongliang@carl5.com</strong></a><br>
+ 
+<div style="display:none"><script type="text/javascript" src="Navigation_files/stats.js" charset="UTF-8"></script> 
+</div>
+
+
+</body></html>

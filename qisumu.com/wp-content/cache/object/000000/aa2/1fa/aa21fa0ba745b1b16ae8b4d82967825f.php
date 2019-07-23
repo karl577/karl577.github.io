@@ -1,0 +1,5 @@
+w��Z<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"2294";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-08-06 11:24:09";s:13:"post_date_gmt";s:19:"2016-08-06 03:24:09";s:12:"post_content";s:224:"<div class="moquu_xrrt">
+
+<img title="这种切图方式你会吗？" src="http://img.tuyiyi.com/images/201604/1460550390757590.jpg" alt="这种切图方式你会吗？" />
+<div id="newdigg" class="newdigg"></div>
+</div>";s:10:"post_title";s:30:"这种切图方式你会吗？";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:90:"%e8%bf%99%e7%a7%8d%e5%88%87%e5%9b%be%e6%96%b9%e5%bc%8f%e4%bd%a0%e4%bc%9a%e5%90%97%ef%bc%9f";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2016-09-06 11:34:24";s:17:"post_modified_gmt";s:19:"2016-09-06 03:34:24";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:25:"http://qisumu.com/?p=2294";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}}

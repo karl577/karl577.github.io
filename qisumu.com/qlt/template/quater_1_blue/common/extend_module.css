@@ -1,0 +1,51 @@
+/* ----------------------------------
+
+The Part CSS by Quater
+(C) Quater Inc.
+2015-10-15 10:00:00
+
+-------------------------------------*/
+
+/** forum **/
+
+.fl { border: 0; background: none}
+.fl .bm_h { height: 45px; line-height: 45px; border-color: #EDEDED}
+.fl .bm_h h2 a { font-size: 16px}
+.fl .bm_h .o img { margin-top: 14px}
+.fl .bm { margin-bottom: 10px; border: 1px solid #EDEDED}
+.bm_h { background: #FAFAFA}
+
+
+.fl_g dt a { font-size: 16px; font-weight: 400}
+
+
+#f_pst .bm_h { height: 45px; line-height: 45px; padding: 0 20px; font-size: 16px; background: #FAFAFA}
+#autopbn { height: 45px; line-height: 45px; border: 1px solid #EDEDED; font-size: 16px; background: #FFFFFF}
+
+/** end **/
+
+
+
+
+
+/** forum::forumdisplay **/
+
+#pgt { padding: 10px; border: 1px solid #EDEDED !important; background: #FFFFFF}
+.tl th, .tl td { padding: 8px 0}
+#pgt .pg, #pgt .pgb { margin-top: 2px}
+.tl .th { background: #FAFAFA}
+
+/** end **/
+
+
+
+
+
+/** forum::viewthread, group::viewthread **/
+
+#modmenu { padding: 15px 10px !important; border: 1px solid #EDEDED; border-bottom: 0; background: #FAFAFA}
+.pcb, .pcb img { max-width: 807px; overflow: hidden}
+#pgt { padding: 10px !important; border-bottom: 0 !important; border: 1px solid #EDEDED !important; background: #FFFFFF !important}
+#pgt .pg, #pgt .pgb { margin-top: 2px !important}
+
+/** end **/

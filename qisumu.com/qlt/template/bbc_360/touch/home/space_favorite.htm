@@ -1,0 +1,61 @@
+<!--{template common/header}-->
+<!-- header start -->
+<div class="header">
+    <div id="hd" class="cl">
+    	<div class="hdc">
+            <a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1" class="hd_left iconfont icon-arrowleft"></a>
+            <div class="hd_name"><h2><!--{if $_GET['type'] == 'forum'}-->{lang favforum}<!--{else}-->{lang favthread}<!--{/if}--></h2></div>
+        </div>
+	</div>
+</div>
+
+<div class="tabbox">
+	<div class="hd1">
+        <ul class="tb2">
+		<!--{if $_GET['type'] == 'forum'}-->
+            <li><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=thread">{lang favthread}</a></li>
+            <li class="on"><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=forum">{lang favforum}</a></li>
+		<!--{else}-->
+            <li class="on"><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=thread">{lang favthread}</a></li>
+            <li><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=forum">{lang favforum}</a></li>
+		<!--{/if}-->
+        </ul>
+    </div>
+    <div class="bd">
+
+<!-- main collectlist start -->
+<!--{if $_GET['type'] == 'forum'}-->
+<div class="coll_list boxbgfff">
+    <!--{if $list}-->
+        <ul>
+        <!--{loop $list $k $value}-->
+            <li class=" boxbgfff"><a href="$value[url]">$value[title]</a></li>
+        <!--{/loop}-->
+        </ul>
+    <!--{else}-->
+        <div class="nodata">{lang no_favorite_yet}</div>
+    <!--{/if}-->
+</div>
+<!--{else}-->
+<div class="threadlist">
+	<ul>
+	<!--{if $list}-->
+        <!--{loop $list $k $value}-->
+            <a href="$value[url]" class="threadbox boxbgfff cl ">
+                <h3><img src="uc_server/avatar.php?uid={$value[uid]}&size=small" />$value[title]</h3>
+            </a>
+		<!--{/loop}-->
+	<!--{else}-->
+        <div class="nodata">{lang no_favorite_yet}</div>
+	<!--{/if}-->
+	</ul>
+</div>
+
+<!--{/if}-->
+<!-- main collectlist end -->
+$multi
+    </div>
+</div>
+
+<!--{eval $nofooter = true;}-->
+<!--{template common/footer}-->

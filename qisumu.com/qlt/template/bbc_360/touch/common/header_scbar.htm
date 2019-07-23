@@ -1,0 +1,13 @@
+<form id="hdform" class="hdform" method="post" autocomplete="off" action="search.php?mod=forum&mobile=2">
+    <input type="hidden" name="formhash" value="{FORMHASH}" />
+    <input value="$keyword" class="input" name="srchtxt" id="hdform_srchtxt" value="" placeholder=" $_G['setting']['bbname'] ">
+    <input type="hidden" name="searchsubmit" value="yes">
+    <input type="submit" value="&#xe805;" class="hdform_submit iconfont icon-search" id="hdform_submit">
+</form>
+<script>
+JQ360(document).ready(function(){
+	JQ360("#hdform_srchtxt").focus(function(){
+		JQ360('#hdform_submit').css('display','block'); 
+	});
+});
+</script>

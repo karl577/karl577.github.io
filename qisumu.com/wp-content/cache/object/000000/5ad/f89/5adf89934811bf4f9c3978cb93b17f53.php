@@ -1,0 +1,7 @@
+l̐Z<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1519;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-05-02 00:25:52";s:13:"post_date_gmt";s:19:"2016-05-01 16:25:52";s:12:"post_content";s:885:"来自波兰设计师“Jakub Kowalczyk”的作品，Virtus Dashboard Free PSD Template，简洁现代的仪表板控制面板，其中包括5个控制界面，分屏。Virtus可以在你的下一个仪表板的项目非常有帮助。这个模板是容易定制根据你的需要，MIJISHE提供PSD源文件下载！
+<div align="center"><a href="http://d.mijishe.com/Web/VirtusDashboard/e2ba9d36390371.571a37c3c60eb.jpg?mijishe.com" target="_blank"><img class="bg-check" title="查看大图" src="http://d.mijishe.com/Web/VirtusDashboard/e2ba9d36390371.571a37c3c60eb.jpg" /></a></div>
+&nbsp;
+
+来自波兰设计师“Jakub Kowalczyk”的作品，Virtus Dashboard Free PSD ，简洁现代的仪表板控制面板，其中包括5个控制界面，分屏。Virtus可以在你的下一个仪表板的项目非常有帮助。这个模板是容易定制根据你的需要！
+
+&nbsp;";s:10:"post_title";s:50:"Virtus Dashboard 数据仪表盘控制面板设计";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:116:"virtus-dashboard-%e6%95%b0%e6%8d%ae%e4%bb%aa%e8%a1%a8%e7%9b%98%e6%8e%a7%e5%88%b6%e9%9d%a2%e6%9d%bf%e8%ae%be%e8%ae%a1";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2016-08-02 00:26:30";s:17:"post_modified_gmt";s:19:"2016-08-01 16:26:30";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:25:"http://qisumu.com/?p=1519";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

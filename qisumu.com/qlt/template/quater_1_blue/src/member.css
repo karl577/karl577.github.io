@@ -1,0 +1,121 @@
+.pg_logging .mheight { min-height: 600px}
+.pg_logging #share { display: none !important}
+#footer { display: none}
+#headnav { border-bottom: 0; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)}
+#topbar {}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    border-left: 1px solid #f5f5f5;
+    background: url(bg5.jpg) center no-repeat;
+}
+.background .filter {
+    width: 100%;
+    height: 100%;
+    background: url(white0.5.png) repeat 0 0;
+}
+
+.fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td { padding: 10px 2px}
+
+.fwin .rfm { width: auto}
+.ie7 .fwin .rfm { float: left !important; width: 260px !important}
+.ie7 .pg_logging .rfm { float: left; width: 335px}
+.ie7 .pg_logging .login_ie { width: 335px !important}
+
+.px, .pt, .ps, select { box-shadow: none; background: none}
+.rfm { width: auto; margin: 0; text-align: left}
+.pg_logging .rfm th, .fwin .rfm th { display: none}
+
+.rfm .px { width: 310px !important; height: 32px; line-height: 32px; padding-left: 12px; font-size: 13px}
+.rfm .px:focus { border-color: #DDDDDD !important; outline: 0 !important; box-shadow: inset 0 1px 3px rgba(0,0,0,.075) !important}
+
+.seccode_1 .px { width: 120px !important; height: 22px; line-height: 22px}
+.comForm { border: 0; border-radius: 3px; background: #FFFFFF}
+.comForm .hd {
+    position: relative;
+	padding: 0 0 13px 0;
+    margin-bottom: 0;
+	text-align: center;
+	border-bottom: 1px solid #E5E5E5
+}
+.comForm .hd span {
+	display: inline-block;
+    font-size: 25px;
+    color: #DDDDDD;
+	padding: 0 0 0 40px;
+    margin: 0 0 0 -30px;
+	border-bottom: 0;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background: url(icon-heading.png)no-repeat left 8px
+}
+.comForm .hd em { float: right; color: #3ca5f6; font-size: 13px}
+.comForm .hd em a { color: #AAAAAA}
+.comForm .hd .ldPC, .comForm .hd .qrcode {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    right: 0;
+    display: block;
+}
+.comForm .hd .qrcode { background: url(qrcode.png) no-repeat}
+.login_btn .pn { width: 340px; height: 42px; line-height: 42px; margin-right: 0; text-align: center; font-size: 18px; border-radius: 0; letter-spacing: 2px; font-weight: 400; background-color: #39A7D4}
+.login_btn .pn:hover { background: #39A7D4 !important}
+.login_box { float: left}
+.login_now { float: left; padding-left: 92px; padding-bottom: 25px; color: #3ca5f6; font-size: 14px; text-align: left}
+.login_now a { color: #39A7D4}
+.login_now a:hover { text-decoration: none}
+.rfm .p_tip, .rfm .p_chk { width: 260px !important}
+.form-control {
+    height: 32px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+
+
+.login-content .intro {
+    padding-top: 0;
+    color: #FFFFFF;
+}
+.login-content .intro h1 {
+	width: 130px;
+	display: inline-block;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: normal;
+	padding: 5px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(black03.png) repeat 0 0
+}
+.login-content .intro p {
+	width: 280px;
+	padding: 10px 20px;
+	margin: 10px 0 0 0;
+    font-size: 15px;
+    line-height: 30px;
+	background: url(black03.png) repeat 0 0
+}
+.login-content .intro a {
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0;
+	font-size: 15px;
+	transition: all 0.3s ease 0s;
+	background: url(black03.png) repeat 0 0
+}
+.login-content .intro a:hover { padding: 10px 30px 10px 20px}
+
+
+.flb { padding-top: 20px}
+
+.rfm label { opacity: 0.5}
+.rfm label:hover { opacity: 0.8}

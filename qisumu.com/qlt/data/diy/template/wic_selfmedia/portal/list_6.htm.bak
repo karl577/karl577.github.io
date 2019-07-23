@@ -1,0 +1,172 @@
+<!--{template common/header}-->
+<!--{eval require TPLDIR."/php/list.php";}-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_wic_list($cat, $wheresql, $page);}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em>
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+		$cat[catname]
+	</div>
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="ct2 wp cl">
+	<div class="mn">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+        <div class="wic_article_focus cl">
+            <div class="wic_article_slide">
+                <!--[diy=diyarticle_slide]--><div id="diyarticle_slide" class="area"><div id="frameRhlNDo" class="frame move-span cl frame-1"><div id="frameRhlNDo_left" class="column frame-1-c"><div id="frameRhlNDo_left_temp" class="move-span temp"></div><!--{block/190}--></div></div></div><!--[/diy]-->
+            </div>
+            <script type="text/javascript">
+                jq(".wic_article_slide").slide({ mainCell:".bd ul",titCell:".hd li",delayTime:600,interTime:5000,triggerTime:50,effect:"leftLoop",autoPlay:true,});
+                jq(".wic_article_slide").hover(
+                    function(){
+                        jq(".wic_article_slide .slide-nav").fadeIn();
+                    },
+                    function(){
+                        jq(".wic_article_slide .slide-nav").fadeOut();
+                    }
+                )
+            </script>
+            <div class="wic_article_recom">
+                <!--[diy=diywic_article_recom]--><div id="diywic_article_recom" class="area"><div id="framelE5e58" class="frame move-span cl frame-1"><div id="framelE5e58_left" class="column frame-1-c"><div id="framelE5e58_left_temp" class="move-span temp"></div><!--{block/191}--></div></div></div><!--[/diy]-->
+            </div>
+        </div>
+		<div class="wic_article mt40">	
+        	<h1 class="wic_article_tit">{$cat[catname]}</h1>		
+			<ul class="wic_article_list">
+			<!--{loop $list['list'] $value}-->
+				<!--{eval $highlight = article_title_style($value);}-->
+				<!--{eval $article_url = fetch_article_url($value);}-->
+				<li class="cl">
+                	<div class="wic_article_box">
+                	<!--{if $value[pic]}-->
+                	<div class="wic_article_pic">
+                    	<a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" /></a>
+                        <!--{if $value[catname] && $cat[subs]}--><span class="wic_article_cate"><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></span><!--{/if}-->
+                    </div>
+                    <!--{/if}-->
+                    <div class="wic_articlec" style="<!--{if $value[pic]}-->width:520px;<!--{else}--> width:780px;<!--{/if}-->">
+                    	<h3><a href="$article_url" target="_blank" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></h3>
+                        <div class="wic_article_summary">
+                        	$value[summary]
+                        </div>
+                        <div class="wic_article_info cl">
+                        	<span class="wic_article_author"><a href="home.php?mod=space&uid={$value[uid]}" target="_blank"><!--{avatar($value[uid],small)}-->{$value[username]}</a></span>
+                        	<span class="wic_article_time"><i></i>$value[dateline]</span>
+                            <span class="wic_article_replies"><i></i>$value[commentnum]</span>
+                            <span class="wic_article_views"><i></i>$value[viewnum]</span>
+                            <!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $value['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $value['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}-->
+                            <span class="wic_article_act">
+                                <span class="pipe">|</span>
+                                <label><a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$value[aid]">{lang edit}</a></label>
+                                <span class="pipe">|</span>
+                                <label><a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$value[aid]" id="article_delete_$value[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a></label>
+                            </span>
+                            <!--{/if}-->
+                        </div>
+                    </div>
+                    </div>
+				</li>
+			<!--{/loop}-->
+			</ul>
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs mt20 cl">{$list['multi']}</div><!--{/if}-->
+
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+	</div>
+	<div class="sd pph">
+
+		<div class="drag">
+			<!--[diy=diyrighttop]--><div id="diyrighttop" class="area"></div><!--[/diy]-->
+		</div>
+        
+        <div class="wic_article_op mb15">
+        	<div class="list_ad mb30">
+            	<!--[diy=diylist_ad]--><div id="diylist_ad" class="area"><div id="frameMsaAel" class="frame move-span cl frame-1"><div id="frameMsaAel_left" class="column frame-1-c"><div id="frameMsaAel_left_temp" class="move-span temp"></div><!--{block/195}--></div></div></div><!--[/diy]-->
+            </div>
+            <div class="wic_article_opc">
+                <!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
+                <a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="addnew">{lang article_publish}</a>
+                <!--{/if}-->
+                <!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="rss mt10" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}-->  
+            </div>
+        </div>
+        
+        <div class="bm mt30">
+        	<div class="bm_h cl">
+                <h2>$tmplang['hot_article']</h2>
+            </div>
+            <div class="wic_article_hot">
+            	<div class="wic_article_hot_t">
+                	<!--[diy=diywic_article_hot_t]--><div id="diywic_article_hot_t" class="area"><div id="framehwP40d" class="frame move-span cl frame-1"><div id="framehwP40d_left" class="column frame-1-c"><div id="framehwP40d_left_temp" class="move-span temp"></div><!--{block/193}--></div></div></div><!--[/diy]-->
+                </div>
+                <div class="wic_article_hot_b">
+                	<!--[diy=diywic_article_hot_b]--><div id="diywic_article_hot_b" class="area"><div id="frameMBJa1p" class="frame move-span cl frame-1"><div id="frameMBJa1p_left" class="column frame-1-c"><div id="frameMBJa1p_left_temp" class="move-span temp"></div><!--{block/194}--></div></div></div><!--[/diy]-->
+                </div>
+            </div>
+        </div>
+        
+        <div class="bm mt30">
+            <div class="bm_h">
+                <h2>$tmplang['hot_recommend']</h2>
+            </div>
+            <div class="wic_hot_recommend">
+                <!--[diy=diywic_hot_recommend]--><div id="diywic_hot_recommend" class="area"><div id="frameuwGECw" class="frame move-span cl frame-1"><div id="frameuwGECw_left" class="column frame-1-c"><div id="frameuwGECw_left_temp" class="move-span temp"></div><!--{block/192}--></div></div></div><!--[/diy]-->
+            </div>
+        </div>
+        
+        <!--{if $cat[subs]}-->
+        <div class="bm mt30">
+        	<div class="bm_h cl">
+                <h2>{lang sub_category}</h2>
+            </div>
+            <div class="wic_list_relate bm_c">
+            	<ul class="cl">
+                <!--{loop $cat[subs] $value}-->
+					<li><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a></li>
+                <!--{/loop}-->
+                </ul>
+            </div>
+        </div>
+        <!--{/if}-->
+
+        <!--{if $cat[others]}-->
+        <div class="bm mt30">
+            <div class="bm_h cl">
+                <h2>{lang category_related}</h2>
+            </div>
+            <div class="wic_list_relate bm_c">
+                <ul class="cl">
+                    <!--{loop $cat[others] $value}-->
+                    <li><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+                    <!--{/loop}-->
+                </ul>
+            </div>
+        </div>
+        <!--{/if}-->
+
+		<div class="drag">
+			<!--[diy=diy2]--><div id="diy2" class="area"></div><!--[/diy]-->
+		</div>
+
+	</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->

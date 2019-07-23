@@ -1,0 +1,62 @@
+1.0.8 - March 30, 2016
+* Updated stylesheets
+  style.css & style.min.css
+* New color customizer for blockquote border color
+  inc/customizer.php & inc/styles/global.php
+* New color customizer for menu dropdown background color
+  inc/customizer.php & inc/styles/menu.php
+* Polylang integration
+  functions.php & inc/polylang.php & inc/template-tags.php
+* Please welcome to footer widgets!
+  functions.php & footer.php & sidebar-footer.php
+
+1.0.7 - Feb 05, 2016
+* Added HTML5Shiv un-minified version
+  assets/js/html5shiv.js
+
+1.0.6 - Jan 27, 2016
+* Removed facebook widget, not allowed on WordPress.org
+  functions.php & inc/widgets/widget-facebook.php
+* Declare all assets license
+  readme/assets-license.txt
+* Added unminified assets
+  assets/js/devs, assets/css/devs, admin/js/ & admin/css
+
+1.0.5 - Dec 19, 2015
+* Fixed consistent coding style to all files
+  all files
+* Enqueue HTML5Shiv script
+  inc/scripts.php
+* Restructure js method
+  assets/js/main.js
+* Temporary removed popup gallery functionality
+  inc/scripts.php
+
+1.0.4 - Oct 25, 2015
+* Removed `bulan_reset_default_image_sizes` to follow WPORG guidelines
+  functions.php
+* Improve search form with HTML5 markup
+  searchform.php
+* Fixed pagination not working on 'Static Front Page'
+  page-templates/home-grid.php & page-templates/home-list.php
+
+1.0.3 - Sept 23, 2015
+* Fixed function that missing text-domain
+* Fixed style.css.min has two line endings
+* Removed favicon option due to Site Icons built-in WordPress core
+* Fixed css issue with Jetpack comment subscription
+* Added back to top button
+* Used new media upload function for the Customizer
+
+1.0.2 - Sept 16, 2015
+* Support WordPress 4.3.1
+* Update HTML5shiv
+* Add documentation link on Customizer
+
+1.0.1 - July 26, 2015
+* Fix conflict popup gallery with Jetpack carousel module
+* Hide author social icons if user have not defined it
+* Display author social icons on author page
+
+1.0.0 - July 14, 2015
+* Initial release

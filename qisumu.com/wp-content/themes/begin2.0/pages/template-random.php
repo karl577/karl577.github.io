@@ -1,0 +1,59 @@
+<?php
+/*
+Template Name: 随机文章
+*/
+?>
+<?php get_header(); ?>
+
+<style type="text/css">
+#main {
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+}
+.post {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+    border-radius: 0;
+}
+.archive-list {
+	line-height: 280%;
+	margin: 0 -20px;
+	padding: 0 20px;
+	border-bottom: 1px solid #dadada;
+}
+.list-title {
+	width: 80%;
+	font-weight: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.archive-list-inf {
+	float: right;
+	color: #999;
+}
+</style>
+
+<section id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		<?php query_posts( array ( 'orderby' => 'rand', 'showposts' => 60, 'ignore_sticky_posts' => 1 ) ); while ( have_posts() ) : the_post(); ?>
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<div class="archive-list">
+				<span class="archive-list-inf"><?php the_time( 'm/d' ) ?></span>
+				<?php the_title( sprintf( '<h2 class="list-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			</div>
+		</article>
+		<?php endwhile; ?>
+
+	</main><!-- .site-main -->
+
+</section><!-- .content-area -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

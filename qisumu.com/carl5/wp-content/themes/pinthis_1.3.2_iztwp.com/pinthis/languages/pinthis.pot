@@ -1,0 +1,867 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PinThis\n"
+"POT-Creation-Date: 2014-06-01 00:59+0200\n"
+"PO-Revision-Date: 2014-06-01 01:00+0200\n"
+"Last-Translator: PixelBeautify <info@pixelbeautify.com>\n"
+"Language-Team: pixelbeautify.com <info@pixelbeautify.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:7
+msgid "404"
+msgstr ""
+
+#: ../404.php:8
+msgid "Sorry, the page you were looking for was not found."
+msgstr ""
+
+#: ../author.php:15
+msgid "All posts by"
+msgstr ""
+
+#: ../author.php:25 ../index.php:26 ../search.php:24
+msgid "Previous Page"
+msgstr ""
+
+#: ../author.php:25 ../index.php:26 ../search.php:24
+msgid "Next Page"
+msgstr ""
+
+#: ../author.php:35 ../index.php:36 ../search.php:34
+msgid "No posts found."
+msgstr ""
+
+#: ../comments.php:6
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:19
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:32
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:33
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:117
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:232
+msgid "Image rotate failed."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:254
+msgid "Image opacity change failed."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:332
+msgid "Image color change failed."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:348
+msgid "Image grayscale failed."
+msgstr ""
+
+#: ../extras/BFI_Thumb.php:364
+msgid "Image negate failed."
+msgstr ""
+
+#: ../footer.php:28
+msgid "Pages"
+msgstr ""
+
+#: ../footer.php:43
+msgid "No pages"
+msgstr ""
+
+#: ../footer.php:47
+msgid "Bookmarks"
+msgstr ""
+
+#: ../footer.php:53
+msgid "No bookmarks"
+msgstr ""
+
+#: ../footer.php:57
+msgid "Recent Posts"
+msgstr ""
+
+#: ../footer.php:66
+msgid "No recent posts"
+msgstr ""
+
+#: ../footer.php:70
+msgid "Popular Posts"
+msgstr ""
+
+#: ../footer.php:79
+msgid "No popular posts"
+msgstr ""
+
+#: ../footer.php:83
+msgid "Follow Us"
+msgstr ""
+
+#: ../footer.php:86 ../page.php:32 ../pbpanel/page-socialnetworks.php:31
+#: ../pinbox-aside.php:16 ../pinbox-audio.php:16 ../pinbox-image.php:16
+#: ../pinbox-quote.php:16 ../pinbox-status.php:16 ../pinbox-video.php:16
+#: ../pinbox.php:16 ../single.php:162
+msgid "Facebook"
+msgstr ""
+
+#: ../footer.php:89 ../pbpanel/page-socialnetworks.php:35
+msgid "Pinterest"
+msgstr ""
+
+#: ../footer.php:92 ../page.php:34 ../pbpanel/page-socialnetworks.php:39
+#: ../pinbox-aside.php:18 ../pinbox-audio.php:18 ../pinbox-image.php:18
+#: ../pinbox-quote.php:18 ../pinbox-status.php:18 ../pinbox-video.php:18
+#: ../pinbox.php:18 ../single.php:164
+msgid "Twitter"
+msgstr ""
+
+#: ../footer.php:95 ../pbpanel/page-socialnetworks.php:43
+msgid "Instagram"
+msgstr ""
+
+#: ../footer.php:98 ../pbpanel/page-socialnetworks.php:47
+msgid "Youtube"
+msgstr ""
+
+#: ../footer.php:101 ../pbpanel/page-socialnetworks.php:51
+msgid "LinkedIn"
+msgstr ""
+
+#: ../footer.php:104
+msgid "Google +"
+msgstr ""
+
+#: ../footer.php:107 ../pbpanel/page-socialnetworks.php:59
+msgid "Behance"
+msgstr ""
+
+#: ../footer.php:110 ../pbpanel/page-socialnetworks.php:63
+msgid "Flickr"
+msgstr ""
+
+#: ../footer.php:113 ../pbpanel/page-socialnetworks.php:67
+msgid "Foursquare"
+msgstr ""
+
+#: ../footer.php:116 ../pbpanel/page-socialnetworks.php:71
+msgid "Vimeo"
+msgstr ""
+
+#: ../footer.php:119 ../pbpanel/page-socialnetworks.php:75
+msgid "Soundcloud"
+msgstr ""
+
+#: ../footer.php:130 ../pbpanel/page-main.php:65
+msgid "Copyright"
+msgstr ""
+
+#: ../functions.php:40
+msgid "Header Menu"
+msgstr ""
+
+#: ../functions.php:86
+msgid "Username"
+msgstr ""
+
+#: ../functions.php:87
+msgid "Password"
+msgstr ""
+
+#: ../functions.php:88 ../header.php:65
+msgid "Search"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:246
+msgid "Add Link To External Website"
+msgstr ""
+
+#: ../functions.php:254
+msgid "Link Title"
+msgstr ""
+
+#: ../functions.php:258
+msgid "Link URL"
+msgstr ""
+
+#: ../functions.php:337
+msgid "Posted:"
+msgstr ""
+
+#: ../functions.php:343
+msgid "pending"
+msgstr ""
+
+#: ../functions.php:348
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:381
+msgid "Recent Posts with thumbnails"
+msgstr ""
+
+#: ../functions.php:383
+msgid "Thumbnailer"
+msgstr ""
+
+#: ../functions.php:421
+msgid "No recent posts."
+msgstr ""
+
+#: ../functions.php:459
+msgid "PB Slides"
+msgstr ""
+
+#: ../functions.php:460
+msgid "Parent Slide:"
+msgstr ""
+
+#: ../functions.php:461
+msgid "All Slides"
+msgstr ""
+
+#: ../functions.php:462
+msgid "View Slide"
+msgstr ""
+
+#: ../functions.php:463
+msgid "Add New Slide"
+msgstr ""
+
+#: ../functions.php:464
+msgid "New Slide"
+msgstr ""
+
+#: ../functions.php:465
+msgid "Edit Slide"
+msgstr ""
+
+#: ../functions.php:466
+msgid "Update Slide"
+msgstr ""
+
+#: ../functions.php:467
+msgid "Search slides"
+msgstr ""
+
+#: ../functions.php:468
+msgid "No slides found"
+msgstr ""
+
+#: ../functions.php:469
+msgid "No slides found in Trash"
+msgstr ""
+
+#: ../functions.php:473
+msgid "pinthis_slider"
+msgstr ""
+
+#: ../functions.php:474
+msgid "Slides"
+msgstr ""
+
+#: ../functions.php:504
+msgid "Slide Data"
+msgstr ""
+
+#: ../functions.php:512
+msgid "Title"
+msgstr ""
+
+#: ../functions.php:516 ../pbpanel/page-seo.php:25
+msgid "Description"
+msgstr ""
+
+#: ../functions.php:520
+msgid "Link"
+msgstr ""
+
+#: ../functions.php:556
+msgid "Quote Settings"
+msgstr ""
+
+#: ../functions.php:564
+msgid "Quote Text"
+msgstr ""
+
+#: ../functions.php:568
+msgid "Quote Author"
+msgstr ""
+
+#: ../functions.php:604
+msgid "Audio Settings"
+msgstr ""
+
+#: ../functions.php:612
+msgid "Audio URL"
+msgstr ""
+
+#: ../functions.php:613 ../functions.php:666
+msgid "http://"
+msgstr ""
+
+#: ../functions.php:615
+msgid "Supported formats: MP3, M4A, OGG, WAV, WMA"
+msgstr ""
+
+#: ../functions.php:617 ../functions.php:671
+msgid "or"
+msgstr ""
+
+#: ../functions.php:617
+msgid "Upload Audio"
+msgstr ""
+
+#: ../functions.php:651
+msgid "Video Settings"
+msgstr ""
+
+#: ../functions.php:659
+msgid "Aspect Ratio:"
+msgstr ""
+
+#: ../functions.php:660
+msgid "16:9"
+msgstr ""
+
+#: ../functions.php:661
+msgid "4:3"
+msgstr ""
+
+#: ../functions.php:665
+msgid "Video URL"
+msgstr ""
+
+#: ../functions.php:668
+msgid "Supported sites: Youtube, Vimeo"
+msgstr ""
+
+#: ../functions.php:669
+msgid "Supported formats: MP4, M4V, WEBM, OGV, WMV, FLV"
+msgstr ""
+
+#: ../functions.php:671
+msgid "Upload Video"
+msgstr ""
+
+#: ../functions.php:769 ../pbpanel/header.php:4
+msgid "PB Panel"
+msgstr ""
+
+#: ../functions.php:770 ../pbpanel/header.php:7 ../pbpanel/page-main.php:15
+msgid "Main"
+msgstr ""
+
+#: ../functions.php:771 ../pbpanel/header.php:8
+#: ../pbpanel/page-branding.php:56
+msgid "Branding"
+msgstr ""
+
+#: ../functions.php:772 ../pbpanel/header.php:9 ../pbpanel/page-slider.php:15
+msgid "Slider"
+msgstr ""
+
+#: ../functions.php:773 ../pbpanel/header.php:10 ../pbpanel/page-seo.php:15
+msgid "SEO"
+msgstr ""
+
+#: ../functions.php:774 ../pbpanel/header.php:11
+#: ../pbpanel/page-socialnetworks.php:15
+msgid "Social Networks"
+msgstr ""
+
+#: ../functions.php:775 ../pbpanel/header.php:12 ../pbpanel/page-reset.php:9
+msgid "Reset"
+msgstr ""
+
+#: ../header.php:55
+msgid "Categories"
+msgstr ""
+
+#: ../header.php:89
+msgid "Sign out"
+msgstr ""
+
+#: ../header.php:92
+msgid "Edit profile"
+msgstr ""
+
+#: ../header.php:105
+msgid "Sign In"
+msgstr ""
+
+#: ../header.php:105
+msgid "Sign in"
+msgstr ""
+
+#: ../header.php:111
+msgid "Login"
+msgstr ""
+
+#: ../header.php:118
+msgid "Lost password"
+msgstr ""
+
+#: ../header.php:118
+msgid "Lost your password?"
+msgstr ""
+
+#: ../header.php:132
+msgid "Menu"
+msgstr ""
+
+#: ../page.php:27 ../pinbox-aside.php:36 ../pinbox-audio.php:79
+#: ../pinbox-image.php:66 ../pinbox-quote.php:59 ../pinbox-status.php:36
+#: ../pinbox-video.php:95 ../pinbox.php:63 ../single.php:157
+msgid "Post date"
+msgstr ""
+
+#: ../page.php:29 ../pinbox-aside.php:29 ../pinbox-audio.php:72
+#: ../pinbox-image.php:59 ../pinbox-quote.php:52 ../pinbox-status.php:29
+#: ../pinbox-video.php:88 ../pinbox.php:56 ../single.php:159
+msgid "Total comments"
+msgstr ""
+
+#: ../page.php:32 ../pinbox-aside.php:16 ../pinbox-audio.php:16
+#: ../pinbox-image.php:16 ../pinbox-quote.php:16 ../pinbox-status.php:16
+#: ../pinbox-video.php:16 ../pinbox.php:16 ../single.php:162
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../page.php:33 ../pinbox-aside.php:17 ../pinbox-audio.php:17
+#: ../pinbox-image.php:17 ../pinbox-quote.php:17 ../pinbox-status.php:17
+#: ../pinbox-video.php:17 ../pinbox.php:17 ../single.php:163
+msgid "Share on Google+"
+msgstr ""
+
+#: ../page.php:33 ../pbpanel/page-socialnetworks.php:55 ../pinbox-aside.php:17
+#: ../pinbox-audio.php:17 ../pinbox-image.php:17 ../pinbox-quote.php:17
+#: ../pinbox-status.php:17 ../pinbox-video.php:17 ../pinbox.php:17
+#: ../single.php:163
+msgid "Google+"
+msgstr ""
+
+#: ../page.php:34 ../pinbox-aside.php:18 ../pinbox-audio.php:18
+#: ../pinbox-image.php:18 ../pinbox-quote.php:18 ../pinbox-status.php:18
+#: ../pinbox-video.php:18 ../pinbox.php:18 ../single.php:164
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../page.php:41 ../single.php:173
+msgid "Pages:&nbsp;"
+msgstr ""
+
+#: ../page.php:57 ../single.php:199
+msgid "Meta"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:7
+msgid "File was successfully deleted"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:30
+msgid " was successfully uploaded"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:40
+msgid "No file selected"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:53 ../pbpanel/page-main.php:12
+#: ../pbpanel/page-seo.php:12 ../pbpanel/page-slider.php:12
+#: ../pbpanel/page-socialnetworks.php:12
+msgid "Settings saved"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:61
+msgid "Preset Skins"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:62
+msgid "Available skins"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:64
+msgid "Default"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:82
+msgid "Background Image"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:83
+msgid "Click to enable or disable skin background image"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:84 ../pbpanel/page-main.php:22
+#: ../pbpanel/page-main.php:29 ../pbpanel/page-slider.php:36
+#: ../pbpanel/page-slider.php:42 ../pbpanel/page-slider.php:49
+#: ../pbpanel/page-slider.php:61 ../pbpanel/page-slider.php:68
+#: ../pbpanel/page-socialnetworks.php:22
+msgid "Enable"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:85 ../pbpanel/page-main.php:23
+#: ../pbpanel/page-main.php:30 ../pbpanel/page-slider.php:22
+#: ../pbpanel/page-slider.php:37 ../pbpanel/page-slider.php:43
+#: ../pbpanel/page-slider.php:50 ../pbpanel/page-slider.php:62
+#: ../pbpanel/page-slider.php:69 ../pbpanel/page-socialnetworks.php:23
+msgid "Disable"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:87 ../pbpanel/page-main.php:68
+#: ../pbpanel/page-seo.php:38 ../pbpanel/page-slider.php:26
+#: ../pbpanel/page-slider.php:86 ../pbpanel/page-socialnetworks.php:78
+msgid "Save settings"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:93
+msgid "Logo"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:94
+msgid "Upload site logo. Recommended size: 150 x 40 px"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:97
+msgid "Site logo"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:98 ../pbpanel/page-branding.php:113
+msgid "Delete File"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:98 ../pbpanel/page-branding.php:113
+msgid "Are you sure you want to delete this file?"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:98
+msgid "pbpanel_site_logo"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:102 ../pbpanel/page-branding.php:117
+msgid "Choose File"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:108
+msgid "Favicon"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:109
+msgid "Upload site favicon"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:112
+msgid "Site favicon"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:113
+msgid "pbpanel_site_favicon"
+msgstr ""
+
+#: ../pbpanel/page-branding.php:122
+msgid "Upload files and save"
+msgstr ""
+
+#: ../pbpanel/page-main.php:20
+msgid "Infinite scroll"
+msgstr ""
+
+#: ../pbpanel/page-main.php:21
+msgid "Click to enable or disable infinite scroll"
+msgstr ""
+
+#: ../pbpanel/page-main.php:27
+msgid "Links To Posts In Same Category"
+msgstr ""
+
+#: ../pbpanel/page-main.php:28
+msgid ""
+"Displays links to the previous/next post within the same category as the "
+"current post."
+msgstr ""
+
+#: ../pbpanel/page-main.php:34
+msgid "Pinboxes Metadata"
+msgstr ""
+
+#: ../pbpanel/page-main.php:35
+msgid "Choose whether to show the date and number of comments"
+msgstr ""
+
+#: ../pbpanel/page-main.php:39
+msgid "Show number of comments"
+msgstr ""
+
+#: ../pbpanel/page-main.php:44
+msgid "Show post date"
+msgstr ""
+
+#: ../pbpanel/page-main.php:49
+msgid "Header Code"
+msgstr ""
+
+#: ../pbpanel/page-main.php:50
+msgid "Add code to the head of your blog"
+msgstr ""
+
+#: ../pbpanel/page-main.php:54
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../pbpanel/page-main.php:55
+msgid "Paste your Google Analytics tracking code here"
+msgstr ""
+
+#: ../pbpanel/page-main.php:59
+msgid "Number of Links displayed in Footer"
+msgstr ""
+
+#: ../pbpanel/page-main.php:60
+msgid "Pages, Bookmarks, Recent Posts, Popular Posts"
+msgstr ""
+
+#: ../pbpanel/page-main.php:64
+msgid "Footer text"
+msgstr ""
+
+#: ../pbpanel/page-main.php:65
+msgid "Enter footer text ex. copyright description"
+msgstr ""
+
+#: ../pbpanel/page-main.php:65
+msgid "Default:"
+msgstr ""
+
+#: ../pbpanel/page-reset.php:6
+msgid "The Reset complete successfully"
+msgstr ""
+
+#: ../pbpanel/page-reset.php:13
+msgid "Reset PB Panel"
+msgstr ""
+
+#: ../pbpanel/page-reset.php:14
+msgid "Restore theme options to default settings"
+msgstr ""
+
+#: ../pbpanel/page-reset.php:16
+msgid "Reset settings"
+msgstr ""
+
+#: ../pbpanel/page-reset.php:16
+msgid "Are you sure you want to reset all settings to the default values?"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:20
+msgid "Keywords"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:21
+msgid ""
+"Words that identify what the page is about, usually used in search engines"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:26
+msgid "A short description of the page"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:30
+msgid "Author"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:31
+msgid "The author's name and possibly email address"
+msgstr ""
+
+#: ../pbpanel/page-seo.php:35
+msgid "Define a character to separate Blog name and Post title"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:20
+msgid "Show Slider"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:21
+msgid "Make slider appear on the front page or all pages"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:23
+msgid "Front Page"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:24
+msgid "All Pages"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:31
+msgid "Slider Options"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:34
+msgid "Arrows"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:35
+msgid "Arrows are used to navigate back and forth between the slides"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:40
+msgid "Arrows Constraint"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:41
+msgid ""
+"When you get to the end of the slides pressing the next arrow will navigate "
+"you to the beginning again should you have a false constraint. The same "
+"applies to the previous arrow"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:47
+msgid "Autoplay"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:48
+msgid ""
+"Sets the slider to run automatically. A manual slider resets pause interval"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:53
+msgid "Pause Interval"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:54
+msgid "The time interval between image changes in seconds"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:59
+msgid "Block Text"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:60
+msgid ""
+"Will show a black transparent color behind slide title and text for easy "
+"reading"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:66
+msgid "Dot Navigation"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:67
+msgid "Dot navigation is used to indicate and navigate between the slides"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:72
+msgid "Dot Alignment"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:73
+msgid ""
+"Set the horizontal alignment of the dots to either left, center or right"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:75
+msgid "Left"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:76
+msgid "Center"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:77
+msgid "Right"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:82
+msgid "Slide Position"
+msgstr ""
+
+#: ../pbpanel/page-slider.php:83
+msgid "Set the starting slide"
+msgstr ""
+
+#: ../pbpanel/page-socialnetworks.php:20
+msgid "Show social icons in Pins"
+msgstr ""
+
+#: ../pbpanel/page-socialnetworks.php:21
+msgid ""
+"Click to enable or disable icons in pinboxes to share posts on social "
+"networks"
+msgstr ""
+
+#: ../pbpanel/page-socialnetworks.php:27
+msgid "Social icons in Footer"
+msgstr ""
+
+#: ../pbpanel/page-socialnetworks.php:28
+msgid "Add links to your social profiles"
+msgstr ""
+
+#: ../pinbox-aside.php:11 ../pinbox-audio.php:11 ../pinbox-image.php:11
+#: ../pinbox-quote.php:11 ../pinbox-status.php:11 ../pinbox-video.php:11
+#: ../pinbox.php:11 ../single.php:154
+msgid "Sticky"
+msgstr ""
+
+#: ../search.php:13
+msgid "Search results for"
+msgstr ""
+
+#: ../single.php:27 ../single.php:29
+msgid "Previous post"
+msgstr ""
+
+#: ../single.php:34 ../single.php:36
+msgid "Next post"
+msgstr ""
+
+#: ../single.php:180
+msgid "Categories: &nbsp;"
+msgstr ""
+
+#: ../single.php:182
+msgid "No categories"
+msgstr ""

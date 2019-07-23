@@ -1,0 +1,1034 @@
+/*
+
+Theme Name: PinThis
+Description: Skin - Blackie
+
+*/
+
+/*====================================*\
+	FORM ELEMENTS
+\*====================================*/
+
+::-webkit-input-placeholder {
+	color: #4e4e4e;
+}
+:-moz-placeholder {
+	color: #4e4e4e;
+}
+::-moz-placeholder {
+	color: #4e4e4e;
+}
+:-ms-input-placeholder {
+	color: #4e4e4e;
+}
+input[type=text], input[type=password], input[type=email], input[type=url], textarea {
+	background-color: #242424;
+	border: 1px solid #2d2d2d;
+	color: #4e4e4e;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=url]:focus, textarea:focus {
+	color: #ccc;
+	border-color: #00aeef;
+}
+.sbHolder {
+	background-color: #242424;
+	border: 1px solid #2d2d2d;
+	color: #4e4e4e;
+}
+.sbSelector {
+	color: #ccc;
+}
+.sbSelector:hover {
+	color: #ccc;	
+}
+.sbToggle {
+	background-image: url(images/arrow-3.png);
+}
+.sbOptions {
+	background-color: #242424;
+	border: 1px solid #2d2d2d;
+}
+.sbOptions li a {
+	color: #999;
+}
+.sbOptions a:hover, .sbOptions a:focus, .sbOptions a.sbFocus {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+/*====================================*\
+	BUTTONS
+\*====================================*/
+
+/*	colors */
+.button-color-1 {
+	border: 1px solid #00aeef;
+	background-color: #00aeef;
+	color: #fff;
+}
+.button-color-1:hover {
+	border-color: #0091dc;
+	background-color: #0091dc;
+	color: #fff;
+}
+
+/*====================================*\
+	ICONS
+\*====================================*/
+
+.icon-menu-categories {
+	background-image: url(images/icon-menu-categories.png);
+}
+.icon-login {
+	background-image: url(images/icon-login.png);
+}
+.icon-login.out {
+	background-image: url(images/icon-logout.png);
+}
+.icon-nav-menu {
+	background-image: url(images/icon-nav-menu.png);
+}
+.icon-zoom {
+	background-image: url(images/icon-zoom.png);
+}
+.icon-total-comments {
+	color: #999;
+	background-image: url(images/icon-total-comments.png);
+}
+.icon-total-comments-2 {
+	background-image: url(images/icon-total-comments-2.png);
+}
+.icon-post-date {
+	color: #999;
+	background-image: url(images/icon-post-date.png);
+}
+.icon-post-date-2 {
+	background-image: url(images/icon-post-date-2.png);
+}
+.icon-author {
+	background-image: url(images/icon-author.png);
+}
+/*====================================*\
+	BORDERS
+\*====================================*/
+
+.border-color-1 {
+	border-top: 4px solid #00aeef;
+}
+.border-color-2 {
+	border-top: 4px solid #6fad1b;
+}
+.border-color-3 {
+	border-top: 4px solid #3468af;
+}
+.border-color-4 {
+	border-top: 4px solid #4fc4f6;
+}
+.border-color-5 {
+	border-top: 4px solid #f06eaa;
+}
+/*====================================*\
+	COLORS
+\*====================================*/
+
+.color-1 {
+	color: #666 !important;
+}
+.color-2 {
+	color: #333 !important;
+}
+/*====================================*\
+	TITLES
+\*====================================*/
+
+.title-1 {
+	color: #666;
+}
+.title-2 {
+	color: #fff;
+}
+.title-3 {
+	color: #999;
+}
+.title-4 {
+	color: #242424;
+}
+.title-5 {
+	color: #666;
+}
+/*====================================*\
+	MAIN
+\*====================================*/
+
+body {
+	color: #fff;
+	background-color: #141414;
+}
+a {
+	color: #666;
+}
+a:hover {
+	color: #00aeef;
+}
+
+/*	header */
+header {
+	background-color: #242424;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+header.with-header-nav-menu .container:nth-child(2) {
+	background-color: #2d2d2d;
+}
+header.with-header-nav-menu .container:nth-child(2):before {
+	background-color: #323232;
+}
+header .log-in-out .login-links {
+	border-top: 1px solid #2d2d2d;
+}
+header .log-in-out .login-links a {
+	color: #999;	
+}
+header .log-in-out .login-links a:hover {
+	color: #00aeef;	
+}
+
+/*	header menu */
+.header-menu .header-menu-wrapper > ul > li > a {
+	color: #666;
+}
+.header-menu .header-menu-wrapper > ul > li > a:hover {
+	color: #00aeef;
+}
+
+/*	primary */
+#primary {
+	border-bottom: 4px solid #00aeef;	
+}
+
+/*	post */
+.postWrap .topbar {
+	background-color: #2d2d2d;
+}
+.postWrap .topbar .space {
+	color: #2d2d2d;
+}
+.postWrap .contentbox .quote-block:before {
+	background-image: url(images/icon-quotes-large.png);
+}
+.postWrap .contentbox .quote-block .quote-author {
+	color: #999;
+}
+
+/*	posts navigation */
+.posts-navigation {
+	color: #666;
+	border-top: 1px solid #2d2d2d;
+}
+.posts-navigation a {
+	color: #666;
+}
+.posts-navigation a:hover {
+	color: #00aeef;
+}
+.posts-navigation .prev {
+	background-image: url(images/arrow-9.png);
+}
+.posts-navigation .next {
+	background-image: url(images/arrow-10.png);
+}
+
+/*	sidebar */
+.sidebar .contentbox {
+	color: #666;
+}
+.sidebar .contentbox > ul {
+	color: #666;
+}
+.sidebar .contentbox > ul > li {
+	border-bottom: 1px solid #2d2d2d;
+	background-image: url(images/arrow-2.png);
+}
+.sidebar .contentbox > ul > li a {
+	color: #fff;
+}
+.sidebar .contentbox > ul > li a:hover {
+	color: #00aeef;
+}
+.sidebar .contentbox > ul > li .post-date {
+	color: #333;
+}
+
+/*	sidebar widget menu */
+ul.menu, ul.menu ul {
+	color: #999;
+}
+ul.menu li a {
+	border-bottom: 1px solid #2d2d2d;
+	background-image: url(images/arrow-2.png);
+	color: #fff;
+}
+ul.menu li a:hover {
+	color: #00aeef;
+}
+
+/*	sidebar widget bookmarks */
+.sidebar .contentbox .blogroll li a img {
+	border: 1px solid #4e4e4e;
+}
+
+/*	sidebar widget calendar */
+.sidebar #calendar_wrap {
+	color: #666;
+}
+.sidebar #calendar_wrap #wp-calendar th {
+	color: #6fad1b;
+}
+.sidebar #calendar_wrap #wp-calendar td#today span, .sidebar #calendar_wrap #wp-calendar td#today span a {
+	background-color: #00aeef;
+	color: #fff;
+}
+.sidebar #calendar_wrap #wp-calendar tfoot .caption {
+	color: #666;
+}
+.sidebar #calendar_wrap #wp-calendar tfoot #prev a {
+	background-image: url(images/arrow-4.png);
+}
+.sidebar #calendar_wrap #wp-calendar tfoot #next a {
+	background-image: url(images/arrow-5.png);
+}
+
+/*	sidebar widget rss */
+.sidebar .contentbox .rss-date {
+	color: #333;
+}
+
+/*	search */
+.search-box input[type=submit], .searchform input[type=submit] {
+	background-image: url(images/icon-search.png);
+}
+
+/*	member */
+.member .avatar img {
+	border: 2px solid #4e4e4e;
+}
+
+/*	dropdown menu */
+.dropdown .dropdown-wrapper {
+	background-color: #242424;
+	border-bottom: 4px solid #00aeef;
+}
+.dropdown .dropdown-wrapper.arrow-up-left:before {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #242424;
+}
+.dropdown .dropdown-wrapper.arrow-up-right:before {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #242424;
+}
+
+/*	categories list, sub menu */
+.categories-list > li > a, .header-menu-list .sub-menu > li > a {
+	color: #999;
+}
+.categories-list > li > a:hover, .header-menu-list .sub-menu > li > a:hover {
+	color: #fff;
+	background-color: #2d2d2d;
+}
+.categories-list ul > li > a, .header-menu-list .sub-menu ul > li > a {
+	color: #999;
+}
+.categories-list ul > li > a:hover, .header-menu-list .sub-menu ul > li > a:hover {
+	color: #fff;
+	background-color: #2d2d2d;
+}
+
+/*	login form */
+#login-form #user_login {
+	background-image: url(images/icon-user-login.png);
+	color: #ccc;
+}
+#login-form #user_pass {
+	background-image: url(images/icon-user-pass.png);
+	color: #ccc;
+}
+
+/*	category title */
+.category-title .title-3 {
+	background-color: #2d2d2d;
+}
+.category-title .description {
+	color: #666;
+}
+
+/*	wp video */
+.wp-video .mejs-container,  
+.wp-video .mejs-embed, 
+.wp-video .mejs-embed body, 
+.wp-video .mejs-container embed, 
+.wp-video .mejs-container video {
+	background-color: #666;
+}
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-loaded, 
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-total {
+	background-color: #c5c5c5;
+}
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-current {
+	background-color: #00aeef;
+}
+.wp-video .mejs-container .mejs-controls {
+	background-color: #333 !important;
+}
+.wp-video .mejs-overlay-button {
+	background-image: url(images/arrow-8.png);
+}
+
+/*	wp audio */
+.wp-audio-shortcode .mejs-container {
+	background-color: #666;	
+}
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-loaded, 
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-total,
+.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	background-color: #c5c5c5;
+}
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background-color: #00aeef;
+}
+.wp-audio-shortcode .mejs-controls {
+	background-color: #333 !important;
+}
+
+/*	pinbox */
+.pinbox {
+	background-color: #242424;
+}
+.pinbox .preview .thumb a:after {
+	background-image: url(images/icon-view-pin.png);
+}
+.pinbox:hover .preview .thumb img {
+	opacity: .8;
+}
+.pinbox .title a {
+	color: #fff;
+}
+.pinbox .title a:hover {
+	color: #6fad1b;
+}
+.pinbox .excerpt {
+	color: #999;
+}
+.pinbox .excerpt a {
+	color: #999;
+}
+.pinbox .excerpt a:hover {
+	color: #fff;
+}
+.pinbox .top-bar {
+	background-color: #2d2d2d;
+}
+.pinbox .meta-data ul li {
+	background-color: #2d2d2d;
+}
+
+/*	pinbox format - quote */
+.pinbox .format-quote .excerpt:before {
+	background-image: url(images/icon-quotes.png);
+}
+.pinbox .format-quote .excerpt .quote-text {
+	color: #fff;
+}
+.pinbox .format-quote .excerpt .quote-text a {
+	color: #fff;
+}
+.pinbox .format-quote .excerpt .quote-text:hover a {
+	color: #999;
+}
+.pinbox .format-quote .excerpt .quote-author {
+	color: #999;
+}
+
+/*	pinbox format - audio */
+.pinbox .format-audio .preview .thumb a:after {
+	background-image: url(images/icon-view-audio.png);	
+}
+
+/*	pinbox format - video */
+.pinbox .format-video .preview .thumb .wp-video .mejs-overlay-button {
+	background-image: url(images/arrow-11.png);
+}
+
+/*	content box */
+.contentbox {
+	background-color: #242424;
+}
+.contentbox .title-1 {
+	background-color: #2d2d2d;
+}
+.contentbox .title-1 a {
+	color: #666;
+}
+
+/*	post meta bar */
+.metabar {
+	background-color: #2d2d2d;
+	border-top: 1px solid #242424;
+}
+
+/*	post metas */
+.postmetas {
+	color: #666;
+}
+.postmetas li a {
+	color: #666;
+}
+.postmetas li a:hover {
+	color: #00aeef;	
+}
+
+/*	social media icons */
+.social-media-icons li {
+	border-right: 1px solid #242424;
+}
+.social-media-icons li:first-child {
+	border-left: 1px solid #242424;
+}
+.social-media-icons li a.icon-facebook {
+	background-image: url(images/icon-facebook.png);
+}
+.social-media-icons li a.icon-facebook:hover {
+	background-color: #3468af;
+}
+.social-media-icons li a.icon-gplus {
+	background-image: url(images/icon-gplus.png);
+	border-top-color: #e64c65;
+}
+.social-media-icons li a.icon-gplus:hover {
+	background-color: #e64c65;
+}
+.social-media-icons li a.icon-twitter {
+	background-image: url(images/icon-twitter.png);
+}
+.social-media-icons li a.icon-twitter:hover {
+	background-color: #4fc4f6;
+}
+
+/*	nav buttons */
+.navbtns li {
+	border-right: 2px solid #242424;
+}
+.navbtns li a, .navbtns li span.no-link {
+	color: #666;
+}
+.navbtns li a:hover {
+	background-color: #242424;
+	color: #fff;
+}
+.navbtns li span.no-link {
+	color: #3c3c3c;
+}
+.navbtns li:first-child a, .navbtns li:first-child span.no-link {
+	border-top: 4px solid #00aeef;
+}
+.navbtns li:last-child a, .navbtns li:last-child span.no-link {
+	border-top: 4px solid #6fad1b;
+}
+
+/*	textbox */
+.textbox {
+	color: #fff;
+}
+.textbox a {
+	color: #00aeef;
+}
+.textbox a:hover {
+	color: #fff;
+}
+.textbox table th {
+	background-color: #2d2d2d;
+	color: #999;		
+}
+.textbox table td {
+	color: #999;
+	border-bottom: 1px solid #2d2d2d;	
+}
+.textbox .wp-caption .wp-caption-text {
+	color: #999;
+}
+.textbox .gallery .gallery-item .gallery-caption {
+	color: #999;
+}
+
+/*	post textbox */
+.postWrap .contentbox .title-3 a, .postWrap .contentbox .title-1 {
+	color: #fff;	
+}
+.postWrap .contentbox .title-3 a:hover {
+	color: #00aeef;	
+}
+.postWrap .textbox input[type=submit] {
+	background-color: #00aeef;
+	color: #fff;
+}
+.postWrap .textbox .sbHolder a {
+	color: #ccc;
+}
+.postWrap .textbox .sbOptions li a {
+	color: #999;	
+}
+.postWrap .textbox .sbOptions li a:hover {
+	color: #fff;	
+}
+
+/*	page links */
+.page-links {
+	color: #999;
+}
+.page-links .page-num {
+	background-color: #00aeef;
+	color: #fff;
+}
+.page-links a .page-num {
+	color: #999;
+}
+.page-links a:hover .page-num {
+	color: #00aeef;
+}
+
+/*	categories */
+.categories {
+	color: #666;
+	border-top: 1px solid #2d2d2d;
+	border-bottom: 1px solid #2d2d2d;
+}
+.categories a {
+	color: #666;
+}
+.categories a:hover {
+	color: #00aeef;
+}
+
+/* 	tags */
+.tags {
+	color: #666;
+	border-top: 1px solid #2d2d2d;
+	border-bottom: 1px solid #2d2d2d;
+}
+.tags a {
+	color: #666;
+}
+.tags a:hover {
+	color: #00aeef;
+}
+
+/*	comments */
+.comments {
+	border-bottom: none;
+}
+.comments ul li:nth-child(2n) {
+	background-color: #2d2d2d;
+}
+.comments ul li .icon img {
+	border: 1px solid #999;
+}
+.comments ul li .date {
+	color: #666;
+}
+.comments ul li .author {
+	color: #666;
+}
+.comments ul li .author a {
+	color: #666;
+}
+.comments ul li .author a:hover, .comments ul li:nth-child(2n) .author a:hover {
+	color: #00aeef;
+}
+
+/*	comments text */
+.comments ul li .comment-text {
+	color: #fff;
+}
+.comments ul li .comment-text a {
+	color: #00aeef;
+}
+.comments ul li .comment-text a:hover {
+	color: #fff;
+}
+.comments ul li .comment-text table th {
+	background-color: #2d2d2d;
+	color: #999;		
+}
+.comments ul li .comment-text table td {
+	color: #999;
+	border-bottom: 1px solid #2d2d2d;	
+}
+
+/*	comments reply */
+.comments .comment-reply a {
+	color: #00aeef;
+}
+.comments .comment-reply a:hover {
+	color: #fff;
+}
+
+/*	comments nav */
+.comments-nav {
+	color: #666;
+	border-bottom: 1px solid #2d2d2d;
+	border-top: 1px solid #2d2d2d;
+}
+.comments-nav a {
+	color: #666;
+}
+.comments-nav a:hover {
+	color: #00aeef;
+}
+.comments-nav-prev a {
+	background-image: url(images/arrow-9.png);
+}
+.comments-nav-next a {
+	background-image: url(images/arrow-10.png);
+}
+
+/*	comments respond */
+.comments + .comment-respond {
+	border-top: none;
+}
+.comment-respond {
+	color: #999;
+}
+.comment-respond .icon img {
+	border: 1px solid #999;
+}
+
+/*	ribbon */
+.ribbon {
+	background-color: #6fad1b;
+	color: #fff;
+}
+
+/*	tooltip */
+#aToolTip {
+	background-color: #00aeef;
+	color: #fff;
+}
+
+/*	notice page */
+.notice-body .notice {
+	color: #666;
+}
+
+/*	notification */
+.notification {
+	color: #666;
+}
+
+/* 	spinner */
+.footer-spinner .loader div, .main-loader .loader div {
+	background-color: #999 !important;	
+}
+
+/*	scroll to top */
+.scrolltotop {
+	background-image: url(images/scrolltotop.png);
+}
+
+/*	footer */
+footer {
+	-webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+}
+footer .toggler {
+	background-color: #242424;
+}
+footer .toggler label {
+	background-color: #242424;
+	background-image: url(images/arrow-6.png);
+	-webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+	border-top-color: #00aeef;
+}
+footer .footerbar {
+	background-color: #242424;
+}
+footer .footerbar .cell:last-child:before {
+	background-color: #2d2d2d;
+}
+footer .footerbar .cell ul {
+	color: #999;
+}
+footer .footerbar .cell .links li a {
+	color: #999;
+}
+footer .footerbar .cell .links li a:hover {
+	color: #00aeef;
+}
+footer .copyright {
+	background-color: #141414;
+	color: #666;
+}
+
+/*====================================*\
+	MAGNIFIC POPUP
+\*====================================*/
+.mfp-bg {
+	background: rgba(20, 20, 20, .9);
+}
+.mfp-preloader {
+	color: #cccccc;
+}
+.mfp-preloader a {
+	color: #cccccc;
+}
+.mfp-preloader a:hover {
+	color: white;
+}
+button.mfp-close {
+	background-image: url(images/close.png);
+}
+.mfp-close-btn-in .mfp-close {
+	color: #333333;
+}
+.mfp-counter {
+	color: #999;
+}
+.mfp-arrow-left {
+	background-image: url(images/arrow-7.png);
+}
+.mfp-arrow-right {
+	background-image: url(images/arrow-8.png);
+}
+.mfp-iframe-scaler iframe {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	background: black;
+}
+
+/*	The shadow behind the image */
+.mfp-figure small {
+	color: #bdbdbd;
+}
+.mfp-title {
+	color: #fff;
+}
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+	.mfp-img-mobile .mfp-bottom-bar {
+		background: rgba(0, 0, 0, 0.6);
+	}
+	.mfp-img-mobile .mfp-close {
+		background: rgba(0, 0, 0, 0.6);
+	}
+}
+
+/*====================================*\
+	SLIDER
+\*====================================*/
+
+/*	slider empty */
+.slider-empty {
+	background-image: url(images/slide-empty.jpg);
+}
+
+/*	flickerplate */
+.flickerplate ul.flicks>li .flick-inner {
+	color: #fff;
+}
+.flickerplate ul.flicks > li .flick-title a {
+	color: #fff;
+}
+.flickerplate ul.flicks>li .flick-sub-text {
+	color: rgba(255, 255, 255, 0.8);
+}
+.flickerplate ul.flicks>li .flick-title span.flick-block-text, .flickerplate ul.flicks>li .flick-sub-text span.flick-block-text {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.flickerplate .arrow-navigation.left .arrow {
+	background-image: url(images/flickerplate/arrow-left-light.png);
+}
+.flickerplate .arrow-navigation.right .arrow {
+	background-image: url(images/flickerplate/arrow-right-light.png);
+}
+.flickerplate .dot-navigation .dot {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.flickerplate .dot-navigation .dot:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.flickerplate .dot-navigation .dot.active {
+	background-color: #fff;
+}
+
+/*====================================*\
+	JSCROLLPANE
+\*====================================*/
+
+.jspTrack {
+	background: #141414;
+}
+.jspDrag {
+	background: #00aeef;
+}
+
+/*====================================*\
+	PLUGINS
+\*====================================*/
+
+/*	contact form 7 */
+.wpcf7-form span.wpcf7-not-valid-tip {
+	color: #00aeef;
+}
+.wpcf7-form div.wpcf7-validation-errors {
+	border-color: #00aeef;
+}
+.wpcf7-form div.wpcf7-mail-sent-ok {
+	border-color: #6fad1b;
+}
+
+/*====================================*\
+	RESPONSIVE
+\*====================================*/
+
+/*	pinthis layout */
+@media only screen and (max-width: 1033px) {
+	footer .footerbar .cell:last-child {
+		border-top: 1px solid #2d2d2d;
+	}
+}
+@media only screen and (max-width: 720px) {
+	header.with-header-nav-menu .container:nth-child(2) {
+		background-color: transparent;
+	}
+	.header-menu .header-menu-wrapper {
+		background-color: #242424;
+		border-bottom: 4px solid #00aeef;
+	}
+	.header-menu .header-menu-wrapper.arrow-up-left:before {
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-bottom: 8px solid #242424;
+	}
+	.header-menu .header-menu-wrapper.arrow-up-right:before {
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-bottom: 8px solid #242424;
+	}
+	.header-menu .header-menu-wrapper .header-menu-list li a {
+		color: #999;
+	}
+	.header-menu .header-menu-wrapper .header-menu-list li a:hover {
+		color: #fff;
+		background-color: #2d2d2d;
+	}
+	header .logo {
+		background-color: #242424;
+		border-bottom: 1px solid #2d2d2d;
+	}
+	.metabar .postmetas {
+		border-bottom: 1px solid #242424;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.categories-list > li, .categories-list ul > li, .header-menu-list > li, .header-menu-list ul > li {
+		border-top: 1px solid #2d2d2d;
+	}
+	#login-form {
+		border-top: 1px solid #2d2d2d;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.search-box .dropdown .dropdown-wrapper {
+		background-color: #242424;
+		border-bottom: 4px solid #00aeef;
+	}
+	.search-box form {
+		border-top: 1px solid #2d2d2d;
+	}
+	.comments ul li .date {
+		color: #333;
+	}
+	.comments ul li:nth-child(2n) .date {
+		color: #3c3c3c;	
+	}
+}
+@media only screen and (max-width: 400px) {
+	.postWrap .contentbox .featured-video .wp-video .mejs-overlay-button {
+		background-image: url(images/arrow-11.png);
+	}
+}
+
+/*====================================*\
+	RTL
+\*====================================*/
+
+body.rtl .icon-login {
+	background-image: url(images/icon-logout.png);
+	text-indent: 5000px;
+}
+body.rtl .icon-login.out {
+	background-image: url(images/icon-login.png);
+}
+body.rtl .posts-navigation .prev {
+	background-image: url(images/arrow-10.png);
+}
+body.rtl .posts-navigation .next {
+	background-image: url(images/arrow-9.png);
+}
+body.rtl .sidebar .contentbox > ul > li {
+	background-image: url(images/arrow-2-rtl.png);
+}
+body.rtl ul.menu li a {
+	background-image: url(images/arrow-2-rtl.png);
+}
+body.rtl ul.menu ul li a /* level 2 */ {
+	background-image: url(images/arrow-2-rtl-2.png);
+}
+body.rtl ul.menu ul ul li a  /* level 3 */ {
+	background-image: url(images/arrow-2-rtl-3.png);
+}
+body.rtl ul.menu ul ul ul li a  /* level 4 */ {
+	background-image: url(images/arrow-2-rtl-4.png);
+}
+body.rtl ul.menu ul ul ul ul li a  /* level 5 */ {
+	background-image: url(images/arrow-2-rtl-5.png);
+}
+body.rtl .sidebar #calendar_wrap #wp-calendar tfoot #prev a {
+	background-image: url(images/arrow-5.png);
+}
+body.rtl .sidebar #calendar_wrap #wp-calendar tfoot #next a {
+	background-image: url(images/arrow-4.png);
+}
+body.rtl #login-form #user_login {
+	background-image: url(images/icon-user-login-rtl.png);
+}
+body.rtl #login-form #user_pass {
+	background-image: url(images/icon-user-pass-rtl.png);
+}
+body.rtl .pinbox .format-quote .excerpt:before {
+	background-image: url(images/icon-quotes-rtl.png);
+}
+body.rtl .postWrap .contentbox .quote-block:before {
+	background-image: url(images/icon-quotes-large-rtl.png);
+}
+body.rtl .comments-nav-prev a {
+	background-image: url(images/arrow-10.png);
+}
+body.rtl .comments-nav-next a {
+	background-image: url(images/arrow-9.png);
+}
+body.rtl .mfp-arrow-left {
+	background-image: url(images/arrow-8.png);
+}
+body.rtl .mfp-arrow-right {
+	background-image: url(images/arrow-7.png);
+}
+body.rtl .social-media-icons li {
+	border-left: 1px solid #242424;
+}
+body.rtl .social-media-icons li:first-child {
+	border-right: 1px solid #242424;
+}
+body.rtl .navbtns li {
+	border-left: 2px solid #242424;
+}

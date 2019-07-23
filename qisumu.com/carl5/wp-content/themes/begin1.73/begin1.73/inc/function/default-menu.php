@@ -1,0 +1,1 @@
+<ul class="default-menu"><li><a href="<?php echo home_url(); ?>/wp-admin/nav-menus.php">设置菜单</a></li></ul>

@@ -1,0 +1,678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProtoPress\n"
+"POT-Creation-Date: 2015-04-29 21:19+0300\n"
+"PO-Revision-Date: 2015-05-01 21:39+0300\n"
+"Last-Translator: mckryak <mckryak@rambler.ru>\n"
+"Language-Team: Rohit Tripathi <rohit@rohitink.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: framework\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой: страница не найдена"
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Похоже, ничего не найдено. Может, стоит перейти по одной из этих ссылок или "
+"воспользоваться поиском?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Наиболее популярные категории"
+
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте поискать в  архиве за %1$s"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий к &laquo;%2$s&raquo;"
+msgstr[1] "%1$s комментария к &laquo;%2$s&raquo;"
+msgstr[2] "%1$s комментариев к &laquo;%2$s&raquo;"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "← Предыдущие комментарии"
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии →"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Комментирование закрыто"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но нет ничего, соответствующего условиям поиска. Попробуйте еще "
+"раз, изменив ключевые слова."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что Вы ищете. Может быть, стоит "
+"воспользоваться поиском по сайту?"
+
+#: content-page.php:18 content-single.php:26 content.php:29
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content-page.php:25 inc/template-tags.php:122 inc/template-tags.php:262
+#: inc/template-tags.php:298
+msgid "Edit"
+msgstr "Править"
+
+#: content.php:22
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Продолжить чтение %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: featured-content2.php:25 framework/layouts/content-grid.php:22
+#: framework/layouts/content-grid_2_column.php:22
+#: framework/layouts/content-grid_3_column.php:22
+msgid "Read More"
+msgstr "Читать дальше..."
+
+#: footer.php:17
+#, php-format
+msgid "Theme Designed by %1$s."
+msgstr "Дизайн темы — %1$s."
+
+#: footer.php:19
+msgid ". All Rights Reserved. "
+msgstr ". Все права защищены. "
+
+#: framework/theme-functions.php:75
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Выберите &mdash;"
+
+#: framework/widgets/recent-posts.php:13
+msgid "ProtoPress Recent Posts with Thumbnails"
+msgstr "Последние сообщения ProtoPress с эскизами"
+
+#: framework/widgets/recent-posts.php:14
+msgid "Display your recent posts, with a Thumbnail."
+msgstr "Показывать последние сообщения с эскизами."
+
+#: framework/widgets/recent-posts.php:23
+msgid "Latest Posts"
+msgstr "Новые записи"
+
+#: framework/widgets/recent-posts.php:84
+msgid "Latest Articles"
+msgstr "Новые статьи"
+
+#: framework/widgets/recent-posts.php:90
+msgid "5"
+msgstr "5"
+
+#: framework/widgets/recent-posts.php:94
+msgid "Title:"
+msgstr "Название:"
+
+#: framework/widgets/recent-posts.php:97
+msgid "No. of Posts:"
+msgstr "Записей:"
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:55
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: functions.php:93
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:103
+msgid "Footer 1"
+msgstr "Нижний колонтитул 1"
+
+#: functions.php:112
+msgid "Footer 2"
+msgstr "Нижний колонтитул 2"
+
+#: functions.php:121
+msgid "Footer 3"
+msgstr "Нижний колонтитул 3"
+
+#: functions.php:130
+msgid "Footer 4"
+msgstr "Нижний колонтитул 4"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Пропустить"
+
+#: inc/customizer.php:21 inc/customizer_bak.php:21
+msgid "Title, Tagline & Logo"
+msgstr "Название, слоган и логотип"
+
+#: inc/customizer.php:34
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: inc/customizer.php:49
+msgid "Resize & Adjust Logo"
+msgstr "Настроить размер"
+
+#: inc/customizer.php:82 inc/customizer_bak.php:82
+msgid "Site Title Color"
+msgstr "Цвет названия сайта"
+
+#: inc/customizer.php:97 inc/customizer_bak.php:97
+msgid "Site Tagline Color"
+msgstr "Цвет слогана"
+
+#: inc/customizer.php:112 inc/customizer_bak.php:112
+msgid "Disable Description of Menu Items"
+msgstr "Отключить описания элементов меню"
+
+#: inc/customizer.php:125 inc/customizer_bak.php:125
+msgid "Disable Highlighting of Current Active Item on the Menu."
+msgstr "Отключить выделение активного элемента меню."
+
+#: inc/customizer.php:147 inc/customizer_bak.php:147
+msgid "Header Image Arrangement"
+msgstr "Положение изображения для заголовка"
+
+#: inc/customizer.php:152 inc/customizer_bak.php:152
+msgid "Contain"
+msgstr "Уложить по высоте"
+
+#: inc/customizer.php:153 inc/customizer_bak.php:153
+msgid "Cover Completely"
+msgstr "Растянуть на весь заголовок"
+
+#: inc/customizer.php:172 inc/customizer_bak.php:172
+msgid "Header Image Alignment"
+msgstr "Выравнивание изображения для заголовка"
+
+#: inc/customizer.php:177 inc/customizer_bak.php:177
+msgid "Center"
+msgstr "По центру"
+
+#: inc/customizer.php:178 inc/customizer_bak.php:178
+msgid "Left"
+msgstr "Слева"
+
+#: inc/customizer.php:179 inc/customizer_bak.php:179
+msgid "Right"
+msgstr "Справа"
+
+#: inc/customizer.php:191 inc/customizer_bak.php:191
+msgid "Repeat Header Image"
+msgstr "Повторять изображение для заголовка"
+
+#: inc/customizer.php:208 inc/customizer_bak.php:208
+msgid "Hide Title and Tagline."
+msgstr "Скрыть название и слоган."
+
+#: inc/customizer.php:222 inc/customizer_bak.php:222
+msgid "Display Site Title and Tagline Below the Logo."
+msgstr "Показывать название сайта и слоган под логотипом."
+
+#: inc/customizer.php:242 inc/customizer_bak.php:242
+msgid "Center Align."
+msgstr "Выровнять по центру"
+
+#: inc/customizer.php:255
+msgid "Main Slider"
+msgstr "Главный слайдер"
+
+#: inc/customizer.php:261
+msgid "Enable/Disable"
+msgstr "Включить/выключить"
+
+#: inc/customizer.php:276 inc/customizer_bak.php:276
+msgid "Enable Slider."
+msgstr "Включить слайдер."
+
+#: inc/customizer.php:294 inc/customizer_bak.php:294
+msgid "No. of Slides(Min:0, Max: 10)"
+msgstr "Число слайдов (от 0 до 10)"
+
+#: inc/customizer.php:297 inc/customizer_bak.php:297
+msgid "Save the Settings, and Reload this page to Configure the Slides."
+msgstr "Чтобы настроить слайды, сохраните настройки и обновите эту страницу."
+
+#: inc/customizer.php:332
+msgid "Slide "
+msgstr "Слайд "
+
+#: inc/customizer.php:346 inc/customizer_bak.php:346
+msgid "Slide Title"
+msgstr "Заголовок слайда"
+
+#: inc/customizer.php:360 inc/customizer_bak.php:360
+msgid "Slide Description"
+msgstr "Описание слайда"
+
+#: inc/customizer.php:376 inc/customizer_bak.php:376
+msgid "Custom Call to Action Button Text(Optional)"
+msgstr "Произвольный текст для кнопки-призыва (необязательно)"
+
+#: inc/customizer.php:390 inc/customizer_bak.php:390
+msgid "Target URL"
+msgstr "Целевой URL"
+
+#: inc/customizer.php:409
+msgid "Featured Content Areas"
+msgstr "Области избранного"
+
+#: inc/customizer.php:418
+msgid "Square Boxes"
+msgstr "Квадратные блоки"
+
+#: inc/customizer.php:432 inc/customizer_bak.php:432
+msgid "Enable Square Boxes & Posts Slider."
+msgstr "Включить блоки и слайдер записей. "
+
+#: inc/customizer.php:447 inc/customizer_bak.php:447
+msgid "Title for the Boxes"
+msgstr "Заголовок блоков"
+
+#: inc/customizer.php:463
+msgid "Category For Square Boxes."
+msgstr "Рубрика для блоков."
+
+#: inc/customizer.php:475 inc/customizer_bak.php:475
+msgid "Posts Slider"
+msgstr "Слайдер записей"
+
+#: inc/customizer.php:491 inc/customizer_bak.php:491
+msgid "Title for the Slider"
+msgstr "Заголовок слайдера"
+
+#: inc/customizer.php:528 inc/customizer_bak.php:528
+msgid "No. of Posts(Min:3, Max: 10)"
+msgstr "Число записей (от 3 до 10)"
+
+#: inc/customizer.php:551 inc/customizer_bak.php:551
+msgid "Category For Slider."
+msgstr "Рубрика для слайдера."
+
+#: inc/customizer.php:565 inc/customizer_bak.php:565
+msgid "Image Grid"
+msgstr "Сетка изображений"
+
+#: inc/customizer.php:579 inc/customizer_bak.php:579
+msgid "Enable Grid."
+msgstr "Включить сетку."
+
+#: inc/customizer.php:594 inc/customizer_bak.php:594
+msgid "Title for the Grid"
+msgstr "Заголовок для сетки"
+
+#: inc/customizer.php:613 inc/customizer_bak.php:613
+msgid "Category For Image Grid"
+msgstr "Рубрика для сетки изображений"
+
+#: inc/customizer.php:628 inc/customizer_bak.php:628
+msgid "Max No. of Posts in the Grid. Enter 0 to Disable the Grid."
+msgstr "Макс. число записей в сетке. Введите 0, чтобы отключить."
+
+#: inc/customizer.php:641 inc/customizer_bak.php:641
+msgid "Design & Layout"
+msgstr "Дизайн и макет"
+
+#: inc/customizer.php:647 inc/customizer_bak.php:647
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: inc/customizer.php:668 inc/customizer_bak.php:668
+msgid "Select Layout"
+msgstr "Выберите макет"
+
+#: inc/customizer.php:673 inc/customizer_bak.php:673
+msgid "Basic Blog Layout"
+msgstr "Базовый макет блога"
+
+#: inc/customizer.php:674 inc/customizer_bak.php:674
+msgid "Grid - 2 Column"
+msgstr "Сетка — 2 колонки"
+
+#: inc/customizer.php:675 inc/customizer_bak.php:675
+msgid "Grid - 3 Column"
+msgstr "Сетка — 3 колонки"
+
+#: inc/customizer.php:683 inc/customizer_bak.php:683
+msgid "Sidebar Layout"
+msgstr "Макет боковой панели"
+
+#: inc/customizer.php:697 inc/customizer_bak.php:697
+msgid "Disable Sidebar Everywhere."
+msgstr "Отключить боковую панель везде."
+
+#: inc/customizer.php:712 inc/customizer_bak.php:712
+msgid "Disable Sidebar on Home/Blog."
+msgstr "Отключить боковую панель на домашней/в блоге."
+
+#: inc/customizer.php:728 inc/customizer_bak.php:728
+msgid "Disable Sidebar on Front Page."
+msgstr "Отключить боковую панель на титульной."
+
+#: inc/customizer.php:747 inc/customizer_bak.php:747
+msgid "Sidebar Width"
+msgstr "Ширина боковой панели"
+
+#: inc/customizer.php:748 inc/customizer_bak.php:748
+msgid "Min: 25%, Default: 33%, Max: 40%"
+msgstr "Мин.: 25%, Стандарт: 33%, Макс.: 40%"
+
+#: inc/customizer.php:786 inc/customizer_bak.php:786
+msgid "Custom CSS"
+msgstr "Пользовательская CSS"
+
+#: inc/customizer.php:787 inc/customizer_bak.php:787
+msgid "Enter your Custom CSS to Modify design."
+msgstr "Введите особые правила CSS, чтобы изменить дизайн."
+
+#: inc/customizer.php:819 inc/customizer_bak.php:819
+msgid "Custom Footer Text"
+msgstr "Текст для колонтитула"
+
+#: inc/customizer.php:820 inc/customizer_bak.php:820
+msgid "Enter your Own Copyright Text."
+msgstr "Введите текст копирайта."
+
+#: inc/customizer.php:846 inc/customizer_bak.php:846
+msgid "Google Web Fonts"
+msgstr "Web-шрифты Google"
+
+#: inc/customizer.php:871 inc/customizer_bak.php:871
+msgid "Title"
+msgstr "Заголовки"
+
+#: inc/customizer.php:887 inc/customizer_bak.php:887
+msgid "Body"
+msgstr "Основной текст"
+
+#: inc/customizer.php:897 inc/customizer_bak.php:897
+msgid "Social Icons"
+msgstr "Социальные иконки"
+
+#: inc/customizer.php:902 inc/customizer_bak.php:902
+msgid "-"
+msgstr "-"
+
+#: inc/customizer.php:903 inc/customizer_bak.php:903
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:904 inc/customizer_bak.php:904
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:905 inc/customizer_bak.php:905
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:906 inc/customizer_bak.php:906
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:907 inc/customizer_bak.php:907
+msgid "RSS Feeds"
+msgstr "Ленты RSS"
+
+#: inc/customizer.php:908 inc/customizer_bak.php:908
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer.php:909 inc/customizer_bak.php:909
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:910 inc/customizer_bak.php:910
+msgid "Youtube"
+msgstr "YouTube"
+
+#: inc/customizer.php:911 inc/customizer_bak.php:911
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:926 inc/customizer.php:939 inc/customizer_bak.php:926
+#: inc/customizer_bak.php:939
+msgid "Icon "
+msgstr "Значок "
+
+#: inc/customizer.php:939 inc/customizer_bak.php:939
+msgid " Url"
+msgstr " URL"
+
+#: inc/extras.php:64
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> предыдущие"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "следующие <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s"
+
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:106
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Размещено в %1$s"
+
+#: inc/template-tags.php:112
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки:  %1$s"
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: inc/template-tags.php:139
+#, php-format
+msgid "Category: %s"
+msgstr "Рубрика: %s"
+
+#: inc/template-tags.php:141
+#, php-format
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: inc/template-tags.php:145
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: inc/template-tags.php:145
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: inc/template-tags.php:147
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: inc/template-tags.php:149
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:151
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Реплики"
+
+#: inc/template-tags.php:153
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галереи"
+
+#: inc/template-tags.php:155
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+#: inc/template-tags.php:157
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ссылки"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статусы"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чаты"
+
+#: inc/template-tags.php:169
+#, php-format
+msgid "Archives: %s"
+msgstr "Архив %s"
+
+#: inc/template-tags.php:173
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:175
+msgid "Archives"
+msgstr "Архив"
+
+#: inc/template-tags.php:262
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:277
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:283
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты по запросу: %s"

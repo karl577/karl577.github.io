@@ -1,0 +1,45 @@
+<!--{template common/header}-->
+
+<!-- header start -->
+<div class="header">
+    <div id="hd" class="cl">
+    	<div class="hdc">
+            <a href="home.php?mod=space&uid=1&do=profile&mycenter=1" class="hd_left iconfont icon-arrowleft"></a>
+            <div class="hd_name"><h2>{lang mythread}</h2></div>
+        </div>
+	</div>
+</div>
+<!-- header end -->
+<!-- main threadlist start -->
+<div class="threadlist">
+	<!--{if $list}-->
+		<!--{loop $list $thread}-->
+                <!--{if $viewtype == 'reply' || $viewtype == 'postcomment'}-->
+                <a href="forum.php?mod=redirect&goto=findpost&ptid=$thread[tid]&pid=$thread[pid]" target="_blank"  class="threadbox boxbgfff cl ">
+                <h3 $thread[highlight]>{$thread[subject]}</h3>
+                <!--{else}-->
+                <a href="forum.php?mod=viewthread&tid=$thread[tid]" target="_blank" {if $thread['displayorder'] == -1}class="grey"{/if}  class="threadbox boxbgfff cl ">
+                <h3 $thread[highlight]>{$thread[subject]}</h3>
+                <!--{/if}-->
+                <div class="th_info">
+                    <!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+                    <span class="hot_label space">ÍÆ¼ö</span>
+                    <!--{elseif $thread['digest'] > 0}-->
+                    <span class="top_label space">¾«»ª</span>
+                    <!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+                    <span class="pic_label space"><i class="iconfont icon-iconfontshumajiadian"></i></span>
+                    <!--{/if}-->
+                    <span class="src space">{$thread[dateline]}</span>
+                    <span class="cmt space"><i class="iconfont icon-comments"></i>&nbsp;{$thread[replies]}</span>
+                    <span class="cmt space"><i class="iconfont icon-browse"></i>&nbsp;{$thread[views]}</span>
+                </div>
+            </a>
+		<!--{/loop}-->
+	<!--{else}-->
+    <div class="nodata">{lang no_related_posts}</div>
+	<!--{/if}-->
+</div>
+	$multi
+<!-- main threadlist end -->
+<!--{eval $nofooter = true;}-->
+<!--{template common/footer}-->

@@ -1,0 +1,39 @@
+<!--{template common/header}-->
+
+<div class="mwt-h5bar headbar" style="top:0;height:40px;position:fixed;">
+  <table class="mwt-bar-tb "><tr>
+    <td width="100%" style="height:40px;"><button data-i="0" name="h5page-8NgVRo-head-btn" style=""><h1>{lang search}</h1></button></td>
+  </tr></table>
+</div>
+
+<div style="height:45px">&nbsp;</div>
+
+<form id="searchform" class="searchform" method="post" autocomplete="off" action="search.php?mod=forum&mobile=2" 
+ onsubmit="return checkpost();">
+			<input type="hidden" name="formhash" value="{FORMHASH}" />
+
+			<!--{subtemplate search/pubsearch}-->
+
+			<!--{eval $policymsgs = $p = '';}-->
+			<!--{loop $_G['setting']['creditspolicy']['search'] $id $policy}-->
+			<!--{block policymsg}--><!--{if $_G['setting']['extcredits'][$id][img]}-->$_G['setting']['extcredits'][$id][img] <!--{/if}-->$_G['setting']['extcredits'][$id][title] $policy $_G['setting']['extcredits'][$id][unit]<!--{/block}-->
+			<!--{eval $policymsgs .= $p.$policymsg;$p = ', ';}-->
+			<!--{/loop}-->
+			<!--{if $policymsgs}--><p>{lang search_credit_msg}</p><!--{/if}-->
+</form>
+
+<!--{if !empty($searchid) && submitcheck('searchsubmit', 1)}-->
+	<!--{subtemplate search/thread_list}-->
+<!--{/if}-->
+<div style="height:45px">&nbsp;</div>
+<!--{template common/footer}-->
+
+<script>
+function checkpost()
+{
+	var dom = document.getElementById("scform_srchtxt");
+	var v = dom.value;
+	//dom.value = encodeURI(v);
+	return true;
+}
+</script>

@@ -1,0 +1,10 @@
+���Z<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2201;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-08-05 15:54:25";s:13:"post_date_gmt";s:19:"2016-08-05 07:54:25";s:12:"post_content";s:1176:"<a title="" href="http://dyartstyle.com/?attachment_id=2181" rel="attachment wp-att-2181" data-original-title=""><img class="alignnone size-full wp-image-2181" src="http://dyartstyle.com/wp-content/uploads/2016/08/QQ%E6%88%AA%E5%9B%BE20160830123936.jpg" alt="QQ截图20160830123936" width="595" height="387" /></a>
+<blockquote>这也算是初次尝试写h5无线端页面，各种卡顿各种bug，七拼八凑总算写了出来，技术能力有限，大家见笑了</blockquote>
+<h2><a title="" href="http://share.handu.com/piaoxinhui" target="_blank" data-original-title="">查看DEMO</a></h2>
+<iframe src="http://share.handu.com/piaoxinhui" width="320" height="540" data-mce-fragment="1"></iframe>
+
+这个页面套用了<a title="" href="http://dyartstyle.com/?p=2162" data-original-title="">单页滚动插件pagepiling.js</a>需要的可以查看
+<h2>附页面二维码</h2>
+<a title="" href="http://dyartstyle.com/?attachment_id=2180" rel="attachment wp-att-2180" data-original-title=""><img class="alignnone size-full wp-image-2180" src="http://dyartstyle.com/wp-content/uploads/2016/08/1472531732.png" alt="1472531732" width="280" height="280" /></a>
+
+&nbsp;";s:10:"post_title";s:50:"【H5页面设计一】朴信惠同款页面设计";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:146:"%e3%80%90h5%e9%a1%b5%e9%9d%a2%e8%ae%be%e8%ae%a1%e4%b8%80%e3%80%91%e6%9c%b4%e4%bf%a1%e6%83%a0%e5%90%8c%e6%ac%be%e9%a1%b5%e9%9d%a2%e8%ae%be%e8%ae%a1";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2016-09-05 15:55:02";s:17:"post_modified_gmt";s:19:"2016-09-05 07:55:02";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:25:"http://qisumu.com/?p=2201";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

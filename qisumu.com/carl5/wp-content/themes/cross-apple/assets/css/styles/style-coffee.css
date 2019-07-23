@@ -1,0 +1,68 @@
+body { color: #666666;}
+
+a { color: #583D29; }
+a:hover { color: #3B291C; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #583D29; }
+
+
+/* =========================================
+   Header
+   ======================================== */
+header #top-menu ul li a { color: #583D29;  }
+header #top-menu ul li a:hover { color: #3B291C; }
+
+header #top-menu ul li.current_page_item a,
+header #top-menu ul li.current-menu-item a { 
+	background-image: url(../../images/styles/coffee-menu-current-bg.png); 
+	border-left: 1px solid #655D59; 
+	border-top: 1px solid #655D59; 
+	border-right: 1px solid #655D59; 
+	border-bottom: 1px solid #544B46;
+}
+
+header #top-menu ul li ul { background: #4F443B;}
+
+header #top-menu ul li ul li a,
+header #top-menu ul li.current_page_item ul li a,
+header #top-menu ul li.current-menu-item ul li a,
+header #top-menu ul li.current-menu-parent ul li a{ 
+	color: #FFFFFF; 
+}
+
+header #top-menu ul li ul li a:hover,
+header #top-menu ul li ul li a.selected,
+header #top-menu ul li.current_page_item ul li a:hover,
+header #top-menu ul li.current-menu-item ul li a:hover,
+header #top-menu ul li.current_page_parent ul li a:hover,
+header #top-menu ul li.current-menu-parent ul li a:hover,
+header #top-menu ul li.current-menu-item ul li.current-menu-item a { 
+	background: #342C27;
+	color: #FFCA92;
+}
+
+
+
+/* =========================================
+   Styles
+   ======================================== */
+.pagination a:hover,
+.pagination span.current,
+.normal-pagination span a:hover,
+.comment-pagination a:hover, 
+.comment-pagination span.current,
+.post-more a:hover,
+.portfolio-menu li a:hover,
+.portfolio-menu li.active a,
+.portfolio-menu li.current-cat a,
+.product-menu li a:hover,
+.product-menu li.current-cat a,
+#respond .form-submit input:hover,
+.contact-form-wrap #send-message:hover {
+	background-image: url(../../images/styles/coffee-btn.png);
+	border-left: 1px solid #655D59; 
+	border-top: 1px solid #655D59; 
+	border-right: 1px solid #655D59; 
+	border-bottom: 1px solid #544B46;
+	color: #FFFFFF;
+}

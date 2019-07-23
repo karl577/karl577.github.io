@@ -1,0 +1,141 @@
+<!--{template common/header}-->
+
+<link type="text/css" rel="stylesheet" href="source/plugin/zcym_lvzitiaotiao/template/css/main.css" />
+<div id="zcym_game_box" class="game_container wp">
+<div id="zcym_game_phb" class="game_winorder" style="overflow: hidden;">
+	<div style="height:53px; color:#333333; font-weight:bold;font-size:12px;padding:5px 0px;position: absolute;margin-top:734px;width:238px; background: #E5EDF2;border-top: 1px solid #C2D5E3;z-index:1;">
+		<img alt="{lang zcym_lvzitiaotiao:useravatar}" style="float:left;padding: 2px;margin-left:5px; margin-right:5px; width: 48px; border-radius: 5px; height: 48px; background: #FFF; border: 1px solid;
+	    border-color: #F2F2F2 #CDCDCD #CDCDCD #F2F2F2;" src="{$avatar}">
+		{lang zcym_lvzitiaotiao:username}<span style="color: #000000;" id="zcym_game_name">{$_G['member']['username']}</span><br>
+		{lang zcym_lvzitiaotiao:bestscore}<span style="color: #ff0000;" id="zcym_game_score">{$my_game['score']}</span><br>
+		{lang zcym_lvzitiaotiao:bestranking}<span style="color: #f79036;" id="zcym_game_pm">{$my_game['paiming']}</span>
+	</div>
+	<div style="height:54px;background: #E5EDF2 url(static/image/common/titlebg.png) repeat-x 0 0;border-bottom: 1px solid #C2D5E3;">
+		<img src="source/plugin/zcym_lvzitiaotiao/template/images/system/phb_icon.png" />
+	</div>
+	<!--{loop $phb_arr $k $val}-->
+	<div class="zcym_game_phb" style="height:28px; width:228px;line-height: 28px; color:#333333;border-bottom:1px solid #C2D5E3;padding: 2px 5px;">
+		<span style="color: #f79036;font-weight: bold;">{lang zcym_lvzitiaotiao:d} {$val['paiming']} {lang zcym_lvzitiaotiao:m}</span>
+		<span style="color: #333333;font-weight: bold;font-size:14px;padding-left:5px;">{$val['username']}</span>
+		<span style="color: #ff0000;font-weight: bold;padding-left:5px;">{$val['score']}</span><br>
+	</div>
+	<!--{/loop}-->
+</div>
+<div class="game_adv">
+	<div style="height: 31px;background: #E5EDF2 url(static/image/common/titlebg.png) repeat-x 0 0;border-bottom: 1px solid #C2D5E3;">
+		<h2 style="line-height:31px;padding-left: 10px;">{lang zcym_lvzitiaotiao:op_desc}</h2>
+	</div>
+	<div style="padding: 10px;height:130px;">		
+		<p style="text-indent: 2em; padding-top:5px;">{lang zcym_lvzitiaotiao:op_desc_content}</p>
+	</div>
+	<div style="height: 31px;background: #E5EDF2 url(static/image/common/titlebg.png) repeat-x 0 0;border-bottom: 1px solid #C2D5E3;border-top: 1px solid #C2D5E3;">
+		<h2 style="line-height:31px;padding-left: 10px;">{$adv_info['title']}</h2>
+	</div>
+	<div style="padding: 10px;padding-top:15px;">
+		{$adv_info['info']}
+	</div>
+</div>
+<span id="_trfreshtoken" style="display:none;"></span>
+<div id="donkeyJump">
+	<div id="gameCover" class="block background">
+		<a href="javascript:void(0)" id="btnSound" class="icon">&nbsp;</a>
+		<a href="javascript:void(0)" id="btnPlay" class="icon">&nbsp;</a>
+		<span id="progressText"></span>
+	</div>
+	
+	<div id="gameBody" class="block">
+		<div id="gameCanvas" class="block">
+			
+			<canvas width="480" height="800" id="canvasSkyLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasHillLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasHillNearLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasFloorLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasStairLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasDonkeyLayer"></canvas>
+			
+			<canvas width="480" height="800" id="canvasEffectLayer"></canvas>
+		</div>
+		
+		<div id="numberAndPause" class="block">
+			
+			<div id="number" class="icon"></div>
+			
+			<a href="javascript:void(0)" id="btnPause" class="icon">&nbsp;</a>
+		</div>
+		
+		<div id="beingReady" class="icon">
+			&nbsp;
+		</div>
+		
+		<div id="beingGo" class="icon">
+			&nbsp;
+		</div>
+		
+		<div id="panelResume" class="icon">
+			
+			<a href="javascript:void(0)" id="btnResumeExit">&nbsp;</a>
+			
+			<a href="javascript:void(0)" id="btnResume">&nbsp;</a>
+		</div>
+	</div>
+	
+	<div id="gameOver" class="block background">
+		
+		<span id="name"></span>
+		
+		<span id="score"></span>
+		
+		<a href="javascript:void(0)" id="btnRetry" class="icon">&nbsp;</a>
+		
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+var game_hash = '{FORMHASH}';
+function preSizeLzTT(){
+	var BODYNODE = HTMLNODE.getElementsByTagName('body')[0];
+	$("donkeyJump").style.left = (BODYNODE.offsetWidth-480)/2+'px';
+}
+window.onresize = function(){
+	preSizeLzTT();
+}
+preSizeLzTT();
+</script>
+<!-- engine -->
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/core/my.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Component.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/DisplayObject.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/DisplayObjectContainer.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Bitmap.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Animation.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Sprite.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Viewport.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Layer.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/component/Game.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/event/KeyEvent.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/utils/ImageManager.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/utils/DOM.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/utils/Math.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/myEngine/utils/buzz.js"></script>
+<!-- donkey jump -->
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/resources/images.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/resources/audios.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/frames/prop.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/frames/stair.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/frames/donkey.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/frames/effect.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/Prop.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/Stair.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/Cloud.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/Donkey.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/DonkeyJump.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/UI.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/classes/Audio.js"></script>
+<script type="text/javascript" src="source/plugin/zcym_lvzitiaotiao/template/js/main.js"></script>
+
+<!--{template common/footer}-->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[tiger_wechatlogin.plugin]]></item>
+	<item id="RevisionID"><![CDATA[67163]]></item>
+	<item id="SN"><![CDATA[2017021618nS1Nnun81z]]></item>
+	<item id="RevisionDateline"><![CDATA[1470816001]]></item>
+	<item id="Data">
+		<item id="/template/bind.htm"><![CDATA[64a2813ca8db37c9f19bd6a2272f5540]]></item>
+		<item id="/template/spacecp.htm"><![CDATA[0e59779198ef414cd6acb6a0e6a56541]]></item>
+		<item id="/discuz_plugin_tiger_wechatlogin_TC_UTF8.xml"><![CDATA[ab147c5c7a47e5fd355396e20fc26421]]></item>
+		<item id="/tiger_wechatlogin.inc.php"><![CDATA[a4ce4daefe1058507bc1f9538cfcb119]]></item>
+		<item id="/discuz_plugin_tiger_wechatlogin_SC_GBK.xml"><![CDATA[c45787ea875f6677558c03ac73372cb3]]></item>
+		<item id="/wechat.class.php"><![CDATA[7331a0d6255fda7d28d914a25049964f]]></item>
+		<item id="/discuz_plugin_tiger_wechatlogin_TC_BIG5.xml"><![CDATA[088baca678087bc4120dc9a75eea08bc]]></item>
+		<item id="/discuz_plugin_tiger_wechatlogin_SC_UTF8.xml"><![CDATA[c709581ad13cc1a6c0ac634e28edc22e]]></item>
+		<item id="/wechatmobile.class.php"><![CDATA[590b948e3c44403b6d5338614c475560]]></item>
+		<item id="/module/login.php"><![CDATA[02c883ff03c59f53810ce8d58366db96]]></item>
+		<item id="/module/spacecp.php"><![CDATA[5c115717c8fe1d7307a9d4563720b0c0]]></item>
+		<item id="/module/bind.php"><![CDATA[95abd49e273729adf204c41da2925f45]]></item>
+		<item id="/function/function_wechatlogin.php"><![CDATA[7e38bdbaa4eb053d55f7fa3da0db2170]]></item>
+	</item>
+</root>

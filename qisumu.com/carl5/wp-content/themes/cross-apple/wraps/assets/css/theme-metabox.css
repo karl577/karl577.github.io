@@ -1,0 +1,55 @@
+.theme-metabox-title { 
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 30px; 
+}
+
+.theme-metabox-title h4 { 
+	margin-bottom: 0; 
+	font-size: 13px;
+}
+
+.theme-metabox-title .theme-metabox-desc { 
+	font-size: 11px; 
+	display: block;
+	padding-top: 8px; 
+}
+
+.theme-metabox-table  {
+	width: 100%;
+	border-collapse: collapse; 
+}
+
+.theme-metabox-table th { 
+	width: 230px; 
+	text-align: left; 
+	font-size: 11px; 
+}
+
+.theme-metabox-table th, 
+.theme-metabox-table td { 
+	padding: 15px 0;
+}
+
+.theme-metabox-table tr.border th, 
+.theme-metabox-table tr.border td { 
+	border-bottom: 1px solid #DEDEDE; 
+}
+
+.theme-metabox-table tr.noborder th, 
+.theme-metabox-table tr.noborder td { 
+	border-bottom: none; 
+}
+
+.theme-metabox-table td .theme-metabox-desc {
+	color: #999;
+	font-size: 11px;
+}
+
+.theme-metabox-table td .theme-metabox-block {
+	display: block;
+	margin-top: 10px;
+}
+
+.theme-metabox-table textarea { width: 98%; }
+
+.theme-metabox-table select { width: 250px; }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[zqlj_toutiao.plugin]]></item>
+	<item id="RevisionID"><![CDATA[70022]]></item>
+	<item id="SN"><![CDATA[2017021016nl21Dd1EO2]]></item>
+	<item id="RevisionDateline"><![CDATA[1480492805]]></item>
+	<item id="Data">
+		<item id="/template/toprank.htm"><![CDATA[6145fb5898daa43a8180a8e8ecacb7d9]]></item>
+		<item id="/discuz_plugin_zqlj_toutiao_SC_UTF8.xml"><![CDATA[d2e4bbe6f4673160f2a262189864dd0a]]></item>
+		<item id="/discuz_plugin_zqlj_toutiao_SC_GBK.xml"><![CDATA[e4d610943e137af72803a199c662747b]]></item>
+		<item id="/apps.inc.php"><![CDATA[25453d66c5dc32984294fa14e7af0a34]]></item>
+		<item id="/upgrade.php"><![CDATA[0654d6287f2e244b0125c517cf627446]]></item>
+		<item id="/discuz_plugin_zqlj_toutiao_TC_UTF8.xml"><![CDATA[8dd1d2dfae2a3eb73666a63cc0ebd629]]></item>
+		<item id="/install.php"><![CDATA[e7d958a5253cddefb2fb5b568b594580]]></item>
+		<item id="/uninstall.php"><![CDATA[b7737975aabb1f39ece51d56018654da]]></item>
+		<item id="/discuz_plugin_zqlj_toutiao_TC_BIG5.xml"><![CDATA[b6c50dc36b8497ea6482d39ececca739]]></item>
+		<item id="/hook.class.php"><![CDATA[c4d3d0369b5e55b837c400504e753867]]></item>
+	</item>
+</root>

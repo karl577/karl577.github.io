@@ -1,0 +1,10 @@
+<!--{template common/mwt_frame}-->
+<!--{template common/mwt_style}-->
+<script>
+jQuery(document).ready(function($) {
+	require(["jsapp","mwt"],function(jsapp){
+		var fid = "{$_GET['fid']}";
+		jsapp.run('forum/forumdisplay',fid);
+	});
+});
+</script>

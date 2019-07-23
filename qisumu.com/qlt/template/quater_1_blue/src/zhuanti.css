@@ -1,0 +1,27 @@
+.tit_top { padding: 10px 0 20px 0; margin-bottom: 30px; border-bottom: 1px solid #DDDDDD}
+.tit_top h3 { float: left; font-size: 28px; font-weight: bold; color: #333333}
+.tit_top .y { padding-top: 18px; padding-right: 5px}
+.tit_top .y { color: #999999}
+
+
+.list_new { padding: 0}
+.zhuanti { float: left; width: 236px; margin: 0 22px 30px 0}
+.zhuanti .recommend_article_list_pic { width: 236px; height: 160px; overflow: hidden}
+.zhuanti .recommend_article_list_pic img { width: 236px; min-height: 160px}
+
+.zhuanti .list_title { padding: 12px 0 15px 0; ling-height: 22px; font-size: 15px}
+.zhuanti .list_title a { color: #333333}
+.zhuanti .list_title a:hover { border-bottom: 1px solid #AAAAAA}
+
+.zhuanti .recommend_article_list_info { color: #ababad; font-size: 13px; font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif !important}
+.zhuanti .recommend_article_list_info a { color: #ababad}
+.zhuanti .recommend_article_list_info img { width: 30px; height: 30px; margin-right: 6px; vertical-align: middle; border-radius: 50%}
+
+.pgs { padding: 20px 0}
+.pg { float: none; width: 100%; text-align: center}
+.pg a, .pg strong, .pgb a, .pg label { display: inline-block; float: none; width: 24px; height: 24px; line-height: 24px; border-radius: 0; background-color: transparent; border: 0; border-radius: 2px; font-family: "Arial"}
+.pg label { display: none}
+.pg strong { font-weight: 400; color: #FFFFFF; background: #39A7D4}
+.pg a.prev { display: none}
+.pg a.nxt { width: 45px; color: #AAAAAA; text-indent: 0; font-family: "Microsoft Yahei"; background: none}
+.pg a.nxt:hover { color: #39A7D4; background: none !important}

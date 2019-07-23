@@ -1,0 +1,44 @@
+<!--{hook/global_footer_mobile}-->
+<!--{eval $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);$clienturl = ''}-->
+<!--{if strpos($useragent, 'iphone') !== false || strpos($useragent, 'ios') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=ios' : 'http://www.discuz.net/mobile.php?platform=ios';}-->
+<!--{elseif strpos($useragent, 'android') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=android' : 'http://www.discuz.net/mobile.php?platform=android';}-->
+<!--{elseif strpos($useragent, 'windows phone') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=windowsphone' : 'http://www.discuz.net/mobile.php?platform=windowsphone';}-->
+<!--{/if}-->
+
+<div id="mask" style="display:none;"></div>
+<!--{if !$nofooter}-->
+<!--<div class="footer">
+    <div>
+		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a>
+		<a href="javascript:;" style="color:#999;">{lang mobile2version}</a>
+		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a>
+		<!--{if $clienturl}--><a href="$clienturl">{lang clientversion}</a><!--{/if}-->
+    <!--</div>
+	<p>&copy; Comsenz Inc.</p>
+</div>-->
+<!--{/if}-->
+
+<!--µ×²¿µ¼º½-->
+
+<div id="footbar">
+    <div class="fbc">
+        <ul>
+            <li class="{if $_GET['mod'] == 'guide'} a{/if}"><a href="forum.php">Ê×Ò³</a></li>
+            <li class="{if $_GET['mod'] !== 'guide' && $_GET['mod'] !== 'space' && $_GET['mod'] !== 'forum' && $_GET['mod'] !== 'logging' && $_GET['mod'] !== 'post' && $_GET['action'] !== 'nav'} a{/if}"><a href="forum.php?forumlist=1">ÆæÌ³</a></li>
+            <li class="{if $_GET['mod'] == 'forum'} a{/if}"><a href="search.php?mod=forum">ËÑË÷</a></li>
+            <li class="{if $_GET['mod'] == 'space' && $_GET['type'] != 'forum'} a{/if}"><a href="{if $_G[uid]}home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1{else}member.php?mod=logging&action=login{/if}">ÎÒ<!--{if $_G[member][newpm]}--><em class="iconfont icon-dian1"></em><!--{/if}--></a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+<!--{eval updatesession();}-->
+<!--{if defined('IN_MOBILE')}-->
+	<!--{eval output();}-->
+<!--{else}-->
+	<!--{eval output_preview();}-->
+<!--{/if}-->

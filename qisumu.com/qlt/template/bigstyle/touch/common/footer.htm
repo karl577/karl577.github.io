@@ -1,0 +1,35 @@
+<!--{template common/mwt_style}-->
+<div id="footnavdiv"></div>
+<script src="{$_G['style']['directory']}/touch/static/dist-20160916112152/footnav.js" charset="utf-8"></script>
+<!--{if $_G['bigstyle_config']['footnav']}-->
+<script>
+  var navlist= $_G['bigstyle_config']['footnav'];
+  var footnav=new FootNav(navlist);
+  footnav.init();
+</script>
+<!--{else}-->
+<script>
+  var footnav=new FootNav();
+  footnav.init();
+</script>
+<!--{/if}-->
+
+
+<!--{eval $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);$clienturl = ''}-->
+<!--{if strpos($useragent, 'iphone') !== false || strpos($useragent, 'ios') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=ios' : 'http://www.d
+iscuz.net/mobile.php?platform=ios';}-->
+<!--{elseif strpos($useragent, 'android') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=android' : 'http://w
+ww.discuz.net/mobile.php?platform=android';}-->
+<!--{elseif strpos($useragent, 'windows phone') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=windowsphone' : 'htt
+p://www.discuz.net/mobile.php?platform=windowsphone';}-->
+<!--{/if}-->
+
+<!--{eval updatesession();}-->
+<!--{if defined('IN_MOBILE')}-->
+    <!--{eval output();}-->
+<!--{else}-->
+    <!--{eval output_preview();}-->
+<!--{/if}-->

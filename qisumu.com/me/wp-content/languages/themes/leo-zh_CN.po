@@ -1,0 +1,44 @@
+# Translation of Themes - Leo in Chinese (China)
+# This file is distributed under the same license as the Themes - Leo package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-16 09:58:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Leo\n"
+
+#. Description of the plugin/theme
+msgid "A Business theme, perfect for creating a corporate/business websites, Leo is a child of the Wallstreet theme and is its lighter color variation. Those who prefer a white-background-based theme can use this, while those who prefer a dark background can use directly the parent theme."
+msgstr "Leo是一个商业主题，非常适合创建一个企业/商业站点。Leo是Wallstreet主题的一个子主题，使用了较浅的颜色。 那些喜欢基于白色背景的主题的人可以使用这主题，而喜欢深色背景的人可以直接使用父主题。"
+
+#. Theme Name of the plugin/theme
+msgid "Leo"
+msgstr "Leo"
+
+#. Template Name of the plugin/theme
+msgid "Blog-FullWidth"
+msgstr "博客-全宽度"
+
+#: blog-fullwidth.php:49
+msgid "Page"
+msgstr "页面"
+
+#: blog-fullwidth.php:48
+msgid "Read More"
+msgstr "阅读更多"
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/leo-details-page/"
+msgstr "https://webriti.com/leo-details-page/"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webriti.com"
+msgstr "https://www.webriti.com"
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr "webriti"

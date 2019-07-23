@@ -1,0 +1,11 @@
+/* ===================================
+   Extra fonts
+   ================================== */
+@font-face {
+    font-family: 'VegurRegular';
+	src: url('vegur-r_0500-webfont.eot'),
+    src: url('vegur-r_0500-webfont.eot?iefix') format('eot'),
+         url('vegur-r_0500-webfont.woff') format('woff'),
+         url('vegur-r_0500-webfont.ttf') format('truetype'),
+         url('vegur-r_0500-webfont.svg#webfontvtUd5bqk') format('svg');
+}

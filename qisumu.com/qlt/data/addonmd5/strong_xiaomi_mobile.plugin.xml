@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[strong_xiaomi_mobile.plugin]]></item>
+	<item id="RevisionID"><![CDATA[46593]]></item>
+	<item id="SN"><![CDATA[2017021718aWa0yuKdiJ]]></item>
+	<item id="RevisionDateline"><![CDATA[1434337212]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_strong_xiaomi_mobile_TC_UTF8.xml"><![CDATA[ec66063225a647933241b6c4ee7acfe9]]></item>
+		<item id="/discuz_plugin_strong_xiaomi_mobile_TC_BIG5.xml"><![CDATA[8e52290553811687f4cd5d739d67e22b]]></item>
+		<item id="/discuz_plugin_strong_xiaomi_mobile_SC_GBK.xml"><![CDATA[6beb7a5dc4f6b85c35177852e9961a1d]]></item>
+		<item id="/discuz_plugin_strong_xiaomi_mobile_SC_UTF8.xml"><![CDATA[ac7c484265965f97340d58a7117bee28]]></item>
+		<item id="/strong_g_set.php"><![CDATA[06b6a8718614654865508f12b0de90bf]]></item>
+	</item>
+</root>

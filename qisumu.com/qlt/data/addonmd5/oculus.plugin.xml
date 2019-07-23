@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[oculus.plugin]]></item>
+	<item id="RevisionID"><![CDATA[62657]]></item>
+	<item id="SN"><![CDATA[2017021618ByiIHolh24]]></item>
+	<item id="RevisionDateline"><![CDATA[1486818004]]></item>
+	<item id="Data">
+		<item id="/lib/oculuslib.php"><![CDATA[5d7d98a1e18b919c466241befafc2e65]]></item>
+		<item id="/lib/config.php"><![CDATA[9a082677515962b3cfebecaf12abc162]]></item>
+		<item id="/discuz_plugin_oculus_TC_UTF8.xml"><![CDATA[6bcc8187b63c5f6970bc3a66ce954d4f]]></item>
+		<item id="/enable.php"><![CDATA[be3112e657f8ecdba7430f04033e8276]]></item>
+		<item id="/upgrade_src.php"><![CDATA[cbf4c21d0b94f7908f6b46f2cf3885ce]]></item>
+		<item id="/oculus.class.php"><![CDATA[2b9e5d646462b3c3bb7abbc62c603efb]]></item>
+		<item id="/upgrade.php"><![CDATA[2dba455b204cc197f3d9d10c9b524ab6]]></item>
+		<item id="/js/oculus_mobile.js"><![CDATA[4a1116b0ad3466ea04040e791e7b74bf]]></item>
+		<item id="/js/oculus.css"><![CDATA[b93a6df5b4f87932513f3a891271c179]]></item>
+		<item id="/js/edit_appkey.js"><![CDATA[afce822c0feda779e1bbecf207bf0a2c]]></item>
+		<item id="/js/oculus_nc.js"><![CDATA[59fae8144e281b80b79e2e900aceb6ba]]></item>
+		<item id="/install_src.php"><![CDATA[adb30d9856819e4b86157cc1647068ac]]></item>
+		<item id="/upgradeinfo.inc.php"><![CDATA[5c86fb318575fd23a6dd61b92573211a]]></item>
+		<item id="/install.php"><![CDATA[57d7f51661974362c70924d0689c1621]]></item>
+		<item id="/discuz_plugin_oculus_SC_UTF8.xml"><![CDATA[9ab0525f157bd36e8664d3b1ce1e42d6]]></item>
+		<item id="/plugin_class/plugin_oculus_home.class.php"><![CDATA[114ba0b03732b85e52b3d2ba9b84d884]]></item>
+		<item id="/plugin_class/plugin_oculus_group.class.php"><![CDATA[903244020f815eabbfca9d1746884aad]]></item>
+		<item id="/plugin_class/plugin_oculus_member.class.php"><![CDATA[a9ba898176d464bd2ef8cf7706769f84]]></item>
+		<item id="/plugin_class/plugin_oculus_forum.class.php"><![CDATA[997cd0fe91cc50282729e5cb913350a4]]></item>
+		<item id="/top/Autoloader.php"><![CDATA[da1e64507d6f8c302ea72813b6f7c124]]></item>
+		<item id="/top/TopSdk.php"><![CDATA[2b16aba507a321c30ad4d400fb7aaeaa]]></item>
+		<item id="/top/top/request/AlibabaSecurityTuringPlatformAccessJsFetchRequest.php"><![CDATA[8d69ac9c8b2226f28e4077cefec8cf52]]></item>
+		<item id="/top/top/request/AlibabaSecurityTuringPlatformAccessUserDeleteRequest.php"><![CDATA[d0f40d25630a57517a45be2575b0c4e0]]></item>
+		<item id="/top/top/request/AlibabaSecurityJaqAfsCheckRequest.php"><![CDATA[cb8df4a1d3a10ed7f43b93a47b0ce3eb]]></item>
+		<item id="/top/top/request/AlibabaSecurityTuringPlatformAccessAddPlatformUserRequest.php"><![CDATA[acfa81ae896872d29c887d04772dd86a]]></item>
+		<item id="/top/top/TopClient.php"><![CDATA[6a29aff4c1a0ff9598eef1bd86c1fa8e]]></item>
+		<item id="/top/top/domain/PlatformJsParam.php"><![CDATA[dd30f92d06c94e6a5f71dca087e1dbe5]]></item>
+		<item id="/top/top/domain/PlatformUserInfo.php"><![CDATA[3dea1ee56638ab0ab5fbdb0b3a1e30dc]]></item>
+		<item id="/top/top/domain/PlatformJsInfo.php"><![CDATA[f74e474fa0ffb04bb38ae213929848fb]]></item>
+		<item id="/top/top/ResultSet.php"><![CDATA[7252aab87c23d44a588627c2af1986d5]]></item>
+		<item id="/top/top/SpiUtils.php"><![CDATA[4956ed35311d1d589723052e43511872]]></item>
+		<item id="/top/top/ApplicationVar.php"><![CDATA[50afa5e286f87cfb9800ca854edf5bed]]></item>
+		<item id="/top/top/HttpdnsGetRequest.php"><![CDATA[c0e186323207adf94778abb3ab4c2064]]></item>
+		<item id="/top/top/ClusterTopClient.php"><![CDATA[1186beebcb3c89f127bedaa7e13c32ab]]></item>
+		<item id="/top/top/RequestCheckUtil.php"><![CDATA[9c25b0a666c70bbc2e1df0972cee492e]]></item>
+		<item id="/top/top/TopLogger.php"><![CDATA[bbbce0468c63e8d37b97e715e4ff1874]]></item>
+		<item id="/discuz_plugin_oculus_TC_BIG5.xml"><![CDATA[d5190f92ad621231ee7dbe5dff56f962]]></item>
+		<item id="/oculuscloud.inc.php"><![CDATA[eeb0391080ced0f0bf0a975172f8f2af]]></item>
+		<item id="/uninstall.php"><![CDATA[693e3388ede914c52ddbd610c875bd46]]></item>
+		<item id="/oculus_mobile.class.php"><![CDATA[c7e4573339791c16852a6372f1d41e75]]></item>
+		<item id="/discuz_plugin_oculus_SC_GBK.xml"><![CDATA[beef7a90f9ff26ac6de77918b73f3c63]]></item>
+	</item>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[dsu_paulsign.plugin]]></item>
+	<item id="RevisionID"><![CDATA[1920]]></item>
+	<item id="SN"><![CDATA[2017021313m5eUuEuI5E]]></item>
+	<item id="RevisionDateline"><![CDATA[1382623205]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_dsu_paulsign_SC_GBK.xml"><![CDATA[c8795819c1229ce9ea39e0ecf8ff1635]]></item>
+		<item id="/template/extend_module.css"><![CDATA[bc3381ab27ccd8928ce60c55b20607e5]]></item>
+		<item id="/template/touch/float.htm"><![CDATA[bf7a53ab145b62f4838ff40c9f10db62]]></item>
+		<item id="/template/touch/sign.htm"><![CDATA[7aee03e950177dac87f156f23284866b]]></item>
+		<item id="/template/float.htm"><![CDATA[ba57796c3a373845c6897e8081d7c3ad]]></item>
+		<item id="/template/module.css"><![CDATA[bc3381ab27ccd8928ce60c55b20607e5]]></item>
+		<item id="/template/sign_list.htm"><![CDATA[b55039dddf603218a1bbbe5c38f0cddb]]></item>
+		<item id="/template/ajaxsign.htm"><![CDATA[b569371897c7f70b377666efc5558cdb]]></item>
+		<item id="/template/sign.htm"><![CDATA[54cb737f613aff40a16c31670909692f]]></item>
+		<item id="/template/sign_helper.htm"><![CDATA[6b1cdad8cf7a5443227078f144609ef1]]></item>
+		<item id="/template/mobile/float.htm"><![CDATA[bf7a53ab145b62f4838ff40c9f10db62]]></item>
+		<item id="/template/mobile/sign.htm"><![CDATA[7aee03e950177dac87f156f23284866b]]></item>
+		<item id="/discuz_plugin_dsu_paulsign_SC_UTF8.xml"><![CDATA[5160494ceb44a6e2cd71f138140d0f1e]]></item>
+		<item id="/sign_troubleshooting.inc.php"><![CDATA[588f5ec3808eac361f643d7d3afeb7a2]]></item>
+		<item id="/sign_custom.inc.php"><![CDATA[3396f43f9640cac0f7feacfad88f6285]]></item>
+		<item id="/discuz_plugin_dsu_paulsign_TC_BIG5.xml"><![CDATA[0bba457f115742875f39668340edd4fd]]></item>
+		<item id="/sign.inc.php"><![CDATA[2ea6773848e45ab66a740be811b149c1]]></item>
+		<item id="/sign_mobile.class.php"><![CDATA[5d85d07bab6fbda4acdc7369aa5dbf3d]]></item>
+		<item id="/sign.class.php"><![CDATA[bd3151bf5bf06ca6703f2a17e290b253]]></item>
+		<item id="/sign_crash.inc.php"><![CDATA[cd557b45e843cdae34107dc43dc9a0da]]></item>
+		<item id="/upgrade.php"><![CDATA[439b1487785b4ed123b8b018adddf1bd]]></item>
+		<item id="/sign_helper.inc.php"><![CDATA[f94459e520b5272c96a76b4192e9a93d]]></item>
+		<item id="/install.php"><![CDATA[231dbed45f83492a2d86753ce123fb8d]]></item>
+		<item id="/img/Thumbs.db"><![CDATA[00d159797361f1524eaac25c891ba146]]></item>
+		<item id="/img/paulsign.png"><![CDATA[4d53a9c0fb2c89b263fa4deabb58a3c5]]></item>
+		<item id="/img/qdft.gif"><![CDATA[78304926863efe948ab7ed90565744a7]]></item>
+		<item id="/img/qdtb1.gif"><![CDATA[e70fa09daed27e8914acd1fc1a2dee19]]></item>
+		<item id="/img/emot/nu.gif"><![CDATA[f4e5050514b26cf1fa50e6b3b4fd8c02]]></item>
+		<item id="/img/emot/fd.gif"><![CDATA[8fbed48d6f149e249ce21a9b44122f64]]></item>
+		<item id="/img/emot/yl.gif"><![CDATA[f0e8c89233e81c62ce31a706be7d0a79]]></item>
+		<item id="/img/emot/ch.gif"><![CDATA[087458b538a780251631392342d44026]]></item>
+		<item id="/img/emot/Thumbs.db"><![CDATA[f89e13020e8c50c1a6b6e86fbb045511]]></item>
+		<item id="/img/emot/ym.gif"><![CDATA[5fb381e78dde48ae2355a2deeec7e55a]]></item>
+		<item id="/img/emot/ng.gif"><![CDATA[a201844d49caeb490bc95e9c28206157]]></item>
+		<item id="/img/emot/shuai.gif"><![CDATA[7dbd4a886f56ae2c30a109bc4952951e]]></item>
+		<item id="/img/emot/kx.gif"><![CDATA[eeb8821ffdc376cea795f5a8b2a7ae8e]]></item>
+		<item id="/img/emot/wl.gif"><![CDATA[695fb0223328d57c15ca518e1c38012d]]></item>
+		<item id="/img/qdtb.gif"><![CDATA[f19e4328882782d566969ee830088c2b]]></item>
+		<item id="/sign_import.inc.php"><![CDATA[1e9d853eccea92d8e40340cdfa8cf842]]></item>
+		<item id="/uninstall.php"><![CDATA[14f357c4425ad6428bb3ed8c1a9864a7]]></item>
+		<item id="/discuz_plugin_dsu_paulsign_TC_UTF8.xml"><![CDATA[52be5c4b5f698c79bc250dbff4778c53]]></item>
+	</item>
+</root>

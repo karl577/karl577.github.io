@@ -1,0 +1,125 @@
+<!--{if $_G[setting][homepagestyle]}-->
+
+<!--{subtemplate home/space_header}-->
+<div id="ct" class="ct2 wp cl">
+	<div class="mn">
+		
+<!--{else}-->
+				
+<!--{subtemplate home/space_header}-->
+<div id="ct" class="ct1 wp cl">
+	<div class="mn">
+		<div class="bm bw0">
+			<div>
+				<!--{/if}-->
+				<!--{subtemplate home/space_profile_body}-->
+			</div>
+		</div>
+		<!--{if $_G[setting][homepagestyle]}-->
+	</div>
+	<!--{/if}-->
+</div>
+
+			<div id="toptb" class="cl banzhuan-userinfo">
+				<!--{if $_G['uid']}-->
+				<div>
+					<div id="pcd" class="bm cl">
+						<!--{eval $encodeusername = rawurlencode($space[username]);}-->
+						<ul class="xl xl2 cl banzhuan-made">
+
+							<!--{if $space[self]}-->
+							<!--{hook/global_usernav_extra1}-->
+							
+							<li>
+								<a href="home.php?mod=spacecp">
+									<div class="banzhuan-made-more" style="border-bottom: 1px solid #F5F5F5;"><em class="iconfont icon-shezhi2"></em>&nbsp;{lang setup}<span class="y" style="padding-right: 15px; color: #999;">></span></div>
+								</a>
+
+							<span id="myprompt_check"></span>
+							
+							<!--{if $_G['group']['allowmanagearticle'] || $_G['group']['allowdiy']|| getstatus($_G['member']['allowadmincp'], 4) || getstatus($_G['member']['allowadmincp'], 2) || getstatus($_G['member']['allowadmincp'], 3) || in_array($_G['uid'], $_G['setting']['ext_portalmanager'])}-->
+
+							<!--{/if}-->
+							<!--{if $_G['uid'] && $_G['group']['radminid'] > 1}-->
+							
+								<a href="forum.php?mod=modcp&fid=$_G[fid]">
+									<div class="banzhuan-made-more" style="border-bottom: 1px solid #F5F5F5;"><em class="iconfont icon-shezhi2"></em>&nbsp;{lang forum_manager}<span class="y" style="padding-right: 15px; color: #999">></span></div>
+								</a>
+							
+							<!--{/if}-->
+							<!--{if $_G['uid'] && ($_G['group']['radminid'] == 1 || getstatus($_G['member']['allowadmincp'], 1))}-->
+							<!--{/if}-->
+							<!--{hook/global_usernav_extra2}-->
+							
+								<a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">
+									<div class="banzhuan-made-more"><em class="iconfont icon-tuichu2"></em>&nbsp;{lang logout}<span class="y" style="padding-right: 15px; color: #999">></span></div>
+								</a>
+
+							<!--{else}-->
+
+							<!--{if helper_access::check_module('follow') && $space[uid] != $_G[uid]}-->
+
+							<!--{/if}-->
+							<!--{eval require_once libfile('function/friend');$isfriend=friend_check($space[uid]);}-->
+							<!--{if !$isfriend}-->
+
+							<!--{else}-->
+
+							<!--{/if}-->
+
+							<!--{if helper_access::check_module('wall')}-->
+							<!--{/if}-->
+							</li>
+							<!--{/if}-->
+
+						</ul>
+						<!--{if checkperm('allowbanuser') || checkperm('allowedituser') || $_G[adminid] == 1}-->
+
+						<!--{if checkperm('allowbanuser') || checkperm('allowedituser')}-->
+						<!--{/if}-->
+						<!--{if $_G['adminid'] == 1}-->
+						<!--{/if}-->
+						<!--{/if}-->
+					</div>
+				</div>
+				
+				<script type="text/javascript">
+					function succeedhandle_followmod(url, msg, values) {
+						var fObj = $('followmod');
+						if(values['type'] == 'add') {
+							fObj.innerHTML = '{lang follow_del}';
+							fObj.href = 'home.php?mod=spacecp&ac=follow&op=del&fuid=' + values['fuid'];
+						} else if(values['type'] == 'del') {
+							fObj.innerHTML = '{lang follow_add}TA';
+							fObj.href = 'home.php?mod=spacecp&ac=follow&op=add&hash={FORMHASH}&fuid=' + values['fuid'];
+						}
+					}
+				</script>
+
+			</div>
+
+			<!--{elseif !empty($_G['cookie']['loginuser'])}-->
+
+			<div class="y">
+				<a id="loginuser" class="xw1">$_G['cookie']['loginuser']</a>
+				<a href="member.php?mod=logging&action=login" onclick="showWindow('login', this.href)">{lang activation}</a>
+				<a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">{lang logout}</a>
+			</div>
+
+			<!--{elseif $_G['connectguest']}-->
+
+			<div class="y">
+				{lang connect_fill_profile_to_view}
+			</div>
+
+			<!--{else}-->
+
+			<div class="banzhuan-userinfo-nologin">
+				<div class="banzhuan-userinfo-nologin-title">登录后查看更多</div>
+				<a href="member.php?mod=logging&action=login" onclick="showWindow('login', this.href)" class="a-2">{lang login}</a>
+				<a href="member.php?mod={$_G[setting][regname]}" class="a-1">$_G['setting']['reglinkname']</a>
+			</div>
+
+			<!--{/if}-->
+
+<!--{template common/footer}-->

@@ -1,0 +1,101 @@
+<!--{template common/header}-->
+<!-- header start -->
+<header class="header">
+    <div class="nav">
+		<div class="banzhuan-icon-back z">
+			<a href="javascript:history.back();"><img src="./template/banzhuan_weibo/touch/banzhuan/images/icon_back.png" /></a>
+		</div>
+		<div class="name z">主题列表</div>
+		<div class="banzhuan-discuz-header-y"><a href="forum.php?mod=post&action=newthread&fid=$_G[fid]" class="iconfont icon-fatie"></a></div>
+    </div>
+</header>
+<div class="banzhuan-top"></div>
+<!-- header end -->
+
+<!--{hook/forumdisplay_top_mobile}-->
+
+<div class="banzhuan-dispaly-header">
+    <a href="forum.php?mod=forumdisplay&fid=$_G[fid]" title="$_G['forum'][name]" class="fhlogo"><img alt="$_G['forum'][name]" src="<!--{if $_G['forum'][icon]}-->data/attachment/common/$_G['forum'][icon]<!--{else}-->./template/banzhuan_weibo/touch/banzhuan/images/forum.jpg<!--{/if}-->"></a>
+    <h1><!--{eval echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];}--></h1>
+    <p class="info">
+      	<span>{lang index_today} <em>$_G[forum][todayposts]</em></span><span>{lang index_threads} <em>$_G[forum][threads]</em></span>
+        <br/>
+        <span>{$_G[forum]['description']}</span>
+    </p>
+    <a href="home.php?mod=spacecp&ac=favorite&type=forum&id=$_G[fid]&handlekey=favoriteforum&formhash={FORMHASH}" class="forum-fav iconfont icon-shoucang">&nbsp;收藏&nbsp;<strong id="number_favorite" {if !$_G[forum][favtimes]} style="display:none;"{/if}><span id="number_favorite_num">$_G[forum][favtimes]</span></strong></a>
+</div>
+
+
+<!-- main threadlist start -->
+<!--{if !$subforumonly}-->
+<div class="threadlist">
+			<ul class="bg-fff">
+			<!--{if $_G['forum_threadcount']}-->
+				<!--{loop $_G['forum_threadlist'] $key $thread}-->
+					<!--{if !$_G['setting']['mobile']['mobiledisplayorder3'] && $thread['displayorder'] > 0}-->
+						{eval continue;}
+					<!--{/if}-->
+                	<!--{if $thread['displayorder'] > 0 && !$displayorder_thread}-->
+                		{eval $displayorder_thread = 1;}
+                    <!--{/if}-->
+					<!--{if $thread['moved']}-->
+						<!--{eval $thread[tid]=$thread[closed];}-->
+					<!--{/if}-->
+					<li>
+					<!--{hook/forumdisplay_thread_mobile $key}-->
+                    <a href="forum.php?mod=viewthread&tid=$thread[tid]&extra=$extra" $thread[highlight] >
+					{$thread[subject]}
+					<div class="banzhuan-item-info">
+					<!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+						<span class="icon_top banner-tuijian">置顶</span>
+					<!--{elseif $thread['digest'] > 0}-->
+						<span class="icon_top banner-tuijian">精华</span>
+					<!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+						<span class="icon_tu banner-tuijian">图片</span>
+					<!--{/if}-->
+					<span class="by">$thread[author]</span>
+					<span class="by iconfont icon-attention">&nbsp;{$thread[views]}</span>
+					<span class="by iconfont icon-xiaoxi">&nbsp;{$thread[replies]}</span>
+					</div>
+					</a>
+
+					</li>
+                <!--{/loop}-->
+            <!--{else}-->
+			<li>{lang forum_nothreads}</li>
+			<!--{/if}-->
+		</ul>
+</div>
+
+
+$multipage
+<!--{/if}-->
+<!-- main threadlist end -->
+<!--{hook/forumdisplay_bottom_mobile}-->
+<div class="pullrefresh" style="display:none;"></div>
+
+<!--{hook/global_footer_mobile}-->
+<!--{eval $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);$clienturl = ''}-->
+<!--{if strpos($useragent, 'iphone') !== false || strpos($useragent, 'ios') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=ios' : 'http://www.discuz.net/mobile.php?platform=ios';}-->
+<!--{elseif strpos($useragent, 'android') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=android' : 'http://www.discuz.net/mobile.php?platform=android';}-->
+<!--{elseif strpos($useragent, 'windows phone') !== false}-->
+<!--{eval $clienturl = $_G['cache']['mobileoem_data']['iframeUrl'] ? $_G['cache']['mobileoem_data']['iframeUrl'].'&platform=windowsphone' : 'http://www.discuz.net/mobile.php?platform=windowsphone';}-->
+<!--{/if}-->
+
+<div id="mask" style="display:none;"></div>
+<!--{if !$nofooter}-->
+<!--{/if}-->
+
+<!--底部导航-->
+
+
+</body>
+</html>
+<!--{eval updatesession();}-->
+<!--{if defined('IN_MOBILE')}-->
+	<!--{eval output();}-->
+<!--{else}-->
+	<!--{eval output_preview();}-->
+<!--{/if}-->

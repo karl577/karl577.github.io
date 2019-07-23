@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_tv.pack]]></item>
+	<item id="RevisionID"><![CDATA[14067]]></item>
+	<item id="SN"><![CDATA[2017021802XpXaXIeyvm]]></item>
+	<item id="RevisionDateline"><![CDATA[1364781245]]></item>
+	<item id="Data">
+		<item id="/tv.php"><![CDATA[288de73efe40c418419a33406a8586e3]]></item>
+		<item id="/app/tv.htm"><![CDATA[c9acf266ec470e587e112a52597a0733]]></item>
+	</item>
+</root>

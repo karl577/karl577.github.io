@@ -1,0 +1,64 @@
+body { color: #666666;}
+
+a { color: #454545; }
+a:hover { color: #222222; }
+
+
+/* =========================================
+   Header
+   ======================================== */
+header #top-menu ul li a { color: #666666;}
+header #top-menu ul li a:hover { color: #333333; }
+
+header #top-menu ul li.current_page_item a,
+header #top-menu ul li.current-menu-item a { 
+	background-image: url(../../images/styles/grey-menu-current-bg.png); 
+	border-left: 1px solid #4E4E4E; 
+	border-top: 1px solid #707070; 
+	border-right: 1px solid #4E4E4E; 
+	border-bottom: 1px solid #3F3F3F;
+}
+
+header #top-menu ul li ul li a,
+header #top-menu ul li.current_page_item ul li a,
+header #top-menu ul li.current-menu-item ul li a,
+header #top-menu ul li.current-menu-parent ul li a{ 
+	color: #555555; 
+}
+
+header #top-menu ul li ul li a:hover,
+header #top-menu ul li ul li a.selected,
+header #top-menu ul li.current_page_item ul li a:hover,
+header #top-menu ul li.current-menu-item ul li a:hover,
+header #top-menu ul li.current_page_parent ul li a:hover,
+header #top-menu ul li.current-menu-parent ul li a:hover,
+header #top-menu ul li.current-menu-item ul li.current-menu-item a { 
+	background: #666666; 
+	color: #FFFFFF;
+}
+
+
+
+/* =========================================
+   Styles
+   ======================================== */
+.pagination a:hover,
+.pagination span.current,
+.normal-pagination span a:hover,
+.comment-pagination a:hover, 
+.comment-pagination span.current,
+.post-more a:hover,
+.portfolio-menu li a:hover,
+.portfolio-menu li.active a,
+.portfolio-menu li.current-cat a,
+.product-menu li a:hover,
+.product-menu li.current-cat a,
+#respond .form-submit input:hover,
+.contact-form-wrap #send-message:hover {
+	background-image: url(../../images/styles/grey-btn.png);
+	border-left: 1px solid #4B4B4B; 
+	border-top: 1px solid #606060; 
+	border-right: 1px solid #4B4B4B; 
+	border-bottom: 1px solid #3F3F3F;
+	color: #FFFFFF;
+}

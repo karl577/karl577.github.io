@@ -1,0 +1,7 @@
+�ʐZ<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2286;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-08-06 10:52:55";s:13:"post_date_gmt";s:19:"2016-08-06 02:52:55";s:12:"post_content";s:480:"<div class="moquu_xrrt">
+
+<img title="关于切图不得不说的事儿——基础篇" src="http://77g2n3.com2.z0.glb.qiniucdn.com/images/201507/1438082784130876.jpg" alt="关于切图不得不说的事儿——基础篇" />
+
+<img title="关于切图不得不说的事儿——基础篇" src="http://77g2n3.com2.z0.glb.qiniucdn.com/images/201507/1438082788241827.jpg" alt="关于切图不得不说的事儿——基础篇" />
+<div id="newdigg" class="newdigg"></div>
+</div>";s:10:"post_title";s:48:"关于切图不得不说的事儿——基础篇";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:127:"%e5%85%b3%e4%ba%8e%e5%88%87%e5%9b%be%e4%b8%8d%e5%be%97%e4%b8%8d%e8%af%b4%e7%9a%84%e4%ba%8b%e5%84%bf-%e5%9f%ba%e7%a1%80%e7%af%87";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2016-09-06 10:55:06";s:17:"post_modified_gmt";s:19:"2016-09-06 02:55:06";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:25:"http://qisumu.com/?p=2286";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

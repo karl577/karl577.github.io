@@ -1,0 +1,126 @@
+/*  
+
+Theme Name: SDesign
+
+Theme URI: http://www.v7v3.com/
+
+Description: 机智的约德尔人
+
+Version: 1.0
+
+Author: 猫猫
+
+Author URI: http://www.mao01.com/
+
+
+*/
+body {color: #34495e;position: relative;font-family:"Microsoft YaHei",Tahoma,"hiragino sans gb",Helvetica,Arial; padding-top: 70px; background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family:"Microsoft YaHei",Tahoma,"hiragino sans gb",Helvetica,Arial;}
+
+a {color: #ff6559;}
+a:hover {color: #ff6559; text-decoration: none;}
+img {max-width: 100%;}
+
+/* 通用 */
+.mb-10 {margin-bottom: 10px;}
+.mb-20 {margin-bottom: 20px;}
+.img-div {display: block; overflow: hidden;}
+.img-div img {max-width: none; width: 100%;}
+.pr {position: relative;}
+.carousel-control.left {background-image:none;filter:none;}
+.carousel-control.right {background-image:none;filter:none;}
+.breadcrumb {padding: 0; background: none;}
+
+/* nav */
+.navbar-fixed-top {background:rgba(0,0,0,0.5); border-top: 4px solid #008be0;}
+.navbar > .container .navbar-brand {text-indent: -99em; width: 250px; overflow: hidden; background-repeat: no-repeat; background-position: left center;}
+.navbar-inverse .navbar-nav > li > a {color: #fff;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {background:rgba(0,0,0,0.5);}
+
+#bs-example-navbar-collapse-1 .form-control {border: 0; background:rgba(0,0,0,0.5); color: #fff; }
+#bs-example-navbar-collapse-1 .btn-default {border: 0; background:rgba(0,0,0,0.6); color: #fff; }
+
+.carousel-inner .img-div {height: 246px; width: 100%;}
+.carousel-caption {position: static; background: #fff; text-align: left; text-shadow:none;color: #34495e; padding: 0; height: 256px;}
+.carousel-caption h2 {border-bottom: 1px solid #e3e3e3; padding: 10px; margin: 0; color: #329edf;}
+.hd-caption {padding: 10px;}
+.carousel-indicators {bottom: 256px;}
+
+.home-grid-sm {padding: 0; border: 0; text-align: center; margin-bottom: 10px;}
+.home-grid-sm h4 {margin-bottom: 5px;color: #fff;}
+.home-grid-sm p {font-size: 12px; margin-bottom: 0;color: #fff;}
+.home-grid-sm .caption {padding: 0 0 10px;}
+.home-grid-sm .img-div {height: 185px;}
+
+.home-grid-sm-0 {background:rgba(0,0,0,0.5);}
+.home-grid-sm-1 {background-color: #008be0;}
+.home-grid-sm-2 {background-color: #f27015;}
+.home-grid-sm-3 {background-color: #47ad2c;}
+.home-grid-sm-4 {background-color: #f9b41c;}
+
+#home-grid-two-left {background-color: #0089d5; color: #fff;}
+#home-grid-two-left a {color: #ff0;}
+#home-grid-two-left a:hover {color: #fff;}
+#home-grid-two-left .img-div {width: 190px; height: 253px;}
+#home-grid-two-left .media-body {padding: 15px;}
+#home-grid-two-right .img-div {height: 253px;} 
+
+.home-grid-three .panel {margin-bottom: 0; color: #fff; border: 0;}
+.home-grid-three .panel-default > .panel-heading {color: #fff; border-bottom: 0;}
+.home-grid-three .panel > .list-group .list-group-item {border: 0;}
+
+#home-grid-three-left .img-div {height: 240px;}
+#home-grid-three-left .panel-default > .panel-heading {background-color: #2f9817;}
+#home-grid-three-left .panel,#home-grid-three-left .list-group-item {background-color: #47ad2c;}
+#home-grid-three-left .list-group-item {color: #fff;}
+#home-grid-three-left .list-group-item:hover {background: #2f9817;}
+
+#home-grid-three-center .panel > .list-group {padding: 16px 0;}
+#home-grid-three-center .panel-default > .panel-heading {background-color: #008be0;}
+#home-grid-three-center .panel,#home-grid-three-center .list-group-item {background-color: #35a8ed;}
+#home-grid-three-center hr {margin: 6px 0; border-color: transparent;}
+#home-grid-three-center .list-group-item {color: #fff;}
+#home-grid-three-center .list-group-item:hover {background-color: #008be0;}
+
+#home-grid-three-right .img-div {height: 100px;}
+#home-grid-three-right .panel-default > .panel-heading {background-color: #008be0;}
+#home-grid-three-right .panel,#home-grid-three-right .list-group-item {background-color: #35a8ed;}
+#home-grid-three-right .list-group-item {color: #fff;}
+#home-grid-three-right .list-group-item:hover {background-color: #008be0;}
+
+#home-grid-four-center {background-color: #008be0; color: #fff;}
+#home-grid-four-center .media-body {padding: 15px;}
+#home-grid-four-center .home-grid-sm {margin-bottom: 0;}
+#home-grid-four-center a {color: #ff0;}
+#home-grid-four-center a:hover {color: #fff;}
+
+/* footer */
+footer {background:rgba(0,0,0,0.5); padding: 20px 0; color: #fff; margin-top: 20px;}
+
+/* single */
+#single {color: #fff;}
+#entry {background:rgba(0,0,0,0.5); padding: 15px; color: #fff;}
+#single hr {border-top: 1px solid #666;}
+#fmimg {width: 100%;}
+#entry h1.title {margin-top: 10px; margin-bottom: 20px;}
+#entry .list-inline {text-align: center;}
+#entry .list-inline {font-size: 12px;}
+#entry .list-inline i {margin-right: 10px;}
+
+#comment-title {margin-bottom: 0;}
+#comment-form .form-control {background:rgba(0,0,0,0.5); color: #999;border: 0;}
+#comment-form .btn-default {background: rgba(0,0,0,0.5); color: #fff; border: 0;}
+#entry .panel-default {background: transparent; border: 0;}
+#entry .panel-heading,#entry .panel-footer,#entry .panel-body {border: 0; padding-left: 0; padding-right: 0; background: transparent; color: #fff;}
+#entry .panel-heading h2 a {color: #fff; font-size: 25px;}
+#entry .panel-heading h2 a:hover {color: #666; text-decoration: none;}
+
+#archive .media img {width: 200px;}
+#archive .media {background:rgba(0,0,0,0.5); color: #fff;}
+#archive .media-body {padding: 15px 15px 15px 5px;}
+
+.pagination > li > a {background:rgba(0,0,0,0.5); color: #fff; border: 0;}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus {background:rgba(0,0,0,0.8); }
+.pagination > li > a:hover {background:rgba(0,0,0,0.8);}
+
+#error {background:rgba(0,0,0,0.5); color: #fff; text-align: center; padding: 150px 0 170px; }

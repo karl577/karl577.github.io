@@ -1,0 +1,238 @@
+<div class="u_profile">
+	
+	<div class="cl banzhuan-padding10 banzhuan-mar banzhuan-userinfo-li">
+		<h2 class="h2-name">{$space[username]}&nbsp;µÄ¿Õ¼ä</h2>
+		
+			<!--{if $space[customstatus]}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang permission_basic_status}</em></div>
+				<div class="banzhuan-userinfo-li-right">$space[customstatus]</div>
+			</li>
+			<!--{/if}-->
+		
+			<!--{if $space[group][maxsigsize] && $space[sightml]}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang personal_signature}</em></div>
+				<div class="banzhuan-userinfo-li-right"><table><tr><td>$space[sightml]</td></tr></table></div>
+			</li>
+			<!--{/if}-->	
+	</div>
+	
+   	<div class="cl banzhuan-padding10 banzhuan-mar banzhuan-userinfo-li">
+   		<!--{if $_G['setting']['allowviewuserthread'] !== false}-->
+			<!--{eval $space['posts'] = $space['posts'] - $space['threads'];}-->
+			<a href="{if CURMODULE != 'follow'}home.php?mod=space&uid=$space[uid]&do=thread&view=me&type=reply&from=space{else}home.php?mod=space&uid=$space[uid]&view=thread&type=reply{/if}">
+				<div class="banzhuan-made-more" style="border-bottom: 1px solid #F5F5F5;">&nbsp;{lang replay_num}&nbsp;<em class="color-c">£¨$space[posts]£©</em><span class="y" style="padding-right: 15px; color: #999;">></span></div>
+			</a>
+			<a href="{if CURMODULE != 'follow'}home.php?mod=space&uid=$space[uid]&do=thread&view=me&type=thread&from=space{else}home.php?mod=space&uid=$space[uid]&view=thread{/if}">
+				<div class="banzhuan-made-more">&nbsp;{lang threads_num}&nbsp;<em class="color-c">£¨$space[threads]£©</em><span class="y" style="padding-right: 15px; color: #999;">></span></div>
+			</a>
+		<!--{/if}-->
+   	</div>	
+	
+	<div id="psts" class="{if $clist} {/if}cl banzhuan-padding10 banzhuan-mar">
+	    <ul class="banzhuan-userinfo-li">
+		<!--{if $space[buyercredit]}-->
+		    <li>
+		       	<div class="banzhuan-userinfo-li-left"><em>{lang eccredit_sellerinfo}</em></div>
+		      	<div><a href="home.php?mod=space&uid=$space[uid]&do=trade&view=eccredit#sellcredit">$space[buyercredit] <img src="{STATICURL}image/traderank/buyer/$space[buyerrank].gif" border="0" class="vm" /></a></div>
+		    </li>
+		<!--{/if}-->
+		<!--{if $space[sellercredit]}-->
+		    <li>
+		     	<div class="banzhuan-userinfo-li-left"><em>{lang eccredit_buyerinfo}</em></div>
+		     	<div><a href="home.php?mod=space&uid=$space[uid]&do=trade&view=eccredit#buyercredit">$space[sellercredit] <img src="{STATICURL}image/traderank/seller/$space[sellerrank].gif" border="0" class="vm" /></a></div>
+		    </li>
+		<!--{/if}-->
+		    <li>
+		     	<div class="banzhuan-userinfo-li-left"><em>{lang credits}</em></div>
+		      	<div>$space[credits]</div>
+		    </li>
+		<!--{loop $_G[setting][extcredits] $key $value}-->
+		<!--{if $value[title]}-->
+		    <li>
+		      	<div class="banzhuan-userinfo-li-left"><em>$value[title]</em></div>
+		      	<div>{$space["extcredits$key"]} $value[unit]</div>
+		    </li>
+		<!--{/if}-->
+		<!--{/loop}-->
+	    </ul>
+  </div>
+
+	<div class="cl banzhuan-padding10 banzhuan-mar ">
+		<!--{if CURMODULE == 'space'}-->
+			<!--{hook/space_profile_baseinfo_top}-->
+		<!--{elseif CURMODULE == 'follow'}-->
+			<!--{hook/follow_profile_baseinfo_top}-->
+		<!--{/if}-->
+		<ul class="cl banzhuan-userinfo-li">
+		
+			<!--{if $_G['setting']['allowspacedomain'] && $_G['setting']['domain']['root']['home'] && checkperm('domainlength') && !empty($space['domain'])}-->
+			<!--{eval $spaceurl = 'http://'.$space['domain'].'.'.$_G['setting']['domain']['root']['home'];}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang second_domain}</em></div>
+				<div><a href="$spaceurl" onclick="setCopy('$spaceurl', '{lang copy_space_address}');return false;">$spaceurl</a></div>
+			</li>
+			<!--{/if}-->
+			<!--{if $_G[setting][homepagestyle]}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang space_visits}</em></div>
+				<div><strong>$space[views]</strong></div>
+			</li>
+			<!--{/if}-->
+			<!--{if in_array($_G[adminid], array(1, 2))}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>Email</em></div>
+				<div>$space[email]</div>
+			</li>
+			<!--{/if}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang email_status}</em></div>	
+				<div><!--{if $space[emailstatus] > 0}-->{lang profile_verified}<!--{else}-->{lang profile_no_verified}<!--{/if}--></div>
+			</li>
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>{lang video_certification}</em></div>	
+				<div><!--{if $space[videophotostatus] > 0}-->{lang profile_certified} <!--{if $showvideophoto}-->(<a href="home.php?mod=space&uid=$space[uid]&do=videophoto" id="viewphoto" onclick="showWindow(this.id, this.href, 'get', 0)">{lang view_certification_photos}</a>)<!--{/if}--><!--{else}-->{lang profile_no_certified}<!--{/if}--></div>
+			</li>
+			
+			<!--{loop $profiles $value}-->
+			<li>
+				<div class="banzhuan-userinfo-li-left"><em>$value[title]</em></div>
+				<div class="banzhuan-userinfo-li-right">$value[value]</div>
+			</li>
+			<!--{/loop}-->
+			
+		</ul>
+		<!--{if CURMODULE == 'space'}-->
+			<!--{hook/space_profile_baseinfo_middle}-->
+		<!--{elseif CURMODULE == 'follow'}-->
+			<!--{hook/follow_profile_baseinfo_middle}-->
+		<!--{/if}-->
+	</div>
+	
+	
+<!--{if CURMODULE == 'space'}-->
+	<!--{hook/space_profile_baseinfo_bottom}-->
+<!--{elseif CURMODULE == 'follow'}-->
+	<!--{hook/follow_profile_baseinfo_bottom}-->
+<!--{/if}-->
+
+<!--{if $space['medals']}-->
+	<div class="cl banzhuan-padding10 banzhuan-mar">
+		<p class="md_ctrl">
+			<a href="home.php?mod=medal">
+			<!--{loop $space['medals'] $medal}-->
+				<img src="{STATICURL}/image/common/$medal[image]" alt="$medal[name]" id="md_{$medal[medalid]}" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_{$medal[medalid]}_menu', 'pos':'12!'});" />
+			<!--{/loop}-->
+			</a>
+		</p>
+	</div>
+	<!--{loop $space['medals'] $medal}-->
+		<div id="md_{$medal[medalid]}_menu" class="tip tip_4" style="display: none;">
+			<div class="tip_horn"></div>
+			<div class="tip_c">
+				<h4>$medal[name]</h4>
+				<p>$medal[description]</p>
+			</div>
+		</div>
+	<!--{/loop}-->
+<!--{/if}-->
+<!--{if $_G['setting']['verify']['enabled']}-->
+	<!--{eval $showverify = true;}-->
+	<!--{loop $_G['setting']['verify'] $vid $verify}-->
+		<!--{if $verify['available']}-->
+			<!--{if $showverify}-->
+
+			<!--{eval $showverify = false;}-->
+			<!--{/if}-->
+
+			<!--{if $space['verify'.$vid] == 1}-->
+			<!--{elseif !empty($verify['unverifyicon'])}-->
+			<!--{/if}-->
+
+		<!--{/if}-->
+	<!--{/loop}-->
+	<!--{if !$showverify}-->
+			
+				
+			<!--{/if}-->
+<!--{/if}-->
+
+<!--{if $count}-->
+	<div class="cl banzhuan-padding10 banzhuan-mar">
+		<!--{loop $manage_forum $key $value}-->
+		<a href="forum.php?mod=forumdisplay&fid=$key">$value</a> &nbsp;
+		<!--{/loop}-->
+	</div>
+<!--{/if}-->
+
+<!--{if $groupcount}-->
+	<div class="cl banzhuan-padding10 banzhuan-mar">
+		<!--{loop $usergrouplist $key $value}-->
+		<a href="forum.php?mod=group&fid={$value['fid']}">$value['name']</a> &nbsp;
+		<!--{/loop}-->
+	</div>
+<!--{/if}-->
+
+<div class="cl banzhuan-padding10 banzhuan-mar">
+	<ul id="pbbs" class="banzhuan-userinfo-li">
+		<!--{if $space[oltime]}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang online_time}</em></div>
+			<div>$space[oltime] {lang hours}</div>
+		</li>
+		<!--{/if}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang regdate}</em></div>
+			<div>$space[regdate]</div>
+		</li>
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang last_visit}</em></div>
+			<div>$space[lastvisit]</div>
+		</li>
+		<!--{if $_G[uid] == $space[uid] || $_G[group][allowviewip]}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang register_ip}</em></div>
+			<div>$space[regip] - $space[regip_loc]</div>
+		</li>
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang last_visit_ip}</em></div>
+			<div>$space[lastip]:$space[port] - $space[lastip_loc]</div>
+		</li>
+		<!--{/if}-->
+		<!--{if $space[lastactivity]}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang last_activity_time}</em></div>
+			<div>$space[lastactivity]</div>
+		</li>
+		<!--{/if}-->
+		<!--{if $space[lastpost]}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang last_post_time}</em></div>
+			<div>$space[lastpost]</div>
+		</li>
+		<!--{/if}-->
+		<!--{if $space[lastsendmail]}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang last_send_email}</em></div>
+			<div>$space[lastsendmail]</div>
+		</li>
+		<!--{/if}-->
+		<li>
+			<div class="banzhuan-userinfo-li-left"><em>{lang time_offset}</em></div>
+			<!--{eval $timeoffset = array({lang timezone});}-->
+			<div>$timeoffset[$space[timeoffset]]</div>
+		</li>
+	</ul>
+</div>
+
+<!--{if $clist}-->
+
+<!--{/if}-->
+<!--{if CURMODULE == 'space'}-->
+	<!--{hook/space_profile_extrainfo}-->
+<!--{elseif CURMODULE == 'follow'}-->
+	<!--{hook/follow_profile_extrainfo}-->
+<!--{/if}-->
+
+</div>

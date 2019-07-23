@@ -1,0 +1,54 @@
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+	}
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clearfix { display: inline-block; } /* Hide from IE Mac \*/ .clearfix { display: block; } /* End hide from IE Mac */ 
+
+.theme-widget-wrap { margin-bottom: 15px;}
+
+.theme-widget-wrap label {
+	display: block; 
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+.theme-widget-wrap input[type="text"], .theme-widget-wrap textarea {
+	width: 98%;
+}
+
+.theme-widget-wrap select {
+	width: 200px;
+}
+
+.theme-shorttext input[type="text"] {
+	width: 150px;
+}
+
+.theme-description {
+	color: #666666;
+	font-style: italic;
+	font-size: 12px;
+	padding: 20px 0 0;
+	margin: 0;
+}
+
+.theme-ads-title {
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+.theme-ads-wrap {
+	border: 1px solid #E1E1E1;
+	background: #FFFFFF;
+	position: relative;
+	padding: 10px;
+	margin: 5px 0 20px;
+}

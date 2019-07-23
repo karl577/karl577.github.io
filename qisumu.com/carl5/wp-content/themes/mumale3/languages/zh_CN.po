@@ -1,0 +1,577 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mumale 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-25 18:30+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: 老萨 <lao.sa@qq.com>\n"
+"Language-Team: 老萨 <lao.sa@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:1
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇文章有密码，请输入密码访问！"
+
+#: comments.php:1
+msgid "<h2>Responses</h2>"
+msgstr "<h2>评论回复</h2>"
+
+#: comments.php:1
+msgid "Comment closed."
+msgstr "评论关闭！"
+
+#: comments.php:1
+#, php-format
+msgid "You need <a href=\\\"%s\\\">logged in</a> to comment."
+msgstr "你需要<a href=\\\"%s\\\">登入</a>之后，才能发表评论。"
+
+#: comments.php:1
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a> has logged in,"
+msgstr "<a href=\"%1$s\">%2$s</a>已登录，"
+
+#: comments.php:1
+msgid "Log out of this account"
+msgstr "登出此帐户？"
+
+#: comments.php:1
+msgid "Quit &raquo;"
+msgstr "登出 &raquo;"
+
+#: comments.php:1
+msgid "<small>Name:</small>"
+msgstr "<small>昵称:</small>"
+
+#: comments.php:1
+msgid " "
+msgstr ""
+
+#: comments.php:1
+msgid "<small>Email:</small>"
+msgstr "<small>邮箱:</small>"
+
+#: comments.php:1
+msgid "<small>Page:</small>"
+msgstr "<small>网址:</small>"
+
+#: comments.php:1
+#, php-format
+msgid "<strong>%s</strong>, welcome back."
+msgstr "<strong>%s</strong>, 欢迎归来。"
+
+#: comments.php:1
+msgid "Change name &raquo;"
+msgstr "修改信息 &raquo;"
+
+#: comments.php:1
+msgid "Close &raquo;"
+msgstr "关闭 &raquo;"
+
+#: comments.php:1
+msgid "Submit Comment"
+msgstr "发表评论"
+
+#: footer.php:1
+msgid "Scroll to Top"
+msgstr "回到顶部"
+
+#: functions.php:1
+msgid "Mumale Theme Options<span>Version: "
+msgstr "Mumale主题设置<span>当前版本： "
+
+#: functions.php:1
+msgid "jQuery Effect"
+msgstr "jQuery特效"
+
+#: functions.php:1
+msgid "Ad Words"
+msgstr "主题广告"
+
+#: functions.php:1
+msgid "Website Information"
+msgstr "网站信息"
+
+#: functions.php:1
+msgid "Analytics Code"
+msgstr "统计代码"
+
+#: functions.php:1
+msgid "Footer Copyright"
+msgstr "底部版权"
+
+#: functions.php:1
+msgid "Mumale Theme Declare"
+msgstr "主题说明"
+
+#: functions.php:1
+msgid "Mumale use jquery 1.4.4 which contained in this theme, you can also use the Google one instead."
+msgstr "主题默认使用自带的jQuery1.4.4，当然你也可以使用新浪提供的jQuery库。"
+
+#: functions.php:1
+msgid "Load the jQuery Library supported by Google"
+msgstr "调用新浪的jQuery库"
+
+#: functions.php:1
+msgid "Mumale has already containered <b>phZoom slide effect</b>, you may want to try it, and you should close relative plugins"
+msgstr "主题集成了<b>phzoom图片特效</b>，也许你想试试呢，当然你也要注意关闭相关插件。"
+
+#: functions.php:1
+msgid "Deactivate phZoom slide effect"
+msgstr "关闭phZoom图片特效"
+
+#: functions.php:1
+msgid "Tags number of index.php"
+msgstr "首页标签数量"
+
+#: functions.php:1
+msgid "Tags number of index.php, default number is 20"
+msgstr "默认首页标签数量为 20"
+
+#: functions.php:1
+msgid "<em>Ad under the content, html code</em>"
+msgstr "<em>文章下方广告, html代码</em>"
+
+#: functions.php:1
+msgid "<em>Ad at siderbar, html code </em>"
+msgstr "<em>侧边栏广告位, html代码</em>"
+
+#: functions.php:1
+msgid "<em>Keywords, separate by English commas. like Mumale, Computer, Software</em>"
+msgstr "<em><strong>网站关键词</strong>, 用英文逗号隔开，比如：木马乐、计算机、软件</em>"
+
+#: functions.php:1
+msgid "<em>Description, explain what's this site about. like Mumale, Breathing the wind</em>"
+msgstr "<em><strong>网站描述</strong>, 简单描述你的网站内容. 比如：木马乐,分享关注您所爱</em>"
+
+#: functions.php:1
+msgid "You can get your Google Analytics code <a target=\"_blank\" href=\"https://www.google.com/analytics/settings/check_status_profile_handler\">here</a>."
+msgstr "你可以从<a target=\"_blank\" href=\"https://www.google.com/analytics/settings/check_status_profile_handler\">这里</a>得到Google Analytics代码"
+
+#: functions.php:1
+msgid "<b>Preview</b>"
+msgstr "<b>预览</b>"
+
+#: functions.php:1
+msgid "Introduction"
+msgstr "介绍"
+
+#: functions.php:1
+msgid "Mumale is evolved from one theme of Tumblr and turned it into a photo theme which can be used at wordpress."
+msgstr "Mumale主题由老萨倾情打造，使用了目前最流行的瀑布流方式展示，加入我们的QQ群获得最新版本，QQ群：141548163"
+
+#: functions.php:1
+msgid "Published Address"
+msgstr "发布地址"
+
+#: functions.php:1
+msgid "Preview Address"
+msgstr "预览地址"
+
+#: functions.php:1
+msgid "Report Bugs"
+msgstr "反馈Bugs"
+
+#: functions.php:1
+msgid "Weibo <a href=\"http://weibo.com/mumale\" target=\"_blank\">@mumale</a> or leave a message at <a href=\"http://mumale.com\" target=\"_blank\">http://mumale.com</a>。"
+msgstr "新浪微博：<a href=\"http://weibo.com/mumale\" target=\"_blank\">@木马乐</a>，或者到 <a href=\"http://mumale.com\" target=\"_blank\">http://mumale.com</a> 留言。"
+
+#: functions.php:1
+msgid "Save Options"
+msgstr "保存设置"
+
+#: header.php:1
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Log in"
+msgstr "登录"
+
+#: header.php:1
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Username"
+msgstr "用户名"
+
+#: header.php:1
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Password"
+msgstr "密码"
+
+#: header.php:1
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Forgot password ?"
+msgstr "忘记密码?"
+
+#: header.php:1
+msgid "Post"
+msgstr "发布文章"
+
+#: header.php:1
+msgid "Logout"
+msgstr "退出登录"
+
+#: index.php:1
+msgid "Tags Cloud"
+msgstr "热门标签"
+
+#: page-post.php:1
+msgid "welcome back."
+msgstr "欢迎归来~"
+
+#: page-post.php:1
+msgid "You can post you'r images here."
+msgstr "亲, 你可在此页发布图片~"
+
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Title"
+msgstr "标题"
+
+#: page-post.php:1
+msgid "Add photos"
+msgstr "添加图片"
+
+#: page-post.php:1
+msgid "jpg,gif,png or bmp"
+msgstr "jpg, gif, png或者bmp格式"
+
+#: page-post.php:1
+msgid "Local photos"
+msgstr "本地图片"
+
+#: page-post.php:1
+msgid "Network photos"
+msgstr "网络图片"
+
+#: page-post.php:1
+msgid "Add local photos"
+msgstr "添加本地图片"
+
+#: page-post.php:1
+msgid "Input address"
+msgstr "输入地址"
+
+#: page-post.php:1
+msgid "Add"
+msgstr "添加"
+
+#: page-post.php:1
+msgid "Please input the address"
+msgstr "请输入图片地址"
+
+#: page-post.php:1
+#: page-publish.php:1
+msgid "Submit"
+msgstr "发表"
+
+#: page-post.php:1
+msgid "Add Categories"
+msgstr "添加分类"
+
+#: page-post.php:1
+msgid "Add tags"
+msgstr "添加标签"
+
+#: page-publish.php:1
+msgid "Category"
+msgstr "分类"
+
+#: page-publish.php:1
+msgid "Tags"
+msgstr "标签"
+
+#: page.php:1
+#: single.php:1
+msgid "Views"
+msgstr "阅读"
+
+#: page.php:1
+#: single.php:1
+msgid "Comments"
+msgstr "评论"
+
+#: sidebar.php:1
+msgid "<h2>Popular</h2>"
+msgstr "<h2>最受欢迎</h2>"
+
+#: sidebar.php:1
+msgid "<h2>Related</h2>"
+msgstr "<h2>相关文章</h2>"
+
+#: includes/comments-ajax.php:36
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "对不起，你必须登录之后，才能发表评论。"
+
+#: includes/comments-ajax.php:41
+msgid "Error: please fill the required fields (name, email)."
+msgstr "错误：请正确填写昵称、邮箱！"
+
+#: includes/comments-ajax.php:43
+msgid "Error: please enter a valid email address."
+msgstr "错误：请填写有效的邮箱地址！"
+
+#: includes/comments-ajax.php:46
+msgid "Error: please type a comment."
+msgstr "错误：请输入评论内容！"
+
+#: includes/comments-ajax.php:76
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: includes/comments-ajax.php:77
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/seo.php:2
+msgid "Search result"
+msgstr "搜索结果"
+
+#~ msgid ""
+#~ "Mumale is created, developed and maintained by <a href=\"http://www.mumale.com/"
+#~ "\">木马乐</a>.  If you like Mumale,  please donate.  It will help in "
+#~ "developing new features and versions."
+#~ msgstr ""
+#~ "本主题由 <a href=\"http://laosa.co\">老萨</a> 创建、开发和维护。假如你喜"
+#~ "欢该主题，可以捐助我，这样我可更好地加入更多的功能、以及新版的更迭。"
+
+#~ msgid "Alipay"
+#~ msgstr "支付宝"
+
+#~ msgid "Taobao product information"
+#~ msgstr "淘宝产品信息"
+
+#~ msgid ""
+#~ "<p>Below each field to keep clean out treasure products information</p>"
+#~ msgstr "<p>下面各个字段用来保存淘宝产品的相关信息</p>"
+
+#~ msgid ""
+#~ "<span style=\"font-weight:bold;color:#666\">Enable taobao on this post</"
+#~ "span>"
+#~ msgstr "<span style=\"font-weight:bold;color:#666\">关联淘宝产品?</span>"
+
+#~ msgid ""
+#~ "<em style=\"color:#999;font-size:12px;\">Please confirm whether this "
+#~ "article related products to clean out treasure, if it is, it can call on "
+#~ "taobao shop through the pictures and price information to let visitors "
+#~ "know, and guide him (or her) to clean out treasure to store to buy.</em>"
+#~ msgstr ""
+#~ "<em style=\"color:#999;font-size:12px;\">请确认这篇文章是否要关联淘宝产品,"
+#~ "如果是,则可以通过调用淘宝店上的图片和价格等信息让访客了解,并指引他(或她)前"
+#~ "往淘宝店购买.</em>"
+
+#~ msgid "<p style=\"font-weight:bold;margin-top:15px;\">Product ID</p>"
+#~ msgstr "<p style=\"font-weight:bold;margin-top:15px;\">产品 ID</p>"
+
+#~ msgid ""
+#~ "<p>Taobao product Numbers (ID), you can find the backend URL products or "
+#~ "Numbers.</p>"
+#~ msgstr "<p>淘宝上的产品编号(ID), 你可以在产品 URL 或者后台找到该编号.</p>"
+
+#~ msgid "Read data"
+#~ msgstr "读取数据"
+
+#~ msgid "Relative Plugins"
+#~ msgstr "相关插件"
+
+#~ msgid "Index page infinite loading posts."
+#~ msgstr "首页无限加载文章"
+
+#~ msgid "Deactivate the Infinite loading posts"
+#~ msgstr "关闭首页无限加载文章"
+
+#~ msgid "<strong>Animation of relayout elements</strong>"
+#~ msgstr "<strong>首页动画</strong>"
+
+#~ msgid "Deactivate animation effect on index page"
+#~ msgstr "关闭首页文章加载动画效果"
+
+#~ msgid ""
+#~ "WP-PostViews, Enables you to display how many times a post/page had been "
+#~ "viewed."
+#~ msgstr ""
+#~ "<strong>WP-PostViews</strong>,这是一个访问量统计插件。可以查看页面的访问"
+#~ "量。（需要安装WP-PostViews插件）"
+
+#~ msgid "Activate WP-PostViews"
+#~ msgstr "开启WP-PostViews接口"
+
+#~ msgid "Reply"
+#~ msgstr "回复"
+
+#~ msgid "Theme Options"
+#~ msgstr "主题设置"
+
+#~ msgid "Keep me signed in"
+#~ msgstr "一直登陆"
+
+#~ msgid "Likes"
+#~ msgstr "喜欢"
+
+#~ msgid "next page"
+#~ msgstr "下一页"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Related Posts"
+#~ msgstr "相关文章"
+
+#~ msgid "Update tips of Mumale"
+#~ msgstr "主题更新提示"
+
+#~ msgid "Deactivate update tips of Mumale"
+#~ msgstr "关闭主题更新提示"
+
+#, fuzzy
+#~ msgid "title"
+#~ msgstr "标题"
+
+#~ msgid "Leave a comment"
+#~ msgstr "我要留言"
+
+#~ msgid "Theme Updates"
+#~ msgstr "主题升级"
+
+#~ msgid "There is a new version of the Mumale theme available."
+#~ msgstr "Mumale 有新版本啦！"
+
+#~ msgid " You have version "
+#~ msgstr "当前版本"
+
+#~ msgid " installed. Update to version "
+#~ msgstr "，请及时更新到"
+
+#~ msgid "Update Download"
+#~ msgstr "升级下载"
+
+#~ msgid "Please note: make a backup of the theme bofore update."
+#~ msgstr "友情提示：升级安装前请注意备份！"
+
+#~ msgid "Download Mumale"
+#~ msgstr "下载 Mumale"
+
+#~ msgid "Changelog"
+#~ msgstr "更新内容"
+
+#~ msgid "Activate animation, Animation effect"
+#~ msgstr "开启元素重排动画, 动画效果"
+
+#~ msgid "Author"
+#~ msgstr "编辑"
+
+#~ msgid ""
+#~ "Mumale can show the comments on index.php , if you don't like it,<b>just "
+#~ "close it</b>."
+#~ msgstr "Mumale可以在首页显示评论头像，假如你不喜欢可以<b>勾选关闭</b>。"
+
+#~ msgid "Close the comments on index.php."
+#~ msgstr "关闭首页显示评论"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 评论"
+
+#~ msgid "% Comments"
+#~ msgstr "% 评论"
+
+#~ msgid ""
+#~ "Mumale has already containered Related Posts, you may want to try it, and "
+#~ "you should close relative plugins"
+#~ msgstr ""
+#~ "<strong>相关文章</strong>，也许你想试试，当然也要关闭某些功能重复的插件。"
+
+#~ msgid "Activate related posts,  and related posts show at most"
+#~ msgstr "开启相关文章功能，相关文章最多显示"
+
+#~ msgid "posts."
+#~ msgstr "篇。"
+
+#~ msgid "Google Search"
+#~ msgstr "谷爷搜索"
+
+#~ msgid ""
+#~ "You can get your Google it <a target=\"_blank\" href=\"http://www.google."
+#~ "com/coop/cse/\">here</a>.Like ."
+#~ msgstr ""
+#~ "你可以从<a target=\"_blank\" href=\"https://www.google.com/analytics/"
+#~ "settings/check_status_profile_handler\">这里</a>得到Google搜索代码，比如："
+
+#~ msgid "LeftBar Ads"
+#~ msgstr "左边栏广告设置"
+
+#~ msgid "RightBar Ads"
+#~ msgstr "右边栏广告设置"
+
+#~ msgid "Share on:"
+#~ msgstr "分享文章："
+
+#~ msgid "Kaixin"
+#~ msgstr "开心网"
+
+#~ msgid "Renren"
+#~ msgstr "人人网"
+
+#~ msgid "Douban"
+#~ msgstr "豆瓣网"
+
+#~ msgid "Fanfou"
+#~ msgstr "饭否"
+
+#~ msgid "Sina"
+#~ msgstr "新浪微博"
+
+#~ msgid "Tencent"
+#~ msgstr "腾讯微博"
+
+#~ msgid "Prev"
+#~ msgstr "上一篇"
+
+#~ msgid "Next"
+#~ msgstr "下一篇"
+
+#~ msgid "Theme"
+#~ msgstr "主题"
+
+#~ msgid "Updates"
+#~ msgstr "升级"
+
+#~ msgid " theme available.</strong> You have version "
+#~ msgstr " 又有新版本啦！ </strong>当前为"
+
+#~ msgid ""
+#~ "<strong>Please note:</strong> make a <strong>backup</strong> of the Theme "
+#~ "inside your WordPress installation folder <strong>"
+#~ msgstr "<strong>友情提示:</strong>更新前请做好备份! 主题文件在：<strong>"
+
+#~ msgid ""
+#~ "Extract the zip contents, upload them by using FTP to the <strong>/wp-"
+#~ "content/themes/Mumale/</strong> folder overwriting the old ones."
+#~ msgstr ""
+#~ "解压主题文件，使用FTP工具将文件上传到：<strong>/wp-content/themes/Mumale/"
+#~ "</strong>覆盖原有主题。"
+
+#~ msgid ""
+#~ "To update the Theme, go to <a href=\"http://mumale.com/mumale\" target=\"_blank\">木马乐官网</a>, and download the theme files."
+#~ msgstr ""
+#~ "备份完成后，请前往 <a href=\"http://mumale.com/mumale\" "
+#~ "target=\"_blank\">木马乐官网</a>，下载最新主题文件。"
+
+#~ msgid "<em class=\"tc\"></em><span>Prev</span>"
+#~ msgstr "<em class=\"tc\"></em><span>上一篇</span>"
+
+#~ msgid "<em class=\"bc\"></em><span>Next</span>"
+#~ msgstr "<em class=\"bc\"></em><span>下一篇</span>"
+
+#~ msgid ""
+#~ "Mumale has already containered Ajax Effect on Single page, you may want "
+#~ "to try."
+#~ msgstr "主题文章页集成了Ajax加载文章的效果，也许你想尝试。"

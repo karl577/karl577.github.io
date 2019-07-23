@@ -1,0 +1,21 @@
+<!--{if $list['threadcount']}-->
+    <!--{loop $list['threadlist'] $key $thread}-->
+        <a href="forum.php?mod=viewthread&tid=$thread[tid]&extra=$extra" class="threadbox boxbgfff cl ">
+            <h3 $thread[highlight]>{$thread[subject]}</h3>
+            <div class="th_info">
+                    <!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+                    <span class="hot_label space">ÍÆ¼ö</span>
+                    <!--{elseif $thread['digest'] > 0}-->
+                    <span class="top_label space">¾«»ª</span>
+                    <!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+                    <span class="pic_label space"><i class="iconfont icon-iconfontshumajiadian"></i></span>
+                    <!--{/if}-->
+                    <span class="src space">{$thread[dateline]}</span>
+                    <span class="cmt space"><i class="iconfont icon-comments"></i>&nbsp;{$thread[replies]}</span>
+                    <span class="cmt space"><i class="iconfont icon-browse"></i>&nbsp;{$thread[views]}</span>
+            </div>
+        </a>
+    <!--{/loop}-->
+<!--{else}-->
+    <div class="nodata">{lang guide_nothreads}</div>
+<!--{/if}-->

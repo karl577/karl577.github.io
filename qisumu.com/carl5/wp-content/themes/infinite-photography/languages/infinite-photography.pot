@@ -1,0 +1,531 @@
+# Copyright (C) 2015 AcmeThemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Infinite Photography\n"
+"POT-Creation-Date: 2016-03-26 20:07+0545\n"
+"PO-Revision-Date: 2016-03-26 20:07+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: acmethemes/core.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:34
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:51 acmethemes/core/template-tags.php:57
+msgid ", "
+msgstr ""
+
+#: acmethemes/core/template-tags.php:53 acmethemes/core/template-tags.php:59
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "Leave a comment"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "1 Comment"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "% Comments"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:72 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: acmethemes/customizer/custom-controls.php:37 acmethemes/customizer/custom-controls.php:97
+msgid "Select"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:14
+msgid "Logo Only ( First Select Logo Above )"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:15
+msgid "Site Title Only"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:16
+msgid "Site Title and Tagline"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:17
+msgid "Disable"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:35
+msgid "Fullwidth"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:36
+msgid "Boxed"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:54
+msgid "Right Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:55
+msgid "Left Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:56
+msgid "No Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:75
+msgid "Photography"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:76
+msgid "Normal"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:94
+msgid "Do Not Reset"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:95
+msgid "Reset Colors Options"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:96
+msgid "Reset All"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:120
+#: acmethemes/customizer/header-options/header-logo.php:22
+msgid "Logo"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:130
+msgid "All Right Reserved &copy; 2016"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:142 acmethemes/customizer/options/search.php:7
+msgid "Search"
+msgstr ""
+
+#: acmethemes/customizer/design-options/background-image.php:7
+msgid "Background Image"
+msgstr ""
+
+#: acmethemes/customizer/design-options/blog-layout.php:7
+#: acmethemes/customizer/design-options/blog-layout.php:20
+msgid "Default Blog Layout"
+msgstr ""
+
+#: acmethemes/customizer/design-options/colors-options.php:7
+msgid "Colors"
+msgstr ""
+
+#: acmethemes/customizer/design-options/colors-options.php:17
+msgid "Primary Color"
+msgstr ""
+
+#: acmethemes/customizer/design-options/custom-css.php:7
+#: acmethemes/customizer/design-options/custom-css.php:19
+msgid "Custom CSS"
+msgstr ""
+
+#: acmethemes/customizer/design-options/design-panel.php:7
+msgid "Layout/Design Option"
+msgstr ""
+
+#: acmethemes/customizer/design-options/sidebar-layout.php:7
+#: acmethemes/customizer/design-options/sidebar-layout.php:20
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-enable.php:7
+#: acmethemes/customizer/feature-section/feature-enable.php:19
+msgid "Enable Feature Section"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-enable.php:20
+msgid "Feature section will display on front/home page"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-panel.php:7
+msgid "Featured Section Options"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-panel.php:8
+msgid "Customize your awesome site feature section "
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-panel.php:19
+msgid "Applied to the header image on home/front page"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-panel.php:7
+msgid "Footer Options"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-panel.php:8
+msgid "Customize your awesome site footer "
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-panel.php:16
+msgid "Copyright Option"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-panel.php:27
+msgid "Copyright Text"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:7
+msgid "Social Options"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:18
+msgid "Facebook url"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:32
+msgid "Twitter url"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:46
+msgid "Youtube url"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:61
+msgid "Instagram url"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:75
+msgid "Pinterest url"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/social-options.php:89
+msgid "Enable social"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-logo.php:7
+msgid "Logo Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-logo.php:38
+msgid "Logo Alt Text"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-logo.php:54
+msgid "Logo/Site Title-Tagline Display Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-panel.php:7
+msgid "Header Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-panel.php:8
+msgid "Customize your awesome site header "
+msgstr ""
+
+#: acmethemes/customizer/options/breadcrumb.php:7
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: acmethemes/customizer/options/breadcrumb.php:19
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: acmethemes/customizer/options/options-panel.php:7
+msgid "Theme Options"
+msgstr ""
+
+#: acmethemes/customizer/options/options-panel.php:8
+msgid "Customize your awesome site with theme options "
+msgstr ""
+
+#: acmethemes/customizer/options/options-reset.php:46
+#: acmethemes/customizer/options/options-reset.php:60
+msgid "Reset Options"
+msgstr ""
+
+#: acmethemes/customizer/options/options-reset.php:61
+msgid ""
+"Caution: Reset theme settings according to the given options. Refresh the "
+"page after saving to view the effects. "
+msgstr ""
+
+#: acmethemes/customizer/options/search.php:18
+msgid "Search Placeholder"
+msgstr ""
+
+#: acmethemes/functions.php:34
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: acmethemes/functions.php:37
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: acmethemes/functions.php:45
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: acmethemes/functions.php:47
+msgid "(Edit)"
+msgstr ""
+
+#: acmethemes/functions.php:115
+msgid "You are here"
+msgstr ""
+
+#: acmethemes/functions.php:116
+msgid "Home"
+msgstr ""
+
+#: acmethemes/functions.php:117
+msgid "Search Results for "
+msgstr ""
+
+#: acmethemes/functions.php:205
+msgid "Posts tagged : "
+msgstr ""
+
+#: acmethemes/functions.php:210
+msgid "Author: "
+msgstr ""
+
+#: acmethemes/functions.php:213
+msgid "Error 404"
+msgstr ""
+
+#: acmethemes/functions.php:220
+msgid "Page"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:17
+msgid "Name"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:18
+msgid "Email"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:19
+msgid "Website URL"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:20
+msgid "Comment"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:22
+msgid "Add Comment"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:23
+#, php-format
+msgid "%s Leave a Comment"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:46
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:46
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:48
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: acmethemes/hooks/header.php:118
+msgid "Skip to content"
+msgstr ""
+
+#: acmethemes/hooks/header.php:185
+msgid "Goto Appearance > Menus -: for setting up menu "
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:30
+msgid "Author"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:32
+msgid "Add author with different options."
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:48
+msgid "Note: Use square image. Recommended image size : 250 x 250"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:52
+msgid "Title:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:55
+msgid "Author Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:58
+#: acmethemes/sidebar-widget/author-widget.php:70
+msgid "Select Author Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:67
+msgid "Image preview"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:70
+msgid "Upload Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:71
+msgid "Remove Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:74
+msgid "Author Short Disc:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:78
+msgid "Link URL:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/author-widget.php:83
+msgid "Open in new window"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:9
+msgid "Main Sidebar Area"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:11
+msgid "Displays items on sidebar"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:52
+#: template-parts/content.php:41
+msgid "Pages:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Infinite Photography"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://acmethemes.com/themes/infinite-photography"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Infinite Photography is a simple and clean theme with a great elegant design "
+"and it is easy to customize with  Customization Options. This theme is "
+"specailly designed for photo blogging, photo sharing and well suited for "
+"travel, food, life style, sports etc. A translation ready theme with major "
+"browser supportive. Infinite Photography is responsive theme which is "
+"compatible with all types of devices. Whole site color can be changed with a "
+"single click. Replaceable logo, different layout of home page and category "
+"page, social icons integrated, own copyright text etc. Site can be managed "
+"with left sidebar, right sidebar and full width. Create your website using "
+"Infinite Photography which will provide you the awesome experience on photo "
+"blogging or other normal websites too."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "acmethemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.acmethemes.com/"
+msgstr ""

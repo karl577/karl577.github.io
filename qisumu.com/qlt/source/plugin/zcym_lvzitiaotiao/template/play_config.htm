@@ -1,0 +1,46 @@
+
+<strong>{lang zcym_lvzitiaotiao:clear_phb}</strong>
+<br><br>
+<div style="height:50px;width:500px;float: left;">
+{lang zcym_lvzitiaotiao:clear_describe}
+</div>
+<form method="post" style="float: left;margin-left: 50px;" onsubmit="return confirm('{lang zcym_lvzitiaotiao:clear_sure}');">
+<input type="hidden" name="act" value="798" />
+<input type="hidden" name="formhash" value="{FORMHASH}" />
+<input type="submit" value="{lang zcym_lvzitiaotiao:clear_phb}" class="btn" style="margin-left: 10px;vertical-align:middle" />
+</form>
+
+<br style="clear: both;">
+<br>
+<hr>
+<br><br>
+<strong style="float: left;">{lang zcym_lvzitiaotiao:phb_m}</strong>
+<form method="post" style="float: left;margin-left: 50px;">
+{lang zcym_lvzitiaotiao:q}
+<input type="text" name="psize" value="{$psize}" />
+{lang zcym_lvzitiaotiao:m}
+<input type="hidden" name="formhash" value="{FORMHASH}" />
+<input type="submit" value="{lang zcym_lvzitiaotiao:phb_select}" class="btn" style="margin-left: 10px;vertical-align:middle" />
+</form>
+<br><br>
+<table class="tb tb2 fixpadding" style="width: 600px;">
+	<tbody>
+		<tr class="header">
+			<th>{lang zcym_lvzitiaotiao:phb_pm}</th>
+			<th>{lang zcym_lvzitiaotiao:phb_uid}</th>
+			<th>{lang zcym_lvzitiaotiao:phb_yhm}</th>
+			<th>{lang zcym_lvzitiaotiao:phb_score}</th>
+		</tr>
+		<!--{loop $phb_datas $k $val}-->
+		<tr>
+			<td class="td24">{lang zcym_lvzitiaotiao:d} {eval echo $k+1;} {lang zcym_lvzitiaotiao:m}</td>
+			<td class="td24">{$val['g_uid']}</td>
+			<td class="td24">{$val['username']}</td>
+			<td>{$val['score']}</td>
+		</tr>
+		<!--{/loop}-->
+		<tr>
+			<td colspan="4">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,20 @@
+@media (min-width: 1200px) {
+	.navbar > .container .navbar-brand {margin-left: 0; border-top: 4px solid #f9b41c; margin-top: -4px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar > .container .navbar-brand {margin-left: 0; border-top: 4px solid #f9b41c; margin-top: -4px;}
+	.home-grid-sm .img-div {height: 152px;}
+	.carousel-inner .img-div {height: 213px;}
+	.carousel-caption {height: 223px;}
+	#home-grid-two-left .img-div {width: 156px; height: 208px;}
+	#home-grid-two-right .img-div {height: 208px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar > .container .navbar-brand {margin-left: 0; border-top: 4px solid #f9b41c; margin-top: -4px;}
+}
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 480px) {
+	
+}

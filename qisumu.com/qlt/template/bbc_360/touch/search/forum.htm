@@ -1,0 +1,32 @@
+<!--{template common/header}-->
+<!-- header start -->
+<div class="header">
+    <div id="hd" class="cl">
+    	<div class="hdc">
+            <a href="javascript:;" onclick="history.go(-1)" class="hd_left iconfont icon-arrowleft"></a>
+            <div class="hd_name"><h2>{lang search}</h2></div>
+        </div>
+	</div>
+</div>
+<!-- header end -->
+<div class="tabbox">
+    <div class="bd">
+    <form id="searchform" class="searchform boxbgfff" method="post" autocomplete="off" action="search.php?mod=forum&mobile=2">
+        <input type="hidden" name="formhash" value="{FORMHASH}" />
+    
+        <!--{subtemplate search/pubsearch}-->
+    
+        <!--{eval $policymsgs = $p = '';}-->
+        <!--{loop $_G['setting']['creditspolicy']['search'] $id $policy}-->
+        <!--{block policymsg}--><!--{if $_G['setting']['extcredits'][$id][img]}-->$_G['setting']['extcredits'][$id][img] <!--{/if}-->$_G['setting']['extcredits'][$id][title] $policy $_G['setting']['extcredits'][$id][unit]<!--{/block}-->
+        <!--{eval $policymsgs .= $p.$policymsg;$p = ', ';}-->
+        <!--{/loop}-->
+        <!--{if $policymsgs}--><p>{lang search_credit_msg}</p><!--{/if}-->
+    </form>
+    
+    <!--{if !empty($searchid) && submitcheck('searchsubmit', 1)}-->
+        <!--{subtemplate search/thread_list}-->
+    <!--{/if}-->
+    </div>
+</div>
+<!--{template common/footer}-->

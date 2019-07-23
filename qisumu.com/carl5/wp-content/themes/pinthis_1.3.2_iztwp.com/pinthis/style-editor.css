@@ -1,0 +1,162 @@
+/*
+
+Theme Name: PinThis
+Description: Used to style the TinyMCE editor.
+
+*/
+
+
+/*====================================*\
+	FONTS
+\*====================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic&subset=latin,cyrillic);
+
+/*====================================*\
+	GENERAL
+\*====================================*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html .mceContentBody {
+	color: #333;
+	font-size: 13px;
+	line-height: 21px;
+	padding: 0 20px 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*====================================*\
+	TEXT
+\*====================================*/
+
+a {
+	color: #11A8AB;
+	text-decoration: none;
+}
+a:hover {
+	color: #333;
+}
+h1 {
+	font-size: 18px;
+	line-height: 26px;
+}
+h2 {
+	font-size: 17px;
+	line-height: 25px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 24px;
+}
+h4 {
+	font-size: 15px;
+	line-height: 23px;
+}
+h5 {
+	font-size: 14px;
+	line-height: 22px;
+}
+h6 {
+	font-size: 13px;
+	line-height: 21px;
+}
+p, ul, ol, address, pre, h1, h2, h3, h4, h5, h6 {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+ul, ol {
+	list-style-position: inside;	
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-left: 30px;
+	margin-top: 0;
+}
+dl dd {
+	margin-left: 30px;
+}
+blockquote {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-style: italic;
+}
+pre {
+	white-space: pre; 
+	white-space: pre-wrap; 
+	word-wrap: break-word;	
+}
+table {
+	width: 100%;		
+}
+table th {
+	font-weight: normal;
+	text-align: left;
+	padding: 4px 10px 5px;		
+}
+table td {
+	padding: 4px 10px 5px;
+	border-bottom: 1px solid #333;	
+}
+a + br {
+	display: none;	
+}
+.mceTemp {
+	clear: both;	
+}
+.wp-caption {
+	margin-top: 20px;
+	width: auto !important;
+	background-color: transparent;
+	border: none;	
+}
+.wp-caption.alignleft {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	margin-top: 26px;	
+}
+.wp-caption.alignright {
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	margin-top: 26px;	
+}
+.wp-caption.aligncenter {
+	width: inherit !important;
+	text-align: center;	
+}
+.wp-caption .wp-caption-text, .wp-caption-dd {
+    color: #999;
+	font-size: 13px;
+	line-height: 17px;
+    padding-top: 5px;
+	margin-top: 0;	
+}
+
+/*====================================*\
+	IMAGES
+\*====================================*/
+
+img {
+	max-width: 100%;
+	height: auto;	
+}
+img.alignleft {
+	float: left;
+	margin-top: 7px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+img.alignright {
+	float: right;
+	margin-top: 7px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+.aligncenter {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}

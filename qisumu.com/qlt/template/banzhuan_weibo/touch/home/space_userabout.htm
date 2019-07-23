@@ -1,0 +1,115 @@
+
+<div id="pcd" class="bm cl">
+	
+	<!--{eval $encodeusername = rawurlencode($space[username]);}-->
+	<div>
+		<div>
+			<div class="banzhuan-userinfo-pic"><a><!--{avatar($space[uid],middle)}--></a></div>
+			<div class="banzhuan-userinfo-name">
+				<p>$space[username]<em class="color-c">UID: {$space[uid]}<!--{eval $isfriendinfo = 'home_friend_info_'.$space['uid'].'_'.$_G[uid];}--><!--{if $_G[$isfriendinfo][note]}-->, <em>$_G[$isfriendinfo][note]</em><!--{/if}--></em></p>
+				<p class="color-c">
+		                {lang usergroup}&nbsp;:&nbsp;<span style="color:{$space[group][color]}"{if $upgradecredit !== false} class="xi2" onmouseover="showTip(this)" tip="{lang credits} $space[credits], {lang thread_groupupgrade} $upgradecredit {lang credits}"{/if}><a class="color-c">{$space[group][grouptitle]}</a></span> {$space[group][icon]} <!--{if !empty($space['groupexpiry'])}-->&nbsp;{lang group_useful_life}&nbsp;<!--{date($space[groupexpiry], 'Y-m-d H:i')}--><!--{/if}-->
+		                <!--{if $space[extgroupids]}-->
+		                {lang group_expiry_type_ext}&nbsp;&nbsp;$space[extgroupids]
+		                <!--{/if}-->
+				</p>
+			</div>
+		</div>
+		
+		<ul class="cl ul_list">
+			
+			<!--{if $space[self]}-->
+
+			    <!--{hook/global_usernav_extra1}-->
+			   
+			    <!--{if $_G['group']['allowmanagearticle'] || $_G['group']['allowdiy']|| getstatus($_G['member']['allowadmincp'], 4) || getstatus($_G['member']['allowadmincp'], 2) || getstatus($_G['member']['allowadmincp'], 3) || in_array($_G['uid'], $_G['setting']['ext_portalmanager'])}-->
+			    
+			    <!--{/if}-->
+			    <!--{if $_G['uid'] && $_G['group']['radminid'] > 1}-->
+			    
+			    <!--{/if}-->
+			    <!--{if $_G['uid'] && ($_G['group']['radminid'] == 1 || getstatus($_G['member']['allowadmincp'], 1))}-->
+			    
+			    <!--{/if}-->
+			    <!--{hook/global_usernav_extra2}-->
+
+
+			<div id="hd" class="cl">
+				<h2 id="spaceinfoshow">
+			        <!--{eval space_merge($space, 'field_home'); $space[domainurl] = space_domain($space);getuserdiydata($space);$personalnv = isset($_G['blockposition']['nv']) ? $_G['blockposition']['nv'] : '';}-->
+			        <span id="spacedescription" class="xs1 xw0 mtn">$space[spacedescription]</span>
+		        </h2>
+				<!--{subtemplate home/space_header_personalnv}-->
+			</div>
+
+			<!--{else}-->
+			
+			<!--{if helper_access::check_module('follow') && $space[uid] != $_G[uid]}-->
+			<div class="hd-others">
+			    <ul>
+			    <li class="ul_flw">
+				     <!--{eval $follow = 0;}-->
+				     <!--{eval $follow = C::t('home_follow')->fetch_all_by_uid_followuid($_G['uid'], $space['uid']);}-->
+				     <!--{if !$follow}-->
+				     <a id="followmod" onclick="showWindow(this.id, this.href, 'get', 0);" href="home.php?mod=spacecp&ac=follow&op=add&hash={FORMHASH}&fuid=$space[uid]" class="iconfont icon-guanzhu">&nbsp;关注</a>
+				     <!--{else}-->
+				     <a id="followmod" onclick="showWindow(this.id, this.href, 'get', 0);" href="home.php?mod=spacecp&ac=follow&op=del&fuid=$space[uid]" class="iconfont icon-quxiaoguanzhu">&nbsp;取消关注</a>
+				     <!--{/if}-->
+			    </li>
+			<!--{/if}-->
+			<!--{eval require_once libfile('function/friend');$isfriend=friend_check($space[uid]);}-->
+			<!--{if !$isfriend}-->
+			<!--{else}-->
+			<!--{/if}-->
+			
+			<!--{if helper_access::check_module('wall')}-->
+			<!--{/if}-->
+
+			<li class="ul_pm">
+				<a href="home.php?mod=spacecp&ac=pm&op=showmsg&handlekey=showmsg_$space[uid]&touid=$space[uid]&pmid=0&daterange=2" id="a_sendpm_$space[uid]" onclick="showWindow('showMsgBox', this.href, 'get', 0)" class="iconfont icon-comment">&nbsp;{lang send_pm}</a>
+			</li>
+
+			</ul>
+			</div>
+			<!--{/if}-->
+			
+		</ul>
+		
+		<!--{if checkperm('allowbanuser') || checkperm('allowedituser') || $_G[adminid] == 1}-->
+		<ul class="xl xl2 cl">
+			<!--{if checkperm('allowbanuser') || checkperm('allowedituser')}-->
+
+				<!--{if checkperm('allowbanuser')}-->
+				
+				<!--{else}-->
+				
+				<!--{/if}-->
+
+			<!--{/if}-->
+
+			<!--{if $_G[adminid] == 1}-->
+
+			<!--{/if}-->
+		</ul>
+		<!--{if checkperm('allowbanuser') || checkperm('allowedituser')}-->
+
+		<!--{/if}-->
+		<!--{if $_G['adminid'] == 1}-->
+		<!--{/if}-->
+		<!--{/if}-->
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	function succeedhandle_followmod(url, msg, values) {
+		var fObj = $('followmod');
+		if(values['type'] == 'add') {
+			fObj.innerHTML = '{lang follow_del}';
+			fObj.href = 'home.php?mod=spacecp&ac=follow&op=del&fuid=' + values['fuid'];
+		} else if(values['type'] == 'del') {
+			fObj.innerHTML = '{lang follow_add}TA';
+			fObj.href = 'home.php?mod=spacecp&ac=follow&op=add&hash={FORMHASH}&fuid=' + values['fuid'];
+		}
+	}
+</script>

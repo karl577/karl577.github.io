@@ -1,0 +1,284 @@
+# Translation of Themes - Relativity in Chinese (China)
+# This file is distributed under the same license as the Themes - Relativity package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-12 18:40:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Relativity\n"
+
+#. Description of the plugin/theme
+msgid "A simple, one column WordPress theme for personal blogs. Useful as a starting point for your own customizations as well."
+msgstr "为个人博客设计的一个简单的，专栏WordPress主题。作为您自己的自定义的起点也有用处。"
+
+#. Theme Name of the plugin/theme
+msgid "Relativity"
+msgstr "Relativity"
+
+#: inc/customizer.php:91
+msgid "Teal"
+msgstr "蓝绿"
+
+#: inc/customizer.php:90
+msgid "Green"
+msgstr "绿色"
+
+#: inc/customizer.php:89
+msgid "Red"
+msgstr "红"
+
+#: inc/customizer.php:88
+msgid "Blue"
+msgstr "蓝色"
+
+#: inc/customizer.php:87
+msgid "Default"
+msgstr "默认值"
+
+#: inc/customizer.php:42
+msgid "Color scheme"
+msgstr "颜色方案"
+
+#: functions.php:103
+msgid "Footer Widget Area"
+msgstr "页脚挂件区"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读%s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:25 template-parts/content-single.php:29
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr "页"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布第一篇文章了？<a href=\"%1$s\">从这里开始</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "未有发现"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "针对以下内容的搜索结果：%s"
+
+#: inc/template-tags.php:123
+msgid "Archives"
+msgstr "存档"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:121
+msgid "%1$s: %2$s"
+msgstr "%1$s：%2$s"
+
+#: inc/template-tags.php:117
+msgid "Archives: %s"
+msgstr "存档：%s"
+
+#: inc/template-tags.php:114
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "聊天"
+
+#: inc/template-tags.php:112
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "音频"
+
+#: inc/template-tags.php:110
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "状态"
+
+#: inc/template-tags.php:108
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "链接"
+
+#: inc/template-tags.php:106
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "引语"
+
+#: inc/template-tags.php:104
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "视频"
+
+#: inc/template-tags.php:102
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "图像"
+
+#: inc/template-tags.php:100
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "相册"
+
+#: inc/template-tags.php:98
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "日志"
+
+#: inc/template-tags.php:95
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: inc/template-tags.php:95
+msgid "Day: %s"
+msgstr "日期：%s"
+
+#: inc/template-tags.php:93
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: inc/template-tags.php:93
+msgid "Month: %s"
+msgstr "月份：%s"
+
+#: inc/template-tags.php:91
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: inc/template-tags.php:91
+msgid "Year: %s"
+msgstr "年份：%s"
+
+#: inc/template-tags.php:89
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: inc/template-tags.php:87
+msgid "Tag: %s"
+msgstr "标签：%s"
+
+#: inc/template-tags.php:85
+msgid "Category: %s"
+msgstr "分类：%s"
+
+#: inc/template-tags.php:68 template-parts/content-page.php:32
+msgid "Edit"
+msgstr "离开"
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "%条评论"
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "一条评论"
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "发表回复"
+
+#: inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr "标签：%1$s"
+
+#: inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr "张贴在%1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr "、"
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "由 %s"
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: header.php:42
+msgid "Menu"
+msgstr "菜单"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "跳至内容"
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr "主要菜单"
+
+#: footer.php:26
+msgid "Built with %1$s at %2$s."
+msgstr "%2$s细心地为您设计。"
+
+#: footer.php:24
+msgid "Proudly powered by %s"
+msgstr "由 %s 强力驱动"
+
+#: footer.php:24
+msgid "http://wordpress.org/"
+msgstr "http://cn.wordpress.org/"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "较新评论"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "较早评论"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "《%2$s》有%1$s个想法"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr " 看起来这个位置没有内容，试试下面的链接或搜索一下或许有帮助。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "有点尴尬诶！该页无法显示。"
+
+#. Theme URI of the plugin/theme
+msgid "https://magikpress.com/themes/relativity/"
+msgstr "https://magikpress.com/themes/relativity/"
+
+#. Author URI of the plugin/theme
+msgid "http://grv.rocks/"
+msgstr "http://grv.rocks/"
+
+#. Author of the plugin/theme
+msgid "Gaurav Pareek"
+msgstr "Gaurav Pareek"

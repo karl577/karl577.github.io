@@ -1,0 +1,838 @@
+# Translation of Book Rev Lite in Chinese (China)
+# This file is distributed under the same license as the Book Rev Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-06 11:24:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Book Rev Lite\n"
+
+#. Theme Name of the plugin/theme
+msgid "Book Rev Lite"
+msgstr "Book Rev Lite"
+
+#. Description of the plugin/theme
+msgid "Book Rev Lite is a free book review WordPress Theme. The responsive, clean and modern design includes tools for presenting your books/products in a beautiful way, you can easily add adsense ads, google fonts, custom colors, slider support and the pro version has also ecommerce ( Woocommerce ) integration.Works great for product review and amazon affiliate sites."
+msgstr "Book Rev Lite 是一个免费的书评WordPress主题，响应灵敏，设计简洁而现代化，还包括可以使您的书籍、产品完美呈现的小工具。您可以很容易地添加广告、使用google字体、更换习惯的颜色和放映幻灯片。预览版已结合电子商务（Woocommerce）。完美适用于产品评论和Amazon子网站。"
+
+#: class-tgm-plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在升级 %1$s 插件（%2$d/%3$d）"
+
+#: class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "当前无可更新插件。"
+
+#: class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "未选中插件激活。无动作进行。"
+
+#: class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "当前无可激活插件。"
+
+#: class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "未选中插件安装。无动作进行。"
+
+#: class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "未选中插件更新。无动作进行。"
+
+#: class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "当前无可安装插件。"
+
+#: class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "更新"
+
+#: class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "安装%2$s"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "更新%2$s"
+
+#: class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "激活%2$s"
+
+#: class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "来自插件制作者的升级信息。"
+
+#: class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "版本"
+
+#: class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "可获得版本："
+
+#: class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "无插件更新，安装或激活。<a href=\"%1$s\">返回主控页面</a>"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "激活<span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "已安装版本："
+
+#: class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "最低需要版本："
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "可供更新 <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "安装<span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部 <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "更新推荐"
+
+#: class-tgm-plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "无可获得更新"
+
+#: class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "已激活"
+
+#: class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "外部源"
+
+#: class-tgm-plugin-activation.php:935 class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "请联系插件提供者，请求他们依据WordPress指导打包插件。"
+
+#: class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "远程插件安装包中含有多个文件，这些文件不在一个文件夹中。"
+
+#: class-tgm-plugin-activation.php:1116 class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#: class-tgm-plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系网站管理员寻求帮助"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "该插件需要更新，以便与您的主题相兼容。"
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "必需更新"
+
+#: class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "设置parent_slug配置变量替换。"
+
+#: class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "远程插件安装包中不包含所需slug的文件，重命名无效。"
+
+#: class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "无动作进行。插件%1$s已激活。"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "插件未激活。这个主题需要更高版本的 %s 。请更新插件。"
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+
+#: class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "这里有一个可获得更新：%1$s"
+
+#: class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "抱歉，您不具备更新该插件 %1$s 的许可"
+
+#: class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "抱歉，您不具备安装该插件%1$s的许可。"
+
+#: class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "抱歉，您不具备激活该插件 %1$s 的许可。"
+
+#: templates/bookrev_slider_template.php:94
+msgid "Read More"
+msgstr "阅读更多"
+
+#: templates/bookrev_slider_template.php:80
+msgid "1 Comment"
+msgstr "一条评论"
+
+#: templates/bookrev_review_wrap_up_template.php:9
+msgid "Wrap Up"
+msgstr "圆满完成"
+
+#: templates/bookrev_comments_cb_template.php:65
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正等待审核。"
+
+#: templates/bookrev_comments_cb_template.php:57
+msgid " at "
+msgstr "在"
+
+#: templates/bookrev_comments_cb_template.php:17
+msgid "Pingback:"
+msgstr "Pingback引用通告："
+
+#: single.php:54
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:53
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:35
+msgid ", "
+msgstr "、"
+
+#: single.php:35
+msgid "Tags: "
+msgstr "标签："
+
+#: index.php:49
+msgid "There are no search results for: %s"
+msgstr "未搜索到任何关于%s的结果"
+
+#: searchform.php:5
+msgid "Search for something"
+msgstr "搜索"
+
+#: index.php:23
+msgid "Search results for: %s"
+msgstr "%s的搜索结果"
+
+#: inc/cc_settings.php:2306
+msgid "Typography"
+msgstr "排版"
+
+#: inc/cc_settings.php:1144
+msgid "Logo Width"
+msgstr "标识宽度"
+
+#: inc/cc_settings.php:1186
+msgid "Logo Height"
+msgstr "标识高度"
+
+#: inc/cc_settings.php:1208
+msgid "Main Page"
+msgstr "主页"
+
+#: inc/cc_settings.php:1210
+msgid "Here you can customize the way you want your main page to look and choose a predefined template for it."
+msgstr "在这里您可以自定义您希望您的主页呈现出的样子，选择一个适合的模板。"
+
+#: inc/cc_settings.php:1232
+msgid "Display Slider"
+msgstr "展示幻灯片"
+
+#: inc/cc_settings.php:1256
+msgid "Display Featured Category Block"
+msgstr "展示特色分类区块"
+
+#: inc/cc_settings.php:1280
+msgid "Display Latest Articles Carousel Block"
+msgstr "展示最新文章区块"
+
+#: inc/cc_settings.php:1336
+msgid "Slider Reviews Category"
+msgstr "幻灯片评论目录"
+
+#: inc/cc_settings.php:1582 inc/cc_settings.php:1662
+msgid "Latest Articles Block - Article Count"
+msgstr "Latest Articles Block - Article Count"
+
+#: inc/cc_settings.php:1496
+msgid "Latest Reviews"
+msgstr "最新评论"
+
+#: inc/cc_settings.php:1620
+msgid "Layout Type"
+msgstr "页面类型"
+
+#: inc/cc_settings.php:1568 inc/cc_settings.php:1648
+msgid "5"
+msgstr "5"
+
+#: inc/cc_settings.php:1686
+msgid "Main Page Background Colors"
+msgstr "主页背景颜色"
+
+#: inc/cc_settings.php:2308
+msgid "Change the typography of your theme and the color of your content the way you want."
+msgstr "请按照您想要的方式改变您主题的排版和内容的颜色。"
+
+#: inc/cc_settings.php:2379
+msgid "Primary Font (Titles)"
+msgstr "首选字体（标题）"
+
+#: inc/cc_settings.php:2397
+msgid "Secondary Font (Content)"
+msgstr "备选字体（内容）"
+
+#: inc/cc_settings.php:2415
+msgid "Meta Font"
+msgstr "模块字体"
+
+#: inc/cc_settings.php:1934
+msgid "Articles Background Color "
+msgstr "文章背景颜色"
+
+#: inc/cc_settings.php:1984
+msgid "Pagination Background Color "
+msgstr "分页背景颜色"
+
+#: inc/cc_settings.php:1834
+msgid "Latest Articles Block Item Hover Background Color "
+msgstr "最新文章区块项目悬停背景色"
+
+#: inc/cc_settings.php:1734
+msgid "Featured Category Block Background Color "
+msgstr "特色目录区块背景色"
+
+#: inc/cc_settings.php:1784
+msgid "Latest Articles Block Background Color "
+msgstr "最新文章区块背景色"
+
+#: inc/cc_settings.php:1546
+msgid "Latest Articles Block Category"
+msgstr "最新文章区块目录"
+
+#: inc/cc_settings.php:1688
+msgid "For more color customization options check out the <a href='https://themeisle.com/themes/bookrev/'>PRO version</a>!"
+msgstr "如果您需要更多色彩自定义选项，请查看这里<a href='https://themeisle.com/themes/bookrev/'>专业版</a>!"
+
+#: inc/cc_settings.php:1512
+msgid "Latest Articles Block Title"
+msgstr "最新文章区块标题"
+
+#: inc/cc_settings.php:1370
+msgid "Featured Category Block Category"
+msgstr "特色目录区块目录"
+
+#: inc/cc_settings.php:1404
+msgid "Highlight of the Day Category"
+msgstr "今日亮点目录"
+
+#: inc/cc_settings.php:1426
+msgid "Highlight of the Day"
+msgstr "今日亮点"
+
+#: inc/cc_settings.php:1440
+msgid "Highlight of the Day Title"
+msgstr "今日亮点标题"
+
+#: inc/cc_settings.php:1460
+msgid "Featured from {{category_selected}}"
+msgstr "特色来自于 {{目录_选择}}"
+
+#: inc/cc_settings.php:1474
+msgid "Featured Category Block Title"
+msgstr "特色目录区块标题"
+
+#: inc/cc_settings.php:1304
+msgid "Display Highlight of the Day Block"
+msgstr "展示今日亮点区块"
+
+#: inc/cc_settings.php:1884
+msgid "Highlight of the Day Block Background Color "
+msgstr "今日亮点区块背景色"
+
+#: inc/cc_settings.php:2034
+msgid "Pagination Button Color "
+msgstr "分页按钮颜色"
+
+#: inc/cc_settings.php:2084
+msgid "Pagination Button Color Hover "
+msgstr "分页按钮色彩悬停"
+
+#: inc/cc_settings.php:2134
+msgid "Pagination Button Color Active "
+msgstr "分页按钮色彩激活"
+
+#: inc/cc_settings.php:2184
+msgid "Block Header Background Color "
+msgstr "区块标题背景颜色"
+
+#: inc/cc_settings.php:2234
+msgid "Widget Header Background Color "
+msgstr "微件标题背景颜色"
+
+#: inc/cc_settings.php:2284
+msgid "Widget Header Top Border Color "
+msgstr "微件标题顶端边框颜色"
+
+#: inc/cc_settings.php:754
+msgid "Footer Logo Image"
+msgstr "页脚标识图片"
+
+#: inc/cc_settings.php:788
+msgid "Display Footer Logo Image"
+msgstr "展示页脚标识图片"
+
+#: inc/cc_settings.php:808
+msgid "Header Settings"
+msgstr "标题设置"
+
+#: inc/cc_settings.php:810
+msgid "Customize the header of your website by changing the background color of the header or menu. Also set up your logo and choose whether to display the header advertisment banner (468x61) or not. , "
+msgstr "通过改变标题或菜单的背景色个性化您网站的标题。建立您的标识并选择是否展示标题广告横幅（468x61）。"
+
+#: inc/cc_settings.php:838
+msgid "Display Advertisment"
+msgstr "展示广告"
+
+#: inc/cc_settings.php:888
+msgid "Header Background Color"
+msgstr "标题背景色"
+
+#: inc/cc_settings.php:1102
+msgid "Logo"
+msgstr "标识"
+
+#: inc/cc_settings.php:938
+msgid "Header Menu Background Color"
+msgstr "标题菜单背景颜色"
+
+#: inc/cc_settings.php:978
+msgid "Advertisment Banner Image"
+msgstr "广告横幅图片"
+
+#: inc/cc_settings.php:1018
+msgid "Advertisment Banner URL"
+msgstr "广告横幅链接"
+
+#: inc/cc_settings.php:1062
+msgid "Advertisment Banner Description"
+msgstr "广告横幅描述"
+
+#: inc/cc_settings.php:1046
+msgid "This is the default advertisment banner that comes with the theme. You can change it using the WordPress Customizer."
+msgstr "这是本主题自带的默认广告横幅。您可以使用WordPress自定义来更改它。"
+
+#: inc/cc_settings.php:714
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/cc_settings.php:616
+msgid "Copyright Text"
+msgstr "版权说明"
+
+#: inc/cc_settings.php:233
+msgid "Set up the social links that you would like to display in the header. We recommend to display maximum 5 icons so the design doesn't break."
+msgstr "建立您希望展示在标题的社交链接。我们推荐您最多展示五个社交图标，以免影响页面整体设计。"
+
+#: inc/cc_settings.php:575
+msgid "Footer Settings"
+msgstr "页脚设置"
+
+#: inc/cc_settings.php:577
+msgid "Customize the footer by changing the background color, logo or the copyright text."
+msgstr "通过改变背景颜色、标识或版权说明来自定义页脚。"
+
+#: inc/cc_settings.php:664
+msgid "Lower Footer Background Color"
+msgstr "页脚下方背景颜色"
+
+#: inc/cc_settings.php:231
+msgid "Social Links"
+msgstr "社交链接"
+
+#: inc/cc_settings.php:130
+msgid "Check out the <a href=\"https://themeisle.com/themes/bookrev/\">PRO version</a> to be able to use this widget!"
+msgstr "查看 <a href=\"https://themeisle.com/themes/bookrev/\">专业版</a> 能够使用该微件！"
+
+#: inc/cc_settings.php:138
+msgid "Check out the <a href=\"https://themeisle.com/themes/bookrev/\">PRO version</a> to be able to use this template!"
+msgstr "查看<a href=\"https://themeisle.com/themes/bookrev/\">专业版</a> 能够使用该模板！"
+
+#: inc/cc_settings.php:150
+msgid "BookRev Featured Reviews widget"
+msgstr "BookRev 特色评论微件"
+
+#: inc/cc_settings.php:152
+msgid "This widget displays the latest reviews from a specific category."
+msgstr "这个微件显示一个特定类别的最新评论。"
+
+#: inc/cc_settings.php:177
+msgid "BookRev Latest Comments widget"
+msgstr "BookRev最新评论微件"
+
+#: inc/cc_settings.php:179
+msgid "This widget displays the latest comments."
+msgstr "这个微件展示了最新评论"
+
+#: inc/cc_settings.php:205
+msgid "Full width template page"
+msgstr "全宽模板页面"
+
+#: inc/cc_settings.php:50
+msgid "Default Post Featured Image"
+msgstr "无效的文章特色图片"
+
+#: inc/cc_settings.php:82
+msgid "Default Product Image"
+msgstr "无效的产品图片"
+
+#: inc/cc_settings.php:114
+msgid "Website Favicon"
+msgstr "网站图标"
+
+#: inc/cc_settings.php:22
+msgid "General Settings"
+msgstr "常规选项"
+
+#: functions.php:553
+msgid "Default Title"
+msgstr "无效标题"
+
+#: functions.php:296
+msgid "Page %s"
+msgstr "第%s页"
+
+#: functions.php:172
+msgid "All plugins installed and activated successfully. %s"
+msgstr "所有插件均已成功安装并激活。%s"
+
+#: functions.php:166
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "激活已安装插件"
+
+#: functions.php:37
+msgid "Top Bar Menu"
+msgstr "顶端菜单栏"
+
+#: functions.php:36
+msgid "Primary Header Menu"
+msgstr "主标题菜单"
+
+#: class-tgm-plugin-activation.php:336 functions.php:146
+msgid "Something went wrong with the plugin API."
+msgstr "插件API发生错误。"
+
+#: footer.php:80
+msgid "powered by"
+msgstr "建立者"
+
+#: footer.php:75 inc/cc_settings.php:602
+msgid "Copyright 2015 ThemeIsle"
+msgstr "版权所有2015 ThemeIsle"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:35
+msgid "Newer Comments"
+msgstr "较新评论"
+
+#: comments.php:33
+msgid "Older Comments"
+msgstr "较早评论"
+
+#: comments.php:13 templates/bookrev_slider_template.php:80
+msgid "% Comments"
+msgstr "%条评论"
+
+#: comments.php:13
+msgid "One Comment"
+msgstr "1 评论"
+
+#: comments.php:13 templates/bookrev_slider_template.php:80
+msgid "No Comments"
+msgstr "没有评论"
+
+#: comment-form.php:41
+msgid "Your Message..."
+msgstr "您的信息..."
+
+#: comments.php:3
+msgid "Sorry but this article is password protected."
+msgstr "抱歉，这篇文章有密码保护。"
+
+#: comment-form.php:31
+msgid "Website"
+msgstr "站点"
+
+#: comment-form.php:29
+msgid "Email"
+msgstr "电子邮件"
+
+#: comment-form.php:27
+msgid "Name"
+msgstr "姓名"
+
+#: class-tgm-plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件 %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "所有安装均已完成。"
+
+#: class-tgm-plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "成功安装%1$s"
+
+#: class-tgm-plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "%1$s安装失败。"
+
+#: class-tgm-plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装%1$s时出错：<strong>%2$s</strong>"
+
+#: class-tgm-plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装和激活插件%1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安装过程即将开始。这个过程可能会持续一段时间，所以请您保持耐心。"
+
+#: class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "所有安装和激活过程均已完成。"
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "显示详情"
+
+#: class-tgm-plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "安装并激活%1$s成功。"
+
+#: class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安装和激活过程即将开始。这个过程可能会持续一段时间，请保持耐心。"
+
+#: class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "状态"
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "类型"
+
+#: class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "源"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "插件"
+
+#: class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "启用"
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "安装"
+
+#: class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "未安装"
+
+#: class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "推荐"
+
+#: class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "必填"
+
+#: class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "WordPress 库"
+
+#: class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "预包装"
+
+#: class-tgm-plugin-activation.php:828 class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "返回主控页面"
+
+#: class-tgm-plugin-activation.php:400 class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "以下插件已激活成功："
+
+#: class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件均已成功安装并激活。%1$s"
+
+#: class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "关闭该通知"
+
+#: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3029
+#: functions.php:170
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "返回主控页面"
+
+#: class-tgm-plugin-activation.php:397 functions.php:168
+msgid "Return to Required Plugins Installer"
+msgstr "返回所需插件安装界面"
+
+#: class-tgm-plugin-activation.php:382 functions.php:164
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+
+#: class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+
+#: functions.php:162
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "抱歉，您不具备更新该插件%s 的许可。请联系网站管理员帮助您更新该插件。"
+
+#: class-tgm-plugin-activation.php:352 functions.php:160
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新到最新的版本，以确保与这一主题的最大兼容性： %1$s。"
+
+#: functions.php:158
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "抱歉，您不具备激活该插件%s 的许可。请联系网站管理员帮助您激活该插件。"
+
+#: class-tgm-plugin-activation.php:367 functions.php:154
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下必需的插件是当前处于非活动状态： %1$s。"
+
+#: class-tgm-plugin-activation.php:372 functions.php:156
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐插件是当前处于非活动状态： %1$s。"
+
+#: functions.php:152
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "抱歉，您不具备安装该插件%s的许可。请联系网站管理员帮助您安装该插件。"
+
+#: class-tgm-plugin-activation.php:337 functions.php:148
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "这一主题需要以下插件： %1$s。"
+
+#: class-tgm-plugin-activation.php:342 functions.php:150
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "这个主题推荐以下插件：%1$s"
+
+#: class-tgm-plugin-activation.php:335 functions.php:144
+msgid "Installing Plugin: %s"
+msgstr "正在安装插件：%s"
+
+#: class-tgm-plugin-activation.php:334 functions.php:142
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: class-tgm-plugin-activation.php:333 functions.php:140
+msgid "Install Required Plugins"
+msgstr "安装必需插件"
+
+#: 404.php:35
+msgid "404 Error!"
+msgstr "404 Error!"
+
+#: 404.php:37
+msgid "The page you are looking for could not be found!"
+msgstr "未找到您搜索的网页！"
+
+#. Author of the plugin/theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/bookrev-lite/"
+msgstr "https://themeisle.com/themes/bookrev-lite/"

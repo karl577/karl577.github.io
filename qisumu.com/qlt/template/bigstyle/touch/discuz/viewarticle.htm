@@ -1,0 +1,10 @@
+<!--{template common/mwt_frame}-->
+<!--{template common/mwt_style}-->
+<script>
+jQuery(document).ready(function($) {
+    var aid = '{$_GET[aid]}';
+	require(["jsapp","mwt"],function(jsapp){
+		jsapp.run("portal/view",aid);
+	});
+});
+</script>

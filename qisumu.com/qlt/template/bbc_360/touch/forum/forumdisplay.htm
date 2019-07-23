@@ -1,0 +1,68 @@
+<!--{template common/header}-->
+<!-- header start -->
+<div class="header">
+    <div id="hd" class="cl">
+    	<div class="hdc">
+            <a href="forum.php?forumlist=1" class="hd_left iconfont icon-arrowleft"></a>
+            <div class="hd_name"><h2><!--{if $_G['forum'][icon]}--><img alt="$_G['forum'][name]" src="data/attachment/common/$_G['forum'][icon]"><!--{/if}--><!--{eval echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];}--></h2></div>
+            <a href="home.php?mod=spacecp&ac=favorite&type=forum&id=$_G[fid]&handlekey=favoriteforum&formhash={FORMHASH}" class="hd_right iconfont icon-favorite"></a>
+        </div>
+	</div>
+</div>
+<!-- header end -->
+
+<!--{if $subexists}-->
+    <div class="forumlist boxbgfff">
+        <div class="sub_for2">
+            <ul>
+            <!--{loop $sublist $sub}-->
+                <li><a href="forum.php?mod=forumdisplay&fid={$sub[fid]}">{$sub['name']}</a></li>
+            <!--{/loop}-->
+            </ul>
+        </div>
+    </div>
+<!--{/if}--> 
+
+<!--{hook/forumdisplay_top_mobile}-->
+<!-- main threadlist start -->
+<!--{if !$subforumonly}-->
+    <div class="threadlist">
+        <!--{if $_G['forum_threadcount']}-->
+            <!--{loop $_G['forum_threadlist'] $key $thread}-->
+            <!--{if !$_G['setting']['mobile']['mobiledisplayorder3'] && $thread['displayorder'] > 0}-->
+                {eval continue;}
+            <!--{/if}-->
+            <!--{if $thread['displayorder'] > 0 && !$displayorder_thread}-->
+                {eval $displayorder_thread = 1;}
+            <!--{/if}-->
+            <!--{if $thread['moved']}-->
+                <!--{eval $thread[tid]=$thread[closed];}-->
+            <!--{/if}-->
+                <!--{hook/forumdisplay_thread_mobile $key}-->
+            <a href="forum.php?mod=viewthread&tid=$thread[tid]&extra=$extra" class="threadbox boxbgfff cl ">
+                <h3 $thread[highlight]>{$thread[subject]}</h3>
+                <div class="th_info">
+                    <!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+                    <span class="hot_label space">ÍÆ¼ö</span>
+                    <!--{elseif $thread['digest'] > 0}-->
+                    <span class="top_label space">¾«»ª</span>
+                    <!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+                    <span class="pic_label space"><i class="iconfont icon-iconfontshumajiadian"></i></span>
+                    <!--{/if}-->
+                    <span class="src space">{$thread[dateline]}</span>
+                    <span class="cmt space"><i class="iconfont icon-comments"></i>&nbsp;{$thread[replies]}</span>
+                    <span class="cmt space"><i class="iconfont icon-browse"></i>&nbsp;{$thread[views]}</span>
+                </div>
+            </a>
+            
+            <!--{/loop}-->
+        <!--{else}-->
+            <div class="nodata">{lang forum_nothreads}</div>
+        <!--{/if}-->
+    </div>
+    $multipage
+</div>
+<!--{/if}-->
+<!-- main threadlist end -->
+<!--{hook/forumdisplay_bottom_mobile}-->
+<!--{template common/footer}-->

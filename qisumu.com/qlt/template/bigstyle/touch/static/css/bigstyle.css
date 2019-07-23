@@ -1,0 +1,131 @@
+/* bigapp.css, (c) 2016 mawentao */
+
+body {background:#f2f2f2;}
+.footbar td {
+    background:#fff;
+	color:#999;
+}
+.footbar button {margin-top:5px;font-size:13px;}
+.weui_cell {background:#fff;}
+.weui_cells_title {
+	margin-bottom: 0;
+	padding: .2em 2px;
+}
+.noline:before {
+	border-top:none;
+}
+.noline:after {
+	border-bottom:none;
+}
+
+.blocktitle {border-left:solid 3px #ff8904;padding-left:5px;color:#ff8904}
+
+.quote {
+	background: #f2f2f2;
+	padding: 5px;
+	border-radius:2px;
+}
+
+.weui_cells_access .weui_cell_ft:after {
+	font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	content: "\e651";
+	display: inline-block;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    border: none;
+	font-size: 14px;
+	color: #aaa;
+}
+
+/* 溢出显示省略号的文字块 */
+.text-block-nowrap {
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nextbtn {
+	width: 100%;
+    padding: 10px 0;
+    background: #eee;
+    border: none;
+    color: #999;
+	text-align:center;
+	font-size: 12px;
+	outline:none;
+}
+
+/* 个人中心 & 用户空间 */
+.spacebg {text-align:center;padding:40px 0 20px 0;}
+.spacebg img {
+	width:60px; height:60px; border-radius:300px;
+}
+.spacebg p {
+	line-height:20px;
+	font-size: 16px;
+}
+.spacebg p span {
+	font-size: 13px;
+}
+
+
+/* 帖子详情中正文图片显示 */
+.content-div img {max-width:100%;}
+
+/* */
+.swiper-wrapper, .swiper-container {z-index:0;}
+
+/* 广告 */
+.ad {}
+.ad img {
+	position:absolute;
+	left:0;right:0;top:0;bottom:0;
+}
+.adtag {background:#eee;font-size:13px;color:#999;padding:2px 5px;border-radius:2px;
+    opacity: 0.9;
+	filter:alpha(opacity=90);
+    -moz-opacity:0.9;     
+    -khtml-opacity:0.9;
+}
+
+/* 门户 */
+.float_pannel td {background:#fff;color:#000;}
+
+.articletab {width:100%}
+.articletab img {width:80px;height:60px;border:solid 1px #f1f1f1;border-radius:4px;}
+.articletab .title {
+	color:#333;
+	font-size:16px;
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.articletab .summary {
+	color:#999;
+	font-size:13px;
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.articletab .date {font-size:12px;color:#999;}
+#article-content {padding:10px;}
+#article-content img {
+    max-width:100%;
+	font-family: 'microsoft yahei';
+}

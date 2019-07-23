@@ -1,0 +1,24 @@
+== Change log ==
+
+= 1.1.3 - May 29 2016 =
+* Add: Google plus social icon
+
+= 1.1.2 =
+* Upgrade to pro link added
+* Minor fixes
+
+= 1.1.1 =
+* Minor fixes
+
+= 1.1.0 =
+* Design major changed
+* Header text added
+* Minor fixes
+
+= 1.0.1 =
+* Theme Customizer Extended
+* Fixed and Extended CSS
+* Other major changes
+
+= 1.0.0 =
+* Submitted to WordPress.org

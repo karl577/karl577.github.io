@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Cache-control" content="{if $_G['setting']['mobile'][mobilecachetime] > 0}{$_G['setting']['mobile'][mobilecachetime]}{else}no-cache{/if}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="keywords" content="{if !empty($metakeywords)}{echo dhtmlspecialchars($metakeywords)}{/if}" />
+  <meta name="description" content="{if !empty($metadescription)}{echo dhtmlspecialchars($metadescription)} {/if},$_G['setting']['bbname']" />
+  <title><!--{if !empty($navtitle)}-->$navtitle - <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] - <!--{/if}--> {lang waptitle} - Powered by Discuz!</title>
+  <script src="{$_G['style']['directory']}/touch/static/libs/requirejs/2.1.9/require.js"></script>
+  <script src="{$_G['style']['directory']}/touch/static/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="{$_G['style']['directory']}/touch/static/libs/jquery/1.11.2/ajaxfileupload.js" charset="utf-8"></script>
+  <script src="{$_G['style']['directory']}/touch/static/dist-20160916112152/base.js" charset="utf-8"></script>
+<!-- qisumu.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?cd8191d648355b940efdb3f1ba7fb3a0";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+</body>
+</html>
+  <script type="text/javascript">
+	var pageOpenAnimate="fadeIn";
+    // dz环境参数
+    var dz = {
+        diylink : false,   //!< 是否启用模板自定义url(原生url无法使用模板时建议启用)
+        bodyWidth: document.body.offsetWidth,
+        bodyHeight: window.screen.availHeight,
+        charset : '{CHARSET}',
+        version : '$_G['setting']['version']',
+        mobileapi : '$_G['siteurl']api/mobile/index.php',
+        postseccheck: '$_G['setting']['seccodedata']['rule']['post']['allow']',
+
+        uid : '$_G[uid]',
+        groupid : '$_G[groupid]',
+        username : '$_G['username']',
+        avatar : '{avatar($_G['uid'],'',true)}',
+        bbname: '$_G['setting']['bbname']',
+        sitename : '$_G['setting']['sitename']',
+        siteurl  : '$_G['siteurl']',
+		sitelogo : '$_G['siteurl']static/image/mobile/images/logo.png',
+        //scriptfilename: '$_SERVER["SCRIPT_FILENAME"]',
+        pluginpath : './source/plugin',
+        mobile_plugins: [<!--{loop $_G['setting']['hookscriptmobile']['global']['common']['module'] $plugin $im}-->'$plugin', <!--{/loop}-->''],
+        stylepath: '{$_G['style']['directory']}',
+        securl: '$_G['siteurl']misc.php?mod=seccode&mobile=2',
+        loginurl: '$_G['siteurl']member.php?mod=logging&action=login&mobile=2',
+        hash: '<!--{eval echo md5(substr(md5($_G[config][security][authkey]), 8).$_G[uid])}-->'
+    };
+    // bigstyle 插件api
+    var bigstyle_api = false;
+    <!--{if isset($_G['bigstyle_config']['head_bgcolor'])}-->
+    bigstyle_api = "$_G['siteurl']/source/plugin/bigstyle/index.php?version=4&module=";
+    <!--{/if}-->
+
+    function dz_avatar(uid) {
+        var res = dz.avatar;
+        var i = dz.avatar.indexOf('uid');
+        if (i>0) {
+            var prefix = dz.avatar.substr(0,i);
+            return prefix+'uid='+uid+'&size=middle';
+        }
+        return "{$_G['style']['directory']}/touch/static/imgs/noavatar.jpg";
+    }
+
+    require.config({
+        baseUrl: dz.stylepath+"/touch/static/dist-20160916112152/",
+        packages: [
+            {name:'mwt', location:'../libs/mwt/3.3', main:'mwt_mobile.min'}
+        ]
+    });
+  </script>

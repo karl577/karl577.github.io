@@ -1,0 +1,83 @@
+ChangeLog
+=========
+
+
+Version 0.9*
+
+	i) Initial Release.
+	
+Version 0.91*
+
+	i) Corrected a Few Function Prefixes.
+	ii) Fixed Pagiation Bug in archive.php for Category Pages
+	iii) Fixed Pagination Bug on Search Results Page.
+	iv) Fixed Slider Display on Mobiles.
+	v) Fixed Display of 3 Column Layout on Tablets.	
+	vi) Minor Correction to protopress_fade function.
+	vii) Fixed Bug when site-desc color was unset initially.
+	viii) Few CSS Fixes.
+	ix) Fixed Translation in Footer.php #19
+	x) Removed config.codekit
+	
+Version 0.92*
+
+	i) Removed Hidden Folders.	
+	
+Version 1.0	
+
+	i) Removed rtl.css
+	ii) Corrected Language File, protopress.pot
+	
+Version 1.0.0.1
+
+	i) Correction to Theme URI
+	ii) Renamed Changelog.txt
+	iii) CSS fixes for Better Mobile Performance.	
+	
+Version 1.0.0.2
+
+	i) Fixed Layout Issue with 2/3 Col Grids on Category and Archive Pages.	
+	ii) Disabled the Menu Description by Default. Also Added a new Walker to Display the menu, just with the Icon.
+	iii) Fixed Issues with Font Weights Not loading. Also, Corrected Font Weigth in Css files.
+	iv) Fixed Issues with Color of Visited Links.
+	
+Version 1.0.0.3*
+
+	i)	Fixed Issue with Comment Avatars Not Loading on WP 4.1+
+	ii) Escaped URLs in social-fa.php
+	iii) Added Pro Version Details, with a little custom style for Customizer.
+	
+Version 1.0.0.4
+
+	i) Added Missing Text Domains
+	
+Version 1.0.0.5
+
+	i) Added Text Domains for "View" and "of" for Pagination.
+	ii) Updated protopress.pot file.
+	
+Version 1.0.0.6
+
+	i) Corrected Text Domains.
+	ii) Added Menu Settings area, as it disappeared with WP 4.3 Due to change in panels.
+	
+Version 1.0.0.7
+
+	i) Fixed Issues with Footer Widget Area 4 Not appearing.			
+	ii) Added nofollow to Footer Credit Link.
+	
+Version 1.0.0.8
+
+	- Replaced Slicebox Slider with BX Slider
+	
+Version 1.0.0.9
+
+	- Removed the_archive_description & the_archive_title functions, to use Core Implementations.	
+		
+Version 1.0.1.0
+
+	- Disabled Featured Images on Paged Posts
+	
+Version 1.0.1.1
+
+	i) Minor Bug Fixes.	

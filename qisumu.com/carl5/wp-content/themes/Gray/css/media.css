@@ -1,0 +1,17 @@
+@media (min-width: 1200px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#paddingleft { padding-left:5px;}
+}
+@media (max-width: 991px) {
+	#paddingleft { padding-left:5px;}
+}
+@media (max-width: 768px) {
+	#paddingleft { padding-left:5px;}
+}
+@media (max-width: 480px) {
+	#paddingleft { padding-left:5px;}
+	.xpmys { width: 100%;}
+	#xpmlogo { margin-left:25px; display:block;}
+}

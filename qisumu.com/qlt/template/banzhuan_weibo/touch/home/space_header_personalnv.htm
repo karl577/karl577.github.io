@@ -1,0 +1,22 @@
+<!--{if $_G['adminid'] == 1 && empty($space['self'])}-->
+<!--{eval $personalnv['items'] = array(); $personalnv['banitems'] = array(); $personalnv['nvhidden'] = 0;}-->
+<!--{/if}-->
+<!--{eval $nvclass = !empty($personalnv['nvhidden']) ? ' class="mininv"' : '';}-->
+<div id="nv">
+	<ul$nvclass>
+		<!--{if empty($personalnv['nvhidden'])}-->
+			<!--{if empty($personalnv['banitems']['index'])}-->
+				<!--{if $_G['adminid'] == 1 && $_G['setting']['allowquickviewprofile'] == 1}-->
+				<!--{else}-->
+				<!--{/if}-->
+			<!--{/if}-->
+
+			<!--{if empty($personalnv['banitems']['profile'])}-->
+			<!--{/if}-->
+
+			<li class="tit_msg"><a href="home.php?mod=space&do=pm" class="iconfont icon-xiaoxi">&nbsp;{lang mypm}<!--{if $_G[member][newpm]}--><em class="iconfont icon-dian1"></em><!--{/if}--></a></li>
+			<li><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=thread" class="iconfont icon-shoucang">&nbsp;{lang myfavorite}</a></li>
+			
+		<!--{/if}-->
+	</ul>
+</div>

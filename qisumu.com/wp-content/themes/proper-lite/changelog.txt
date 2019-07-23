@@ -1,0 +1,17 @@
+== Changelog ==
+
+
+= 1.2.1 =
+* Fix: font selector now changes the side menu navigation font
+
+= 1.2.0 =
+* Fix: number input bug in theme customizer
+
+= 1.1.9 =
+* Fix: removed http from Skype social icons
+
+= 1.1.1 =
+* Fix: bug fixes for hero section on tablets
+
+= 1.0.0 =
+* New Theme!.

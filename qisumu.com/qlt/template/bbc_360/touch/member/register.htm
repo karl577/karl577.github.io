@@ -1,0 +1,44 @@
+<!--{template common/header}-->
+<!-- header start -->
+<div class="header">
+    <div id="hd" class="cl">
+    	<div class="hdc">
+            <a href="javascript:;" onclick="history.go(-1)" class="hd_left iconfont icon-arrowleft"></a>
+            <div class="hd_name"><h2>{lang register}</h2></div>
+        </div>
+	</div>
+</div>
+<!-- header end -->
+<!-- registerbox start -->
+<div class="loginbox">
+		<form method="post" autocomplete="off" name="register" id="registerform" action="member.php?mod={$_G[setting][regname]}&mobile=2">
+		<input type="hidden" name="regsubmit" value="yes" />
+		<input type="hidden" name="formhash" value="{FORMHASH}" />
+		<!--{eval $dreferer = str_replace('&amp;', '&', dreferer());}-->
+		<input type="hidden" name="referer" value="$dreferer" />
+		<input type="hidden" name="activationauth" value="{if $_GET[action] == 'activation'}$activationauth{/if}" />
+		<input type="hidden" name="agreebbrule" value="$bbrulehash" id="agreebbrule" checked="checked" />
+	<div class="login_from">
+		<ul>
+			<li><input type="text" tabindex="1" size="30" autocomplete="off" value="" name="{$_G['setting']['reginput']['username']}" placeholder="{lang registerinputtip}" fwin="login"></li>
+			<li><input type="password" tabindex="2" size="30" value="" name="{$_G['setting']['reginput']['password']}" placeholder="{lang login_password}" fwin="login"></li>
+			<li><input type="password" tabindex="3" size="30" value="" name="{$_G['setting']['reginput']['password2']}" placeholder="{lang registerpassword2}" fwin="login"></li>
+			<li><input type="email" tabindex="4" size="30" autocomplete="off" value="" name="{$_G['setting']['reginput']['email']}" placeholder="{lang registeremail}" fwin="login"></li>
+			<!--{if empty($invite) && ($_G['setting']['regstatus'] == 2 || $_G['setting']['regstatus'] == 3)}-->
+				<li><input type="text" name="invitecode" autocomplete="off" tabindex="5" size="30" value="{lang invite_code}" placeholder="{lang invite_code}" fwin="login"></li>
+			<!--{/if}-->
+			<!--{if $_G['setting']['regverify'] == 2}-->
+				<li><input type="text" name="regmessage" autocomplete="off" tabindex="6" size="30" value="{lang register_message}" placeholder="{lang register_message}" fwin="login"></li>
+			<!--{/if}-->
+		<!--{if $secqaacheck || $seccodecheck}-->
+		<li><!--{subtemplate common/seccheck}--></li>
+		<!--{/if}-->
+		</ul>
+	</div>
+	<div class="btn_box btn_register"><button tabindex="7" value="true" name="regsubmit" type="submit" class="formdialog pn pnc"><span>{lang quickregister}</span></button></div>
+	</form>
+</div>
+<!-- registerbox end -->
+
+<!--{eval updatesession();}-->
+<!--{template common/footer}-->

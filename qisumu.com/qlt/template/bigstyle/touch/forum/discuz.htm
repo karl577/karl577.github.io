@@ -1,0 +1,25 @@
+<!--{if $_GET['forumlist']}-->
+  <!--{template forum/forumlist}-->
+<!--{elseif $_GET['newthread']}-->
+  <!--{template forum/post}-->
+<!--{elseif $_GET['uc']}-->
+  <!--{template home/uc}-->
+<!--{elseif $_GET['setting']}-->
+  <!--{template home/setting}-->
+<!--{elseif $_GET['about']}-->
+  <!--{template home/about}-->
+
+<!--{elseif $_GET['forumdisplay']}-->
+  <!--{template discuz/forumdisplay}-->
+<!--{elseif $_GET['viewthread']}-->
+  <!--{template discuz/viewthread}-->
+
+<!--{elseif $_GET['portal']}-->
+  <!--{template discuz/portal}-->
+<!--{elseif $_GET['viewarticle']}-->
+  <!--{template discuz/viewarticle}-->
+
+<!--{else}-->
+  <!--{template index}-->
+<!--{/if}-->
+

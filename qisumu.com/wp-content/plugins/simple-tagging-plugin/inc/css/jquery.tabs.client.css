@@ -1,0 +1,45 @@
+.tab {
+margin:10px;
+}
+
+.tabs-hide {
+display:none;
+}
+
+.tabs-selected {
+color:#fff;
+background:#222;
+}
+
+.tabs-selected a {
+color:#fff;
+}
+
+ul.tag_menu li {
+display:inline;
+padding:3px;
+}
+
+ul.tag_menu li:hover {
+background:#E7E7E7;
+}
+
+ul.tag_menu li:hover a {
+color:#000;
+}
+
+/* Content tabs */
+h4.title_tabs {
+font-size:13px;
+font-weight:700;
+}
+
+ul.tag_list li {
+display:block;
+float:left;
+margin:5px;
+}
+
+ul.tag_menu,ul.tag_list {
+list-style:none;
+}
